@@ -1,0 +1,3616 @@
+Creation de Processus, pid [0xb7c] (C:\Users\user\Desktop\go.exe)
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpFileName : 0x23fde0 ("kernel32.dll")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x23fe29 ("AddDllDirectory")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x23fe89 ("AddVectoredContinueHandler")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x23fea4 ("GetQueuedCompletionStatusEx")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x23fe0a ("LoadLibraryExA")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x23fdfb ("LoadLibraryExW")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryExA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpFileName : 0x23fdd3 ("advapi32.dll")
+Parameter : DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84930000 (advapi32.dll)
+Parameter : LPCSTR  lpProcName : 0x23fe4a ("SystemFunction036")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryExA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpFileName : 0x23fdbe ("ntdll.dll")
+Parameter : DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84520000 (ntdll.dll)
+Parameter : LPCSTR  lpProcName : 0x23fe5c ("NtWaitForSingleObject")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryExA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpFileName : 0x23fdb4 ("winmm.dll")
+Parameter : DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE849E0000 (winmm.dll)
+Parameter : LPCSTR  lpProcName : 0x23fe19 ("timeBeginPeriod")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE849E0000 (winmm.dll)
+Parameter : LPCSTR  lpProcName : 0x23fded ("timeEndPeriod")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryExA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpFileName : 0x23fdc8 ("ws2_32.dll")
+Parameter : DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x23fe72 ("WSAGetOverlappedResult")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84520000 (ntdll.dll)
+Parameter : LPCSTR  lpProcName : 0x23fe39 ("wine_get_version")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetErrorMode> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetErrorMode> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <RtlAddVectoredExceptionHandler> in [ntdll.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <RtlAddVectoredContinueHandler> in [ntdll.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <RtlAddVectoredContinueHandler> in [ntdll.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetConsoleCtrlHandler> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcessAffinityMask> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetSystemInfo> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetProcessPriorityBoost> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x40000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x20000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x100000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x800000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x4000000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x20000000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000000000
+Parameter : SIZE_T dwSize       : 0x400000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x800000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x21088
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x360000
+Parameter : SIZE_T dwSize       : 0x20000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x9b0000
+Parameter : SIZE_T dwSize       : 0x1000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x2666000
+Parameter : SIZE_T dwSize       : 0x1000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x4a90000
+Parameter : SIZE_T dwSize       : 0x1000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x16be0000
+Parameter : SIZE_T dwSize       : 0x1000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x100000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x10000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x10000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000000000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000002000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000004000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000006000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetEnvironmentStringsW> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000008000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00000A000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00000C000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00000E000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000010000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000012000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000014000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <FreeEnvironmentStringsW> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryExA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpFileName : 0x23fe13 ("powrprof.dll")
+Parameter : DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A70000 (powrprof.dll)
+Parameter : LPCSTR  lpProcName : 0x23fe31 ("PowerRegisterSuspendResumeNotification")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <PowerRegisterSuspendResumeNotification> in [powrprof.dll] 
+Parameter : DWORD                               Flags              : 0x2 (DEVICE_NOTIFY_CALLBACK)
+Parameter : PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS Recipient          : 0x23fe20
+                                                -> PDEVICE_NOTIFY_CALLBACK_ROUTINE Callback = 0x467100
+                                                -> PVOID                           Context  = 0x0
+Parameter : PHPOWERNOTIFY                       RegistrationHandle : 0x23fe08
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000016000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000018000
+Parameter : SIZE_T dwSize       : 0xa000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000022000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000024000
+Parameter : SIZE_T dwSize       : 0x8000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0xFFFFFFFFFFFFFFFE
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x23fe78
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualQuery> in [KERNEL32.DLL] 
+Parameter : LPCVOID                   lpAddress : 0x23fe98
+Parameter : PMEMORY_BASIC_INFORMATION lpBuffer  : 0x23fe98
+Parameter : SIZE_T                    dwLength  : 0x30
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00002C000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateThread> in [KERNEL32.DLL] 
+Parameter : LPTHREAD_START_ROUTINE lpStartAddress  : 0x464490
+Parameter : LPVOID                 lpParameter     : 0x000000C00002C380
+Parameter : DWORD                  dwCreationFlags : 0x0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0x7c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0xFFFFFFFFFFFFFFFE
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755fea0
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualQuery> in [KERNEL32.DLL] 
+Parameter : LPCVOID                   lpAddress : 0x2755fec0
+Parameter : PMEMORY_BASIC_INFORMATION lpBuffer  : 0x2755fec0
+Parameter : SIZE_T                    dwLength  : 0x30
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateThread> in [KERNEL32.DLL] 
+Parameter : LPTHREAD_START_ROUTINE lpStartAddress  : 0x464490
+Parameter : LPVOID                 lpParameter     : 0x000000C00002C700
+Parameter : DWORD                  dwCreationFlags : 0x0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0x80
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0xFFFFFFFFFFFFFFFE
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2775fea0
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateThread> in [KERNEL32.DLL] 
+Parameter : LPTHREAD_START_ROUTINE lpStartAddress  : 0x464490
+Parameter : LPVOID                 lpParameter     : 0x000000C00002CA80
+Parameter : DWORD                  dwCreationFlags : 0x0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualQuery> in [KERNEL32.DLL] 
+Parameter : LPCVOID                   lpAddress : 0x2775fec0
+Parameter : PMEMORY_BASIC_INFORMATION lpBuffer  : 0x2775fec0
+Parameter : SIZE_T                    dwLength  : 0x30
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateEventA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpName : 0x0
+            -> (null)
+Parameter : LPCTSTR lpName : 0x0
+            -> "(null)"
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateEventA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpName : 0x0
+            -> (null)
+Parameter : LPCTSTR lpName : 0x0
+            -> "(null)"
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0x8c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateEventA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpName : 0x0
+            -> (null)
+Parameter : LPCTSTR lpName : 0x0
+            -> "(null)"
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateEventA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpName : 0x0
+            -> (null)
+Parameter : LPCTSTR lpName : 0x0
+            -> "(null)"
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0xFFFFFFFFFFFFFFFE
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2795fea0
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualQuery> in [KERNEL32.DLL] 
+Parameter : LPCVOID                   lpAddress : 0x2795fec0
+Parameter : PMEMORY_BASIC_INFORMATION lpBuffer  : 0x2795fec0
+Parameter : SIZE_T                    dwLength  : 0x30
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateEventA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpName : 0x0
+            -> (null)
+Parameter : LPCTSTR lpName : 0x0
+            -> "(null)"
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateEventA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpName : 0x0
+            -> (null)
+Parameter : LPCTSTR lpName : 0x0
+            -> "(null)"
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x40000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000080000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000082000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000084000
+Parameter : SIZE_T dwSize       : 0x8000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00008C000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00008E000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00002E000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x80
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000090000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000092000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000094000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000096000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000098000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00009A000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00009C000
+Parameter : SIZE_T dwSize       : 0x4000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x8c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x8c
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000A0000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000A2000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000A4000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000A6000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000A8000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000AA000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x8c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x8c
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryExW> in [KERNEL32.DLL] 
+Parameter : LPCWSTR lpFileName : 0x000000C0000AA000
+            -> "kernel32.dll"
+Parameter : DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C000010020 ("GetStdHandle")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetStdHandle> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AA040 ("SetHandleInformation")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetHandleInformation> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000AC000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetStdHandle> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetHandleInformation> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetStdHandle> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetHandleInformation> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000AE000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x8c
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x8c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AA060 ("GetSystemDirectoryW")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetSystemDirectoryW> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000B0000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000B2000
+Parameter : SIZE_T dwSize       : 0xe000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x15f8f8
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000C0000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000C2000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xa0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x8c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x8c
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000C4000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryExW> in [KERNEL32.DLL] 
+Parameter : LPCWSTR lpFileName : 0x000000C0000AA0C0
+            -> "ws2_32.dll"
+Parameter : DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AC020 ("WSAStartup")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WSAStartup> in [ws2_32.dll] 
+Parameter : WORD wVersionRequested : 0x202
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AC030 ("CancelIoEx")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000C6000
+Parameter : SIZE_T dwSize       : 0x8000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000CE000
+Parameter : SIZE_T dwSize       : 0x8000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C0000C0030 ("SetFileCompletionNotificationModes")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x8c
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x8c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AA0E0 ("WSAEnumProtocolsW")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WSAEnumProtocolsW> in [ws2_32.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AC040 ("GetConsoleMode")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetConsoleMode> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AC050 ("GetFileType")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetFileType> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000D6000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000D8000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetConsoleMode> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetFileType> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000030000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetConsoleMode> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetFileType> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C000010050 ("GetCommandLineW")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetCommandLineW> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000032000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x8c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x8c
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000034000
+Parameter : SIZE_T dwSize       : 0x4000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x0
+Parameter : SIZE_T dwSize       : 0x40000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000038000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00003A000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00003C000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00003E000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x8c
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x8c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000040000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000042000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000044000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000046000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000048000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C00000E340 ("GetEnvironmentVariableW")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetEnvironmentVariableW> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x8c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x8c
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00004A000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00004C000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00004E000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000050000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000052000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000054000
+Parameter : SIZE_T dwSize       : 0x4000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000058000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00005A000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00005C000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00005E000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000060000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000062000
+Parameter : SIZE_T dwSize       : 0x4000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000066000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000068000
+Parameter : SIZE_T dwSize       : 0x4000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00006C000
+Parameter : SIZE_T dwSize       : 0x6000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000072000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xb8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x8c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x8c
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetEnvironmentVariableW> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000074000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetEnvironmentVariableW> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000076000
+Parameter : SIZE_T dwSize       : 0x4000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00007A000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryExW> in [KERNEL32.DLL] 
+Parameter : LPCWSTR lpFileName : 0x000000C00000E360
+            -> "iphlpapi.dll"
+Parameter : DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84AC0000 (iphlpapi.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C00000E380 ("GetAdaptersAddresses")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetAdaptersAddresses> in [iphlpapi.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateEventA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpName : 0x0
+            -> (null)
+Parameter : LPCTSTR lpName : 0x0
+            -> "(null)"
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateEventA> in [KERNEL32.DLL] 
+Parameter : LPCTSTR lpName : 0x0
+            -> (null)
+Parameter : LPCTSTR lpName : 0x0
+            -> "(null)"
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForMultipleObjects> in [KERNEL32.DLL] 
+Parameter : DWORD   nCount         : 0x2
+Parameter : HANDLE* lpHandles      : 0x2755fdf8
+Parameter : BOOL    bWaitAll       : 0x0
+Parameter : DWORD   dwMilliseconds : 0xea60
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00007C000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00007E000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000100000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xf8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xf8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xf8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xf8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C0000101B0 ("CreateFileW")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateFileW> in [KERNEL32.DLL] 
+Parameter : LPCWSTR lpFileName            : 0x000000C00000E460
+            -> "runlog.dat.tmp"
+Parameter : DWORD   dwDesiredAccess       : 0x80000000 ( GENERIC_READ )
+Parameter : DWORD   dwCreationDisposition : 0x3 (OPEN_EXISTING)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetConsoleMode> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetFileType> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetFileType> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C00000E480 ("GetFileInformationByHandle")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetFileInformationByHandle> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryExW> in [KERNEL32.DLL] 
+Parameter : LPCWSTR lpFileName : 0x000000C00000E4A0
+            -> "kernel32.dll"
+Parameter : DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C00000E4C0 ("GetFileInformationByHandleEx")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetFileInformationByHandleEx> in [KERNEL32.DLL] 
+Parameter : HANDLE                    hFile                : 0xf8
+Parameter : FILE_INFO_BY_HANDLE_CLASS FileInformationClass : 0x9 (FileAttributeTagInfo)
+Parameter : LPVOID                    lpFileInformation    : 0x000000C0000D5A18
+Parameter : DWORD                     dwBufferSize         : 0x8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000102000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SwitchToThread> in [KERNEL32.DLL] 
+Return  @ : 0x4645c9
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C0000101C0 ("ReadFile")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ReadFile> in [KERNEL32.DLL] 
+Parameter : HANDLE hFile                : 0xf8
+Parameter : LPVOID lpBuffer (OUT)       : 0x000000C000072A80
+Parameter : DWORD  nNumberOfBytesToRead : 0x32b
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ReadFile> in [KERNEL32.DLL] 
+Parameter : HANDLE hFile                : 0xf8
+Parameter : LPVOID lpBuffer (OUT)       : 0x000000C000072BAB
+Parameter : DWORD  nNumberOfBytesToRead : 0x200
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE846D0000 (KERNEL32.DLL)
+Parameter : LPCSTR  lpProcName : 0x000000C0000101D0 ("CloseHandle")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xf8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000104000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000106000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000108000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xf8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xf8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00010A000
+Parameter : SIZE_T dwSize       : 0x4000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xf8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xf8
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetEnvironmentVariableW> in [KERNEL32.DLL] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C00010E000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C000110000
+Parameter : SIZE_T dwSize       : 0x2000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0xf4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C000010240 ("GetAddrInfoW")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetAddrInfoW> in [ws2_32.dll] 
+Parameter : PCWSTR     pNodeName    : 0x000000C00000E560
+            -> "megatoolkit.com"
+Parameter : PCWSTR     pServiceName : 0x0
+            -> (null)
+Parameter : ADDRINFOW  *pHints      : 0x000000C000085F18
+Parameter : PADDRINFOW *ppResult    : 0x000000C000085E88
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForMultipleObjects> in [KERNEL32.DLL] 
+Parameter : DWORD   nCount         : 0x2
+Parameter : HANDLE* lpHandles      : 0x2755fdf8
+Parameter : BOOL    bWaitAll       : 0x0
+Parameter : DWORD   dwMilliseconds : 0xea60
+Return  @ : 0x4640de
+
+Monitoring: [EVENT] Adding "megatoolkit.com" with ip "42.42.42.42"
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C000010330 ("FreeAddrInfoW")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <FreeAddrInfoW> in [ws2_32.dll] 
+Parameter : PADDRINFOW    pAddrInfo : 0xa5f4d0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <LoadLibraryExW> in [KERNEL32.DLL] 
+Parameter : LPCWSTR lpFileName : 0x000000C00000E580
+            -> "ws2_32.dll"
+Parameter : DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AC070 ("WSASocketW")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WSASocketW> in [ws2_32.dll] 
+Parameter : int                address_family : 0x2 (AF_INET - IPv4)
+Parameter : int                type           : 0x1 (SOCK_STREAM)
+Parameter : int                protocol       : 0x0 (Not specified)
+Parameter : LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+Parameter : GROUP              g              : 0x0
+Parameter : DWORD              dwFlags        : 0x81
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x98
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x908] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x98
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AC080 ("setsockopt")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <setsockopt> in [ws2_32.dll] 
+Parameter : SOCKET s       : 0x11c
+Parameter : int    level   : 0xffff (SOL_SOCKET)
+Parameter : int    optname : 0x20 (SO_BROADCAST)
+Parameter : char   *optval : 0x000000C0000C93D8
+Parameter : int    optlen  : 0x4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateIoCompletionPort> in [KERNEL32.DLL] 
+Parameter : HANDLE    FileHandle                : 0xffffffff
+Parameter : HANDLE    ExistingCompletionPort    : 0x0
+Parameter : ULONG_PTR CompletionKey             : 0x0000000000000000
+Parameter : DWORD     NumberOfConcurrentThreads : 0xffffffff
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <DuplicateHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : HANDLE   hSourceHandle        : 0x78
+Parameter : HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+Parameter : LPHANDLE lpTargetHandle       : 0x2755f928
+Parameter : DWORD    dwDesiredAccess      : 0x0
+Parameter : BOOL     bInheritHandle       : 0x0
+Parameter : DWORD    dwOptions            : 0x2
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SuspendThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0x120
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetThreadContext> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread : 0x120
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateIoCompletionPort> in [KERNEL32.DLL] 
+Parameter : HANDLE    FileHandle                : 0x11c
+Parameter : HANDLE    ExistingCompletionPort    : 0x118
+Parameter : ULONG_PTR CompletionKey             : 0x0000000000000000
+Parameter : DWORD     NumberOfConcurrentThreads : 0x0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ResumeThread> in [KERNEL32.DLL] 
+Parameter : HANDLE hThread       : 0x120
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0x120
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetFileCompletionNotificationModes> in [KERNEL32.DLL] 
+Parameter : HANDLE FileHandle : 0x11c
+Parameter : UCHAR  Flags      : 0x3 (FILE_SKIP_COMPLETION_PORT_ON_SUCCESS)(FILE_SKIP_SET_EVENT_ON_HANDLE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+Parameter : HANDLE              CompletionPort          : 0x118
+Parameter : LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2755f680
+Parameter : ULONG               ulCount                 : 0x20
+Parameter : PULONG              ulNumEntriesRemoved     : 0x2755f654
+Parameter : BOOL                fAlertable              : 0x0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AC090 ("bind")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <bind> in [ws2_32.dll] 
+Parameter : SOCKET          s       : 0x11c
+Parameter : struct sockaddr *name   : 0x000000C0000AA12C
+            -> sin_family   : 2 (IPv4)
+            -> sin_port     : 0 (Little endian : 0)
+            -> sin_addr     : 0.0.0.0
+Parameter : int             namelen : 0x10
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <VirtualAlloc> in [KERNEL32.DLL] 
+Parameter : LPVOID lpAddress    : 0x000000C0000DA000
+Parameter : SIZE_T dwSize       : 0x8000
+Parameter : DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AC095 ("socket")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <socket> in [ws2_32.dll] 
+Parameter : int address_family : 0x2 (AF_INET - IPv4)
+Parameter : int type           : 0x1 (SOCK_STREAM)
+Parameter : int protocol       : 0x6 (IPPROTO_TCP)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+Parameter : HANDLE              CompletionPort          : 0x118
+Parameter : LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2755f680
+Parameter : ULONG               ulCount                 : 0x20
+Parameter : PULONG              ulNumEntriesRemoved     : 0x2755f654
+Parameter : BOOL                fAlertable              : 0x0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AC0A0 ("WSAIoctl")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WSAIoctl> in [ws2_32.dll] 
+Parameter : SOCKET  s                 : 0x120
+Parameter : DWORD   dwIoControlCode   : 0xc8000006 (SIO_GET_EXTENSION_FUNCTION_POINTER)
+Parameter : LPVOID  lpvInBuffer       : 0x8b2780 (WSAID_CONNECTEX)
+                                       -> {0x25a207b9,0xddf3,0x4660,0x8e,{0xe9,0x76,0xe5,0x8c,0x74,0x06,0x3e}}
+Parameter : DWORD   cbInBuffer        : 0x10
+Parameter : LPVOID  lpvOutBuffer      : 0x8f3770
+Parameter : LPDWORD lpcbBytesReturned : 0x8
+Return  @ : 0x00007FFE835207D0
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForMultipleObjects> in [KERNEL32.DLL] 
+Parameter : DWORD   nCount         : 0x2
+Parameter : HANDLE* lpHandles      : 0x2755fdf8
+Parameter : BOOL    bWaitAll       : 0x0
+Parameter : DWORD   dwMilliseconds : 0xea60
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL] 
+Parameter : HANDLE hObject    : 0x120
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <MSAFD_ConnectEx> in [mswsock.dll] 
+Parameter : SOCKET          s                : 0x11c
+Parameter : struct sockaddr *name            : 0x000000C0000AA10C
+            -> sin_family   : 2 (IPv4)
+            -> sin_port     : 47873 (Little endian : 443)
+            -> sin_addr     : 42.42.42.42
+Parameter : int             *namelen         : 0x10
+Parameter : PVOID           lpSendBuffer     : 0x0
+Parameter : DWORD           dwSendDataLength : 0x0
+Parameter : LPDWORD         lpdwBytesSent    : 0x0
+Parameter : LPOVERLAPPED    lpOverlapped     : 0x000000C0000D8370
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+Parameter : HANDLE              CompletionPort          : 0x118
+Parameter : LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2755f680
+Parameter : ULONG               ulCount                 : 0x20
+Parameter : PULONG              ulNumEntriesRemoved     : 0x2755f654
+Parameter : BOOL                fAlertable              : 0x0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+Parameter : HANDLE              CompletionPort          : 0x118
+Parameter : LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+Parameter : ULONG               ulCount                 : 0x20
+Parameter : PULONG              ulNumEntriesRemoved     : 0x23f54c
+Parameter : BOOL                fAlertable              : 0x0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+Parameter : HANDLE              CompletionPort          : 0x118
+Parameter : LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+Parameter : ULONG               ulCount                 : 0x20
+Parameter : PULONG              ulNumEntriesRemoved     : 0x23f54c
+Parameter : BOOL                fAlertable              : 0xffffffff
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForMultipleObjects> in [KERNEL32.DLL] 
+Parameter : DWORD   nCount         : 0x2
+Parameter : HANDLE* lpHandles      : 0x2755fdf8
+Parameter : BOOL    bWaitAll       : 0x0
+Parameter : DWORD   dwMilliseconds : 0xea60
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WSAGetOverlappedResult> in [ws2_32.dll] 
+Parameter : SOCKET          s            : 0x11c
+Parameter : LPWSAOVERLAPPED lpOverlapped : 0x000000C0000D8370
+Parameter : LPDWORD         lpcbTransfer : 0x23f548
+Parameter : BOOL            fWait        : 0x0
+Parameter : LPDWORD         lpdwFlags    : 0x23f558
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0x84
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetEvent> in [KERNEL32.DLL] 
+Parameter : HANDLE   hEvent : 0xc0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
+Parameter : HMODULE hModule    : 0x00007FFE84A10000 (ws2_32.dll)
+Parameter : LPCSTR  lpProcName : 0x000000C0000AC0C0 ("closesocket")
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <closesocket> in [ws2_32.dll] 
+Parameter : SOCKET                s : 0x11c
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WSASocketW> in [ws2_32.dll] 
+Parameter : int                address_family : 0x2 (AF_INET - IPv4)
+Parameter : int                type           : 0x1 (SOCK_STREAM)
+Parameter : int                protocol       : 0x0 (Not specified)
+Parameter : LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+Parameter : GROUP              g              : 0x0
+Parameter : DWORD              dwFlags        : 0x81
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <setsockopt> in [ws2_32.dll] 
+Parameter : SOCKET s       : 0x11c
+Parameter : int    level   : 0xffff (SOL_SOCKET)
+Parameter : int    optname : 0x20 (SO_BROADCAST)
+Parameter : char   *optval : 0x000000C0000C93D8
+Parameter : int    optlen  : 0x4
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <CreateIoCompletionPort> in [KERNEL32.DLL] 
+Parameter : HANDLE    FileHandle                : 0x11c
+Parameter : HANDLE    ExistingCompletionPort    : 0x118
+Parameter : ULONG_PTR CompletionKey             : 0x0000000000000000
+Parameter : DWORD     NumberOfConcurrentThreads : 0x0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <SetFileCompletionNotificationModes> in [KERNEL32.DLL] 
+Parameter : HANDLE FileHandle : 0x11c
+Parameter : UCHAR  Flags      : 0x3 (FILE_SKIP_COMPLETION_PORT_ON_SUCCESS)(FILE_SKIP_SET_EVENT_ON_HANDLE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <bind> in [ws2_32.dll] 
+Parameter : SOCKET          s       : 0x11c
+Parameter : struct sockaddr *name   : 0x000000C0000AA16C
+            -> sin_family   : 2 (IPv4)
+            -> sin_port     : 0 (Little endian : 0)
+            -> sin_addr     : 0.0.0.0
+Parameter : int             namelen : 0x10
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <MSAFD_ConnectEx> in [mswsock.dll] 
+Parameter : SOCKET          s                : 0x11c
+Parameter : struct sockaddr *name            : 0x000000C0000AA14C
+            -> sin_family   : 2 (IPv4)
+            -> sin_port     : 47873 (Little endian : 443)
+            -> sin_addr     : 42.42.42.42
+Parameter : int             *namelen         : 0x10
+Parameter : PVOID           lpSendBuffer     : 0x0
+Parameter : DWORD           dwSendDataLength : 0x0
+Parameter : LPDWORD         lpdwBytesSent    : 0x0
+Parameter : LPOVERLAPPED    lpOverlapped     : 0x000000C0000D85F0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+Parameter : HANDLE              CompletionPort          : 0x118
+Parameter : LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f568
+Parameter : ULONG               ulCount                 : 0x20
+Parameter : PULONG              ulNumEntriesRemoved     : 0x23f53c
+Parameter : BOOL                fAlertable              : 0x0
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe
+Monitoring: [API]  <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+Parameter : HANDLE              CompletionPort          : 0x118
+Parameter : LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f568
+Parameter : ULONG               ulCount                 : 0x20
+Parameter : PULONG              ulNumEntriesRemoved     : 0x23f53c
+Parameter : BOOL                fAlertable              : 0xffffffff
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x734] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForSingleObject> in [KERNEL32.DLL] 
+Parameter : HANDLE hHandle        : 0x84
+Parameter : DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeBeginPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <ZwWaitForSingleObject> in [ntdll.dll] 
+Return  @ : 0x4645a2
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [winmm.dll] 
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <timeEndPeriod> in [KERNEL32.DLL] 
+Parameter : UINT uPeriod  : 0x1
+Return  @ : 0x4640de
+
+Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe
+Monitoring: [API]  <WaitForMultipleObjects> in [KERNEL32.DLL] 
+Parameter : DWORD   nCount         : 0x2
+Parameter : HANDLE* lpHandles      : 0x2755fdf8
+Parameter : BOOL    bWaitAll       : 0x0
+Parameter : DWORD   dwMilliseconds : 0xea60
+Return  @ : 0x4640de
+
