@@ -157,7 +157,7 @@ Parameter : LPDWORD         lpdwBytesSent    : 0x0
 Parameter : LPOVERLAPPED    lpOverlapped     : 0x000000C00003A370  
 ```
 
-The sample attempt an HTTPS (443) connection with the IP associated with the domain "megatoolkit.com" (in this case 42.42.42.42).  
+The sample attempts a HTTPS (443) connection to the IP associated with the domain "megatoolkit.com" (in this case 42.42.42.42).  
 The connection is achieved through a call to the un-exported function MSAFD_ConnectEx from mswsock.dll.  
 The address of the un-exported function is retrieved through a call to WSAIotl as demonstrated above.  
 
