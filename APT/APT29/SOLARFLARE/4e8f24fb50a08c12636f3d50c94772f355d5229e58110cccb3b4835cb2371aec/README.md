@@ -46,7 +46,7 @@ Return  @ : 0x4640de
 
 As illustrated in the following code sequence, almost all API call have the same return address :  
 
-```
+```html
 Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe  
 Monitoring: [API]  <SetEvent> in [KERNEL32.DLL]  
 Parameter : HANDLE   hEvent : 0xc0  
@@ -90,7 +90,7 @@ This design hinders manual analysis but also create a single point of 'weakness'
 
 The following code sequence is invalid :  
 
-```php
+```html
 Monitoring: [pid 0x2a4][tid 0x56c] c:\users\user\desktop\go.exe  
 Monitoring: [API]  <WSASocketW> in [ws2_32.dll]  
 Parameter : int                address_family : 0x2 (AF_INET - IPv4)  
@@ -118,7 +118,7 @@ More specificaly, the option requested by setsockopt isn't compatible with the S
 
 C2 connection :  
 
-```php
+```html
 Monitoring: [pid 0xa10][tid 0x464] c:\users\user\desktop\go.exe  
 Monitoring: [API]  <GetAddrInfoW> in [ws2_32.dll]  
 Parameter : PCWSTR     pNodeName    : 0x000000C00000E420  
