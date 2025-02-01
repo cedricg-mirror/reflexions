@@ -50,16 +50,16 @@ As illustrated in the following code sequence, almost all API call have the same
 Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe  
 Monitoring: [API]  <SetEvent> in [KERNEL32.DLL]  
 Parameter : HANDLE   hEvent : 0xc0  
-Return  @ : 0x4640de  
+Return  @ : 0x4640de  <---
 
 Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe  
 Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL]  
 Parameter : HANDLE hObject    : 0x120  
-Return  @ : 0x4640de  
+Return  @ : 0x4640de  <---
 
 Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe  
 Monitoring: [API]  <timeBeginPeriod> in [winmm.dll]  
-Return  @ : 0x4640de  
+Return  @ : 0x4640de  <---
 ```
 
 Below, the stub where all API call are directed :  
