@@ -75,7 +75,7 @@ Below, the stub where all API call are directed :
 0033:004640d2 movd    xmm2,r8  
 0033:004640d7 movd    xmm3,r9  
 0033:004640dc call    rax  
-0033:004640de add     rsp, 0x80  
+0033:004640de add     rsp, 0x80  ; <----- 004640de : return address from most function call
 0033:004640e5 pop     rcx  
 0033:004640e6 mov     qword ptr [rcx+18h],rax  
 0033:004640ea mov     rdi,qword ptr gs:[30h]  
