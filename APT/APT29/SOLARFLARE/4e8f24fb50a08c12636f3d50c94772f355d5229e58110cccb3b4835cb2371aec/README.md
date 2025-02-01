@@ -50,16 +50,16 @@ As illustrated in the following code sequence, almost all API call have the same
 Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe  
 Monitoring: [API]  <SetEvent> in [KERNEL32.DLL]  
 Parameter : HANDLE   hEvent : 0xc0  
-Return  @ : 0x4640de <--
+Return  @ : 0x4640de ←
 
 Monitoring: [pid 0xb7c][tid 0x7d0] c:\users\user\desktop\go.exe  
 Monitoring: [API]  <CloseHandle> in [KERNEL32.DLL]  
 Parameter : HANDLE hObject    : 0x120  
-Return  @ : 0x4640de <--
+Return  @ : 0x4640de ←
 
 Monitoring: [pid 0xb7c][tid 0x7c4] c:\users\user\desktop\go.exe  
 Monitoring: [API]  <timeBeginPeriod> in [winmm.dll]  
-Return  @ : 0x4640de  <--
+Return  @ : 0x4640de  ←
 ```
 
 Below, the stub where all API call are directed :  
@@ -94,7 +94,7 @@ The following code sequence is invalid :
 Monitoring: [pid 0x2a4][tid 0x56c] c:\users\user\desktop\go.exe  
 Monitoring: [API]  <WSASocketW> in [ws2_32.dll]  
 Parameter : int                address_family : 0x2 (AF_INET - IPv4)  
-Parameter : int                type           : 0x1 (SOCK_STREAM)  
+Parameter : int                type           : 0x1 (SOCK_STREAM)  ←
 Parameter : int                protocol       : 0x0 (Not specified)  
 Parameter : LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0  
 Parameter : GROUP              g              : 0x0  
@@ -105,7 +105,7 @@ Monitoring: [pid 0x2a4][tid 0x56c] c:\users\user\desktop\go.exe
 Monitoring: [API]  <setsockopt> in [ws2_32.dll]  
 Parameter : SOCKET s       : 0x118  
 Parameter : int    level   : 0xffff (SOL_SOCKET)  
-Parameter : int    optname : 0x20 (SO_BROADCAST)  
+Parameter : int    optname : 0x20 (SO_BROADCAST)  ←
 Parameter : char   *optval : 0x000000C0000CF3D8  
 Parameter : int    optlen  : 0x4  
 Return  @ : 0x4640de  
