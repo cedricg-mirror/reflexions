@@ -84,7 +84,7 @@ Below, the stub where all API call are directed :
 0033:004640fa ret  
 ```
 
-This design hinder manual analysis but also create a single point of 'weakness' where it becomes possible to hook and supervise / modify most of the activity of the malware.
+This design hinders manual analysis but also create a single point of 'weakness' where it becomes possible to hook and supervise / modify most of the malware's activity.
 
 ---- 
 
