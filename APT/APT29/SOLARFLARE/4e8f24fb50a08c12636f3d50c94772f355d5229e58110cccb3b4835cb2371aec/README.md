@@ -1,17 +1,17 @@
-SHA256 : 4e8f24fb50a08c12636f3d50c94772f355d5229e58110cccb3b4835cb2371aec
-source : https://us-cert.cisa.gov/ncas/analysis-reports/ar21-105a
-sample source : https://github.com/MalwareSamples/Malware-Feed/
-VT : https://www.virustotal.com/gui/file/4e8f24fb50a08c12636f3d50c94772f355d5229e58110cccb3b4835cb2371aec  
+SHA256 : 4e8f24fb50a08c12636f3d50c94772f355d5229e58110cccb3b4835cb2371aec  
+source : https://us-cert.cisa.gov/ncas/analysis-reports/ar21-105a  
+sample source : https://github.com/MalwareSamples/Malware-Feed/  
+VT : https://www.virustotal.com/gui/file/4e8f24fb50a08c12636f3d50c94772f355d5229e58110cccb3b4835cb2371aec    
 
-Network / C2 : megatoolkit.com:443
+Network / C2 : megatoolkit.com:443  
 
-Analyzed sample is a 64bit malware attributed by the CISA to APT29 and named SOLARFLARE by FireEye.
+Analyzed sample is a 64bit malware attributed by the CISA to APT29 and named SOLARFLARE by FireEye.  
 
-Runtime analysis results are shared in two files :
+Runtime analysis results are shared in two files :  
 
-- full_log.txt which contains a full execution trace of the malware until it awaits a C2 connection
+- full_log.txt which contains a full execution trace of the malware until it awaits a C2 connection  
 
-- filtered_log.txt which contains the same execution trace but filtered from the following API calls in order to provide a better reading experience :
+- filtered_log.txt which contains the same execution trace but filtered from the following API calls in order to provide a better reading experience :  
 
 
 ```c
