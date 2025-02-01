@@ -147,9 +147,9 @@ Monitoring: [pid 0xa10][tid 0x464] c:\users\user\desktop\go.exe
 Monitoring: [API]  <MSAFD_ConnectEx> in [mswsock.dll]  
 Parameter : SOCKET          s                : 0x110  
 Parameter : struct sockaddr *name            : 0x000000C00000E46C  
-            -> sin_family   : 2 (IPv4)  
-            -> sin_port     : 47873 (Little endian : 443)  
-            -> sin_addr     : 42.42.42.42  
+                             -> sin_family   : 2 (IPv4)  
+                             -> sin_port     : 47873 (Little endian : 443)  
+                             -> sin_addr     : 42.42.42.42  
 Parameter : int             *namelen         : 0x10  
 Parameter : PVOID           lpSendBuffer     : 0x0  
 Parameter : DWORD           dwSendDataLength : 0x0  
