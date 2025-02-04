@@ -103,7 +103,7 @@ Parameter : LPDWORD                lpThreadId         : 0x0
 Return  @ : 0x2e4d11434
 ```
 
-A little trick regarding CreateRemoteThread call, the thread StartAddress no not point directly to the PAGE_EXECUTE_READWRITE allocated memory. Instead, lpStartAddress points to a `jmp rcx` instruction, rcx beeing the lpParameter from the created thread.  
+A little trick regarding this CreateRemoteThread call, the thread StartAddress do not point directly to the PAGE_EXECUTE_READWRITE allocated memory. Instead, lpStartAddress points to an `jmp rcx` instruction, rcx beeing the lpParameter from the created thread.  
 
 --- 
 
