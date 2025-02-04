@@ -62,7 +62,7 @@ Return  @ : 0xfa942d816e
 ```
 
 Whenever a pointer to a structure is passed as an argument to a function call, its relevant fields will be dumped as demonstrated in the above example.  
-The 2nd parameter to the NtSetContextThread syscall is a pointer to a CONTEXT structure, each log entry starting with the **Field :** header indicates the name, raw value and interpreted value of relevant structure fields.
+The 2nd parameter to the NtSetContextThread syscall is a pointer to a CONTEXT structure, each log entry starting with the '**Field :**' header indicates the name, raw value and interpreted value of relevant structure fields.
 
 * **Comments**
 
