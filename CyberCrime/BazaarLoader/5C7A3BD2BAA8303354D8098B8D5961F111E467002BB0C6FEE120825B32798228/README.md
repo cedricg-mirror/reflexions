@@ -30,6 +30,8 @@ Analyzed sample contains many protection against runtime analysis / detection :
 
 NTDLL Base Address :
 
+The sample us the fact that PEB->LDR is located whithin NTDLL image to locate its base address : 
+
 ```asm
                        mov   	rax,qword ptr gs:[60h]  	; rax = PEB
                        mov     	rax,qword ptr [rax+18h] 	; rax+18h = PEB->LDR
@@ -49,7 +51,7 @@ __start:
                        ret
 ```
 
-The sample us the fact that PEB->LDR is located whithin NTDLL image to locate its base address : 
+memory layout:
 
 ```
             Address  	  Symbol							
@@ -62,7 +64,7 @@ The sample us the fact that PEB->LDR is located whithin NTDLL image to locate it
 			00876d490000  C:\Windows\system32\rundll32.exe
 ```
 
-Here the developper was a bit lazy and used a 1 byte decrement instead on aligning on PAGE_SIZE and decrementing 0x1000 bytes at a time.
+`sub     rax,1` : Here the developper was a bit lazy and used a 1 byte decrement instead on aligning on PAGE_SIZE and decrementing 0x1000 bytes at a time.
 
 ---
 
