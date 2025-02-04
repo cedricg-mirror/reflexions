@@ -221,3 +221,4 @@ Return  @ : 0x7ff9b6342600
 
 Here the malware ensure to be fully encrypted whenever possible, which prevents memory dumps as well as in memory signatures.
 The key is changed  after each payload execution.
+Setting a BreakPoint on this function call enable to dump the unencrypted payload from memory.
