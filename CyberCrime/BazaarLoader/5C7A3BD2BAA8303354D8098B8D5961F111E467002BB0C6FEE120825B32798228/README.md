@@ -207,7 +207,7 @@ Monitoring: [ i ] [ Undocumented RC4 implementation ]
 Parameter : PBINARY_STRING buffer : 0x000000FA94A7FC68
 Field     :                -> Length    = 0x4c000
 Field     :                -> MaxLength = 0x4c000
-Field     :                -> Buffer    = 0x000000FA942C0000 // memory allocate for the CreateRemoteThreadCall (see above)
+Field     :                -> Buffer    = 0x000000FA942C0000 // memory allocated for the CreateRemoteThreadCall (see above)
 Parameter : PBINARY_STRING key    : 0x000000FA94A7FC78
 Field     :                -> Length    = 0x10
 Field     :                -> MaxLength = 0x10
