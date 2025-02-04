@@ -1,4 +1,4 @@
-# reflexions
+# Reflexions
 
 This repository is meant to share knownledge on malicious code targeting the Windows OS, whether they are state sponsored or cybercrime related.
 The focus of my approach beeing dynamic analysis, I will be providing here logs resulting from runtime supervision of malware belonging to various APT/CyberCrime groups.
