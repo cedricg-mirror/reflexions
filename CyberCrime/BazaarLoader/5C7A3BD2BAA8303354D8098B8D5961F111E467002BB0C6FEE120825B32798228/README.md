@@ -13,10 +13,12 @@ VT Dropper : https://www.virustotal.com/gui/file/1b9e17bfbd292075956cc2006983f91
 VT BazaarLoader : https://www.virustotal.com/gui/file/5c7a3bd2baa8303354d8098b8d5961f111e467002bb0c6fee120825b32798228  
 
 Network / C2 :
-
 http://tiguanin[.]com/bazar.php:8041  
 http://bazarunet[.]com/admin.php:8041  
 http://greshunka[.]com/bazar.php:8041 
+
+Report :  
+https://blog.eclecticiq.com/inside-intelligence-center-lunar-spider-enabling-ransomware-attacks-on-financial-sector-with-brute-ratel-c4-and-latrodectus
 
 Analyzed sample is a 64bit malware named by various security engines BazaarLoader or BruteRatel C4.
 
