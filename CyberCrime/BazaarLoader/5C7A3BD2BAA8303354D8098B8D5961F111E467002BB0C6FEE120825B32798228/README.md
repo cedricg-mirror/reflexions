@@ -96,8 +96,8 @@ Monitoring: [API] <CreateRemoteThread> in [KERNEL32.DLL]
 Parameter : HANDLE                 hProcess           : 0xffffffff
 Parameter : LPSECURITY_ATTRIBUTES  lpThreadAttributes : 0x0
 Parameter : SIZE_T                 dwStackSize        : 0x0
-Parameter : LPTHREAD_START_ROUTINE lpStartAddress     : 0x00000002E4D11370
-Parameter : LPVOID                 lpParameter        : 0x000000FA94200000
+Parameter : LPTHREAD_START_ROUTINE lpStartAddress     : 0x00000002E4D11370 // jmp rcx
+Parameter : LPVOID                 lpParameter        : 0x000000FA94200000 // Allocated memory
 Parameter : DWORD                  dwCreationFlags    : 0x0
 Parameter : LPDWORD                lpThreadId         : 0x0
 Return  @ : 0x2e4d11434
