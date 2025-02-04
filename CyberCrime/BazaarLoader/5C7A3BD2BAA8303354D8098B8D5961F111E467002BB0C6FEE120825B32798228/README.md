@@ -12,7 +12,7 @@ https://virusshare.com/file?5c7a3bd2baa8303354d8098b8d5961f111e467002bb0c6fee120
 VT Dropper : https://www.virustotal.com/gui/file/1b9e17bfbd292075956cc2006983f91e17aed94ebbb0fb370bf83d23b14289fa  
 VT BazaarLoader : https://www.virustotal.com/gui/file/5c7a3bd2baa8303354d8098b8d5961f111e467002bb0c6fee120825b32798228  
 
-Network / C2 :
+Network / C2 :  
 http://tiguanin[.]com/bazar.php:8041  
 http://bazarunet[.]com/admin.php:8041  
 http://greshunka[.]com/bazar.php:8041 
