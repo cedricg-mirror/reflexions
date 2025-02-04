@@ -24,6 +24,8 @@ Analyzed sample is a 64bit malware named by various security engines BazaarLoade
 
 Runtime analysis results are shared in logs.txt which contains an execution trace until the sample tries to reach a C2.
 
+---
+
 *** Commentary *** 
 
 Analyzed sample contains many protection against runtime analysis / detection :
