@@ -35,10 +35,10 @@ NTDLL Base Address :
                        mov     	rax,qword ptr [rax+18h] 	; rax+18h = PEB->LDR
                        jmp     	__start
                        nop
-				__findheaderloop: 
-					   sub     	rax,1
-				__start: 
-					   cmp     	word ptr [rax],5A4Dh 		; 'MZ' Magic
+__findheaderloop: 
+                       sub     	rax,1
+__start: 
+                       cmp     	word ptr [rax],5A4Dh 		; 'MZ' Magic
                        jne     	__findheaderloop
                        movsxd  	rdx,dword ptr [rax+3Ch]
                        lea     	rcx,[rdx-40h]
@@ -53,9 +53,9 @@ The sample us the fact that PEB->LDR is located whithin NTDLL image to locate it
 
 ```
             Address  	  Symbol							
-			7fff883dc000  Limit NTDLL						(NTDLL Base + Size)
-			7fff88360320  _PEB_LDR_DATA 					(PEB->Ldr)
-            7fff88230000  C:\Windows\SYSTEM32\ntdll.dll		(NTDLL Base Address)
+			7fff883dc000  Limit NTDLL			(NTDLL Base + Size)
+			7fff88360320  _PEB_LDR_DATA 			(PEB->Ldr)
+                        7fff88230000  C:\Windows\SYSTEM32\ntdll.dll	(NTDLL Base Address)
 			
 			7ff7409a3000  PEB
 			
