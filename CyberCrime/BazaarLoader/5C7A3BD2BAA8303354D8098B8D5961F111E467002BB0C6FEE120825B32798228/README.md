@@ -109,7 +109,7 @@ A little trick regarding this CreateRemoteThread call, the thread StartAddress d
 
 Thread Pool Worker Threads :
 
-```python
+```html
 Monitoring: [pid 0x9d8][tid 0xb04] c:\windows\system32\rundll32.exe
 Monitoring: [API] <TpAllocWork> in [ntdll.dll] 
 Parameter : PTP_WORK             *WorkReturn     : 0x000000FA9437E610
