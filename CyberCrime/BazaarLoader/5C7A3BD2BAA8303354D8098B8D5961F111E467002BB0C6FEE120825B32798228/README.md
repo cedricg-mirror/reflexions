@@ -179,7 +179,7 @@ String    :           -> "88ea80d0a8145617084c1971a2e5f10dafc825dfa01aa9131c31ee
 String    :              "6dc3ae39d58a579d7cbdc8dd1c967704a3b004fc992ed35d75e2703445c5bb2b19fb645ca258fa35101d4f173c9b3c3b0f9c9cb98e06f588208a2ec5"
 String    :              "e110eea0c0a030476ebcfb45f927108052af23591afb825078d85afa7137b4c160f29e08c276f2d7480b13b783b202c8cd7edaab47f5d3d68c20b176"
 String    :              "64349c0ffaa7a1db232df74af01128bbbace85fa393e4986135462c5afbeb7869512bd7a573fb57ffccdf0df421aa0d128b895c68be4d67693dfc2bb"
-String    :              "746254a1d74abbbe448de8cdb5ac4c87c33a42345d"
+String    :              "746254a1d74abbbe448de8cdb5ac4c87c33a42345d" // RC4 encrypted fingerprint
 Parameter : DWORD     dwOptionalLength : 0x20a
 Return  @ : 0xfa942c79dc
 ```
