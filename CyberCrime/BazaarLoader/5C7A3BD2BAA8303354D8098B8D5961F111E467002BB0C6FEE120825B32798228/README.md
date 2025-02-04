@@ -30,7 +30,7 @@ Analyzed sample contains many protection against runtime analysis / detection :
 
 NTDLL Base Address :
 
-The sample us the fact that PEB->LDR is located whithin NTDLL image to locate its base address : 
+The sample use the fact that PEB->LDR is located whithin NTDLL image to locate its base address : 
 
 ```asm
                        mov   	rax,qword ptr gs:[60h]  	; rax = PEB
