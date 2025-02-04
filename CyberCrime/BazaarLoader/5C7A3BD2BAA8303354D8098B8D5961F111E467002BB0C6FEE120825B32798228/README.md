@@ -55,9 +55,9 @@ memory layout:
 
 ```
             Address  	  Symbol							
-            7fff883dc000  Limit NTDLL			(NTDLL Base + Size)
-            7fff88360320  _PEB_LDR_DATA 			(PEB->Ldr)
-            7fff88230000  C:\Windows\SYSTEM32\ntdll.dll	(NTDLL Base Address)
+            7fff883dc000  Limit NTDLL			              (NTDLL Base + Size)
+            7fff88360320  _PEB_LDR_DATA                 (PEB->Ldr)
+            7fff88230000  C:\Windows\SYSTEM32\ntdll.dll (NTDLL Base Address)
             ...
             7ff7409a3000  PEB
             ...
