@@ -55,13 +55,13 @@ memory layout:
 
 ```
             Address  	  Symbol							
-			7fff883dc000  Limit NTDLL			(NTDLL Base + Size)
-			7fff88360320  _PEB_LDR_DATA 			(PEB->Ldr)
-                        7fff88230000  C:\Windows\SYSTEM32\ntdll.dll	(NTDLL Base Address)
-			
-			7ff7409a3000  PEB
-			
-			00876d490000  C:\Windows\system32\rundll32.exe
+            7fff883dc000  Limit NTDLL			(NTDLL Base + Size)
+            7fff88360320  _PEB_LDR_DATA 			(PEB->Ldr)
+            7fff88230000  C:\Windows\SYSTEM32\ntdll.dll	(NTDLL Base Address)
+            ...
+            7ff7409a3000  PEB
+            ...
+            00876d490000  C:\Windows\system32\rundll32.exe
 ```
 
 `sub     rax,1` : Here the developper was a bit lazy and used a 1 byte decrement instead on aligning on PAGE_SIZE and decrementing 0x1000 bytes at a time.
