@@ -84,7 +84,7 @@ The 2nd parameter to the NtSetContextThread syscall is a pointer to a CONTEXT st
 ```html
 Monitoring: [pid 0x9d8][tid 0xb04] c:\windows\system32\rundll32.exe
 Monitoring: [API] <SystemFunction032> in [CRYPTSP.DLL] 
-Monitoring: [ i ] [ Undocumented RC4 implementation ]
+Monitoring: [ i ] [ Undocumented RC4 implementation ]    : Comment field
 Parameter : PBINARY_STRING buffer : 0x000000FA9437E580
 Field     :                -> Length    = 0x105
 Field     :                -> MaxLength = 0x105
