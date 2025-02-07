@@ -43,6 +43,7 @@ Analysed code behavior is logged, without surprise, in a chronological order.
 
 ```html
 1. Call
+
 Monitoring: [pid 0x9d8][tid 0xb00] c:\windows\system32\rundll32.exe
 Monitoring: [API] <VirtualAllocEx> in [KERNEL32.DLL] 
 Parameter : HANDLE hProcess     : 0xffffffff
@@ -52,6 +53,7 @@ Parameter : DWORD  flProtect    : 0x40 (PAGE_EXECUTE_READWRITE)
 Return  @ : 0x2e4d113c9
 
 2. Result from the above call
+
 Monitoring: [pid 0x9d8][tid 0xb00] c:\windows\system32\rundll32.exe
 Monitoring: [RES]  <VirtualAllocEx>  
 Result    : LPVOID  0x000000FA94200000
