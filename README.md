@@ -8,6 +8,17 @@ Log formating will be reworked in a future update of this project.
 
 I do not plan to discuss attribution, samples analyzed here are all coming from public reports from various sources that usually already provide their own insights on that topic.
 
+# Repository
+
+Analyzed samples are stored according to the following pattern :  
+
+[APT]/[APT_NAME]/[MALWARE_FAMILY]/[SHA256]/  
+or  
+[CyberCrime]/[MALWARE_FAMILY]/[SHA256]/  
+
+Each directory contains : 
+- text files logs resulting from my dynamic analysis 
+- a README.md with information relative to the sample itself (source, reports, C2) as well as somme of my observations / technical analysis 
 
 # Understanding the log format
 
