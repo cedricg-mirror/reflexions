@@ -18,7 +18,7 @@ or
 
 Each directory contains : 
 - text files logs resulting from my dynamic analysis 
-- a README.md with information relative to the sample itself (source, reports, C2) as well as somme of my observations / technical analysis 
+- a README.md with information relative to the sample itself (source, reports, C2) as well as some of my observations / technical analysis 
 
 # Understanding the log format
 
