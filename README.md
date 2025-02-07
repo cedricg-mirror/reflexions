@@ -6,11 +6,11 @@ The focus of my approach beeing dynamic analysis, I will be providing here logs 
 At this early stage, the logs provided have been designed to be human-readable and do not satisfy any known format that would make them suitable for a machine learning approach.
 Log formating will be reworked in a future update of this project.
 
-I do not plan to discuss attribution, samples analyzed here are all coming from public reports from various sources that usually already provide their own insights on that topic.
+I do not plan to discuss attribution, samples analysed here are all coming from public reports from various sources that usually already provide their own insights on that topic.
 
 # Repository
 
-Analyzed samples are stored according to the following pattern :  
+Analysed samples are stored according to the following pattern :  
 
 [APT]/[APT_NAME]/[MALWARE_FAMILY]/[SHA256]/  
 or  
@@ -22,7 +22,7 @@ Each directory contains :
 
 # Understanding the log format
 
-Analyzed code behavior is logged, without surprise, in a chronological order.
+Analysed code behavior is logged, without surprise, in a chronological order.
 
 * **Typical log entry** : 
 
