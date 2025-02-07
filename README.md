@@ -96,5 +96,5 @@ Field     :                -> Buffer    = 0x000000FA9234CBC0 ("S47EFEUO3D2O6641"
 Return  @ : 0xfa942c4c35
 ```
 
-I sometime add information **[ i ]** to specific API call to spare some search engine time...
+I sometimes add information **[ i ]** to specific API call to spare some search engine time...
 
