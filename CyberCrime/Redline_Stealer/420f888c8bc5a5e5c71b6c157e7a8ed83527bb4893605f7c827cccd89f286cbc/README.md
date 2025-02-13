@@ -135,13 +135,13 @@ Once the managed code is effectivly loaded in memory, one of its first steps is 
 
 which will reply with something like :  
 
-```
+```html
 <html><head><title>Current IP Check</title></head><body>Current IP Address: 23.154.177.2</body></html>
 ```
 
 And parsed by the malware to extract the IP address :  
 
-```
+```csharp
 return (object) end.Replace("<html><head><title>Current IP Check</title></head><body>", "").Replace("</body></html>", "").Replace("Current IP Address: ", "").ToString();
 ```
 
