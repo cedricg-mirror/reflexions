@@ -298,7 +298,37 @@ Unfortunatly something might be missing in my analysis environnment because the 
 [RET] 0x72d63857
 ```
 
+***Credential harvesting***
 
+Even without beeing able to establish a connection with the telegram bot, the malware nonetheless proceed with its credential harvesting procedure :  
 
+```html
+[ * ] [pid 0x66c][tid 0x76c] c:\windows\syswow64\svchost.exe
+[ i ] [ Called from Native Image DLL ]
+[API] <FindFirstFileW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x4672760
+[STR]         -> "C:\Users\user\AppData\Roaming\Mozilla\Firefox\Profiles\*"
+[RET] 0x7398b488
 
+[ * ] [pid 0x66c][tid 0x76c] c:\windows\syswow64\svchost.exe
+[ i ] [ Called from Native Image DLL ]
+[API] <GetFullPathNameW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName    : 0x269e6a0
+[STR]         -> "C:\Users\user\AppData\Roaming\Mozilla\Firefox\Profiles\1t6va5x4.default"
+[PAR] DWORD   nBufferLength : 0x105
+[PAR] LPWSTR  lpBuffer      : 0x269e474
+[PAR] LPWSTR* lpFilePart    : 0x0
+[RET] 0x7398da93
 
+[ * ] [pid 0x66c][tid 0x76c] c:\windows\syswow64\svchost.exe
+[ i ] [ Called from Native Image DLL ]
+[API] <GetFullPathNameW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName    : 0x269e65c
+[STR]         -> "C:\Users\user\AppData\Roaming\Mozilla\Firefox\Profiles\1t6va5x4.default\logins.json"
+[PAR] DWORD   nBufferLength : 0x105
+[PAR] LPWSTR  lpBuffer      : 0x269e430
+[PAR] LPWSTR* lpFilePart    : 0x0
+[RET] 0x7398da93
+```
+
+The full list of targeted application is provided in "targets.txt".  
