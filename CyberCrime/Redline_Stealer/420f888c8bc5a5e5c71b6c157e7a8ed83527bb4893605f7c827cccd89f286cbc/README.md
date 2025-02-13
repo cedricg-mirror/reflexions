@@ -301,6 +301,8 @@ Unfortunatly something might be missing in my analysis environnment because the 
 [RET] 0x72d63857
 ```
 
+---  
+
 ***Credential harvesting***
 
 Even without beeing able to establish a connection with the telegram bot, the malware nonetheless proceed with its credential harvesting procedure :  
