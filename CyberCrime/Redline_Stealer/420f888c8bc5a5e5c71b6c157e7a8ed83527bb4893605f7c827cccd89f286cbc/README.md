@@ -211,7 +211,7 @@ The request is encrypted through HTTPS, it is nonetheless possible the clear con
 [RET] 0x72d63857
 ```
 
-as well as getting the clear text from the aswer :  
+as well as getting the clear text from the answer :  
 
 ```html
 [ * ] [pid 0x66c][tid 0x76c] c:\windows\syswow64\svchost.exe
@@ -248,6 +248,15 @@ as well as getting the clear text from the aswer :
 [FLD]                   -> pvBuffer   = 0x0
 [RES] SECURITY_STATUS 0x0 (SEC_E_OK)
 ```
+
+Various information are the extracted by the malware from the XML :  
+
+```
+XmlNodeList elementsByTagName = Instance.GetElementsByTagName("CountryName");
+XmlNodeList elementsByTagName = Instance.GetElementsByTagName("RegionCode");
+XmlNodeList elementsByTagName = Instance.GetElementsByTagName("RegionName");
+```
+
 
 
 
