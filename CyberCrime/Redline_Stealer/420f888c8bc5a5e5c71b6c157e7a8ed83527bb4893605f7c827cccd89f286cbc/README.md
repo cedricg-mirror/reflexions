@@ -22,7 +22,7 @@ Targeted softwares for credentials harvesting are shared in target.txt.
 
 ---  
 
-*** Commentary ***
+***Commentary***
 
 Runtime is divided in two main phases, the Win32 loader and the .NET payload.  
 I haven't given too much thoughts regarding runtime analysis of .NET programs so far, but as it turns out it is still possible to collect many relevant information by indirectly looking at .NET behavior through the Win32 API.  
