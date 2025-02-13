@@ -6,7 +6,7 @@ Network :
 http://checkip.dyndns.org/  
 https://reallyfreegeoip.org/xml/  
 
-C2:
+C2:  
 api.telegram.org  
 http://varders.kozow.com:8081  
 http://aborters.duckdns.org:8081  
