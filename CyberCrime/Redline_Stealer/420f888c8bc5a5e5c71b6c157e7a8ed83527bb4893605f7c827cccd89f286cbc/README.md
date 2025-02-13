@@ -29,7 +29,7 @@ I haven't given too much thoughts regarding runtime analysis of .NET programs so
 
 ---  
 
-In memory loading of the .NET DLL payload :   
+***In memory loading of the .NET DLL payload*** :   
 
 ```html
 [ * ] [pid 0x66c][tid 0x76c] c:\windows\syswow64\svchost.exe
@@ -114,7 +114,7 @@ https://bazaar.abuse.ch/sample/af724ba9b889c902ae248039a93b86d53613dc966e648e4fe
 
 --- 
 
-Network fingerprinting  
+***Network fingerprinting***  
 
 Once the managed code is effectivly loaded in memory, one of its first steps is to 'localize' the victim through the following requests :  
 
