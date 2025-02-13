@@ -106,10 +106,12 @@ DumpFile created : \DosDevices\C:\rtl_dump\MemDotNetD
 [RET] 0x402324
 ```
 
-This in memory loading of managed code is well described here : https://0xpat.github.io/Malware_development_part_9/  
-The loaded .NET DLL is dumped automatically by my sandbox and is now available on VT :  
+This in-memory loading of managed code is well described here :  
+https://0xpat.github.io/Malware_development_part_9/  
+The loaded .NET DLL is dumped automatically by my sandbox and is now available here :  
 https://www.virustotal.com/gui/file/af724ba9b889c902ae248039a93b86d53613dc966e648e4fe54ca2b10d0ea712/  
+https://bazaar.abuse.ch/sample/af724ba9b889c902ae248039a93b86d53613dc966e648e4fe54ca2b10d0ea712/  
 
 --- 
 
-
+TODO following analysis  
