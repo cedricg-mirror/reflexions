@@ -342,5 +342,36 @@ The full list of targeted application is provided in "targets.txt".
 
 ***Countermesures***
 
+If the malware is unable to retrieve it's external IP address the following crash is triggered :
+
+```html
+[ * ] [pid 0xbec][tid 0x5e8] c:\windows\syswow64\svchost.exe
+[ i ] [ Called from Native Image DLL ]
+[API] <CreateAssemblyNameObject> in [clr.dll] 
+[PAR] LPASSEMBLYNAME *ppAssemblyNameObj : 0x25ae010
+[PAR] LPCWSTR        szAssemblyName     : 0x46d3c18
+[STR]                -> "System.resources, Version=4.0.0.0, Culture=fr-FR, PublicKeyToken=b77a5c561934e089"
+[PAR] DWORD          dwFlags            : 0x1
+[PAR] LPVOID         pvReserved         : 0x0
+[RET] 0x73314cbe
+
+[ * ] [pid 0xbec][tid 0x5e8] c:\windows\syswow64\svchost.exe
+[ i ] [ Called from Native Image DLL ]
+[API] <CreateAssemblyNameObject> in [clr.dll] 
+[PAR] LPASSEMBLYNAME *ppAssemblyNameObj : 0x25add28
+[PAR] LPCWSTR        szAssemblyName     : 0x46d82f4
+[STR]                -> "mscorlib.resources, Version=4.0.0.0, Culture=fr-FR, PublicKeyToken=b77a5c561934e089"
+[PAR] DWORD          dwFlags            : 0x1
+[PAR] LPVOID         pvReserved         : 0x0
+[RET] 0x73314cbe
+```
+
 ![Alt text](fail.jpg?raw=true "Fake crash")
 
+The same behavior is observed if a debugger is detected : 
+
+```html
+[ * ] [pid 0xa08][tid 0x884] c:\users\user\desktop\redline_stealer\redline.exe
+[API] <IsDebuggerPresent> in [KERNEL32.DLL] 
+[RET] 0x143b92
+```
