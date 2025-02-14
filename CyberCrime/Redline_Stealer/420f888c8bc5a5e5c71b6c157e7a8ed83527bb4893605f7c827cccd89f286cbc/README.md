@@ -342,5 +342,5 @@ The full list of targeted application is provided in "targets.txt".
 
 ***Countermesures***
 
-![Alt text](/fail.jpg?raw=true "Fake crash")
+![Alt text](fail.jpg?raw=true "Fake crash")
 
