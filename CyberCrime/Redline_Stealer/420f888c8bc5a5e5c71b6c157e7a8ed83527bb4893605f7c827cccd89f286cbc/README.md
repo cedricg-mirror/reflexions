@@ -337,3 +337,10 @@ Even without beeing able to establish a connection with the telegram bot, the ma
 ```
 
 The full list of targeted application is provided in "targets.txt".  
+
+--- 
+
+***Countermesures***
+
+![Alt text](/fail.jpg?raw=true "Fake crash")
+
