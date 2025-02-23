@@ -1,0 +1,30 @@
+<PROCESS_PATH=lol> 
+<SPOOFED_DOMAIN_IP=169.254.143.42>
+<DEBUG=0>
+<FLOOD_FILTER=0>
+<PATCH_PEB_LDR=0>
+<TARGET_DLL=MSVCR100.dll>
+
+<HOSTS=
+/>
+
+<IGNORED_DLLS= 
+<msvcrt.dll> <Cabinet.dll> 
+/>
+
+<SPOOFED_IPS=
+/>
+
+<IGNORED_API=
+<RtlAllocateHeap> <HeapFree> <RtlSizeHeap> <HeapSetInformation>
+<RtlLeaveCriticalSection> <RtlEnterCriticalSection> <InitializeCriticalSectionEx>
+<RtlEncodePointer> <RtlDecodePointer>
+<FlsGetValue> <FlsSetValue> <FlsAlloc>
+<GetLastError> <SetLastError>
+<InterlockedDecrement> 
+<DispatchMessageA> <SendDlgItemMessageA> <PeekMessageA>
+<AreFileApisANSI>
+<CharNextExA>
+<VariantInit> <VariantClear>
+<SysFreeString> 
+/>
