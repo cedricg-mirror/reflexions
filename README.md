@@ -24,7 +24,7 @@ Each directory contains :
 
 Analysed code behavior is logged, without surprise, in a chronological order.
 
-* **Typical log entry** : 
+## Typical log entry : 
 
 ```html
 1. Monitoring: [pid 0x9d8][tid 0xb00] c:\windows\system32\rundll32.exe
@@ -39,7 +39,7 @@ Analysed code behavior is logged, without surprise, in a chronological order.
 3. and 4. Parameters type, name : raw value and (interpreted value) when possible
 5. Return address
 
-* **API call result :**
+## API call result :
 
 ```html
 1. Call
@@ -62,7 +62,7 @@ Result    : LPVOID  0x000000FA94200000
 At this stage, I only log API call results that I deem necessary for the analysis.  
 In this above example, the result (0x000000FA94200000) from the VirtualAllocEx call is indicated by the **[RES]** flag.
 
-* **Structures :**
+## Structures :
 
 ```html
 Monitoring: [pid 0x9d8][tid 0xb04] c:\windows\system32\rundll32.exe
@@ -79,7 +79,7 @@ Return  @ : 0xfa942d816e
 Whenever a pointer to a structure is passed as an argument to a function call, its relevant fields will be dumped as demonstrated in the above example.  
 The 2nd parameter to the NtSetContextThread syscall is a pointer to a CONTEXT structure, each log entry starting with the '**Field :**' header indicates the name, raw value and interpreted value of relevant structure fields.
 
-* **Comments**
+## Comments :
 
 ```html
 Monitoring: [pid 0x9d8][tid 0xb04] c:\windows\system32\rundll32.exe
@@ -98,7 +98,7 @@ Return  @ : 0xfa942c4c35
 
 I sometimes add information **[ i ]** to specific API call to spare some search engine time...
 
-* **Syntax Highlighting**  
+## Syntax Highlighting :  
 
 I'm also sharing a very basic syntax highlighting profile for the logs here :  
 https://github.com/cedricg-mirror/reflexions/tree/main/Logs_Syntax_Highlighting
