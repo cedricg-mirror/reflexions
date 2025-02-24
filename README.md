@@ -98,3 +98,11 @@ Return  @ : 0xfa942c4c35
 
 I sometimes add information **[ i ]** to specific API call to spare some search engine time...
 
+* **Syntax Highlighting**  
+
+I'm also sharing a very basic syntax highlighting profile for the logs here :  
+https://github.com/cedricg-mirror/reflexions/tree/main/Logs_Syntax_Highlighting
+
+![Alt text](Screenshots/syntax.jpg?raw=true "Basic Highlighting")
+
+This profile is yet only compatible with the latest analysed samples due to various changes in the log format.
