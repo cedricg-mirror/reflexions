@@ -1,0 +1,31 @@
+<PROCESS_PATH=go.exe> 
+<SPOOFED_DOMAIN_IP=169.254.143.42>
+<DEBUG=0>
+<FLOOD_FILTER=0>
+<PATCH_PEB_LDR=0>
+<TARGET_DLL=>
+<HIDE_VM=1>
+
+<HOSTS=
+/>
+
+<IGNORED_DLLS= 
+/>
+
+<SPOOFED_IPS=
+/>
+
+<IGNORED_API=
+<RtlAllocateHeap> <HeapFree> <RtlSizeHeap> <HeapSetInformation>
+<RtlLeaveCriticalSection> <RtlEnterCriticalSection> <InitializeCriticalSectionEx>
+<RtlEncodePointer> <RtlDecodePointer>
+<FlsGetValue> <FlsSetValue> <FlsAlloc>
+<GetLastError> <SetLastError>
+<InterlockedDecrement> 
+<DispatchMessageA> <SendDlgItemMessageA> <PeekMessageA>
+<VariantInit> <VariantClear>
+<SysFreeString> 
+<SetEvent> <GetStdHandle>
+<ZwWaitForSingleObject> <WaitForSingleObject> 
+<timeBeginPeriod> <timeEndPeriod>
+/>

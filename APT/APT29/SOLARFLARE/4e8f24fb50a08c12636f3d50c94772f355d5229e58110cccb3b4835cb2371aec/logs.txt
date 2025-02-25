@@ -1,0 +1,3572 @@
+Creation de Processus, pid [0xb28] (C:\Users\user\Desktop\SOLAR_FLARE\go.exe)
+
+********** Dumping PEB64 **********
+
+	Path : C:\Users\user\Desktop\SOLAR_FLARE\go.exe
+	Base : 0x0000000000400000
+	Size : 0x526000
+
+	Path : C:\Windows\SYSTEM32\ntdll.dll
+	Base : 0x00007FFE165B0000
+	Size : 0x1ac000
+
+	Path : C:\Windows\system32\KERNEL32.DLL
+	Base : 0x00007FFE14200000
+	Size : 0x13e000
+
+	Path : C:\Windows\system32\KERNELBASE.dll
+	Base : 0x00007FFE13B10000
+	Size : 0x115000
+
+********** End Dump PEB64 **********
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x23fde0 ("kernel32.dll")
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x23fe29 ("AddDllDirectory")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x23fe89 ("AddVectoredContinueHandler")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x23fea4 ("GetQueuedCompletionStatusEx")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x23fe0a ("LoadLibraryExA")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x23fdfb ("LoadLibraryExW")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x23fdd3 ("advapi32.dll")
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14150000 ("advapi32.dll")
+[PAR] LPCSTR  lpProcName : 0x23fe4a ("SystemFunction036")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x23fdbe ("ntdll.dll")
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE165B0000 ("ntdll.dll")
+[PAR] LPCSTR  lpProcName : 0x23fe5c ("NtWaitForSingleObject")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x23fdb4 ("winmm.dll")
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <ZwCallbackReturn> in [ntdll.dll] 
+[RET] 0x7ffe16642ab4 in [ntdll.dll]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE0A2E0000 ("winmm.dll")
+[PAR] LPCSTR  lpProcName : 0x23fe19 ("timeBeginPeriod")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE0A2E0000 ("winmm.dll")
+[PAR] LPCSTR  lpProcName : 0x23fded ("timeEndPeriod")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x23fdc8 ("ws2_32.dll")
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x23fe72 ("WSAGetOverlappedResult")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE165B0000 ("ntdll.dll")
+[PAR] LPCSTR  lpProcName : 0x23fe39 ("wine_get_version")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SetErrorMode> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SetErrorMode> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <RtlAddVectoredExceptionHandler> in [ntdll.dll] 
+[PAR] ULONG                       First   : 0x1
+[PAR] PVECTORED_EXCEPTION_HANDLER Handler : 0x464290
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <RtlAddVectoredContinueHandler> in [ntdll.dll] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <RtlAddVectoredContinueHandler> in [ntdll.dll] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SetConsoleCtrlHandler> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcessAffinityMask> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetSystemInfo> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SetProcessPriorityBoost> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x40000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x20000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x100000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x800000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x4000000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x20000000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000000000
+[PAR] SIZE_T dwSize       : 0x400000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x800000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x21088
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x3e0000
+[PAR] SIZE_T dwSize       : 0x20000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0xa30000
+[PAR] SIZE_T dwSize       : 0x1000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x25f6000
+[PAR] SIZE_T dwSize       : 0x1000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x4a20000
+[PAR] SIZE_T dwSize       : 0x1000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x16b70000
+[PAR] SIZE_T dwSize       : 0x1000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x100000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x10000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x10000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000000000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000002000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000004000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000006000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetEnvironmentStringsW> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000008000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00000A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00000C000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00000E000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000010000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000012000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000014000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <FreeEnvironmentStringsW> in [KERNEL32.DLL] 
+[PAR] LPWCH penv : 0x2abd00
+[STR]       -> "ALLUSERSPROFILE=C:\ProgramData"
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x23fe13 ("powrprof.dll")
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE136B0000 ("powrprof.dll")
+[PAR] LPCSTR  lpProcName : 0x23fe31 ("PowerRegisterSuspendResumeNotification")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <PowerRegisterSuspendResumeNotification> in [powrprof.dll] 
+[PAR] DWORD                               Flags              : 0x2 (DEVICE_NOTIFY_CALLBACK)
+[PAR] PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS Recipient          : 0x23fe20
+[FLD]                                     -> PDEVICE_NOTIFY_CALLBACK_ROUTINE Callback = 0x467100
+[FLD]                                     -> PVOID                           Context  = 0x0
+[PAR] PHPOWERNOTIFY                       RegistrationHandle : 0x23fe08
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000016000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000018000
+[PAR] SIZE_T dwSize       : 0xa000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000022000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000024000
+[PAR] SIZE_T dwSize       : 0x8000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0xFFFFFFFFFFFFFFFE
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x23fe78
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualQuery> in [KERNEL32.DLL] 
+[PAR] LPCVOID                   lpAddress : 0x23fe98
+[PAR] PMEMORY_BASIC_INFORMATION lpBuffer  : 0x23fe98
+[PAR] SIZE_T                    dwLength  : 0x30
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00002C000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x464490 
+[PAR] LPVOID                 lpParameter     : 0x000000C00002C380
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x4640de in [go.exe]
+
+Thread created by monitored process : Now monitoring [pid 0xb28][tid 0x828]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x7c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0xFFFFFFFFFFFFFFFE
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751fea0
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x464490 
+[PAR] LPVOID                 lpParameter     : 0x000000C00002C700
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualQuery> in [KERNEL32.DLL] 
+[PAR] LPCVOID                   lpAddress : 0x2751fec0
+[PAR] PMEMORY_BASIC_INFORMATION lpBuffer  : 0x2751fec0
+[PAR] SIZE_T                    dwLength  : 0x30
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x78
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x80
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0x80
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x80
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x80
+[RET] 0x4640de in [go.exe]
+
+Thread created by monitored process : Now monitoring [pid 0xb28][tid 0x654]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x78
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0xFFFFFFFFFFFFFFFE
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2771fea0
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x80
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualQuery> in [KERNEL32.DLL] 
+[PAR] LPCVOID                   lpAddress : 0x2771fec0
+[PAR] PMEMORY_BASIC_INFORMATION lpBuffer  : 0x2771fec0
+[PAR] SIZE_T                    dwLength  : 0x30
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x84
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0x80
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x80
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x80
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x0 (null)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x0 (null)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x0 (null)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x0 (null)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00002E000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000030000
+[PAR] SIZE_T dwSize       : 0x8000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000038000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00003A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x464490 
+[PAR] LPVOID                 lpParameter     : 0x000000C00002CA80
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x40000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000080000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+Thread created by monitored process : Now monitoring [pid 0xb28][tid 0x928]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x94
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000082000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0xFFFFFFFFFFFFFFFE
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2795fea0
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000084000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualQuery> in [KERNEL32.DLL] 
+[PAR] LPCVOID                   lpAddress : 0x2795fec0
+[PAR] PMEMORY_BASIC_INFORMATION lpBuffer  : 0x2795fec0
+[PAR] SIZE_T                    dwLength  : 0x30
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000086000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x0 (null)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x0 (null)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000088000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00008A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00008C000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00008E000
+[PAR] SIZE_T dwSize       : 0x4000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000092000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000094000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000096000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000098000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00009A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00009C000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000C00009C000
+[STR]         -> "kernel32.dll"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00009E000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E000 ("GetStdHandle")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009C040 ("SetHandleInformation")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SetHandleInformation> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject : 0x0
+[PAR] DWORD dwMask   : 0x1
+[PAR] DWORD dwFlags  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SetHandleInformation> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject : 0x0
+[PAR] DWORD dwMask   : 0x1
+[PAR] DWORD dwFlags  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SetHandleInformation> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject : 0x0
+[PAR] DWORD dwMask   : 0x1
+[PAR] DWORD dwFlags  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x78
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0xa4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0xa4
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0xa4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0xa4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x78
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x15f8f8
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x94
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0x94
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x94
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x94
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000A0000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009C060 ("GetSystemDirectoryW")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetSystemDirectoryW> in [KERNEL32.DLL] 
+[PAR] LPWSTR lpBuffer : 0x000000C0000A0000
+[PAR] UINT   uSize    : 0x104
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000A2000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000A4000
+[PAR] SIZE_T dwSize       : 0xe000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000B2000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000B4000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000B6000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000C00009C0C0
+[STR]         -> "ws2_32.dll"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E030 ("WSAStartup")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAStartup> in [ws2_32.dll] 
+[PAR] WORD wVersionRequested : 0x202
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E040 ("CancelIoEx")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000B8000
+[PAR] SIZE_T dwSize       : 0x8000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000C0000
+[PAR] SIZE_T dwSize       : 0x8000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C0000B2030 ("SetFileCompletionNotificationModes")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009C0E0 ("WSAEnumProtocolsW")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAEnumProtocolsW> in [ws2_32.dll] 
+[PAR] LPINT               lpiProtocols     : 0x000000C0000C2E68
+[PAR] LPWSAPROTOCOL_INFOW lpProtocolBuffer : 0x000000C0000C2E70
+[PAR] LPDWORD             lpdwBufferLength : 0x000000C0000C2E64
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E050 ("GetConsoleMode")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetConsoleMode> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E060 ("GetFileType")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetFileType> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000C8000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000CA000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000CC000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetConsoleMode> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetFileType> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetConsoleMode> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetFileType> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E0A0 ("GetCommandLineW")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetCommandLineW> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000CE000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000D0000
+[PAR] SIZE_T dwSize       : 0x4000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000D4000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000D6000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000D8000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000DA000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009C1E0 ("GetEnvironmentVariableW")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetEnvironmentVariableW> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000DC000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000DE000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000E0000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000E2000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000E4000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000E6000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000E8000
+[PAR] SIZE_T dwSize       : 0x4000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000EC000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000EE000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000F0000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000F2000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000F4000
+[PAR] SIZE_T dwSize       : 0x4000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000F8000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C0000FA000
+[PAR] SIZE_T dwSize       : 0x6000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x78
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000100000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0xbc
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0xbc
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0xbc
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0xbc
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000102000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000104000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetEnvironmentVariableW> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetEnvironmentVariableW> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000106000
+[PAR] SIZE_T dwSize       : 0x4000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00010A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000C00009C200
+[STR]         -> "iphlpapi.dll"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x0 (null)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x0 (null)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x2751fdf8
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xea60
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE11580000 ("iphlpapi.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009C220 ("GetAdaptersAddresses")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetAdaptersAddresses> in [iphlpapi.dll] 
+[PAR] ULONG                 Family           : 0x0
+[PAR] ULONG                 Flags            : 0x10 (GAA_FLAG_INCLUDE_PREFIX)
+[PAR] PVOID                 Reserved         : 0x0
+[PAR] PIP_ADAPTER_ADDRESSES AdapterAddresses : 0x000000C000106000
+[PAR] PULONG                SizePointer      : 0x000000C0000C7C88
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x2751fdf8
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xea60
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00010C000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00010E000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000110000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000112000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E200 ("CreateFileW")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateFileW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName            : 0x000000C00009C300
+[STR]         -> "runlog.dat.tmp"
+[PAR] DWORD   dwDesiredAccess       : 0x80000000 (GENERIC_READ)
+[PAR] DWORD   dwCreationDisposition : 0x3 (OPEN_EXISTING)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetConsoleMode> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetFileType> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile : 0xfc
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetFileType> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile : 0xfc
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009C320 ("GetFileInformationByHandle")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetFileInformationByHandle> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000C00009C340
+[STR]         -> "kernel32.dll"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009C360 ("GetFileInformationByHandleEx")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetFileInformationByHandleEx> in [KERNEL32.DLL] 
+[PAR] HANDLE                    hFile                : 0xfc
+[PAR] FILE_INFO_BY_HANDLE_CLASS FileInformationClass : 0x9 (FileAttributeTagInfo)
+[PAR] LPVOID                    lpFileInformation    : 0x000000C0000C7A18
+[PAR] DWORD                     dwBufferSize         : 0x8
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000114000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E210 ("ReadFile")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <ReadFile> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile                : 0xfc
+[PAR] LPVOID lpBuffer             : 0x000000C000100A80
+[PAR] DWORD  nNumberOfBytesToRead : 0x32b
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <ReadFile> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile                : 0xfc
+[PAR] LPVOID lpBuffer             : 0x000000C000100BAB
+[PAR] DWORD  nNumberOfBytesToRead : 0x200
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E220 ("CloseHandle")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0xfc
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000116000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000118000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00011A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00011C000
+[PAR] SIZE_T dwSize       : 0x4000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x78
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x94
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0x94
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x94
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetEnvironmentVariableW> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x94
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000120000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000122000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E290 ("GetAddrInfoW")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetAddrInfoW> in [ws2_32.dll] 
+[PAR] PCWSTR     pNodeName    : 0x000000C00009C400
+[STR]            -> "megatoolkit.com"
+[PAR] PCWSTR     pServiceName : 0x0 (null)
+[PAR] ADDRINFOW  *pHints      : 0x000000C000033F18
+[FLD] PADDRINFOW    pAddrInfo : 0x000000C000033F18
+[FLD]               -> ai_flags     = 0x0 
+[FLD]               -> ai_family    = 0x0 (AF_UNSPEC)
+[FLD]               -> ai_socktype  = 0x1 (SOCK_STREAM)
+[FLD]               -> ai_protocol  = 0x0 (NOT_SPECIFIED)
+[FLD]               -> ai_addrlen   = 0x0
+[FLD]               -> ai_canonname = 0x0 (null)
+[FLD]               -> *ai_addr     = 0x0000000000000000
+[FLD]               -> *ai_next     = 0x0000000000000000
+[PAR] PADDRINFOW *ppResult    : 0x000000C000033E88
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E2B0 ("FreeAddrInfoW")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <FreeAddrInfoW> in [ws2_32.dll] 
+[PAR] PADDRINFOW    pAddrInfo : 0x2be7a0
+[FLD] PADDRINFOW    pAddrInfo : 0x2be7a0
+[FLD]               -> ai_flags     = 0x0 
+[FLD]               -> ai_family    = 0x2 (AF_INET) (IPv4)
+[FLD]               -> ai_socktype  = 0x1 (SOCK_STREAM)
+[FLD]               -> ai_protocol  = 0x0 (NOT_SPECIFIED)
+[FLD]               -> ai_addrlen   = 0x10
+[FLD]               -> ai_canonname = 0x0 (null)
+[FLD]               -> *ai_addr     = 0x00000000002B7B30
+[FLD]               -> *ai_next     = 0x0000000000000000
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000C00009C420
+[STR]         -> "ws2_32.dll"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E2C0 ("WSASocketW")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASocketW> in [ws2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x1 (SOCK_STREAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x81
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E2D0 ("setsockopt")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x118
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x20 (SO_BROADCAST)
+[PAR] char   *optval : 0x000000C0000BF3D8
+[PAR] int    optlen  : 0x4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateIoCompletionPort> in [KERNEL32.DLL] 
+[PAR] HANDLE    FileHandle                : 0xffffffff
+[PAR] HANDLE    ExistingCompletionPort    : 0x0
+[PAR] ULONG_PTR CompletionKey             : 0x0000000000000000
+[PAR] DWORD     NumberOfConcurrentThreads : 0xffffffff
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateIoCompletionPort> in [KERNEL32.DLL] 
+[PAR] HANDLE    FileHandle                : 0x118
+[PAR] HANDLE    ExistingCompletionPort    : 0x108
+[PAR] ULONG_PTR CompletionKey             : 0x0000000000000000
+[PAR] DWORD     NumberOfConcurrentThreads : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SetFileCompletionNotificationModes> in [KERNEL32.DLL] 
+[PAR] HANDLE FileHandle : 0x118
+[PAR] UCHAR  Flags      : 0x3 (FILE_SKIP_COMPLETION_PORT_ON_SUCCESS | FILE_SKIP_SET_EVENT_ON_HANDLE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2751f680
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2751f654
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E2E0 ("bind")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <bind> in [ws2_32.dll] 
+[PAR] SOCKET          s       : 0x118
+[PAR] struct sockaddr *name   : 0x000000C00009C46C
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 0 (Little endian : 0)
+[FLD]          -> sin_addr     : 0.0.0.0
+[PAR] int             namelen : 0x10
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E2E5 ("socket")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <socket> in [ws2_32.dll] 
+[PAR] int address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int type           : 0x1 (SOCK_STREAM)
+[PAR] int protocol       : 0x6 (IPPROTO_TCP)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E2F0 ("WSAIoctl")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAIoctl> in [ws2_32.dll] 
+[PAR] SOCKET  s                 : 0x10c
+[PAR] DWORD   dwIoControlCode   : 0xc8000006 (SIO_GET_EXTENSION_FUNCTION_POINTER)
+[PAR] LPVOID  lpvInBuffer       : 0x8b2780 (WSAID_CONNECTEX)
+[FLD]         -> InBuffer = {0x25a207b9,0xddf3,0x4660,0x8e,{0xe9,0x76,0xe5,0x8c,0x74,0x06,0x3e}}
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x10c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <MSAFD_ConnectEx> in [mswsock.dll] 
+[PAR] SOCKET          s                : 0x118
+[PAR] struct sockaddr *name            : 0x000000C00009C44C
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 47873 (Little endian : 443)
+[FLD]          -> sin_addr     : 169.254.143.42
+[PAR] int             *namelen         : 0x10
+[PAR] PVOID           lpSendBuffer     : 0x0
+[PAR] DWORD           dwSendDataLength : 0x0
+[PAR] LPDWORD         lpdwBytesSent    : 0x0
+[PAR] LPOVERLAPPED    lpOverlapped     : 0x000000C0000CB270
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0xffffffff
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAGetOverlappedResult> in [ws2_32.dll] 
+[PAR] SOCKET          s            : 0x118
+[PAR] LPWSAOVERLAPPED lpOverlapped : 0x000000C0000CB270
+[PAR] LPDWORD         lpcbTransfer : 0x23f548
+[PAR] BOOL            fWait        : 0x0
+[PAR] LPDWORD         lpdwFlags    : 0x23f558
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x118
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x7010 (SO_UPDATE_CONNECT_CONTEXT)
+[PAR] char   *optval : 0x000000C0000CB190
+[PAR] int    optlen  : 0x8
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E310 ("getsockname")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2795f5a0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2795f574
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <getsockname> in [ws2_32.dll] 
+[PAR] SOCKET          s        : 0x118
+[PAR] struct sockaddr *name    : 0x000000C0000BF27C
+[PAR] int             *namelen : 0x000000C0000BF278
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2795f590
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2795f564
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E320 ("getpeername")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2795f590
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2795f564
+[PAR] BOOL                fAlertable              : 0xffffffff
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <getpeername> in [ws2_32.dll] 
+[PAR] SOCKET   s        : 0x118
+[PAR] sockaddr *name    : 0x000000C0000BF27C
+[PAR] int      *namelen : 0x000000C0000BF278
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x118
+[PAR] int    level   : 0x6 (IPPROTO_TCP)
+[PAR] int    optname : 0x1 (TCP_NODELAY)
+[PAR] char   *optval : 0x000000C0000BF4C4
+[PAR] int    optlen  : 0x4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x118
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x8 (SO_KEEPALIVE)
+[PAR] char   *optval : 0x000000C0000BF78C
+[PAR] int    optlen  : 0x4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAIoctl> in [ws2_32.dll] 
+[PAR] SOCKET  s                 : 0x118
+[PAR] DWORD   dwIoControlCode   : 0x98000004 (SIO_KEEPALIVE_VALS)
+[PAR] LPVOID  lpvInBuffer       : 0x000000C0000BF7DC
+[FLD]         -> onoff             = 0x1
+[FLD]         -> keepalivetime     = 0x3a98
+[FLD]         -> keepaliveinterval = 0x3a98
+[PAR] DWORD   cbInBuffer        : 0xc
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <PostQueuedCompletionStatus> in [KERNEL32.DLL] 
+[PAR] HANDLE       CompletionPort             : 0x108
+[PAR] DWORD        dwNumberOfBytesTransferred : 0x0
+[PAR] ULONG_PTR    dwCompletionKey            : 0x0
+[PAR] LPOVERLAPPED lpOverlapped               : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2795f590
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2795f564
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000C00009C4C0
+[STR]         -> "advapi32.dll"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x4640de
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2795f590
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2795f564
+[PAR] BOOL                fAlertable              : 0xea5f
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14150000 ("advapi32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009C4E0 ("CryptAcquireContextW")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptAcquireContextW> in [advapi32.dll] 
+[PAR] HCRYPTPROV *phProv      : 0x000000C00009C128
+[PAR] LPCWSTR    pszContainer : 0x0 (null)
+[PAR] LPCWSTR    pszProvider  : 0x0 (null)
+[PAR] DWORD      dwProvType   : 0x1 (PROV_RSA_FULL)
+[PAR] DWORD      dwFlags      : 0xf0000040 (CRYPT_VERIFYCONTEXT | CRYPT_SILENT)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE14150000 ("advapi32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E330 ("CryptGenRandom")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C0000CC23A
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000124000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C00009C500
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C00009C520
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C00009C560
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000126000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000128000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E388 ("WSASend")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x118
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C0000CB2B8
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x10b
+[FLD]                                    -> buf = 0x000000C000128000
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C0000CB2A0
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000CB270
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009E390 ("WSARecv")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x118
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C0000CB1E0
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C0000CB1C8
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000CB250
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C0000CB198
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x2751fdf8
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xea60
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAGetOverlappedResult> in [ws2_32.dll] 
+[PAR] SOCKET          s            : 0x118
+[PAR] LPWSAOVERLAPPED lpOverlapped : 0x000000C0000CB198
+[PAR] LPDWORD         lpcbTransfer : 0x2795f560
+[PAR] BOOL            fWait        : 0x0
+[PAR] LPDWORD         lpdwFlags    : 0x2795f570
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x118
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C0000CB1E0
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C0000CB1C8
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000CB250
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C0000CB198
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00012A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00012C000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x118
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C0000CB2B8
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x40
+[FLD]                                    -> buf = 0x000000C0000B6EC0
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C0000CB2A0
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000CB270
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0xffffffff
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00012E000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000130000
+[PAR] SIZE_T dwSize       : 0x8000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00003C000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x928] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x118
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C0000CB2B8
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x18c
+[FLD]                                    -> buf = 0x000000C0000A1200
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C0000CB2A0
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000CB270
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x464490 
+[PAR] LPVOID                 lpParameter     : 0x000000C00002CE00
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x118
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C0000CB1E0
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C0000CB1C8
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000CB250
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C0000CB198
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x118
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C0000CB2B8
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x18
+[FLD]                                    -> buf = 0x000000C0000A1200
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C0000CB2A0
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000CB270
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFE160E0000 ("ws2_32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000C00009EAC4 ("closesocket")
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <closesocket> in [ws2_32.dll] 
+[PAR] SOCKET       s : 0x118
+[RET] 0x4640de in [go.exe]
+
+Thread created by monitored process : Now monitoring [pid 0xb28][tid 0x954]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x118
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <PostQueuedCompletionStatus> in [KERNEL32.DLL] 
+[PAR] HANDLE       CompletionPort             : 0x108
+[PAR] DWORD        dwNumberOfBytesTransferred : 0x0
+[PAR] ULONG_PTR    dwCompletionKey            : 0x0
+[PAR] LPOVERLAPPED lpOverlapped               : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <PostQueuedCompletionStatus> in [KERNEL32.DLL] 
+[PAR] HANDLE       CompletionPort             : 0x108
+[PAR] DWORD        dwNumberOfBytesTransferred : 0x0
+[PAR] ULONG_PTR    dwCompletionKey            : 0x0
+[PAR] LPOVERLAPPED lpOverlapped               : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0xFFFFFFFFFFFFFFFE
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2841fea0
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0x270f
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualQuery> in [KERNEL32.DLL] 
+[PAR] LPCVOID                   lpAddress : 0x2841fec0
+[PAR] PMEMORY_BASIC_INFORMATION lpBuffer  : 0x2841fec0
+[PAR] SIZE_T                    dwLength  : 0x30
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2841f5b0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2841f584
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0x270f
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x0 (null)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x2751fdf8
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0x270f
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x0 (null)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00003E000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x78
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000040000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2841f5b0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2841f584
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x158
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000042000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2841f5b0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2841f584
+[PAR] BOOL                fAlertable              : 0xffffffff
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0x158
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x158
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x158
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000044000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000046000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000048000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00004A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00004C000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetEnvironmentVariableW> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00004E000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000050000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000052000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000054000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000056000
+[PAR] SIZE_T dwSize       : 0x8000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00005E000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetAddrInfoW> in [ws2_32.dll] 
+[PAR] PCWSTR     pNodeName    : 0x000000C00000E2C0
+[STR]            -> "megatoolkit.com"
+[PAR] PCWSTR     pServiceName : 0x0 (null)
+[PAR] ADDRINFOW  *pHints      : 0x000000C000037F18
+[FLD] PADDRINFOW    pAddrInfo : 0x000000C000037F18
+[FLD]               -> ai_flags     = 0x0 
+[FLD]               -> ai_family    = 0x0 (AF_UNSPEC)
+[FLD]               -> ai_socktype  = 0x1 (SOCK_STREAM)
+[FLD]               -> ai_protocol  = 0x0 (NOT_SPECIFIED)
+[FLD]               -> ai_addrlen   = 0x0
+[FLD]               -> ai_canonname = 0x0 (null)
+[FLD]               -> *ai_addr     = 0x0000000000000000
+[FLD]               -> *ai_next     = 0x0000000000000000
+[PAR] PADDRINFOW *ppResult    : 0x000000C000037E88
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <FreeAddrInfoW> in [ws2_32.dll] 
+[PAR] PADDRINFOW    pAddrInfo : 0x2be860
+[FLD] PADDRINFOW    pAddrInfo : 0x2be860
+[FLD]               -> ai_flags     = 0x0 
+[FLD]               -> ai_family    = 0x2 (AF_INET) (IPv4)
+[FLD]               -> ai_socktype  = 0x1 (SOCK_STREAM)
+[FLD]               -> ai_protocol  = 0x0 (NOT_SPECIFIED)
+[FLD]               -> ai_addrlen   = 0x10
+[FLD]               -> ai_canonname = 0x0 (null)
+[FLD]               -> *ai_addr     = 0x00000000002B79D0
+[FLD]               -> *ai_next     = 0x0000000000000000
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASocketW> in [ws2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x1 (SOCK_STREAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x81
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x104
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x20 (SO_BROADCAST)
+[PAR] char   *optval : 0x000000C00005D3D8
+[PAR] int    optlen  : 0x4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000060000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateIoCompletionPort> in [KERNEL32.DLL] 
+[PAR] HANDLE    FileHandle                : 0x104
+[PAR] HANDLE    ExistingCompletionPort    : 0x108
+[PAR] ULONG_PTR CompletionKey             : 0x0000000000000000
+[PAR] DWORD     NumberOfConcurrentThreads : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SetFileCompletionNotificationModes> in [KERNEL32.DLL] 
+[PAR] HANDLE FileHandle : 0x104
+[PAR] UCHAR  Flags      : 0x3 (FILE_SKIP_COMPLETION_PORT_ON_SUCCESS | FILE_SKIP_SET_EVENT_ON_HANDLE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <bind> in [ws2_32.dll] 
+[PAR] SOCKET          s       : 0x104
+[PAR] struct sockaddr *name   : 0x000000C00000E30C
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 0 (Little endian : 0)
+[FLD]          -> sin_addr     : 0.0.0.0
+[PAR] int             namelen : 0x10
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <MSAFD_ConnectEx> in [mswsock.dll] 
+[PAR] SOCKET          s                : 0x104
+[PAR] struct sockaddr *name            : 0x000000C00000E2EC
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 47873 (Little endian : 443)
+[FLD]          -> sin_addr     : 169.254.143.42
+[PAR] int             *namelen         : 0x10
+[PAR] PVOID           lpSendBuffer     : 0x0
+[PAR] DWORD           dwSendDataLength : 0x0
+[PAR] LPDWORD         lpdwBytesSent    : 0x0
+[PAR] LPOVERLAPPED    lpOverlapped     : 0x000000C0000600F0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAGetOverlappedResult> in [ws2_32.dll] 
+[PAR] SOCKET          s            : 0x104
+[PAR] LPWSAOVERLAPPED lpOverlapped : 0x000000C0000600F0
+[PAR] LPDWORD         lpcbTransfer : 0x2841f580
+[PAR] BOOL            fWait        : 0x0
+[PAR] LPDWORD         lpdwFlags    : 0x2841f590
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x104
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x7010 (SO_UPDATE_CONNECT_CONTEXT)
+[PAR] char   *optval : 0x000000C000060010
+[PAR] int    optlen  : 0x8
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <getsockname> in [ws2_32.dll] 
+[PAR] SOCKET          s        : 0x104
+[PAR] struct sockaddr *name    : 0x000000C00005D27C
+[PAR] int             *namelen : 0x000000C00005D278
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <getpeername> in [ws2_32.dll] 
+[PAR] SOCKET   s        : 0x104
+[PAR] sockaddr *name    : 0x000000C00005D27C
+[PAR] int      *namelen : 0x000000C00005D278
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x104
+[PAR] int    level   : 0x6 (IPPROTO_TCP)
+[PAR] int    optname : 0x1 (TCP_NODELAY)
+[PAR] char   *optval : 0x000000C00005D4C4
+[PAR] int    optlen  : 0x4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f568
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f53c
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x104
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x8 (SO_KEEPALIVE)
+[PAR] char   *optval : 0x000000C00005D78C
+[PAR] int    optlen  : 0x4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f568
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f53c
+[PAR] BOOL                fAlertable              : 0xffffffff
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAIoctl> in [ws2_32.dll] 
+[PAR] SOCKET  s                 : 0x104
+[PAR] DWORD   dwIoControlCode   : 0x98000004 (SIO_KEEPALIVE_VALS)
+[PAR] LPVOID  lpvInBuffer       : 0x000000C00005D7DC
+[FLD]         -> onoff             = 0x1
+[FLD]         -> keepalivetime     = 0x3a98
+[FLD]         -> keepaliveinterval = 0x3a98
+[PAR] DWORD   cbInBuffer        : 0xc
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C000022FBA
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000062000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C00000E360
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C00000E380
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C00000E3C0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000064000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000066000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000068000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x104
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C000060138
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x10b
+[FLD]                                    -> buf = 0x000000C000068000
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C000060120
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000600F0
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00006A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x104
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C000060060
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C000060048
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000600D0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C000060018
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x2751fdf8
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xea60
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAGetOverlappedResult> in [ws2_32.dll] 
+[PAR] SOCKET          s            : 0x104
+[PAR] LPWSAOVERLAPPED lpOverlapped : 0x000000C000060018
+[PAR] LPDWORD         lpcbTransfer : 0x23f538
+[PAR] BOOL            fWait        : 0x0
+[PAR] LPDWORD         lpdwFlags    : 0x23f548
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00006C000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00006E000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000070000
+[PAR] SIZE_T dwSize       : 0x4000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x104
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C000060060
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C000060048
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000600D0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C000060018
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000074000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000076000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000078000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00007A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00007C000
+[PAR] SIZE_T dwSize       : 0x4000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000180000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000182000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x104
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C000060138
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x40
+[FLD]                                    -> buf = 0x000000C00000CEC0
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C000060120
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000600F0
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000184000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2841f5a0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2841f574
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x104
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C000060060
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C000060048
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000600D0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C000060018
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x104
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C000060060
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C000060048
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000600D0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C000060018
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x104
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C000060138
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x18d
+[FLD]                                    -> buf = 0x000000C00006AD80
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C000060120
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000600F0
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2771f5a0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2771f574
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2841f5a0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2841f574
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAGetOverlappedResult> in [ws2_32.dll] 
+[PAR] SOCKET          s            : 0x104
+[PAR] LPWSAOVERLAPPED lpOverlapped : 0x000000C000060018
+[PAR] LPDWORD         lpcbTransfer : 0x2841f570
+[PAR] BOOL            fWait        : 0x0
+[PAR] LPDWORD         lpdwFlags    : 0x2841f580
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0xffffffff
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x104
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C000060138
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x18
+[FLD]                                    -> buf = 0x000000C00006AD80
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C000060120
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000600F0
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <PostQueuedCompletionStatus> in [KERNEL32.DLL] 
+[PAR] HANDLE       CompletionPort             : 0x108
+[PAR] DWORD        dwNumberOfBytesTransferred : 0x0
+[PAR] ULONG_PTR    dwCompletionKey            : 0x0
+[PAR] LPOVERLAPPED lpOverlapped               : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2771f5a0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2771f574
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <closesocket> in [ws2_32.dll] 
+[PAR] SOCKET       s : 0x104
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2771f5a0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2771f574
+[PAR] BOOL                fAlertable              : 0x1b57
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x2751fdf8
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0x1b55
+[RET] 0x4640de in [go.exe]
+
+Destruction de Processus, pid [0x53c] (C:\Windows\System32\wbem\WmiPrvSE.exe)
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetEnvironmentVariableW> in [KERNEL32.DLL] 
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x23f578
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x23f54c
+[PAR] BOOL                fAlertable              : 0xffffffff
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetAddrInfoW> in [ws2_32.dll] 
+[PAR] PCWSTR     pNodeName    : 0x000000C00009D080
+[STR]            -> "megatoolkit.com"
+[PAR] PCWSTR     pServiceName : 0x0 (null)
+[PAR] ADDRINFOW  *pHints      : 0x000000C000031F18
+[FLD] PADDRINFOW    pAddrInfo : 0x000000C000031F18
+[FLD]               -> ai_flags     = 0x0 
+[FLD]               -> ai_family    = 0x0 (AF_UNSPEC)
+[FLD]               -> ai_socktype  = 0x1 (SOCK_STREAM)
+[FLD]               -> ai_protocol  = 0x0 (NOT_SPECIFIED)
+[FLD]               -> ai_addrlen   = 0x0
+[FLD]               -> ai_canonname = 0x0 (null)
+[FLD]               -> *ai_addr     = 0x0000000000000000
+[FLD]               -> *ai_next     = 0x0000000000000000
+[PAR] PADDRINFOW *ppResult    : 0x000000C000031E88
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x2751fdf8
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xea60
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <FreeAddrInfoW> in [ws2_32.dll] 
+[PAR] PADDRINFOW    pAddrInfo : 0x2be6e0
+[FLD] PADDRINFOW    pAddrInfo : 0x2be6e0
+[FLD]               -> ai_flags     = 0x0 
+[FLD]               -> ai_family    = 0x2 (AF_INET) (IPv4)
+[FLD]               -> ai_socktype  = 0x1 (SOCK_STREAM)
+[FLD]               -> ai_protocol  = 0x0 (NOT_SPECIFIED)
+[FLD]               -> ai_addrlen   = 0x10
+[FLD]               -> ai_canonname = 0x0 (null)
+[FLD]               -> *ai_addr     = 0x00000000002B7870
+[FLD]               -> *ai_next     = 0x0000000000000000
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x88
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0x16c
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASocketW> in [ws2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x1 (SOCK_STREAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x81
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x104
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x20 (SO_BROADCAST)
+[PAR] char   *optval : 0x000000C0000BF3D8
+[PAR] int    optlen  : 0x4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <CreateIoCompletionPort> in [KERNEL32.DLL] 
+[PAR] HANDLE    FileHandle                : 0x104
+[PAR] HANDLE    ExistingCompletionPort    : 0x108
+[PAR] ULONG_PTR CompletionKey             : 0x0000000000000000
+[PAR] DWORD     NumberOfConcurrentThreads : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x88
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0x16c
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <SetFileCompletionNotificationModes> in [KERNEL32.DLL] 
+[PAR] HANDLE FileHandle : 0x104
+[PAR] UCHAR  Flags      : 0x3 (FILE_SKIP_COMPLETION_PORT_ON_SUCCESS | FILE_SKIP_SET_EVENT_ON_HANDLE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <bind> in [ws2_32.dll] 
+[PAR] SOCKET          s       : 0x104
+[PAR] struct sockaddr *name   : 0x000000C00009D0CC
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 0 (Little endian : 0)
+[FLD]          -> sin_addr     : 0.0.0.0
+[PAR] int             namelen : 0x10
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <MSAFD_ConnectEx> in [mswsock.dll] 
+[PAR] SOCKET          s                : 0x104
+[PAR] struct sockaddr *name            : 0x000000C00009D0AC
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 47873 (Little endian : 443)
+[FLD]          -> sin_addr     : 169.254.143.42
+[PAR] int             *namelen         : 0x10
+[PAR] PVOID           lpSendBuffer     : 0x0
+[PAR] DWORD           dwSendDataLength : 0x0
+[PAR] LPDWORD         lpdwBytesSent    : 0x0
+[PAR] LPOVERLAPPED    lpOverlapped     : 0x000000C0000CB4F0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x2751fdf8
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xea60
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAGetOverlappedResult> in [ws2_32.dll] 
+[PAR] SOCKET          s            : 0x104
+[PAR] LPWSAOVERLAPPED lpOverlapped : 0x000000C0000CB4F0
+[PAR] LPDWORD         lpcbTransfer : 0x23f548
+[PAR] BOOL            fWait        : 0x0
+[PAR] LPDWORD         lpdwFlags    : 0x23f558
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x104
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x7010 (SO_UPDATE_CONNECT_CONTEXT)
+[PAR] char   *optval : 0x000000C0000CB410
+[PAR] int    optlen  : 0x8
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2771f5a0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2771f574
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2771f590
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2771f564
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <getsockname> in [ws2_32.dll] 
+[PAR] SOCKET          s        : 0x104
+[PAR] struct sockaddr *name    : 0x000000C0000BF27C
+[PAR] int             *namelen : 0x000000C0000BF278
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2771f590
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2771f564
+[PAR] BOOL                fAlertable              : 0xffffffff
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <getpeername> in [ws2_32.dll] 
+[PAR] SOCKET   s        : 0x104
+[PAR] sockaddr *name    : 0x000000C0000BF27C
+[PAR] int      *namelen : 0x000000C0000BF278
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x104
+[PAR] int    level   : 0x6 (IPPROTO_TCP)
+[PAR] int    optname : 0x1 (TCP_NODELAY)
+[PAR] char   *optval : 0x000000C0000BF4C4
+[PAR] int    optlen  : 0x4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <setsockopt> in [ws2_32.dll] 
+[PAR] SOCKET s       : 0x104
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x8 (SO_KEEPALIVE)
+[PAR] char   *optval : 0x000000C0000BF78C
+[PAR] int    optlen  : 0x4
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAIoctl> in [ws2_32.dll] 
+[PAR] SOCKET  s                 : 0x104
+[PAR] DWORD   dwIoControlCode   : 0x98000004 (SIO_KEEPALIVE_VALS)
+[PAR] LPVOID  lpvInBuffer       : 0x000000C0000BF7DC
+[FLD]         -> onoff             = 0x1
+[FLD]         -> keepalivetime     = 0x3a98
+[FLD]         -> keepaliveinterval = 0x3a98
+[PAR] DWORD   cbInBuffer        : 0xc
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C00002373A
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C00009D120
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C00009D140
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <CryptGenRandom> in [advapi32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x2b4cc0
+[PAR] DWORD       dwLen    : 0x20
+[PAR] BYTE*       pbBuffer : 0x000000C00009D180
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x104
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C0000CB538
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x10b
+[FLD]                                    -> buf = 0x000000C000128480
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C0000CB520
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000CB4F0
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x104
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C0000CB460
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C0000CB448
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000CB4D0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C0000CB418
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000138000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x104
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C0000CB460
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C0000CB448
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000CB4D0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C0000CB418
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x78
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0x16c
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x78
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0x16c
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <DuplicateHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x78
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x2751f928
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <SuspendThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetThreadContext> in [KERNEL32.DLL] 
+[PAR] HANDLE    hThread   : 0x16c
+[PAR] LPCONTEXT lpContext : 0x2751f940
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <ResumeThread> in [KERNEL32.DLL] 
+[PAR] HANDLE hThread       : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x16c
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00013A000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00013C000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x104
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C0000CB538
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x40
+[FLD]                                    -> buf = 0x000000C0000B7E80
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C0000CB520
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000CB4F0
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C00013E000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x104
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C0000CB460
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C0000CB448
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000CB4D0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C0000CB418
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000C000140000
+[PAR] SIZE_T dwSize       : 0x2000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSARecv> in [ws2_32.dll] 
+[PAR] SOCKET                             s                    : 0x104
+[PAR] LPWSABUF                           lpBuffers            : 0x000000C0000CB460
+[PAR] DWORD                              dwBufferCount        : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesRecvd : 0x000000C0000CB448
+[PAR] LPDWORD                            lpFlags              : 0x000000C0000CB4D0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped         : 0x000000C0000CB418
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine  : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x104
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C0000CB538
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x18b
+[FLD]                                    -> buf = 0x000000C000140000
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C0000CB520
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000CB4F0
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x2751fdf8
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xea60
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSAGetOverlappedResult> in [ws2_32.dll] 
+[PAR] SOCKET          s            : 0x104
+[PAR] LPWSAOVERLAPPED lpOverlapped : 0x000000C0000CB418
+[PAR] LPDWORD         lpcbTransfer : 0x2771f560
+[PAR] BOOL            fWait        : 0x0
+[PAR] LPDWORD         lpdwFlags    : 0x2771f570
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2841f5a0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2841f574
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <WSASend> in [ws2_32.dll] 
+[PAR] SOCKET                             s                   : 0x104
+[PAR] LPWSABUF                           lpBuffers           : 0x000000C0000CB538
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x18
+[FLD]                                    -> buf = 0x000000C000140000
+[PAR] DWORD                              dwBufferCount       : 0x1
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000C0000CB520
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x000000C0000CB4F0
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2841f5a0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2841f574
+[PAR] BOOL                fAlertable              : 0x0
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x954] c:\users\user\desktop\solar_flare\go.exe
+[API] <GetQueuedCompletionStatusEx> in [KERNEL32.DLL] 
+[PAR] HANDLE              CompletionPort          : 0x108
+[PAR] LPOVERLAPPED_ENTRY  lpCompletionPortEntries : 0x2841f5a0
+[PAR] ULONG               ulCount                 : 0x20
+[PAR] PULONG              ulNumEntriesRemoved     : 0x2841f574
+[PAR] BOOL                fAlertable              : 0x2710
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x654] c:\users\user\desktop\solar_flare\go.exe
+[API] <closesocket> in [ws2_32.dll] 
+[PAR] SOCKET       s : 0x104
+[RET] 0x4640de in [go.exe]
+
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <SwitchToThread> in [KERNEL32.DLL] 
+[RET] 0x4645c9 in [go.exe]
+
+[ * ] [pid 0xb28][tid 0x828] c:\users\user\desktop\solar_flare\go.exe
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x2751fdf8
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0x270d
+[RET] 0x4640de in [go.exe]
+
