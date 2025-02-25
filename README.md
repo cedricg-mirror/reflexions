@@ -65,19 +65,19 @@ In this above example, the result (0x000000FA94200000) from the VirtualAllocEx c
 ## Structures :
 
 ```html
-Monitoring: [pid 0x9d8][tid 0xb04] c:\windows\system32\rundll32.exe
-Monitoring: [API] <NtSetContextThread> in [ntdll.dll] 
-Monitoring: [ ! ] [ Attempt to bypass hooked API detected ! ]
-Parameter : HANDLE   ThreadHandle : 0xfffffffe
-Parameter : PCONTEXT Context      : 0x000000FA9437E100
-Field     :          -> ContextFlags = 0x100010 (CONTEXT_DEBUG_REGISTERS)
-Field     :          -> Dr0          = 0x00007FF9B5342630 (ntdll.dll!NtTraceControl)
-Field     :          -> Dr7          = 0x1
-Return  @ : 0xfa942d816e
+[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[API] <bind> in [ws2_32.dll] 
+[PAR] SOCKET          s       : 0x118
+[PAR] struct sockaddr *name   : 0x000000C00009C46C
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 0 (Little endian : 0)
+[FLD]          -> sin_addr     : 0.0.0.0
+[PAR] int             namelen : 0x10
+[RET] 0x4640de in [go.exe]
 ```
 
-Whenever a pointer to a structure is passed as an argument to a function call, its relevant fields will be dumped as demonstrated in the above example.  
-The 2nd parameter to the NtSetContextThread syscall is a pointer to a CONTEXT structure, each log entry starting with the '**Field :**' header indicates the name, raw value and interpreted value of relevant structure fields.
+Whenever a pointer to a structure is passed as an argument to a function call, its relevant fields ([FLD]) will be dumped as demonstrated in the above example.  
+The 2nd parameter to the **bind** call is a pointer to a **sockaddr** structure, each log entry starting with the '**[FLD]**' header indicates the name, raw value and interpreted value of relevant structure fields.
 
 ## Comments :
 
