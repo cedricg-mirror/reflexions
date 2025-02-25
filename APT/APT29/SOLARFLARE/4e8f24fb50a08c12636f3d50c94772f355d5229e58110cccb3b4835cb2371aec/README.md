@@ -153,7 +153,7 @@ C2 connection :
 [RET] 0x4640de in [go.exe] 
 ```
 
-The sample attempts a HTTPS (443) connection to the IP associated with the domain "megatoolkit.com" (in this case 42.42.42.42).  
+The sample attempts a HTTPS (443) connection to the IP associated with the domain "megatoolkit.com" (in this case 169.254.143.42).  
 The connection is achieved through a call to the un-exported function MSAFD_ConnectEx from mswsock.dll.  
 The address of the un-exported function is retrieved through a call to WSAIotl as demonstrated above.  
 
