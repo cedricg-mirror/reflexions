@@ -27,11 +27,11 @@ Analysed code behavior is logged, without surprise, in a chronological order.
 ## Typical log entry : 
 
 ```html
-1. Monitoring: [pid 0x9d8][tid 0xb00] c:\windows\system32\rundll32.exe
-2. Monitoring: [API] <GetProcAddress> in [KERNEL32.DLL] 
-3. Parameter : HMODULE hModule    : 0x00007FF9B24D0000 ("KERNELBASE.dll")
-4. Parameter : LPCSTR  lpProcName : 0x00000001801027B8 ("InitializeCriticalSectionEx")
-5. Return  @ : 0x1800b281e
+<1>[ * ] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+<2>[API] <GetProcAddress> in [KERNEL32.DLL] 
+<3>[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
+<4>[PAR] LPCSTR  lpProcName : 0x23fdfb ("LoadLibraryExW")
+<5>[RET] 0x4640de in [go.exe]
 ```
 
 1. Describes the process id, thread id and process path associated with the logged API call.
