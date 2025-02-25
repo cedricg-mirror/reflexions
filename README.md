@@ -34,10 +34,10 @@ Analysed code behavior is logged, without surprise, in a chronological order.
 <5>[RET] 0x4640de in [go.exe]
 ```
 
-1. Describes the process id, thread id and process path associated with the logged API call.
+1. **[ * ]** Describes the process id, thread id and process path associated with the logged API call.
 2. **[API]** < API name > in [Module name]
-3. and 4. Parameters type, name : raw value and (interpreted value) when possible
-5. Return address
+3. and 4. **[PAR]** Parameters type, name : raw value and (interpreted value) when possible
+5. **[RET]** Return address
 
 ## API call result :
 
