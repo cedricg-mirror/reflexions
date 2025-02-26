@@ -22,17 +22,16 @@ Analyzed sample contains a few point of interest :
 GetProcAddress :
 
 ```php
-Monitoring: [pid 0x7dc][tid 0x5d8] c:\users\user\desktop\test\apt10.exe
-Monitoring: [API]  <GetProcAddress> in [KERNEL32.DLL] 
-Parameter : HMODULE hModule    : 0x76870000 (USER32.dll)
-Parameter : LPCSTR  lpProcName : 0x76878866 ("wsprintfW")
-Return  @ : 0xe802e4
+[ * ] [pid 0x728][tid 0x72c] c:\users\user\desktop\apt10\apt10.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x77300000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x773f79a3 ("lstrlenA")
+[RET] 0x12002e4
 ```
 
-The address of the required function name is located within User32.dll.  
+The address of the required function name is located within the DLL itself.  
 This type of behaviour is usually encountered with some shellcodes which rely on CRC to locate required functions.  
 Here, the authors of the malware seem to have come up with a half-baked approach where strings are dynamically retrieved within legitimate DLL while still relying on GetProcAddress to resolve the address.
-
 
 
 ---- 
@@ -40,29 +39,29 @@ Here, the authors of the malware seem to have come up with a half-baked approach
 Cookie :
 
 Before encryption:
-```php
-Monitoring: [pid 0x7dc][tid 0x5d8] c:\users\user\desktop\test\apt10.exe
-Monitoring: [API]  <lstrlen> in [KERNEL32.DLL] 
-Parameter : LPCTSTR lpString : 0x1089168
-            -> "Cookie: sSI0PV9d=sSI0PV9dAHOME*2012?3618468394?C:\Users\user\AppData\Local\Temp?1.4.1 (1690x950)*6.3.9600.17415"
-Return  @ : 0xe8c7bd
+```html
+[ * ] [pid 0x728][tid 0x72c] c:\users\user\desktop\apt10\apt10.exe
+[API] <lstrlen> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpString : 0x1428240
+[STR]         -> "Cookie: QDKxL6IUAik=QDKxL6IUAikAHOME*1832?3618468394?C:\Users\user\AppData\Local\Temp?1.4.1 (1380x1015)*6.3.9600.17415"
+[RET] 0x120c7bd
 ```
 
 After encryption :
 
-```php
-Monitoring: [pid 0x7dc][tid 0x5d8] c:\users\user\desktop\test\apt10.exe
-Monitoring: [API]  <HttpAddRequestHeadersA> in [wininet.dll] 
-Parameter : HINTERNET hRequest        : 0xcc000c
-Parameter : LPCSTR    lpszHeaders     : 0x10ae518
-            -> "Cookie: 6g2obw=LNbE3cY1QMetsxXDkQyLXkxLFA%3D%3D;rjawQQSR=OgITLoCFfO%2BI5dXd4P3%2BrlIZl%2FmOM7zVVqohY"
-               "mM7;OtquvnsElZI=K3TgXQ3e5%2FY6FH4mgh%2BDB1LaUMe363QeNoAqvU5Srg%3D%3D;0G50bg=0fiStXhYqOitqYmTopooa561"
-               "hkl1rA%3D%3D;ezcS=S%2BRtexAZraODSi7%2BBmnvg1s%3D;6CjD1w=zo1m4ZNcchY%3D"
-               "Accept: */*"
-               "Accept-Encoding: gzip, deflate"
-Parameter : DWORD     dwHeadersLength : 0x13d
-Parameter : DWORD     dwModifiers     : 0xa0000000 (HTTP_ADDREQ_FLAG_ADD | HTTP_ADDREQ_FLAG_REPLACE)
-Return  @ : 0xe857e2
+```html
+[ * ] [pid 0x728][tid 0x72c] c:\users\user\desktop\apt10\apt10.exe
+[API] <HttpAddRequestHeadersA> in [wininet.dll] 
+[PAR] HINTERNET hRequest        : 0xcc000c
+[PAR] LPCSTR    lpszHeaders     : 0x1456c68
+[STR]           -> "Cookie: 0A=zOJlZFgLUNTnlg2IN%2F9%2BXqU%2Fqxf07%2FE%3D;gRYg6Q=hQQYFWg0U7GXliMhU9KNjCtiMuY8W6af;yWRl7PVhwA=esnLGd9gWQHvE0z"
+[STR]              "8DouuBU5Xhvqu0cLOHZoXL37kOmM%3D;MdaHukCE93UH=cnuy1tJtG1jsEFZ%2Bvffdf2FtM%2BrWXRJg17Q%3D;oNt3uFPkSA=EjijEafEpYVtw3%2Bl%2B"
+[STR]              "fyPHMNIiOcHlg%3D%3D"
+[STR]              "Accept: */*"
+[STR]              "Accept-Encoding: gzip, deflate"
+[PAR] DWORD     dwHeadersLength : 0x132
+[PAR] DWORD     dwModifiers     : 0xa0000000 (HTTP_ADDREQ_FLAG_ADD | HTTP_ADDREQ_FLAG_REPLACE)
+[RET] 0x12057e2
 ```
 
 As mentionned in various reports, relevant data are uploaded by the malware through encrypted Cookies.
@@ -71,48 +70,62 @@ As mentionned in various reports, relevant data are uploaded by the malware thro
 
 Proxy configuration :
 
-```php
-Monitoring: [pid 0x7dc][tid 0x5d8] c:\users\user\desktop\test\apt10.exe
-Monitoring: [API]  <FindFirstFileW> in [KERNEL32.DLL] 
-Parameter : LPCWSTR lpFileName : 0x10a7bd0
-            -> "C:\Users\user\AppData\Roaming\Mozilla\Firefox\*"
-Return  @ : 0xe836e2
+```html
+[ * ] [pid 0x728][tid 0x72c] c:\users\user\desktop\apt10\apt10.exe
+[API] <FindFirstFileW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x1457c58
+[STR]         -> "C:\Users\user\AppData\Roaming\Mozilla\Firefox\*"
+[RET] 0x12036e2
 ```
 
-```php
-Monitoring: [pid 0x7dc][tid 0x5d8] c:\users\user\desktop\test\apt10.exe
-Monitoring: [API]  <lstrcmpiW> in [KERNEL32.DLL] 
-Parameter : LPWSTR lpString1 : 0xd9f000
-            -> "prefs.js"
-Parameter : LPWSTR lpString2 : 0xd9e68c
-            -> "addons.json"
-Return  @ : 0xe837bd
+```html
+[ * ] [pid 0x728][tid 0x72c] c:\users\user\desktop\apt10\apt10.exe
+[API] <lstrcmpiW> in [KERNEL32.DLL] 
+[PAR] LPWSTR lpString1 : 0x110eeb0
+[STR]        -> "prefs.js"
+[PAR] LPWSTR lpString2 : 0x110e53c
+[STR]        -> "addons.json"
+[RET] 0x12037bd
 ```
 
-```php
-Monitoring: [pid 0x7dc][tid 0x5d8] c:\users\user\desktop\test\apt10.exe
-Monitoring: [API]  <StrStrW> in [shell32.dll] 
-Parameter : PCWSTR pszFirst : 0x10c2728
-            -> "// Mozilla User Preferences"
-               ""
-               "// DO NOT EDIT THIS FILE."
-               "//"
-               "// If you make changes to this file while the application is running,"
-               "// the changes will be overwritten when the application exits."
-               "//"
-               "// To change a preference value, you can either:"
-               "// - modify it via the UI (e.g. via about:config in the browser); or"
-               "// - set it within a user.js file in your profile."
-               ""
-               "user_pref("accessibility.typeaheadfind.flashBar", 0);"
-               "user_pref("app.normandy.first_run", false);"
-               "user_pref("app.normandy.migrationsApplied", 12);"
-               "user_pref("app.normandy.startupRolloutPrefs.app.normandy.onsync_skew_sec", 3300);"
-               "user_pref("app.normandy.startupRolloutPrefs.extensions.fxmonitor.enabled", true);"
-				[...]
-Parameter : PCWSTR pszSrch  : 0xd9ef7c
-            -> ""network.proxy.type","
-Return  @ : 0xe81fcd
+```html
+[ * ] [pid 0x728][tid 0x72c] c:\users\user\desktop\apt10\apt10.exe
+[API] <StrStrW> in [shell32.dll] 
+[PAR] PCWSTR pszFirst : 0x1464940
+[STR]        -> "// Mozilla User Preferences"
+[STR]           ""
+[STR]           "// DO NOT EDIT THIS FILE."
+[STR]           "//"
+[STR]           "// If you make changes to this file while the application is running,"
+[STR]           "// the changes will be overwritten when the application exits."
+[STR]           "//"
+[STR]           "// To change a preference value, you can either:"
+[STR]           "// - modify it via the UI (e.g. via about:config in the browser); or"
+[STR]           "// - set it within a user.js file in your profile."
+[STR]           ""
+[STR]           "user_pref("accessibility.typeaheadfind.flashBar", 0);"
+[STR]           "user_pref("app.normandy.first_run", false);"
+[STR]           "user_pref("app.normandy.migrationsApplied", 12);"
+[STR]           "user_pref("app.normandy.startupRolloutPrefs.app.normandy.onsync_skew_sec", 3300);"
+[STR]           "user_pref("app.normandy.startupRolloutPrefs.extensions.fxmonitor.enabled", true);"
+[STR]           "user_pref("app.normandy.user_id", "333333333-5555-4444-bbbb-044444444441");"
+[STR]           "user_pref("app.update.auto.migrated", true);"
+[STR]           "user_pref("app.update.background.lastInstalledTaskVersion", 4);"
+[STR]           "user_pref("app.update.background.rolledout", true);"
+[STR]           "user_pref("app.update.download.attempts", 0);"
+[STR]           "user_pref("app.update.elevate.attempts", 0);"
+[STR]           "user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1732057881);"
+[STR]           "user_pref("app.update.lastUpdateTime.background-update-timer", 1732057881);"
+[STR]           "user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1595534859);"
+[STR]           "user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1732057881);"
+[STR]           "user_pref("app.update.lastUpdateTime.experiments-update-timer", 1517701205);"
+[STR]           "user_pref("app.update.lastUpdateTime.recipe-client-addon-run", 1732058772);"
+[STR]           "user_pref("app.update.lastUpdateTime.region-update-timer", 1732057881);"
+[STR]           "user_pref("app.update.lastUpdateTime.rs-experiment-loader-timer", 1734821443);"
+[STR]           [TRUNCATED]
+[PAR] PCWSTR pszSrch  : 0x110ee2c
+[STR]        -> ""network.proxy.type","
+[RET] 0x1201fcd
 ```
 
 After unsuccessful connection attempts to it's C2, the malware in going to look for clues regarding a required proxy configuration in the "prefs.js" file from Firefox
