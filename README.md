@@ -59,7 +59,7 @@ Analysed code behavior is logged, without surprise, in a chronological order.
 ```
 
 At this stage, I only log API call results that I deem necessary for the analysis.  
-In this above example, the result (0x000000FA94200000) from the VirtualAllocEx call is indicated by the **[RES]** header.
+In this above example, the result (0x1200000) from the VirtualAllocEx with PAGE_EXECUTE_READWRITE call is indicated by the **[RES]** header.
 
 ## Structures :
 
