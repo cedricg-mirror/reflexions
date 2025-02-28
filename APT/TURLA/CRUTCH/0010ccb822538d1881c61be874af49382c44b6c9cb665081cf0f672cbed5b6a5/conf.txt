@@ -1,0 +1,33 @@
+<PROCESS_PATH=lol> 
+<SPOOFED_DOMAIN_IP=169.254.143.42>
+<DEBUG=0>
+<FLOOD_FILTER=0>
+<PATCH_PEB_LDR=0>
+<TARGET_DLL=crutch.dll>
+<HIDE_VM=1>
+
+<HOSTS=
+<169.254.143.46=api.dropboxapi.com>
+<169.254.143.46=content.dropboxapi.com>
+/>
+
+<IGNORED_DLLS= 
+/>
+
+<SPOOFED_IPS=
+/>
+
+<IGNORED_API=
+<RtlAllocateHeap> <HeapFree> <RtlSizeHeap> <HeapSetInformation> <GetProcessHeap> <RtlReAllocateHeap> 
+<RtlLeaveCriticalSection> <RtlEnterCriticalSection> <InitializeCriticalSectionEx> 
+<RtlInitializeCriticalSection> <RtlDeleteCriticalSection>
+<InterlockedExchangeAdd> <InterlockedExchange> 
+<RtlEncodePointer> <RtlDecodePointer>
+<FlsGetValue> <FlsSetValue> <FlsAlloc>
+<GetLastError> <SetLastError>
+<InterlockedDecrement> 
+<VariantInit> <VariantClear>
+<SysFreeString> 
+<SetEvent> <GetStdHandle>
+<GetTickCount> <VerSetConditionMask> 
+/>
