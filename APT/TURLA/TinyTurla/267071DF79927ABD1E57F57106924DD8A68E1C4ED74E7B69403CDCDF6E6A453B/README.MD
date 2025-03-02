@@ -348,7 +348,7 @@ Once the file download succesfuly, the malware reports back to the C2 :
 [STR]              "Content-Disposition: form-data;name="result""
 [STR]              "Content-Type: text/plain"
 [STR]              ""
-[STR]              "[+] File https://hanagram.jp/hanagram.cert loaded and saved in toto.cer"
+[STR]              "[+] File https://hanagram.jp/hanagram.cert loaded and saved in toto.cer" <--- success>
 [STR]              ""
 [STR]              "-----"
 [PAR] DWORD     dwNumberOfBytesToWrite   : 0xfa
