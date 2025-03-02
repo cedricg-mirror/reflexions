@@ -13,7 +13,7 @@ Runtime analysis results are shared in a filtered format only :
 - filtered_log.txt which contains an execution trace filtered from various API calls in order to provide a better reading experience
 
 
-*** Commentary *** 
+**Commentary**
 
 Analyzed sample contains a few point of interest :
 
