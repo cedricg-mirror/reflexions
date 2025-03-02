@@ -75,7 +75,7 @@ Thread created by monitored process : Now monitoring [pid 0x254][tid 0x2d4]
 [STR]              "Content-Disposition: form-data;name="result""
 [STR]              "Content-Type: text/plain"
 [STR]              ""
-[STR]              "Client Ready" <-- >
+[STR]              "Client Ready" <-- Ready for buisiness>
 [STR]              "-----"
 [PAR] DWORD     dwNumberOfBytesToWrite   : 0xbe
 [PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F6C0
