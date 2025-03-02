@@ -131,7 +131,7 @@ With the following 'gettask' message, the malware is offering the C2 an opportun
 [STR]              ""
 [STR]              "ea2ced84"
 [STR]              "---"
-[STR]              "Content-Disposition: form-data;name="gettask""
+[STR]              "Content-Disposition: form-data;name="gettask"" <-- your wish is my command>
 [STR]              "Content-Type: text/plain"
 [STR]              ""
 [STR]              "-----"
