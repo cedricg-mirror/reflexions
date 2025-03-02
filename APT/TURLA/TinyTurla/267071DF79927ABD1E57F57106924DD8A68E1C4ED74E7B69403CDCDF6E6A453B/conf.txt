@@ -1,0 +1,35 @@
+<PROCESS_PATH=lol> 
+<SPOOFED_DOMAIN_IP=169.254.143.42>
+<DEBUG=0>
+<FLOOD_FILTER=0>
+<PATCH_PEB_LDR=0>
+<TARGET_DLL=tinyTurla.dll>
+<HIDE_VM=1>
+<MONITOR_CHILD_PROCESS=0>
+<MAX_SLEEP=15000>
+
+<HOSTS=
+<169.254.143.43=hanagram.jp>
+/>
+
+<IGNORED_DLLS= 
+/>
+
+<SPOOFED_IPS=
+/>
+
+<IGNORED_API=
+<HeapFree> <RtlSizeHeap> <HeapSetInformation> <GetProcessHeap> <RtlAllocateHeap>
+<RtlLeaveCriticalSection> <RtlEnterCriticalSection> <InitializeCriticalSectionEx> 
+<RtlInitializeCriticalSection> <RtlDeleteCriticalSection>
+<InterlockedExchangeAdd> <InterlockedExchange> 
+<RtlEncodePointer> <RtlDecodePointer>
+<FlsGetValue> <FlsSetValue> <FlsAlloc>
+<GetLastError> <SetLastError>
+<InterlockedDecrement> 
+<VariantInit> <VariantClear>
+<SysFreeString> 
+<SetEvent> <GetStdHandle>
+<GetTickCount> <VerSetConditionMask>
+<GetCurrentThreadId> <RtlAcquireSRWLockExclusive> <RtlReleaseSRWLockExclusive>
+/>
