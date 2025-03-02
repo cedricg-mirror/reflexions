@@ -1,5 +1,5 @@
 SHA256 : 0010ccb822538d1881c61be874af49382c44b6c9cb665081cf0f672cbed5b6a5  
-source : https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/  
+Report : https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/  
 sample source : https://github.com/MalwareSamples/Malware-Feed/  
 VT : https://www.virustotal.com/gui/file/0010ccb822538d1881c61be874af49382c44b6c9cb665081cf0f672cbed5b6a5  
 
