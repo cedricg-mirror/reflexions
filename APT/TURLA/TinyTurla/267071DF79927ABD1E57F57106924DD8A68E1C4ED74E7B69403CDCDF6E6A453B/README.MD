@@ -239,7 +239,7 @@ Note thet thread executing the command **[tid 0x968]** is not the one sending th
 
 ```
 
-As you can see, the malware is forcing the code page 437 (suitable for English / German / Swedish) to be used even though my system is in french, hence the few misprints.  
+As you can see, the malware is forcing the code page 437 (suitable for English / German / Swedish) to be used even though my system is in french.  
 
 ---  
 
