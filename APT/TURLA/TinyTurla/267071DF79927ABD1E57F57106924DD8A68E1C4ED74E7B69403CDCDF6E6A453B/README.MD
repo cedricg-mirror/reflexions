@@ -21,7 +21,7 @@ Analysed sample is already well described in the TALOS report so I won't go into
 For this analysis, I chose to rebuild a small C2 and order the malware to execute the following commands while supervised :  
 
 - dir C:\users  
-- get https://hanagram.jp/hanagram.cert toto.cer  
+- get https://hanagram.jp/wp/wp-content/The%20New%20Colossus.txt Liberty.txt
 
 ---
 
@@ -220,38 +220,6 @@ Basicaly, one thread is in charge of querying orders and reporting back to the C
 [RET] 0x7fff33b846b0 in [tinyturla.dll]
 
 [...]
-
-[ * ] [pid 0x250][tid 0x990] c:\windows\system32\svchost.exe
-[API] <WinHttpConnect> in [WINHTTP.dll] 
-[PAR] HINTERNET     hSession       : 0x60669e70
-[PAR] LPCWSTR       pswzServerName : 0x000000E460681D20
-[STR]               -> "hanagram.jp"
-[PAR] INTERNET_PORT nServerPort    : 443
-[RET] 0x7fff33b8bb16 in [tinyturla.dll]
-
-[ * ] [pid 0x250][tid 0x990] c:\windows\system32\svchost.exe
-[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
-[PAR] HINTERNET hConnect          : 0x5f6d4d70
-[PAR] LPCWSTR   pwszVerb          : 0x000000E45FF8F5E8
-[STR]           -> "POST"
-[PAR] LPCWSTR   pwszObjectName    : 0x000000E46069ACD0
-[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
-[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
-[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
-[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
-[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
-[RET] 0x7fff33b8bc26 in [tinyturla.dll]
-
-[ * ] [pid 0x250][tid 0x990] c:\windows\system32\svchost.exe
-[API] <WinHttpSendRequest> in [WINHTTP.dll] 
-[PAR] HINTERNET hRequest         : 0x000000E460685800
-[PAR] LPCWSTR   pwszHeaders      : 0x000000E46069B130
-[STR]           -> "Content-Type: multipart/form-data; boundary="-""
-[PAR] DWORD     dwHeadersLength  : 0xffffffff
-[PAR] LPVOID    lpOptional       : 0x0 (null)
-[PAR] DWORD     dwOptionalLength : 0x0
-[PAR] DWORD     dwTotalLength    : 0x2fc
-[RET] 0x7fff33b8d38b in [tinyturla.dll]
 
 [ * ] [pid 0x250][tid 0x990] c:\windows\system32\svchost.exe
 [API] <WinHttpWriteData> in [WINHTTP.dll] 
