@@ -149,6 +149,28 @@ Which triggered the following behavior :
 Note thet thread executing the command **[tid 0x968]** is not the one sending the result back to the C2 **[tid 0x664]**  
 
 ```html
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryDataAvailable> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                   : 0xe52115c0
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x000000A2E613FB90
+[RET] 0x7ff90bceb7ef in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest              : 0xe52115c0
+[PAR] LPVOID    lpBuffer              : 0x000000A2E4DEA830
+[PAR] DWORD     dwNumberOfBytesToRead : 0x10
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000A2E613FB94
+[RET] 0x7ff90bceb844 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpReadData>
+[PAR] LPCVOID lpBuffer : 0x000000A2E4DEA830
+[STR]         -> "rsp:dir c:\users" <--- command received>
+[RES] BOOL 0x1
+
+[...]
+
 [ * ] [pid 0x254][tid 0x968] c:\windows\system32\svchost.exe
 [API] <CreateProcessA> in [KERNEL32.DLL] 
 [PAR] LPCTSTR               lpApplicationName    : 0x0 (null)
