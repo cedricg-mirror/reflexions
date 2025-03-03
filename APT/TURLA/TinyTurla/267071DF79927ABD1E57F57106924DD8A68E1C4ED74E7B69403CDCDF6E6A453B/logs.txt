@@ -1608,10 +1608,6 @@ Destruction de Processus, pid [0x888] (C:\Windows\System32\conhost.exe)
 [PAR] DWORD  dwMilliseconds : 0xffffffff (INFINITE)
 [RET] 0x7ff90bce8b4e in [tinyturla.dll]
 
-Destruction de Processus, pid [0xbfc] (C:\Windows\System32\SppExtComObj.Exe)
-
-Destruction de Processus, pid [0x9a0] (C:\Windows\System32\sppsvc.exe)
-
 [ * ] [pid 0x250][tid 0x734] c:\windows\system32\svchost.exe
 [EVT] [Max Sleep]
 [MSG] Delay Execution reduced from 30000 ms to 15000 ms 
