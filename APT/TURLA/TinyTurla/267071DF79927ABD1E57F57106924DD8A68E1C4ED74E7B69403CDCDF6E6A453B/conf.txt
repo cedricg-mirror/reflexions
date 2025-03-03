@@ -29,7 +29,7 @@
 <InterlockedDecrement> 
 <VariantInit> <VariantClear>
 <SysFreeString> 
-<SetEvent> <GetStdHandle>
+<GetStdHandle>
 <GetTickCount> <VerSetConditionMask>
 <GetCurrentThreadId> <RtlAcquireSRWLockExclusive> <RtlReleaseSRWLockExclusive>
 />
