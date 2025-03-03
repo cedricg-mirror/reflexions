@@ -1421,7 +1421,7 @@ Thread created by monitored process : Now monitoring [pid 0x250][tid 0x2cc]
 [ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
 [API] <WinHttpReadData>
 [PAR] LPCVOID lpBuffer : 0x000000A2E4DEA830
-[STR]         -> "rsp:dir c:\userst"
+[STR]         -> "rsp:dir c:\users"
 [RES] BOOL 0x1
 
 [ * ] [pid 0x250][tid 0x170] c:\windows\system32\svchost.exe
