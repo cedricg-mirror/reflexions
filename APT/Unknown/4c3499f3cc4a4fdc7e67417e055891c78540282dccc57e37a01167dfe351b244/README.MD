@@ -91,5 +91,5 @@ There is then nothing much to observe through dynamic analysis :
 ```
 --- 
 
-![Alt text](crypto.jpg?raw=true "statically linked lib")
+![Alt text](screen/crypto.jpg?raw=true "statically linked lib")
 
