@@ -91,7 +91,7 @@ There is then nothing much to observe through dynamic analysis :
 ```
 --- 
 
-Going through some statical analysis it is possible to identify which library was linked with the malware to provide some asymetric cryptography :  
+Going through some statical analysis it is possible to identify which library was linked with the malware to provide some cryptography :  
 
 ![Alt text](screen/crypto.jpg?raw=true "statically linked lib")
 
@@ -101,5 +101,5 @@ https://www.mail-archive.com/openssl-dev@openssl.org/msg28042.html
 
 ![Alt text](screen/source.jpg?raw=true "statically linked lib")
 
-
+Going further with dynamic analysis would require implemeting a C2 supporting this ECIES encrypted communication protocol
 
