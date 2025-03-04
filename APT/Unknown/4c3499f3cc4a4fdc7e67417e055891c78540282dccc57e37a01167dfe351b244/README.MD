@@ -91,7 +91,7 @@ There is then nothing much to observe through dynamic analysis :
 ```
 --- 
 
-Going through some statical analysis it is possible to identify which library was linked with the malware to provide some cryptography :  
+Going through some statical analysis it is possible to identify which library was linked with the malware to provide the cryptographic layer :  
 
 ![Alt text](screen/crypto.jpg?raw=true "statically linked lib")
 
