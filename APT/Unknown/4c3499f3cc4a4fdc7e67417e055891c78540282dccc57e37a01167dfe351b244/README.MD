@@ -50,7 +50,7 @@ Initial DLL (4c3499f3cc4a4fdc7e67417e055891c78540282dccc57e37a01167dfe351b244) i
 [PAR] LPPROCESS_INFORMATION lpProcessInformation : 0x0000003DFD70CD10
 [RET] 0x7ff9b156397d in [cms_data_final.dll]
 ```
-
+--- 
 There is then nothing much to observe through dynamic analysis :  
 
 ```html
@@ -89,5 +89,7 @@ There is then nothing much to observe through dynamic analysis :
 [PAR] DWORD     dwOptionalLength : 0xb2
 [RET] 0x18000314f
 ```
+--- 
 
+![Alt text](crypto.jpg?raw=true "statically linked lib")
 
