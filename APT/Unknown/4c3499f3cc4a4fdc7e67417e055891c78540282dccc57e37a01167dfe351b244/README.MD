@@ -14,7 +14,7 @@ https://codevexillium.org/image/download/download.asp
 
 ---
 
-Initial DLL (4c3499f3cc4a4fdc7e67417e055891c78540282dccc57e37a01167dfe351b244) is dropping and 'installing' and starting the 2nd DLL (A75886B016D84C3EAACAF01A3C61E04953A7A3ADF38ACF77A4A2E3A8F544F855) through a basic persistency mechanism :  
+Initial DLL (4c3499f3cc4a4fdc7e67417e055891c78540282dccc57e37a01167dfe351b244) is dropping, 'installing' and starting the 2nd DLL (A75886B016D84C3EAACAF01A3C61E04953A7A3ADF38ACF77A4A2E3A8F544F855) through a basic persistency mechanism :  
 
 ```html
 [ * ] [pid 0xaa0][tid 0xabc] c:\windows\system32\rundll32.exe
