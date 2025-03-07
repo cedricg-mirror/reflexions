@@ -1,0 +1,627 @@
+Creation de Processus, pid [0xba8] (C:\Users\user\Desktop\quiet_canary\canary.exe)
+
+Thread created by monitored process : Now monitoring [pid 0xba8][tid 0xbac]
+
+********** Dumping PEB64 **********
+
+	Path : C:\Users\user\Desktop\quiet_canary\canary.exe
+	Base : 0x0000009B37520000
+	Size : 0xa000
+
+	Path : C:\Windows\SYSTEM32\ntdll.dll
+	Base : 0x00007FF82FAD0000
+	Size : 0x1ac000
+
+	Path : C:\Windows\SYSTEM32\MSCOREE.DLL
+	Base : 0x00007FF81A610000
+	Size : 0x64000
+
+	Path : C:\Windows\system32\KERNEL32.dll
+	Base : 0x00007FF82D150000
+	Size : 0x13e000
+
+	Path : C:\Windows\system32\KERNELBASE.dll
+	Base : 0x00007FF82CD40000
+	Size : 0x115000
+
+	Path : C:\Windows\system32\ADVAPI32.dll
+	Base : 0x00007FF82EDF0000
+	Size : 0xaa000
+
+	Path : C:\Windows\system32\msvcrt.dll
+	Base : 0x00007FF82F850000
+	Size : 0xaa000
+
+	Path : C:\Windows\SYSTEM32\sechost.dll
+	Base : 0x00007FF82ED90000
+	Size : 0x59000
+
+	Path : C:\Windows\system32\RPCRT4.dll
+	Base : 0x00007FF82F6F0000
+	Size : 0x141000
+
+	Path : C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+	Base : 0x00007FF81A570000
+	Size : 0x9d000
+
+********** End Dump PEB64 **********
+
+Thread created by monitored process : Now monitoring [pid 0xba8][tid 0xb24]
+
+Thread created by monitored process : Now monitoring [pid 0xba8][tid 0xbbc]
+
+[CNT] [1]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryPerformanceFrequency> in [KERNEL32.dll] 
+[PAR] LARGE_INTEGER *lpFrequency : 0x00007FF7BA4A55B8
+[RET] 0x7ff817afd3f0 in [System.ni.dll]
+
+[CNT] [2]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <QueryPerformanceCounter> in [KERNEL32.dll] 
+[RET] 0x7ff817afd3f0 in [System.ni.dll]
+
+[CNT] [3]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RasEnumConnectionsW> in [rasapi32.dll] 
+[PAR] LPRASCONNW unnammedParam1 : 0x0000009B3785AAF0
+[PAR] LPDWORD    unnammedParam2 : 0x0000009B3765E8F4
+[PAR] LPDWORD    unnammedParam2 : 0x0000009B3765E8F0
+[RET] 0x7ff817b05244 in [System.ni.dll]
+
+[CNT] [4]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAStartup> in [WS2_32.dll] 
+[PAR] WORD wVersionRequested : 0x202
+[RET] 0x7ff817afc6c2 in [System.ni.dll]
+
+[CNT] [5]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x0
+[RET] 0x7ff817afc89b in [System.ni.dll]
+
+[CNT] [6]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x2d4
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x80 (SO_LINGER)
+[PAR] char   *optval : 0x0000009B3765E3B0
+[PAR] int    optlen  : 0x4
+[RET] 0x7ff817afc998 in [System.ni.dll]
+
+[CNT] [7]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x2d4
+[RET] 0x7ff817afcbf8 in [System.ni.dll]
+
+[CNT] [8]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x17 (AF_INET6) (IPv6)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x0
+[RET] 0x7ff817afc89b in [System.ni.dll]
+
+[CNT] [9]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x2d4
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x80 (SO_LINGER)
+[PAR] char   *optval : 0x0000009B3765E3B0
+[PAR] int    optlen  : 0x4
+[RET] 0x7ff817afc998 in [System.ni.dll]
+
+[CNT] [10]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x2d4
+[RET] 0x7ff817afcbf8 in [System.ni.dll]
+
+[CNT] [11]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ff817afc89b in [System.ni.dll]
+
+[CNT] [12]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x2d4
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0x0000009B3765E8F0
+[FLD]        -> *argp = 0xffffffff (enable non-blocking mode)
+[RET] 0x7ff817afccf6 in [System.ni.dll]
+
+[CNT] [13]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x17 (AF_INET6) (IPv6)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ff817afc89b in [System.ni.dll]
+
+[CNT] [14]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x2dc
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0x0000009B3765E8F0
+[FLD]        -> *argp = 0xffffffff (enable non-blocking mode)
+[RET] 0x7ff817afccf6 in [System.ni.dll]
+
+[CNT] [15]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAIoctl> in [WS2_32.dll] 
+[PAR] SOCKET  s                 : 0x2d4
+[PAR] DWORD   dwIoControlCode   : 0x28000017 (SIO_ADDRESS_LIST_CHANGE)
+[PAR] LPVOID  lpvInBuffer       : 0x0
+[PAR] DWORD   cbInBuffer        : 0x0
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x7ff817afced4 in [System.ni.dll]
+
+[CNT] [16]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <FormatMessageW> in [KERNEL32.dll] 
+[PAR] DWORD    dwFlags      : 0x3200
+[PAR] LPCVOID  lpSource     : 0x0
+[PAR] DWORD    dwMessageId  : 0x2733
+[PAR] DWORD    dwLanguageId : 0x0
+[PAR] LPWSTR   lpBuffer     : 0x0000009B3765E4A0
+[PAR] DWORD    nSize        : 0x101
+[PAR] va_list* Arguments    : 0x0
+[RET] 0x7ff817afd17b in [System.ni.dll]
+
+[CNT] [17]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAEventSelect> in [WS2_32.dll] 
+[PAR] SOCKET   s              : 0x2d4
+[PAR] WSAEVENT hEventObject   : 0x2d8
+[PAR] long     lNetworkEvents : 0x200 (FD_ADDRESS_LIST_CHANGE_BIT)
+[RET] 0x7ff817afd2fb in [System.ni.dll]
+
+[CNT] [18]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAIoctl> in [WS2_32.dll] 
+[PAR] SOCKET  s                 : 0x2dc
+[PAR] DWORD   dwIoControlCode   : 0x28000017 (SIO_ADDRESS_LIST_CHANGE)
+[PAR] LPVOID  lpvInBuffer       : 0x0
+[PAR] DWORD   cbInBuffer        : 0x0
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x7ff817afced4 in [System.ni.dll]
+
+[CNT] [19]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <FormatMessageW> in [KERNEL32.dll] 
+[PAR] DWORD    dwFlags      : 0x3200
+[PAR] LPCVOID  lpSource     : 0x0
+[PAR] DWORD    dwMessageId  : 0x2733
+[PAR] DWORD    dwLanguageId : 0x0
+[PAR] LPWSTR   lpBuffer     : 0x0000009B3765E4A0
+[PAR] DWORD    nSize        : 0x101
+[PAR] va_list* Arguments    : 0x0
+[RET] 0x7ff817afd17b in [System.ni.dll]
+
+[CNT] [20]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAEventSelect> in [WS2_32.dll] 
+[PAR] SOCKET   s              : 0x2dc
+[PAR] WSAEVENT hEventObject   : 0x2e0
+[PAR] long     lNetworkEvents : 0x200 (FD_ADDRESS_LIST_CHANGE_BIT)
+[RET] 0x7ff817afd2fb in [System.ni.dll]
+
+[CNT] [21]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RasConnectionNotificationW> in [rasapi32.dll] 
+[PAR] HRASCONN unnammedParam1 : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE   unnammedParam2 : 0x1fc
+[PAR] DWORD    unnammedParam3 : 0x3 (RASCN_Connection | RASCN_Disconnection)
+[RET] 0x7ff817b053c7 in [System.ni.dll]
+
+Thread created by monitored process : Now monitoring [pid 0xba8][tid 0xbb4]
+
+[CNT] [22]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegOpenCurrentUser> in [ADVAPI32.dll] 
+[PAR] REGSAM samDesired : 0x20019 (KEY_READ)
+[PAR] PHKEY  phkResult  : 0x0000009B3765E918
+[RET] 0x7ff817b054fb in [System.ni.dll]
+
+Thread created by monitored process : Now monitoring [pid 0xba8][tid 0x7f8]
+
+[CNT] [23]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegOpenKeyExW> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey      : 0x304 
+[PAR] LPCWSTR lpSubKey  : 0x0000009B39334884
+[STR]         -> "SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Connections"
+[PAR] DWORD   ulOptions : 0x0
+[RET] 0x7ff817b056d0 in [System.ni.dll]
+
+[CNT] [24]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegNotifyChangeKeyValue> in [ADVAPI32.dll] 
+[PAR] HKEY   hKey           : 0x310
+[PAR] BOOL   bWatchSubTree  : 0x1
+[PAR] DWORD  dwNotifyFilter : 0x4
+[PAR] HANDLE hEvent         : 0x314
+[PAR] BOOL   fAsynchonous   : 0x1
+[RET] 0x7ff817b05861 in [System.ni.dll]
+
+[CNT] [25]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegOpenKeyExW> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey      : 0x80000002 (HKEY_LOCAL_MACHINE)
+[PAR] LPCWSTR lpSubKey  : 0x0000009B39334884
+[STR]         -> "SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Connections"
+[PAR] DWORD   ulOptions : 0x0
+[RET] 0x7ff817b05a1a in [System.ni.dll]
+
+[CNT] [26]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegNotifyChangeKeyValue> in [ADVAPI32.dll] 
+[PAR] HKEY   hKey           : 0x318
+[PAR] BOOL   bWatchSubTree  : 0x1
+[PAR] DWORD  dwNotifyFilter : 0x4
+[PAR] HANDLE hEvent         : 0x31c
+[PAR] BOOL   fAsynchonous   : 0x1
+[RET] 0x7ff817b05861 in [System.ni.dll]
+
+[CNT] [27]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegOpenKeyExW> in [ADVAPI32.dll] 
+[PAR] HKEY    hKey      : 0x80000002 (HKEY_LOCAL_MACHINE)
+[PAR] LPCWSTR lpSubKey  : 0x0000009B3933492C
+[STR]         -> "SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings"
+[PAR] DWORD   ulOptions : 0x0
+[RET] 0x7ff817b05a1a in [System.ni.dll]
+
+[CNT] [28]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <RegNotifyChangeKeyValue> in [ADVAPI32.dll] 
+[PAR] HKEY   hKey           : 0x320
+[PAR] BOOL   bWatchSubTree  : 0x1
+[PAR] DWORD  dwNotifyFilter : 0x4
+[PAR] HANDLE hEvent         : 0x324
+[PAR] BOOL   fAsynchonous   : 0x1
+[RET] 0x7ff817b05861 in [System.ni.dll]
+
+[CNT] [29]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WinHttpOpen> in [winhttp.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x0 (null)
+[PAR] DWORD   dwAccessType    : 0x1 (INTERNET_OPEN_TYPE_DIRECT)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] 0x7ff817b05be6 in [System.ni.dll]
+
+[CNT] [30]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WinHttpSetTimeouts> in [winhttp.dll] 
+[PAR] HINTERNET hConnect          : 0x37868420
+[PAR] int       nResolveTimeout   : 0xea60
+[PAR] int       nConnectTimeout   : 0xea60
+[PAR] int       nSendTimeout      : 0xea60
+[PAR] int       nReceiveTimeout   : 0xea60
+[RET] 0x7ff817b05d01 in [System.ni.dll]
+
+[CNT] [31]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WinHttpGetIEProxyConfigForCurrentUser> in [winhttp.dll] 
+[PAR] WINHTTP_CURRENT_USER_IE_PROXY_CONFIG *pProxyConfig : 0x0000009B3765E8B8
+[RET] 0x7ff817b05ea8 in [System.ni.dll]
+
+Thread created by monitored process : Now monitoring [pid 0xba8][tid 0x44c]
+
+Thread created by monitored process : Now monitoring [pid 0xba8][tid 0x7d0]
+
+Thread created by monitored process : Now monitoring [pid 0xba8][tid 0x8bc]
+
+Thread created by monitored process : Now monitoring [pid 0xba8][tid 0x788]
+
+[CNT] [32]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WinHttpGetProxyForUrl> in [winhttp.dll] 
+[PAR] HINTERNET                 hRequest           : 0x37868420
+[PAR] LPCWSTR                   lpcwszUrl          : 0x0000009B3933B67C
+[STR]                           -> "https://210.48.231.182/"
+[PAR] WINHTTP_AUTOPROXY_OPTIONS *pAutoProxyOptions : 0x0000009B3765E6F8
+[PAR] WINHTTP_PROXY_INFO        *pProxyInfo        : 0x0000009B3765E7F8
+[RET] 0x7ff817aff691 in [System.ni.dll]
+
+Thread created by monitored process : Now monitoring [pid 0xba8][tid 0x758]
+
+[CNT] [33]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ff817afc89b in [System.ni.dll]
+
+[CNT] [34]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3f4
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0x0000009B3765E9A0
+[FLD]        -> *argp = 0xffffffff (enable non-blocking mode)
+[RET] 0x7ff817afccf6 in [System.ni.dll]
+
+[CNT] [35]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x17 (AF_INET6) (IPv6)
+[PAR] int                type           : 0x2 (SOCK_DGRAM)
+[PAR] int                protocol       : 0x0 (NOT_SPECIFIED)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ff817afc89b in [System.ni.dll]
+
+[CNT] [36]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x3fc
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0x0000009B3765E9A0
+[FLD]        -> *argp = 0xffffffff (enable non-blocking mode)
+[RET] 0x7ff817afccf6 in [System.ni.dll]
+
+[CNT] [37]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAIoctl> in [WS2_32.dll] 
+[PAR] SOCKET  s                 : 0x3f4
+[PAR] DWORD   dwIoControlCode   : 0x28000017 (SIO_ADDRESS_LIST_CHANGE)
+[PAR] LPVOID  lpvInBuffer       : 0x0
+[PAR] DWORD   cbInBuffer        : 0x0
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x7ff817afced4 in [System.ni.dll]
+
+[CNT] [38]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <FormatMessageW> in [KERNEL32.dll] 
+[PAR] DWORD    dwFlags      : 0x3200
+[PAR] LPCVOID  lpSource     : 0x0
+[PAR] DWORD    dwMessageId  : 0x2733
+[PAR] DWORD    dwLanguageId : 0x0
+[PAR] LPWSTR   lpBuffer     : 0x0000009B3765E550
+[PAR] DWORD    nSize        : 0x101
+[PAR] va_list* Arguments    : 0x0
+[RET] 0x7ff817afd17b in [System.ni.dll]
+
+[CNT] [39]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAEventSelect> in [WS2_32.dll] 
+[PAR] SOCKET   s              : 0x3f4
+[PAR] WSAEVENT hEventObject   : 0x3f8
+[PAR] long     lNetworkEvents : 0x200 (FD_ADDRESS_LIST_CHANGE_BIT)
+[RET] 0x7ff817afd2fb in [System.ni.dll]
+
+[CNT] [40]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAIoctl> in [WS2_32.dll] 
+[PAR] SOCKET  s                 : 0x3fc
+[PAR] DWORD   dwIoControlCode   : 0x28000017 (SIO_ADDRESS_LIST_CHANGE)
+[PAR] LPVOID  lpvInBuffer       : 0x0
+[PAR] DWORD   cbInBuffer        : 0x0
+[PAR] LPVOID  lpvOutBuffer      : 0x0
+[PAR] LPDWORD lpcbBytesReturned : 0x0
+[RET] 0x7ff817afced4 in [System.ni.dll]
+
+[CNT] [41]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <FormatMessageW> in [KERNEL32.dll] 
+[PAR] DWORD    dwFlags      : 0x3200
+[PAR] LPCVOID  lpSource     : 0x0
+[PAR] DWORD    dwMessageId  : 0x2733
+[PAR] DWORD    dwLanguageId : 0x0
+[PAR] LPWSTR   lpBuffer     : 0x0000009B3765E550
+[PAR] DWORD    nSize        : 0x101
+[PAR] va_list* Arguments    : 0x0
+[RET] 0x7ff817afd17b in [System.ni.dll]
+
+[CNT] [42]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAEventSelect> in [WS2_32.dll] 
+[PAR] SOCKET   s              : 0x3fc
+[PAR] WSAEVENT hEventObject   : 0x3dc
+[PAR] long     lNetworkEvents : 0x200 (FD_ADDRESS_LIST_CHANGE_BIT)
+[RET] 0x7ff817afd2fb in [System.ni.dll]
+
+[CNT] [43]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <GetAdaptersAddresses> in [IPHLPAPI.DLL] 
+[PAR] ULONG                 Family           : 0x0
+[PAR] ULONG                 Flags            : 0x2e (GAA_FLAG_SKIP_ANYCAST | GAA_FLAG_SKIP_MULTICAST | GAA_FLAG_SKIP_DNS_SERVER | GAA_FLAG_SKIP_FRIENDLY_NAME)
+[PAR] PVOID                 Reserved         : 0x0
+[PAR] PIP_ADAPTER_ADDRESSES AdapterAddresses : 0x0
+[PAR] PULONG                SizePointer      : 0x0000009B3765E980
+[RET] 0x7ff817b0626a in [System.ni.dll]
+
+[CNT] [44]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <LocalAlloc> in [KERNEL32.dll] 
+[PAR] UINT   uFlags : 0x0
+[PAR] SIZE_T uBytes : 0x900
+[RET] 0x7ff817b050bf in [System.ni.dll]
+
+[CNT] [45]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <GetAdaptersAddresses> in [IPHLPAPI.DLL] 
+[PAR] ULONG                 Family           : 0x0
+[PAR] ULONG                 Flags            : 0x2e (GAA_FLAG_SKIP_ANYCAST | GAA_FLAG_SKIP_MULTICAST | GAA_FLAG_SKIP_DNS_SERVER | GAA_FLAG_SKIP_FRIENDLY_NAME)
+[PAR] PVOID                 Reserved         : 0x0
+[PAR] PIP_ADAPTER_ADDRESSES AdapterAddresses : 0x0000009B378876B0
+[PAR] PULONG                SizePointer      : 0x0000009B3765E980
+[RET] 0x7ff817b0626a in [System.ni.dll]
+
+[CNT] [46]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <LocalFree> in [KERNEL32.dll] 
+[RET] 0x7ff817b04ec8 in [System.ni.dll]
+
+[CNT] [47]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int                type           : 0x1 (SOCK_STREAM)
+[PAR] int                protocol       : 0x6 (IPPROTO_TCP)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ff817afc89b in [System.ni.dll]
+
+[CNT] [48]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSASocketW> in [WS2_32.dll] 
+[PAR] int                address_family : 0x17 (AF_INET6) (IPv6)
+[PAR] int                type           : 0x1 (SOCK_STREAM)
+[PAR] int                protocol       : 0x6 (IPPROTO_TCP)
+[PAR] LPWSAPROTOCOL_INFO lpProtocolInfo : 0x0
+[PAR] GROUP              g              : 0x0
+[PAR] DWORD              dwFlags        : 0x1
+[RET] 0x7ff817afc89b in [System.ni.dll]
+
+[ * ] [pid 0xba8][tid 0xbac] c:\users\user\desktop\quiet_canary\canary.exe
+[EVT] [Dynamic Network analysis]
+[MSG] Spoofing IP 210.48.231.182 with IP 169.254.143.43
+
+[CNT] [49]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAConnect> in [WS2_32.dll] 
+[PAR] SOCKET   s     : 0x3d8
+[PAR] sockaddr *name : 0x0000009B393446A8
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 47873 (Little endian : 443)
+[FLD]          -> sin_addr     : 210.48.231.182
+[RET] 0x7ff817b03542 in [System.ni.dll]
+
+[CNT] [50]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <FormatMessageW> in [KERNEL32.dll] 
+[PAR] DWORD    dwFlags      : 0x3200
+[PAR] LPCVOID  lpSource     : 0x0
+[PAR] DWORD    dwMessageId  : 0x274c
+[PAR] DWORD    dwLanguageId : 0x0
+[PAR] LPWSTR   lpBuffer     : 0x0000009B3765E370
+[PAR] DWORD    nSize        : 0x101
+[PAR] va_list* Arguments    : 0x0
+[RET] 0x7ff817afd17b in [System.ni.dll]
+
+[CNT] [51]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x3d8
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x80 (SO_LINGER)
+[PAR] char   *optval : 0x0000009B3765DFD0
+[PAR] int    optlen  : 0x4
+[RET] 0x7ff817afc998 in [System.ni.dll]
+
+[CNT] [52]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x3d8
+[RET] 0x7ff817afcbf8 in [System.ni.dll]
+
+[CNT] [53]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x3e4
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x80 (SO_LINGER)
+[PAR] char   *optval : 0x0000009B3765DFD0
+[PAR] int    optlen  : 0x4
+[RET] 0x7ff817afc998 in [System.ni.dll]
+
+[CNT] [54]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <closesocket> in [WS2_32.dll] 
+[PAR] SOCKET       s : 0x3e4
+[RET] 0x7ff817afcbf8 in [System.ni.dll]
+
+[ * ] [pid 0xba8][tid 0xbac] c:\users\user\desktop\quiet_canary\canary.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 300000 ms to 15000 ms 
+
