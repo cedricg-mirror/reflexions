@@ -196,7 +196,7 @@ The malware is aknowledging this new passphrase with the following reply :
 Which needs to be decrypted with the new passphrase to get the clear text :  
 
 ```
-RC4(Base64_Decode(33LsTGt2qYwqZw6+39eYiJ6dWRpufKA0uXkCgAALT2V+PMrW/U9CuZathJ6jQ4OQmrWHebBrBwQmREBSBS4cb/DUDqf3TGzRnghCORaCx15bxxUCxBZgKgQ7...), "Gorgonzola")  
+RC4(Base64_Decode(33LsTGt2qYwqZw6+39eYiJ6dWRpufKA0uXkCgAALT2V+PMrW/U5bxxUCxBZgKgQ7...), "Gorgonzola")  
 ```
 
 ```
