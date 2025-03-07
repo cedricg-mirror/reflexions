@@ -144,12 +144,19 @@ Reply from the C2 :
 
 To understand the reply "DmYJ6sFTT2NFyAtWjQ==" we need to follow the decryption routine from above :  
 
+```
 RC4(Base64_Decode(DmYJ6sFTT2NFyAtWjQ==), "btpacbazyq")  
+```
 
 Witch gives the following clear text :  
 
+ ```
 "usegorgonzola"  
+```
 
 As you can see, I didn't use that opportunity to put forward french cheese :)  
+So from this point forward, communication between the malware and the C2 will be encrypted with gorgonzola flavored RC4.  
+
+--- 
 
 
