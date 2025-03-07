@@ -72,3 +72,84 @@ After decryption of the reply, QUIETCANARY is expecting the following answer fro
 
 In other words, the keyword "use" followed by a 10 letters string that is going to be used as a new RC4 key to encrypt communications.  
 
+---  
+
+Now, If you take a look at the provided "logs.txt" file, you will find how this additional knownledge is translated in terms of dynamic behavior :  
+
+Initial beaconing :  
+
+```html
+[CNT] [99]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <SealMessage> in [SSPICLI.DLL] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x0000002641957A48
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x000000264195BD10
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264195BD38
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264195B9B8
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0xed
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264195B9BD
+[STR]                   -> "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71."
+[STR]                      "0.3578.98 Safari/537.36\r\nCookie: PHPSESSID=ir01w34mah37x1sjingfx92gcm\r\nHost: 210.48.231.182\r\nConnection: Keep-Aliv"
+[STR]                      "e\r\n\r\n"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x24
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264195BAAA
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x7ffa2bc07b87 in [System.ni.dll]
+```
+
+Reply from the C2 :  
+
+```html
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <DecryptMessage>
+[PAR] PSecBufferDesc pMessage     : 0x0000000400000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264195C0D0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264195BE90
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0xe0
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264195BE95
+[STR]                   -> "HTTP/1.1 200 OK\r\nDate: Fri, 07 Mar 2025 16:41:50 GMT\r\nServer: Apache/2.4.41 (Ubuntu)\r\nContent-Length: 20\r\nKeep-A"
+[STR]                      "live: timeout=5, max=100\r\nConnection: Keep-Alive\r\nContent-Type: text/html; charset=UTF-8\r\n\r\nDmYJ6sFTT2NFyAtWjQ=="
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x20
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264195BF75
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+```
+
+To understand the reply "DmYJ6sFTT2NFyAtWjQ==" we need to follow the decryption routine from above :  
+
+RC4(Base64_Decode(DmYJ6sFTT2NFyAtWjQ==), "btpacbazyq")  
+
+Witch gives the following clear text :  
+
+"usegorgonzola"  
+
+As you can see, I didn't use that opportunity to put forward french cheese :)  
+
+
