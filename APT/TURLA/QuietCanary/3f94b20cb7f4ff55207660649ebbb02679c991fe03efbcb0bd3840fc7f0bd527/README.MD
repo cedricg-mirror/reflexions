@@ -57,7 +57,11 @@ Going further, I decided to use some statical analysis and develop a bare minimu
 Statical analysis is very straightforward as this sample isn't obfuscated in any way.
 
 Now, the first beaconing to the C2 is a HTTP GET request with a hardcoded useragent and a PHP SESSION ID.  
+The initial RC4 Key, that the C2 will have to use in reply to that first beaconing, is also visible in that screenshot.   
 
 QUIETCANARY is expecting the following answer from the C2 :  
 
 ![Alt text](screenshots/new_rc4_key.jpg?raw=true "New Rc4 Key")
+
+In other words, the keyword "use" followed by a 10 letters string that is going to be used as a new RC4 key to encrypt communications.  
+
