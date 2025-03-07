@@ -56,7 +56,7 @@ Going further, I decided to use some statical analysis and develop a bare minimu
 
 Statical analysis is very straightforward as this sample isn't obfuscated in any way.
 
-Now, the first beaconing to the C2 is a HTTP GET request with a hardcoded useragent and a PHP SESSION ID.  
+Now, the first beaconing to the C2 is a HTTP GET request with a hardcoded useragent.  
 The initial RC4 Key, that the C2 will have to use in reply to that first beaconing, is also visible in that screenshot.   
 
 QUIETCANARY is expecting the following answer from the C2 :  
