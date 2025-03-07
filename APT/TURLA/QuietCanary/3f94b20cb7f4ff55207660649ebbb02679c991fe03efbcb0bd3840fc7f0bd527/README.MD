@@ -310,3 +310,67 @@ Which triggered the following behavior from the malare :
 [RET] 0x7ffa2bbfec01 in [System.ni.dll]
 ```
 
+And the following reply :  
+
+```html
+[CNT] [180]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <SealMessage> in [SSPICLI.DLL] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x0000002641968E08
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x000000264196BBB8
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264196BBE0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264196B5E8
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x494
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264196B5ED
+[STR]                   -> "33LsSjRx9ol5YkqmodSOmsbDFEVoa6Bg7m8ViAQcFTYoKcrC7Qkw+8q61orrRpKInOnGIrpkGTgfVD9SEnBaZAZEGPm1HmvDjP2KfhrU0Q9K3wEPnwI/fBdo"
+[STR]                      "I0anYCW1G3JNR4nO+XkhR+mFXP9R6Aamv8tWOYk8mTnoFa98qYRiUfBRN22wZHqqbXOz9UkWb88kMPetwyFkoFgbSmmkAz0YGJ9VmnB4cqIMzW3tV7mf/1YW"
+[STR]                      "e0OyXvqpTmdAWBoCoN2UGdh3vO/ZcF1/v4Id+H8pewjEk1fX1uSEnmWUT8BHH7oC1AYHIobTBkXKoNBAA3t42sFykmIlK2BrzyzHY38fcmEcYIY9Qs/Ue7Dc"
+[STR]                      "xdo4YWDZHA3gHwvRx4cMK17ugYHzK1Lvi9oL1vjhi4fgpxPYNACDVZ8JJ5Ie7k7Yx5GGmDfskTeErEIMDxCni7V4WdqPSXMaRtvAGtC4XesRq2nlFmVYF57P"
+[STR]                      "U7eYV38UBhtiWE+TWkXkrx2GgygP/jRbUt4HjF5gHKbfVV9oU/dG0wD98XCR0bPVRoCRiIHxVqHuGdENSx7xqguIhKmwLG2RZTKhPefliMHjdb8D2ZOgrnbU"
+[STR]                      "V0eslre6cMhAARtqWyCP02GmJp63kuDSfYHgVzTQytHw72aBmsHb+vUBmpLIgZBswvfvDpVOz42t568E1eLbsEQxfAcr/ZIrwkXrvpMbTXiAh3lOdkSFOCjb"
+[STR]                      "1LWbhvIUsXVKaQXJCFSJ962MobLA0WMoovMe8RWz9xjhL5I+N6xqD+pvGXOVUgUF3Dz6pFQA8oDQOV+maGaq6ekXmRJeDL6HBbJrcXupTDfQfl2BmujE9HCb"
+[STR]                      "WuPZ/eU4m6chDHWjTy1haBN2sObaLFM+ei1c0VWcnyC6vXbHz7z9wh4g5pCAe7iBJVaDKOaNWuywz8a28zv/QC2iHKDscOajaOrNmKdfH82p4DwNbkjWTaE4"
+[STR]                      "dfR6E79pWqDoEuLlyIkv6fJ6kBbIO8Nf40Zk/ZxU/zRbozZniuWXpVLNKDtgPM5aUlbyfSanEwp33D1nRWF2qbkWkLJikdvzBkJguquBQCuiv4n4r+s/LPVM"
+[STR]                      "WK7PVRnSEjRcQCr67aEeyqccYIOyJoDRz5WiVYhqIvS/UhTeS/iShix3StCITNZ1lDeNXvaP8J/N30iv2qMT/hD6+vlz"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x24
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264196BA81
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x7ffa2bc07b87 in [System.ni.dll]
+```
+
+```
+repi43l604r Le volume dans le lecteur C n'a pas de nom.
+ Le numéro de série du volume est 689B-5BB9
+
+ Répertoire de C:\Users\user\Desktop\quiet_canary
+
+07/03/2025  17:28    <DIR>          .
+07/03/2025  17:28    <DIR>          ..
+03/03/2025  15:16            18 432 canary.exe
+26/02/2025  13:52           945 845 faut-il-revoir-lhistoire-du-cicr-durant-la-seconde-guerre-mondiale.pdf
+21/02/2025  02:01         2 695 478 Geneva conventions August 1949.pdf
+07/03/2025  15:38                14 t.bat
+               4 fichier(s)        3 659 769 octets
+               2 Rép(s)  47 355 650 048 octets libres
+1096dd40993462422ce49eccae2ef72f4d6c826099535d0d76ec705dd65850bc1...
+```
+
+So "rep" . "i" . id (43) . "l" . result_length (604) . "r" . result
+
+
+
