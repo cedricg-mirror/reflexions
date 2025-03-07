@@ -380,3 +380,8 @@ My (very) lazy C2 implementation looks like this :
 
 ![Alt text](screenshots/c2.jpg?raw=true "Lazy C2")
 
+---  
+
+As a final note, there is a piece of dead code that may or may not be useful to look for previous or newer samples :  
+
+![Alt text](screenshots/dead_code.jpg?raw=true "unused routine")
