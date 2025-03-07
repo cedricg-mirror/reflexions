@@ -353,6 +353,8 @@ And the following reply :
 [RET] 0x7ffa2bc07b87 in [System.ni.dll]
 ```
 
+After decryption :   
+
 ```
 repi43l604r Le volume dans le lecteur C n'a pas de nom.
  Le numéro de série du volume est 689B-5BB9
@@ -370,7 +372,11 @@ repi43l604r Le volume dans le lecteur C n'a pas de nom.
 1096dd40993462422ce49eccae2ef72f4d6c826099535d0d76ec705dd65850bc1...
 ```
 
-So "rep" . "i" . id (43) . "l" . result_length (604) . "r" . result
+So "rep" . "i" . id (43) . "l" . result_length (604) . "r" . result . nonce
 
+--- 
 
+My (very) lazy C2 implementation looks like this : 
+
+![Alt text](screenshots/c2.jpg?raw=true "Lazy C2")
 
