@@ -19,4 +19,38 @@ Results are shared in two files :
 
 **Commentary**  
 
+As a reminder, the sandbox that I'm developping doesn't provide any proper interface to monitor managed code (yet).  
+Supervision of managed code is done indirectly by monitoring activity from native DLL loaded by the monitored process.  
+As a consequence, logs provided are 'noisy', the same kind of noise you would get by monitoring syscall instead of Win32 API for instance.  
+ 
+---  
+
+This sample is so minimalistic that dynamic analysis alone is basically only usefull to provide the C2 :  
+
+```html
+[...]
+
+[CNT] [49]
+[PTP] [0xba8] [0xbac] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <WSAConnect> in [WS2_32.dll] 
+[PAR] SOCKET   s     : 0x3d8
+[PAR] sockaddr *name : 0x0000009B393446A8
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 47873 (Little endian : 443)
+[FLD]          -> sin_addr     : 210.48.231.182
+[RET] 0x7ff817b03542 in [System.ni.dll]
+
+[ * ] [pid 0xba8][tid 0xbac] c:\users\user\desktop\quiet_canary\canary.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 300000 ms to 15000 ms 
+```
+
+Results of dynamic analysis without a working C2 is provided in the attached 'logs_no_c2.txt' file.  
+
+---  
+
+Going further, I decided to use some statical analysis and develop a bare minimum C2 to trigger some additional behavior from the sample :  
+
+![Alt text](screenshots/init.jpg?raw=true "first beaconing")
 
