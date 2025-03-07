@@ -157,6 +157,60 @@ Witch gives the following clear text :
 As you can see, I didn't use that opportunity to put forward french cheese :)  
 So from this point forward, communication between the malware and the C2 will be encrypted with gorgonzola flavored RC4.  
 
+The malware is aknowledging this new passphrase with the following reply :  
+
+```html
+[CNT] [115]
+[PTP] [0x784] [0x790] [c:\users\user\desktop\quiet_canary\canary.exe]
+[INF] [ Called from Native Image DLL ]
+[API] <SealMessage> in [SSPICLI.DLL] 
+[PAR] LSA_SEC_HANDLE ContextHandle         : 0x0000002641957A48
+[PAR] ULONG          QualityOfProtection   : 0x0
+[PAR] PSecBufferDesc MessageBuffers        : 0x000000264197AFA8
+[FLD]                -> ulVersion = 0x0 (SECBUFFER_VERSION)
+[FLD]                -> cBuffers  = 0x4
+[FLD]                -> pBuffers  = 0x000000264197AFD0
+[FLD]                   -> pBuffers[0]
+[FLD]                   -> cbBuffer   = 0x5
+[FLD]                   -> BufferType = 0x7 (SECBUFFER_STREAM_HEADER)
+[FLD]                   -> pvBuffer   = 0x000000264197AD18
+[FLD]                   -> pBuffers[1]
+[FLD]                   -> cbBuffer   = 0x154
+[FLD]                   -> BufferType = 0x1 (SECBUFFER_DATA)
+[FLD]                   -> pvBuffer   = 0x000000264197AD1D
+[STR]                   -> "33LsTGt2qYwqZw6+39eYiJ6dWRpufKA0uXkCgAALT2V+PMrW/U9CuZathJ6jQ4OQmrWHebBrBwQmREBSBS4cb/DUDqf3TGzRnghCORaCx15bxxUCxBZgKgQ7"
+[STR]                      "YQeyMnjvbjpAPKrEwhUUf/zl/WNCtEfqsZpBbZtszSqTSpZP7NYhFZsdcT/3C1z5en6h+wtyLYsuYuCUmCY8pRhTclHIOzgYVstR1id+I6cb3Dm+C7rG5kMA"
+[STR]                      "P0fDdZGmCnYGHQIRtcmHCM8f1++Kb1l5ooBP+X1oawzEzQPZlfzB2GDmNqpLWqwWxx4WN56WFVyBlOlDAGB7jNkklGF1PSY4mw=="
+[FLD]                   -> pBuffers[2]
+[FLD]                   -> cbBuffer   = 0x24
+[FLD]                   -> BufferType = 0x6 (SECBUFFER_STREAM_TRAILER)
+[FLD]                   -> pvBuffer   = 0x000000264197AE71
+[FLD]                   -> pBuffers[3]
+[FLD]                   -> cbBuffer   = 0x0
+[FLD]                   -> BufferType = 0x0 (SECBUFFER_EMPTY)
+[FLD]                   -> pvBuffer   = 0x0000000000000000
+[PAR] ULONG          MessageSequenceNumber : 0x0
+[RET] 0x7ffa2bc07b87 in [System.ni.dll]
+```
+
+Which needs to be decrypted with the new passphrase to get the clear text :  
+
+```
+RC4(Base64_Decode(33LsTGt2qYwqZw6+39eYiJ6dWRpufKA0uXkCgAALT2V+PMrW/U9CuZathJ6jQ4OQmrWHebBrBwQmREBSBS4cb/DUDqf3TGzRnghCORaCx15bxxUCxBZgKgQ7...), "Gorgonzola")  
+```
+
+```
+repok433c1682f6d7282c7d59e7da7665aeabf1b20348db8b9a5eb01303e703f59d1b...
+```
+
+So "rep" . "ok" . nonce  
+
+The nonce is generated using the following routine :  
+
+![Alt text](screenshots/nonce.jpg?raw=true "New Rc4 Key")
+
+It's function is very likely to add some noise to the SSL encrypted traffic to make it more difficult to 'guess' what is happening based on the size of HTTPS requests.  
+
 --- 
 
 
