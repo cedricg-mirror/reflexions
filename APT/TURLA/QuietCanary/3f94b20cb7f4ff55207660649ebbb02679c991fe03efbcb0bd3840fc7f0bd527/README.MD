@@ -59,6 +59,14 @@ Statical analysis is very straightforward as this sample isn't obfuscated in any
 Now, the first beaconing to the C2 is a HTTP GET request with a hardcoded useragent.  
 The initial RC4 Key, that the C2 will have to use in reply to that first beaconing, is also visible in that screenshot.   
 
+```.NET
+ using (StreamReader streamReader = new StreamReader(response.GetResponseStream()))
+            empty = Encoding.UTF8.GetString(RC4Encryption.EncryptDecrypt(Convert.FromBase64String(streamReader.ReadToEnd()), this.initialKey));
+```
+
+
+
+
 QUIETCANARY is expecting the following answer from the C2 :  
 
 ![Alt text](screenshots/new_rc4_key.jpg?raw=true "New Rc4 Key")
