@@ -213,4 +213,8 @@ It's function is very likely to add some noise to the SSL encrypted traffic to m
 
 --- 
 
+Now that we have established a trusted relationship with QUIETCANARY we can start sending some commands among the following :  
+
+![Alt text](screenshots/orders.jpg?raw=true "Available commands")
+
 
