@@ -74,7 +74,7 @@ In other words, the keyword "use" followed by a 10 letters string that is going 
 
 ---  
 
-Now, If you take a look at the provided "logs.txt" file, you will find how this additional knownledge is translated in terms of dynamic behavior :  
+Now, If you take a look at the provided "logs.txt" file, you will find how this additional knowledge is translated in terms of dynamic behavior :  
 
 Initial beaconing :  
 
