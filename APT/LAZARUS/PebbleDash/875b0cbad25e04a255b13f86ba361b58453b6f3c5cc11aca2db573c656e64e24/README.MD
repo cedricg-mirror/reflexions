@@ -126,4 +126,11 @@ As mention in a linked blog analysis from dmpdump.github, the "uid" parameter is
 [RET] 0x7ff7f098ab33 in [pebbledash.exe]
 ```
 
+---  
+
+Triggering additional behavior from the sample would require to reverse the C2 communication protocol which I may or may not do later ...  
+
+---  
+
+
 
