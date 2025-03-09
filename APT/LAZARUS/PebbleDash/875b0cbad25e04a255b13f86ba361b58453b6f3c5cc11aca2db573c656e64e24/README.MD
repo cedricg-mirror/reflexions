@@ -132,5 +132,18 @@ Triggering additional behavior from the sample would require to reverse the C2 c
 
 ---  
 
+API call is achieved is most cases by going through the following pattern :  
 
+![Alt text](screen/API_Call.jpg?raw=true "Dynamic API Address resolution")
+
+1) Required function name is hashed with Fowler–Noll–Vo hash function  
+https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function  
+The FNV_offset_basis is the 64-bit value: 0xcbf29ce484222325.  
+The FNV_prime is the 64-bit value 0x100000001b3.  
+
+2) Function address is dynamically retrieved by walking the PEB and looking for an exported function matching the given Hash  
+
+3) Calling the function  
+
+---  
 
