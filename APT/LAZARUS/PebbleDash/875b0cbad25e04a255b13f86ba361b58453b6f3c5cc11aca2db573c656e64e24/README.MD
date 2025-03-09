@@ -148,5 +148,34 @@ The FNV_prime is the 64-bit value 0x100000001b3.
 
 3) Calling the function  
 
+Few examples of hashed function names below :  
+
+```
+2cd62eda1e190cc8  
+winhttp!WinHttpWriteData
+
+bcfc93e92c75c701
+WinHTTP!WinHttpReceiveResponse
+
+200cc715113de71d  
+KERNEL32!LocalAlloc
+
+ddd409e63a9cb926
+WinHTTP!WinHttpQueryDataAvailable
+
+90fc86b9e2232aa9  
+WinHTTP!WinHttpReadData
+
+3cf811a64137c676
+KERNEL32!LocalFree
+
+ca455d40bfa3e279
+WinHTTP!WinHttpCloseHandle
+```
+
+
+
+
+
 ---  
 
