@@ -110,7 +110,7 @@ C2 connection is straightforward :
 
 As mention in a linked blog analysis from dmpdump.github, the "uid" parameter is set according to the result from :  
 
-```
+```html
 [CNT] [81]
 [PTP] [0x968] [0xbb8] [c:\users\user\desktop\pebbledash\pebbledash.exe]
 [API] <GetVolumeInformationW> in [KERNEL32.DLL] 
