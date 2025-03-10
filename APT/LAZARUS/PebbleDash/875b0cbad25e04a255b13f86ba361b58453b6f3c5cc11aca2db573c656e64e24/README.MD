@@ -173,9 +173,14 @@ ca455d40bfa3e279
 WinHTTP!WinHttpCloseHandle
 ```
 
+---  
 
+AES encryption is achieved by the following routine :  
 
+![Alt text](screen/aes.jpg?raw=true "AES Encrypt")
 
+The AES key is unxored just before the call : "NjqaPmSWYpmkTJZn"  
 
 ---  
+
 
