@@ -12,7 +12,7 @@ http://www.addfriend.kr/board/userfiles/temp/index.html
 
 Analyzed sample is a 64bit PE PebbleDash sample attributed to LAZARUS  
 
-As usual, result from dynamic analysis are shared in "logs.txt"  
+As usual, results from dynamic analysis are shared in "logs.txt"  
 
 
 ---
