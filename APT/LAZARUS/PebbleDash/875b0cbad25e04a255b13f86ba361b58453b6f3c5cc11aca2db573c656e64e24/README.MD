@@ -35,7 +35,7 @@ Following the results from those call in statical analysis revealed the followin
 
 ![Alt text](screen/start.jpg?raw=true "Command Line Parsing")
 
-The sample was therefor run with the '--start' parameter, which triggered its installation :  
+The sample was therefore run with the '--start' parameter, which triggered its installation :  
 
 ```html
 [CNT] [64]
