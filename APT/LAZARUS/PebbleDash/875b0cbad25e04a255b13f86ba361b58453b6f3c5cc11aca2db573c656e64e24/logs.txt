@@ -1,0 +1,2883 @@
+Creation de Processus, pid [0x280] (C:\Users\user\Desktop\pebbledash\pebbledash.exe)
+
+Thread created by monitored process : Now monitoring [pid 0x280][tid 0x858]
+
+********** Dumping PEB64 **********
+
+	Path : C:\Users\user\Desktop\pebbledash\pebbledash.exe
+	Base : 0x00007FF6BAF20000
+	Size : 0x47000
+	.reload /s /f C:\Users\user\Desktop\pebbledash\pebbledash.exe=0x00007FF6BAF20000
+
+	Path : C:\Windows\SYSTEM32\ntdll.dll
+	Base : 0x00007FFAC1ED0000
+	Size : 0x1ac000
+	.reload /s /f C:\Windows\SYSTEM32\ntdll.dll=0x00007FFAC1ED0000
+
+	Path : C:\Windows\system32\KERNEL32.DLL
+	Base : 0x00007FFAC1420000
+	Size : 0x13e000
+	.reload /s /f C:\Windows\system32\KERNEL32.DLL=0x00007FFAC1420000
+
+	Path : C:\Windows\system32\KERNELBASE.dll
+	Base : 0x00007FFABF430000
+	Size : 0x115000
+	.reload /s /f C:\Windows\system32\KERNELBASE.dll=0x00007FFABF430000
+
+	Path : C:\Windows\system32\USER32.dll
+	Base : 0x00007FFAC1720000
+	Size : 0x177000
+	.reload /s /f C:\Windows\system32\USER32.dll=0x00007FFAC1720000
+
+	Path : C:\Windows\system32\GDI32.dll
+	Base : 0x00007FFABF670000
+	Size : 0x151000
+	.reload /s /f C:\Windows\system32\GDI32.dll=0x00007FFABF670000
+
+	Path : C:\Windows\system32\IMM32.DLL
+	Base : 0x00007FFABF630000
+	Size : 0x36000
+	.reload /s /f C:\Windows\system32\IMM32.DLL=0x00007FFABF630000
+
+	Path : C:\Windows\system32\MSCTF.dll
+	Base : 0x00007FFAC18A0000
+	Size : 0x153000
+	.reload /s /f C:\Windows\system32\MSCTF.dll=0x00007FFAC18A0000
+
+	Path : C:\Windows\system32\msvcrt.dll
+	Base : 0x00007FFAC1A00000
+	Size : 0xaa000
+	.reload /s /f C:\Windows\system32\msvcrt.dll=0x00007FFAC1A00000
+
+********** End Dump PEB64 **********
+
+[CNT] [341]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FF6BAF4E3B0
+[STR]         -> "api-ms-win-core-synch-l1-2-0"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7ff6baf3bd67
+
+[CNT] [342]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFABF430000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF6BAF4E478 ("InitializeCriticalSectionEx")
+[RET] [0x7ff6baf3bdf1] [+0x1bdf1] in [pebbledash.exe]
+
+[CNT] [343]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FF6BAF4E370
+[STR]         -> "api-ms-win-core-fibers-l1-1-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7ff6baf3bd67
+
+[CNT] [344]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFABF430000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF6BAF4E420 ("FlsAlloc")
+[RET] [0x7ff6baf3bdf1] [+0x1bdf1] in [pebbledash.exe]
+
+[CNT] [345]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsAlloc> in [KERNELBASE.dll] 
+[RET] [0x7ff6baf39ccc] [+0x19ccc] in [pebbledash.exe]
+
+[CNT] [346]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFABF430000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF6BAF4E460 ("FlsSetValue")
+[RET] [0x7ff6baf3bdf1] [+0x1bdf1] in [pebbledash.exe]
+
+[CNT] [347]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsSetValue> in [KERNELBASE.dll] 
+[RET] [0x7ff6baf3bf42] [+0x1bf42] in [pebbledash.exe]
+
+[CNT] [348]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FF6BAF4E3B0
+[STR]         -> "api-ms-win-core-synch-l1-2-0"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7ff6baf44eb9
+
+[CNT] [349]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFABF430000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF6BAF4E478 ("InitializeCriticalSectionEx")
+[RET] [0x7ff6baf44f6e] [+0x24f6e] in [pebbledash.exe]
+
+[CNT] [350]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcessHeap> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf45376] [+0x25376] in [pebbledash.exe]
+
+[CNT] [351]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FF6BAF4E370
+[STR]         -> "api-ms-win-core-fibers-l1-1-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7ff6baf44eb9
+
+[CNT] [352]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFABF430000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF6BAF4E420 ("FlsAlloc")
+[RET] [0x7ff6baf44f6e] [+0x24f6e] in [pebbledash.exe]
+
+[CNT] [353]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsAlloc> in [KERNELBASE.dll] 
+[RET] [0x7ff6baf420d0] [+0x220d0] in [pebbledash.exe]
+
+[CNT] [354]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFABF430000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF6BAF4E448 ("FlsGetValue")
+[RET] [0x7ff6baf44f6e] [+0x24f6e] in [pebbledash.exe]
+
+[CNT] [355]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf4201b] [+0x2201b] in [pebbledash.exe]
+
+[CNT] [356]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFABF430000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF6BAF4E460 ("FlsSetValue")
+[RET] [0x7ff6baf44f6e] [+0x24f6e] in [pebbledash.exe]
+
+[CNT] [357]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsSetValue> in [KERNELBASE.dll] 
+[RET] [0x7ff6baf4514e] [+0x2514e] in [pebbledash.exe]
+
+[CNT] [358]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x3c8
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [359]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsSetValue> in [KERNELBASE.dll] 
+[RET] [0x7ff6baf4514e] [+0x2514e] in [pebbledash.exe]
+
+[CNT] [360]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x1200
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [361]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetStartupInfoW> in [KERNEL32.DLL] 
+[PAR] LPSTARTUPINFOW lpStartupInfo : 0x0000006040D1F8A0
+[RET] [0x7ff6baf4383a] [+0x2383a] in [pebbledash.exe]
+
+[CNT] [362]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf43983] [+0x23983] in [pebbledash.exe]
+
+[CNT] [363]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf43983] [+0x23983] in [pebbledash.exe]
+
+[CNT] [364]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf43983] [+0x23983] in [pebbledash.exe]
+
+[CNT] [365]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetCommandLineA> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf3fd96] [+0x1fd96] in [pebbledash.exe]
+
+[CNT] [366]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetCommandLineW> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf3fda3] [+0x1fda3] in [pebbledash.exe]
+
+[CNT] [367]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41f62] [+0x21f62] in [pebbledash.exe]
+
+[CNT] [368]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetACP> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf4436f] [+0x2436f] in [pebbledash.exe]
+
+[CNT] [369]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x228
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [370]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <IsValidCodePage> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf44981] [+0x24981] in [pebbledash.exe]
+
+[CNT] [371]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf449cd] [+0x249cd] in [pebbledash.exe]
+
+[CNT] [372]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetCPInfo> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf44480] [+0x24480] in [pebbledash.exe]
+
+[CNT] [373]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000006040D1F120
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] [0x7ff6baf461a8] [+0x261a8] in [pebbledash.exe]
+
+[CNT] [374]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000006040D1F120
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0000006040D1EE50
+[PAR] int    cchWideChar    : 0x100
+[RET] [0x7ff6baf4624e] [+0x2624e] in [pebbledash.exe]
+
+[CNT] [375]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetStringTypeW> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf46268] [+0x26268] in [pebbledash.exe]
+
+[CNT] [376]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000006040D1F120
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] [0x7ff6baf4896c] [+0x2896c] in [pebbledash.exe]
+
+[CNT] [377]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000006040D1F120
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0000006040D1EDF0
+[PAR] int    cchWideChar    : 0x100
+[RET] [0x7ff6baf48a11] [+0x28a11] in [pebbledash.exe]
+
+[CNT] [378]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x00007FF6BAF4FD20
+[STR]         -> "api-ms-win-core-localization-l1-2-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x7ff6baf44eb9
+
+[CNT] [379]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFABF430000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF6BAF50138 ("LCMapStringEx")
+[RET] [0x7ff6baf44f6e] [+0x24f6e] in [pebbledash.exe]
+
+[CNT] [380]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LCMapStringEx> in [KERNELBASE.dll] 
+[RET] [0x7ff6baf4525b] [+0x2525b] in [pebbledash.exe]
+
+[CNT] [381]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LCMapStringEx> in [KERNELBASE.dll] 
+[RET] [0x7ff6baf4525b] [+0x2525b] in [pebbledash.exe]
+
+[CNT] [382]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x0000006040D1EBE0
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x0000006040D1F220
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] [0x7ff6baf48b7c] [+0x28b7c] in [pebbledash.exe]
+
+[CNT] [383]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000006040D1F120
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0
+[PAR] int    cchWideChar    : 0x0
+[RET] [0x7ff6baf4896c] [+0x2896c] in [pebbledash.exe]
+
+[CNT] [384]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <MultiByteToWideChar> in [KERNEL32.DLL] 
+[PAR] UINT   CodePage       : 0x4e4 (windows-1252)
+[PAR] DWORD  dwFlags        : 0x1 (MB_PRECOMPOSED)
+[PAR] LPCCH  lpMultiByteStr : 0x0000006040D1F120
+[PAR] int    cbMultiByte    : 0x100
+[PAR] LPWSTR lpWideCharStr  : 0x0000006040D1EDF0
+[PAR] int    cchWideChar    : 0x100
+[RET] [0x7ff6baf48a11] [+0x28a11] in [pebbledash.exe]
+
+[CNT] [385]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LCMapStringEx> in [KERNELBASE.dll] 
+[RET] [0x7ff6baf4525b] [+0x2525b] in [pebbledash.exe]
+
+[CNT] [386]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LCMapStringEx> in [KERNELBASE.dll] 
+[RET] [0x7ff6baf4525b] [+0x2525b] in [pebbledash.exe]
+
+[CNT] [387]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x0000006040D1EBE0
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x0000006040D1F320
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] [0x7ff6baf48b7c] [+0x28b7c] in [pebbledash.exe]
+
+[CNT] [388]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x100
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [389]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetModuleFileNameW> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : NULL. (Try to get current .exe's path)
+[PAR] LPSTR   lpFilename : 0x00007FF6BAF5EAD0
+[PAR] DWORD   nSize      : 0x104
+[RET] [0x7ff6baf4020a] [+0x2020a] in [pebbledash.exe]
+
+[CNT] [390]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x70
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [391]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlInitializeSListHead> in [ntdll.dll] 
+[RET] [0x7ff6baf381b2] [+0x181b2] in [pebbledash.exe]
+
+[CNT] [392]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [393]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetEnvironmentStringsW> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf44cf2] [+0x24cf2] in [pebbledash.exe]
+
+[CNT] [394]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x990
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [395]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FreeEnvironmentStringsW> in [KERNEL32.DLL] 
+[PAR] LPWCH penv : 0x0000006040DE6EB0
+[STR]       -> "ALLUSERSPROFILE=C:\ProgramData"
+[RET] [0x7ff6baf44d5f] [+0x24d5f] in [pebbledash.exe]
+
+[CNT] [396]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x128
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [397]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x3e
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [398]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x4c
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [399]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x62
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [400]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x78
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [401]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x62
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [402]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x24
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [403]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x48
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [404]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x28
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [405]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x1a
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [406]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x2a
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [407]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x52
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [408]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x26
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [409]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x2e
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [410]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x1c
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [411]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x10a
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [412]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x7c
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [413]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x3a
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [414]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x90
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [415]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x24
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [416]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [417]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x36
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [418]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x3c
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [419]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x52
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [420]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x3c
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [421]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x82
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [422]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x2e
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [423]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x28
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [424]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x1e
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [425]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x2c
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [426]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x4c
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [427]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x4a
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [428]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x20
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [429]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x3e
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [430]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x1c
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [431]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x34
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [432]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x24
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [433]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <HeapFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf421d4] [+0x221d4] in [pebbledash.exe]
+
+[CNT] [434]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <InitializeCriticalSectionAndSpinCount> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf3796c] [+0x1796c] in [pebbledash.exe]
+
+[CNT] [435]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetModuleHandleW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpModuleName : 0x00007FF6BAF4D340 ("api-ms-win-core-synch-l1-2-0.dll")
+[RET] [0x7ff6baf37979] [+0x17979] in [pebbledash.exe]
+
+[CNT] [436]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFABF430000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF6BAF4D388 ("SleepConditionVariableCS")
+[RET] [0x7ff6baf379a6] [+0x179a6] in [pebbledash.exe]
+
+[CNT] [437]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFABF430000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00007FF6BAF4D3A8 ("WakeAllConditionVariable")
+[RET] [0x7ff6baf379b9] [+0x179b9] in [pebbledash.exe]
+
+[CNT] [438]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x8 (HEAP_ZERO_MEMORY)
+[PAR] SIZE_T Size       : 0x1000
+[RET] [0x7ff6baf43bdb] [+0x23bdb] in [pebbledash.exe]
+
+[CNT] [439]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <SetUnhandledExceptionFilter> in [KERNEL32.DLL] 
+[PAR] LPTOP_LEVEL_EXCEPTION_FILTER lpTopLevelExceptionFilter : 0x00007FF6BAF385BC
+[RET] [0x7ff6baf38225] [+0x18225] in [pebbledash.exe]
+
+[CNT] [440]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetStartupInfoW> in [KERNEL32.DLL] 
+[PAR] LPSTARTUPINFOW lpStartupInfo : 0x0000006040D1F930
+[RET] [0x7ff6baf38536] [+0x18536] in [pebbledash.exe]
+
+[CNT] [441]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [442]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlWakeAllConditionVariable> in [ntdll.dll] 
+[RET] [0x7ff6baf23ba7] [+0x3ba7] in [pebbledash.exe]
+
+[CNT] [443]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [444]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E771 ("ntdll.dll")
+[RET] 0x7ff6baf352df
+
+[CNT] [445]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E771 ("kernel32.dll")
+[RET] 0x7ff6baf3541f
+
+[CNT] [446]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E771 ("user32.dll")
+[RET] 0x7ff6baf35590
+
+[CNT] [447]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E770 ("gdi32.dll")
+[RET] 0x7ff6baf35649
+
+[CNT] [448]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E771 ("advapi32.dll")
+[RET] 0x7ff6baf3572f
+
+[CNT] [449]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E771 ("wtsapi32.dll")
+[RET] 0x7ff6baf35849
+
+[CNT] [450]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E771 ("netapi32.dll")
+[RET] 0x7ff6baf359cc
+
+[CNT] [451]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E771 ("oleaut32.dll")
+[RET] 0x7ff6baf35afd
+
+[CNT] [452]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E771 ("wininet.dll")
+[RET] 0x7ff6baf35c26
+
+[CNT] [453]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E770 ("winhttp.dll")
+[RET] 0x7ff6baf35cea
+
+[CNT] [454]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E771 ("urlmon.dll")
+[RET] 0x7ff6baf35dbf
+
+[CNT] [455]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E771 ("shlwapi.dll")
+[RET] 0x7ff6baf35ef0
+
+[CNT] [456]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E770 ("ws2_32.dll")
+[RET] 0x7ff6baf35f9e
+
+[CNT] [457]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E770 ("iphlpapi.dll")
+[RET] 0x7ff6baf360c4
+
+[CNT] [458]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x0000006040D1E770 ("userenv.dll")
+[RET] 0x7ff6baf361d5
+
+[CNT] [459]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [460]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [461]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetCurrentProcessId> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf363b1] [+0x163b1] in [pebbledash.exe]
+
+[CNT] [462]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <OpenProcess> in [KERNEL32.DLL] 
+[PAR] DWORD dwDesiredAccess : 0x1fffff (PROCESS_ALL_ACCESS)
+[PAR] BOOL  bInheritHandle  : 0x0
+[PAR] DWORD dwProcessId     : 0x280 ("c:\users\user\desktop\pebbledash\pebbledash.exe")
+[RET] [0x7ff6baf363bd] [+0x163bd] in [pebbledash.exe]
+
+[CNT] [463]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [464]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetModuleHandleW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpModuleName : 0x0000006040D1E1A0 ("ntdll.dll")
+[RET] [0x7ff6baf36513] [+0x16513] in [pebbledash.exe]
+
+[CNT] [465]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [466]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFAC1ED0000 ("ntdll.dll")
+[PAR] LPCSTR  lpProcName : 0x0000006040D1E181 ("NtQueryInformationProcess")
+[RET] [0x7ff6baf3667c] [+0x1667c] in [pebbledash.exe]
+
+[CNT] [467]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <NtQueryInformationProcess> in [ntdll.dll] 
+[PAR] HANDLE           ProcessHandle           : 0xe0
+[PAR] PROCESSINFOCLASS ProcessInformationClass : 0x0 (ProcessBasicInformation)
+[RET] [0x7ff6baf36697] [+0x16697] in [pebbledash.exe]
+
+[CNT] [468]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [469]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <ReadProcessMemory> in [KERNEL32.DLL] 
+[PAR] HANDLE hProcess             : 0xe0
+[PAR] LPVOID lpBaseAddress        : 0x00007FF6BABCF000
+[PAR] LPVOID lpBuffer             : 0x0000006040D1E280
+[PAR] SIZE_T nSize                : 0x2c8
+[PAR] SIZE_T *lpNumberOfBytesRead : 0x0
+[RET] [0x7ff6baf367a7] [+0x167a7] in [pebbledash.exe]
+
+[CNT] [470]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <ReadProcessMemory> in [KERNEL32.DLL] 
+[PAR] HANDLE hProcess             : 0xe0
+[PAR] LPVOID lpBaseAddress        : 0x0000006040DE1200
+[PAR] LPVOID lpBuffer             : 0x0000006040D1E200
+[PAR] SIZE_T nSize                : 0x80
+[PAR] SIZE_T *lpNumberOfBytesRead : 0x0
+[RET] [0x7ff6baf36897] [+0x16897] in [pebbledash.exe]
+
+[CNT] [471]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [472]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WriteProcessMemory> in [KERNEL32.DLL] 
+[PAR] HANDLE  hProcess      : 0xe0
+[PAR] LPVOID  lpBaseAddress : 0x0000006040DE1878
+[PAR] LPCVOID lpBuffer      : 0x0000006040D1E560
+[PAR] SIZE_T  nSize         : 0x64
+[RET] [0x7ff6baf369bb] [+0x169bb] in [pebbledash.exe]
+
+[CNT] [473]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WriteProcessMemory> in [KERNEL32.DLL] 
+[PAR] HANDLE  hProcess      : 0xe0
+[PAR] LPVOID  lpBaseAddress : 0x0000006040D1E270
+[PAR] LPCVOID lpBuffer      : 0x0000006040D1E550
+[PAR] SIZE_T  nSize         : 0x8
+[RET] [0x7ff6baf36a7a] [+0x16a7a] in [pebbledash.exe]
+
+[CNT] [474]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [475]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0xe0
+[RET] [0x7ff6baf36b63] [+0x16b63] in [pebbledash.exe]
+
+[CNT] [476]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [477]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WSAStartup> in [ws2_32.dll] 
+[PAR] WORD wVersionRequested : 0x202
+[RET] [0x7ff6baf34d9b] [+0x14d9b] in [pebbledash.exe]
+
+[CNT] [478]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [479]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetTickCount64> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf34ed2] [+0x14ed2] in [pebbledash.exe]
+
+[CNT] [480]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [481]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [482]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetWindowsDirectoryW> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2aa4b] [+0xaa4b] in [pebbledash.exe]
+
+[CNT] [483]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [484]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetVolumeInformationW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpRootPathName           : 0x0000006040D1DC40
+[STR]         -> "C:\"
+[PAR] LPWSTR  lpVolumeNameBuffer       : 0x0
+[PAR] DWORD   nVolumeNameSize          : 0x0
+[PAR] LPDWORD lpVolumeSerialNumber     : 0x0000006040D1DC38
+[PAR] LPDWORD lpMaximumComponentLength : 0x0
+[PAR] LPDWORD lpFileSystemFlags        : 0x0
+[PAR] LPWSTR  lpFileSystemNameBuffer   : 0x0
+[PAR] DWORD   nFileSystemNameSize      : 0x0
+[RET] [0x7ff6baf2ab33] [+0xab33] in [pebbledash.exe]
+
+[CNT] [485]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [486]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetTempPathW> in [KERNEL32.DLL] 
+[PAR] DWORD  nBufferLength : 0x400
+[PAR] LPWSTR lpBuffer      : 0x00007FF6BAF5FE30
+[RET] [0x7ff6baf3441d] [+0x1441d] in [pebbledash.exe]
+
+[CNT] [487]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [488]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2b6b5] [+0xb6b5] in [pebbledash.exe]
+
+[CNT] [489]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [490]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <SystemTimeToVariantTime> in [oleaut32.dll] 
+[RET] [0x7ff6baf2b759] [+0xb759] in [pebbledash.exe]
+
+[CNT] [491]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [492]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetLogicalDrives> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2b821] [+0xb821] in [pebbledash.exe]
+
+[CNT] [493]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [494]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WTSEnumerateSessionsW> in [wtsapi32.dll] 
+[PAR] HANDLE              hServer       : 0x0 (WTS_CURRENT_SERVER_HANDLE)
+[PAR] DWORD               Reserved      : 0x0
+[PAR] DWORD               Version       : 0x1
+[PAR] PWTS_SESSION_INFOW* ppSessionInfo : 0x0000006040D1E4C8
+[PAR] DWORD*              pCount        : 0x0000006040D1E4D0
+[RET] [0x7ff6baf2b8f6] [+0xb8f6] in [pebbledash.exe]
+
+[CNT] [495]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [496]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [497]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <ObtainUserAgentString> in [urlmon.dll] 
+[PAR] DWORD  dwOption : 0x0
+[PAR] LPSTR  pszUAOut : 0x0000006040D1D3F0
+[PAR] DWORD* cbSize   : 0x0000006040D1CFC0
+[RET] [0x7ff6baf25a9e] [+0x5a9e] in [pebbledash.exe]
+
+[CNT] [498]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [499]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpOpen> in [winhttp.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x0000006040D1D7F0
+[STR]         -> "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36"
+[PAR] DWORD   dwAccessType    : 0x1 (INTERNET_OPEN_TYPE_DIRECT)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] [0x7ff6baf25c06] [+0x5c06] in [pebbledash.exe]
+
+[CNT] [500]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [501]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <InternetCanonicalizeUrlW> in [wininet.dll] 
+[PAR] LPCWSTR lpszUrl          : 0x00007FF6BAF5CAC8
+[STR]         -> "http://www.addfriend.kr/board/userfiles/temp/index.html"
+[PAR] LPTSTR  lpszBuffer (out) : 0x0000006040D1C680
+[PAR] LPDWORD lpdwBufferLength : 0x0000006040D1C678
+[PAR] DWORD   dwFlags          : 0x2000000
+[RET] [0x7ff6baf255d4] [+0x55d4] in [pebbledash.exe]
+
+[CNT] [502]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [503]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <InternetCrackUrlW> in [wininet.dll] 
+[PAR] LPCWSTR          lpszUrl	     : 0x0000006040D1C680
+[STR]                  -> "http://www.addfriend.kr/board/userfiles/temp/index.html"
+[PAR] DWORD            dwUrlLength     : 0x0
+[PAR] DWORD            dwFlags         : 0x0
+[PAR] LPURL_COMPONENTS lpUrlComponents : 0x0000006040D1CF40
+[RET] [0x7ff6baf256be] [+0x56be] in [pebbledash.exe]
+
+[CNT] [504]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [505]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpConnect> in [winhttp.dll] 
+[PAR] HINTERNET     hSession       : 0x40dfd020
+[PAR] LPCWSTR       pswzServerName : 0x0000006040D1CFD0
+[STR]               -> "www.addfriend.kr"
+[PAR] INTERNET_PORT nServerPort    : 80
+[RET] [0x7ff6baf25d45] [+0x5d45] in [pebbledash.exe]
+
+[CNT] [506]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [507]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpOpenRequest> in [winhttp.dll] 
+[PAR] HINTERNET hConnect          : 0x40e05a60
+[PAR] LPCWSTR   pwszVerb          : 0x0000006040D1CFB2
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x0000006040D1D1E0
+[STR]           -> "/board/userfiles/temp/index.html"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x0 
+[RET] [0x7ff6baf25e41] [+0x5e41] in [pebbledash.exe]
+
+[CNT] [508]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [509]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpSetTimeouts> in [winhttp.dll] 
+[PAR] HINTERNET hConnect          : 0x40dfd9c0
+[PAR] int       nResolveTimeout   : 0xea60
+[PAR] int       nConnectTimeout   : 0xea60
+[PAR] int       nSendTimeout      : 0xea60
+[PAR] int       nReceiveTimeout   : 0xea60
+[RET] [0x7ff6baf25fab] [+0x5fab] in [pebbledash.exe]
+
+[CNT] [510]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [511]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [512]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [513]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [514]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [515]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [516]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [517]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [518]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [519]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [520]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [521]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf4201b] [+0x2201b] in [pebbledash.exe]
+
+[CNT] [522]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [523]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1DDD0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1DD62
+[STR]         -> "Cache-Control: no-cache"
+[RET] [0x7ff6baf2614a] [+0x614a] in [pebbledash.exe]
+
+[CNT] [524]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [525]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1DDD0
+[STR]         -> "Cache-Control: no-cache"
+[PAR] DWORD dwHeadersLength : 0x17
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf2621d] [+0x621d] in [pebbledash.exe]
+
+[CNT] [526]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1DDD0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1DD62
+[STR]         -> "Accept: */*"
+[RET] [0x7ff6baf2636a] [+0x636a] in [pebbledash.exe]
+
+[CNT] [527]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1DDD0
+[STR]         -> "Accept: */*"
+[PAR] DWORD dwHeadersLength : 0xb
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf264c3] [+0x64c3] in [pebbledash.exe]
+
+[CNT] [528]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1DDD0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1DD60
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[RET] [0x7ff6baf266ca] [+0x66ca] in [pebbledash.exe]
+
+[CNT] [529]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1DDD0
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[PAR] DWORD dwHeadersLength : 0xffffffff
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf26788] [+0x6788] in [pebbledash.exe]
+
+[CNT] [530]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1DDD0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1DD60
+[STR]         -> "Content-Length: %d"
+[RET] [0x7ff6baf268ed] [+0x68ed] in [pebbledash.exe]
+
+[CNT] [531]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1DDD0
+[STR]         -> "Content-Length: 41"
+[PAR] DWORD dwHeadersLength : 0xffffffff
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf26a38] [+0x6a38] in [pebbledash.exe]
+
+[CNT] [532]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [533]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpSendRequest> in [winhttp.dll] 
+[PAR] HINTERNET hRequest         : 0x0000006040DFD9C0
+[PAR] LPCWSTR   pwszHeaders      : 0x0 (null)
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0x29
+[RET] [0x7ff6baf26b41] [+0x6b41] in [pebbledash.exe]
+
+Thread created by monitored process : Now monitoring [pid 0x280][tid 0xaf0]
+
+Thread created by monitored process : Now monitoring [pid 0x280][tid 0x1a4]
+
+Thread created by monitored process : Now monitoring [pid 0x280][tid 0x7b8]
+
+Thread created by monitored process : Now monitoring [pid 0x280][tid 0xb44]
+
+[CNT] [534]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [535]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpWriteData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                 : 0x0000006040DFD9C0
+[PAR] LPCVOID   lpBuffer                 : 0x0000006040D1E110
+[STR]           -> "sep=MltZfhPlOLa&uid=689b5bb9&sid=01a7561f"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x29
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0000006040D1DDC8
+[RET] [0x7ff6baf26c47] [+0x6c47] in [pebbledash.exe]
+
+[CNT] [536]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [537]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReceiveResponse> in [winhttp.dll] 
+[PAR] HINTERNET hRequest   : 0x0000006040DFD9C0
+[PAR] LPVOID    lpReserved : 0x0
+[RET] [0x7ff6baf26daa] [+0x6daa] in [pebbledash.exe]
+
+[CNT] [538]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [539]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x1000
+[RET] [0x7ff6baf26e2d] [+0x6e2d] in [pebbledash.exe]
+
+[CNT] [540]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [541]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpQueryDataAvailable> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                   : 0x40dfd9c0
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x0000006040D1DFD8
+[RET] [0x7ff6baf26eec] [+0x6eec] in [pebbledash.exe]
+
+[CNT] [542]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x46
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [543]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [544]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReadData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest              : 0x40dfd9c0
+[PAR] LPVOID    lpBuffer              : 0x0000006040E22AB0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x46
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x0000006040D1DFDC
+[RET] [0x7ff6baf26fa4] [+0x6fa4] in [pebbledash.exe]
+
+[ * ] [pid 0x280][tid 0x858] c:\users\user\desktop\pebbledash\pebbledash.exe
+[API] <WinHttpReadData>
+[PAR] LPCVOID lpBuffer : 0x0000006040E22AB0
+[STR]         -> "<html>59hmGTXPezZN8QoJ2v03xUJjESmUHo1Nw1M55KXGg0P+7KeqIKOzaj9m6H+aiUCf"
+[RES] BOOL 0x1
+
+[CNT] [545]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <HeapFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf421d4] [+0x221d4] in [pebbledash.exe]
+
+[CNT] [546]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpQueryDataAvailable> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                   : 0x40dfd9c0
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x0000006040D1DFD8
+[RET] [0x7ff6baf26eec] [+0x6eec] in [pebbledash.exe]
+
+[CNT] [547]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x1
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [548]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReadData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest              : 0x40dfd9c0
+[PAR] LPVOID    lpBuffer              : 0x0000006040DFD410
+[PAR] DWORD     dwNumberOfBytesToRead : 0x0
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x0000006040D1DFDC
+[RET] [0x7ff6baf26fa4] [+0x6fa4] in [pebbledash.exe]
+
+[CNT] [549]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <HeapFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf421d4] [+0x221d4] in [pebbledash.exe]
+
+[CNT] [550]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [551]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2c5a6] [+0xc5a6] in [pebbledash.exe]
+
+[CNT] [552]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf4201b] [+0x2201b] in [pebbledash.exe]
+
+[CNT] [553]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1D1B0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1D142
+[STR]         -> "Cache-Control: no-cache"
+[RET] [0x7ff6baf2614a] [+0x614a] in [pebbledash.exe]
+
+[CNT] [554]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1D1B0
+[STR]         -> "Cache-Control: no-cache"
+[PAR] DWORD dwHeadersLength : 0x17
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf2621d] [+0x621d] in [pebbledash.exe]
+
+[CNT] [555]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1D1B0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1D142
+[STR]         -> "Accept: */*"
+[RET] [0x7ff6baf2636a] [+0x636a] in [pebbledash.exe]
+
+[CNT] [556]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1D1B0
+[STR]         -> "Accept: */*"
+[PAR] DWORD dwHeadersLength : 0xb
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf264c3] [+0x64c3] in [pebbledash.exe]
+
+[CNT] [557]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1D1B0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1D140
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[RET] [0x7ff6baf266ca] [+0x66ca] in [pebbledash.exe]
+
+[CNT] [558]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1D1B0
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[PAR] DWORD dwHeadersLength : 0xffffffff
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf26788] [+0x6788] in [pebbledash.exe]
+
+[CNT] [559]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1D1B0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1D140
+[STR]         -> "Content-Length: %d"
+[RET] [0x7ff6baf268ed] [+0x68ed] in [pebbledash.exe]
+
+[CNT] [560]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1D1B0
+[STR]         -> "Content-Length: 28"
+[PAR] DWORD dwHeadersLength : 0xffffffff
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf26a38] [+0x6a38] in [pebbledash.exe]
+
+[CNT] [561]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpSendRequest> in [winhttp.dll] 
+[PAR] HINTERNET hRequest         : 0x0000006040DFD9C0
+[PAR] LPCWSTR   pwszHeaders      : 0x0 (null)
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0x1c
+[RET] [0x7ff6baf26b41] [+0x6b41] in [pebbledash.exe]
+
+[CNT] [562]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpWriteData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                 : 0x0000006040DFD9C0
+[PAR] LPCVOID   lpBuffer                 : 0x0000006040D1D4A0
+[STR]           -> "sep=XtQzKdYaUaB&sid=01a7561f"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x1c
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0000006040D1D1A8
+[RET] [0x7ff6baf26c47] [+0x6c47] in [pebbledash.exe]
+
+[CNT] [563]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReceiveResponse> in [winhttp.dll] 
+[PAR] HINTERNET hRequest   : 0x0000006040DFD9C0
+[PAR] LPVOID    lpReserved : 0x0
+[RET] [0x7ff6baf26daa] [+0x6daa] in [pebbledash.exe]
+
+[CNT] [564]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x1000
+[RET] [0x7ff6baf26e2d] [+0x6e2d] in [pebbledash.exe]
+
+[CNT] [565]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpQueryDataAvailable> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                   : 0x40dfd9c0
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x0000006040D1D3B8
+[RET] [0x7ff6baf26eec] [+0x6eec] in [pebbledash.exe]
+
+[CNT] [566]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x1e
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [567]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReadData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest              : 0x40dfd9c0
+[PAR] LPVOID    lpBuffer              : 0x0000006040E236E0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x1e
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x0000006040D1D3BC
+[RET] [0x7ff6baf26fa4] [+0x6fa4] in [pebbledash.exe]
+
+[ * ] [pid 0x280][tid 0x858] c:\users\user\desktop\pebbledash\pebbledash.exe
+[API] <WinHttpReadData>
+[PAR] LPCVOID lpBuffer : 0x0000006040E236E0
+[STR]         -> "<html>AKLC+sckv4iHL/2xyXcxyQ=="
+[RES] BOOL 0x1
+
+[CNT] [568]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <HeapFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf421d4] [+0x221d4] in [pebbledash.exe]
+
+[CNT] [569]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpQueryDataAvailable> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                   : 0x40dfd9c0
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x0000006040D1D3B8
+[RET] [0x7ff6baf26eec] [+0x6eec] in [pebbledash.exe]
+
+[CNT] [570]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x1
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [571]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReadData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest              : 0x40dfd9c0
+[PAR] LPVOID    lpBuffer              : 0x0000006040DFD2F0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x0
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x0000006040D1D3BC
+[RET] [0x7ff6baf26fa4] [+0x6fa4] in [pebbledash.exe]
+
+[CNT] [572]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <HeapFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf421d4] [+0x221d4] in [pebbledash.exe]
+
+[CNT] [573]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x16
+[RET] [0x7ff6baf2362c] [+0x362c] in [pebbledash.exe]
+
+[CNT] [574]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf293e6] [+0x93e6] in [pebbledash.exe]
+
+[CNT] [575]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [576]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetTempFileNameW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpPathName     : 0x00007FF6BAF5FE30
+[STR]         -> "C:\Users\user\AppData\Local\Temp\"
+[PAR] LPCWSTR lpPrefixString : 0x0000006040D1D082
+[STR]         -> "PMS"
+[PAR] UINT    uUnique        : 0x0
+[PAR] LPWSTR  lpTempFileName : 0x0000006040D1D0A0
+[RET] [0x7ff6baf2d850] [+0xd850] in [pebbledash.exe]
+
+[ * ] [pid 0x280][tid 0x858] c:\users\user\desktop\pebbledash\pebbledash.exe
+[EVT] [Kernel Monitoring]
+[MSG] [FILE_CREATED] [C:\Users\user\AppData\Local\Temp\PMSEE98.tmp]
+
+[CNT] [577]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [578]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <DeleteFileW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x0000006040D1D0A0
+[STR]         -> "C:\Users\user\AppData\Local\Temp\PMSEE98.tmp"
+[RET] [0x7ff6baf2d8c6] [+0xd8c6] in [pebbledash.exe]
+
+[CNT] [579]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [580]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetDC> in [USER32.dll] 
+[PAR] HWND   hWnd  : 0x0
+[RET] [0x7ff6baf299f3] [+0x99f3] in [pebbledash.exe]
+
+[CNT] [581]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [582]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <CreateCompatibleDC> in [GDI32.dll] 
+[RET] [0x7ff6baf29ab4] [+0x9ab4] in [pebbledash.exe]
+
+[CNT] [583]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [584]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetSystemMetrics> in [USER32.dll] 
+[PAR] int nIndex : 76 (SM_XVIRTUALSCREEN)
+[RET] [0x7ff6baf29b66] [+0x9b66] in [pebbledash.exe]
+
+[CNT] [585]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetSystemMetrics> in [USER32.dll] 
+[PAR] int nIndex : 77 (SM_YVIRTUALSCREEN)
+[RET] [0x7ff6baf29be6] [+0x9be6] in [pebbledash.exe]
+
+[CNT] [586]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetSystemMetrics> in [USER32.dll] 
+[PAR] int nIndex : 78 (SM_CXVIRTUALSCREEN)
+[RET] [0x7ff6baf29c86] [+0x9c86] in [pebbledash.exe]
+
+[CNT] [587]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetSystemMetrics> in [USER32.dll] 
+[PAR] int nIndex : 79 (SM_CYVIRTUALSCREEN)
+[RET] [0x7ff6baf29d66] [+0x9d66] in [pebbledash.exe]
+
+[CNT] [588]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [589]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <CreateCompatibleBitmap> in [GDI32.dll] 
+[PAR] HDC hdc : 0xFFFFFFFF8B0106EE
+[PAR] int cx  : 0x5eb
+[PAR] int cy  : 0x3fc
+[RET] [0x7ff6baf29e9e] [+0x9e9e] in [pebbledash.exe]
+
+[CNT] [590]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [591]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <SelectObject> in [GDI32.dll] 
+[PAR] HDC     hdc : 0x9010b60
+[PAR] HGDIOBJ h   : 0x7050b61
+[RET] [0x7ff6baf29fbf] [+0x9fbf] in [pebbledash.exe]
+
+[CNT] [592]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [593]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <BitBlt> in [GDI32.dll] 
+[PAR] HDC hdc    : 0x9010b60
+[PAR] int x      : 0x0
+[PAR] int y      : 0x0
+[PAR] int cx     : 0x5eb
+[PAR] int cy     : 0x3fc
+[PAR] HDC hdcSrc : 0xFFFFFFFF8B0106EE
+[PAR] int x1     : 0x0
+[PAR] int y1     : 0x0
+[PAR] int rop    : 0xcc0020
+[RET] [0x7ff6baf2a0b6] [+0xa0b6] in [pebbledash.exe]
+
+[CNT] [594]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [595]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetObjectW> in [GDI32.dll] 
+[PAR] HANDLE h  : 0x7050b61
+[PAR] int c     : 0x20
+[PAR] LPVOID pv : 0x0000006040D1D008
+[RET] [0x7ff6baf2a150] [+0xa150] in [pebbledash.exe]
+
+[CNT] [596]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x46c8f0
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [597]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x46c8f0
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [598]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [599]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetDIBits> in [GDI32.dll] 
+[PAR] HDC     hdc    : 0xFFFFFFFF8B0106EE
+[PAR] HBITMAP hbm    : 0x7050b61
+[PAR] int     start  : 0x0
+[PAR] int     clines : 0x3fc
+[RET] [0x7ff6baf2a2b3] [+0xa2b3] in [pebbledash.exe]
+
+[CNT] [600]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [601]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <CreateFileW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName            : 0x0000006040D1D0A0
+[STR]         -> "C:\Users\user\AppData\Local\Temp\PMSEE98.tmp"
+[PAR] DWORD   dwDesiredAccess       : 0x40000000 (GENERIC_WRITE)
+[PAR] DWORD   dwCreationDisposition : 0x2 (CREATE_ALWAYS)
+[RET] [0x7ff6baf2a3f6] [+0xa3f6] in [pebbledash.exe]
+
+[ * ] [pid 0x280][tid 0x858] c:\users\user\desktop\pebbledash\pebbledash.exe
+[EVT] [Kernel Monitoring]
+[MSG] [FILE_CREATED] [C:\Users\user\AppData\Local\Temp\PMSEE98.tmp]
+
+[CNT] [602]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [603]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x1f8
+[PAR] LPVOID       lpBuffer               : 0x0000006043D8C040
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x156a5
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x0000006040D1CFD0
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x7ff6baf2a507] [+0xa507] in [pebbledash.exe]
+
+[CNT] [604]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1f8
+[RET] [0x7ff6baf2a614] [+0xa614] in [pebbledash.exe]
+
+[CNT] [605]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <HeapFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf421d4] [+0x221d4] in [pebbledash.exe]
+
+[CNT] [606]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <HeapFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf421d4] [+0x221d4] in [pebbledash.exe]
+
+[CNT] [607]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <SelectObject> in [GDI32.dll] 
+[PAR] HDC     hdc : 0x9010b60
+[PAR] HGDIOBJ h   : 0x185000f
+[RET] [0x7ff6baf2a6dd] [+0xa6dd] in [pebbledash.exe]
+
+[CNT] [608]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [609]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <DeleteObject> in [GDI32.dll] 
+[PAR] HGDIOBJ ho : 0x7050b61
+[RET] [0x7ff6baf2a785] [+0xa785] in [pebbledash.exe]
+
+[CNT] [610]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [611]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <DeleteDC> in [GDI32.dll] 
+[PAR] HDC hdc : 0x9010b60
+[RET] [0x7ff6baf2a834] [+0xa834] in [pebbledash.exe]
+
+[CNT] [612]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <DeleteDC> in [GDI32.dll] 
+[PAR] HDC hdc : 0xFFFFFFFF8B0106EE
+[RET] [0x7ff6baf2a905] [+0xa905] in [pebbledash.exe]
+
+[CNT] [613]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <CreateFileW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName            : 0x0000006040D1C820
+[STR]         -> "C:\Users\user\AppData\Local\Temp\PMSEE98.tmp"
+[PAR] DWORD   dwDesiredAccess       : 0x80000000 (GENERIC_READ)
+[PAR] DWORD   dwCreationDisposition : 0x3 (OPEN_EXISTING)
+[RET] [0x7ff6baf2f787] [+0xf787] in [pebbledash.exe]
+
+[CNT] [614]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [615]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetFileSize> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile : 0x1f8
+[RET] [0x7ff6baf2f8d6] [+0xf8d6] in [pebbledash.exe]
+
+[CNT] [616]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x156a5
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [617]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [618]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <ReadFile> in [KERNEL32.DLL] 
+[PAR] HANDLE hFile                : 0x1f8
+[PAR] LPVOID lpBuffer             : 0x0000006040E4A160
+[PAR] DWORD  nNumberOfBytesToRead : 0x156a5
+[RET] [0x7ff6baf2f9c4] [+0xf9c4] in [pebbledash.exe]
+
+[CNT] [619]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x156bd
+[RET] [0x7ff6baf275ec] [+0x75ec] in [pebbledash.exe]
+
+[CNT] [620]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x1c8ed
+[RET] [0x7ff6baf23809] [+0x3809] in [pebbledash.exe]
+
+[CNT] [621]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf27814] [+0x7814] in [pebbledash.exe]
+
+[CNT] [622]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x1c90f
+[RET] [0x7ff6baf2898a] [+0x898a] in [pebbledash.exe]
+
+[CNT] [623]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf4201b] [+0x2201b] in [pebbledash.exe]
+
+[CNT] [624]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1C460
+[PAR] LPCTSTR lpFmt : 0x0000006040D1C3F2
+[STR]         -> "Cache-Control: no-cache"
+[RET] [0x7ff6baf2614a] [+0x614a] in [pebbledash.exe]
+
+[CNT] [625]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1C460
+[STR]         -> "Cache-Control: no-cache"
+[PAR] DWORD dwHeadersLength : 0x17
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf2621d] [+0x621d] in [pebbledash.exe]
+
+[CNT] [626]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1C460
+[PAR] LPCTSTR lpFmt : 0x0000006040D1C3F2
+[STR]         -> "Accept: */*"
+[RET] [0x7ff6baf2636a] [+0x636a] in [pebbledash.exe]
+
+[CNT] [627]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1C460
+[STR]         -> "Accept: */*"
+[PAR] DWORD dwHeadersLength : 0xb
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf264c3] [+0x64c3] in [pebbledash.exe]
+
+[CNT] [628]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1C460
+[PAR] LPCTSTR lpFmt : 0x0000006040D1C3F0
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[RET] [0x7ff6baf266ca] [+0x66ca] in [pebbledash.exe]
+
+[CNT] [629]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1C460
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[PAR] DWORD dwHeadersLength : 0xffffffff
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf26788] [+0x6788] in [pebbledash.exe]
+
+[CNT] [630]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1C460
+[PAR] LPCTSTR lpFmt : 0x0000006040D1C3F0
+[STR]         -> "Content-Length: %d"
+[RET] [0x7ff6baf268ed] [+0x68ed] in [pebbledash.exe]
+
+[CNT] [631]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040DFD9C0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1C460
+[STR]         -> "Content-Length: 117006"
+[PAR] DWORD dwHeadersLength : 0xffffffff
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf26a38] [+0x6a38] in [pebbledash.exe]
+
+[CNT] [632]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpSendRequest> in [winhttp.dll] 
+[PAR] HINTERNET hRequest         : 0x0000006040DFD9C0
+[PAR] LPCWSTR   pwszHeaders      : 0x0 (null)
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0x1c90e
+[RET] [0x7ff6baf26b41] [+0x6b41] in [pebbledash.exe]
+
+[CNT] [633]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpWriteData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                 : 0x0000006040DFD9C0
+[PAR] LPCVOID   lpBuffer                 : 0x0000006040E917E0
+[STR]           -> "sep=sRhqotvThSV&sid=01a7561f&data=KfH4HnlItjUjNYejIRnLcK1AqJfoC0g6BPGl+CO0CE9GZOtx+J9e4hdI3hrrOLK+TKhyStgbkexhmmG1w8ul3o"
+[STR]              "4M/tVXPkLvB1VGt0BBLmzAseZfdQuKKjvrC4n34RE5ru18h04gtiwPqgOvJApLDkE9x0zQCdxn2FDq0kjIHRKvl30IlzC76+vcqInhLF1IUTFNZNDXO4aQw3"
+[STR]              "B5+/QcVpktH6wVlG10TjrZQKQ/jSP3UjEsUIC+n1DDxCHYf0X7JMsJkq82eXK64sZbkuT2FkwTuKrTquQ+NAOsHB1fqtwDBwPeG0R56Ddw13fpF2gp3Aj5ed"
+[STR]              "THup8pDYWHjbOhj4cI7kkTTp6nXxch7kk6FafqYQr96XQR2KkV5UMEqdY6dbCad/GZgcBBLoqmMqL3slAgBoyDg19a5Pp+lSAnUMlkZJiveaWLmvFQGtx/qC"
+[STR]              "U7vEz8X6QujrhHW4zJ2r0QQ3SEfSwsEmIprAmAB1Z45jqmohN7KWxAoum2B+4bTrg4+WqdFajID7x3IspO22EW2c7/DOo401bzF1p7AIsAid7IxnKpBYVwrs"
+[STR]              "jWtqSNat+yf/Rq1wDSxvaD7wE1Ybc9Tf+Vd9LVfCfeJhWBE7Xkv+T83sfRmOjQ5E1hIFDofU6ApXza4iq+J21UyXYBoJpsCcImRz/9rBMTeqzG16+Y+gsjpo"
+[STR]              "gGYhxD6gJ2FMT8a5u3CjoVJUz0fukIs8jphwCZOrdASntBQiTcSPTQP58jqRMxi0I4HNojtqjdpV+ocOeqceahUr9OpmgbG5BuidXL4LFsH2ET/Jz7/uJfq+"
+[STR]              "9GOr/TI2c7D5yF/aPZTmyXhyk+HMhmnsubZbsnXSGXFzuQJnjkvQThYoU8yph22mvPMEhrVN1l3VCB9sIpH5NgEDlKGWOZkyfkyIqyDDs+h+tjtrKWpzm8gy"
+[STR]              "Yg2Wvxmf1assyQQHP94ge+hwCWPWFZjIC26tJHwVphhqw6BJw+Q/uS1G3RYNtNQezP8p+1IDGJ49RGdfUQQYrNA0myKkXhz27fHLvE/emitfc9aRLsr+4mFd"
+[STR]              "LSc7sVTpEs4UBS3gsHiWxPRCdh1LAYlkxjduSgOaj3KTK9l5fxN+Bxm63vpVkYQx1jlafX8eed6/1WGEXLKiK7Fgq3o1O1lzyuthwCIiJHh0vFtoosr/cmOb"
+[STR]              "lbTeXKlTCAoSI77v6in/vjXRWb+40y0l2ItZrr+ByM92m9IEvYcx6vXUyazICqppiHrMbymuVDemlYCTzvJvRMKdLxK8nvx4yShxSj7kIYYRCOaeL3wayoit"
+[STR]              "AyTgpUzD69KwBDrUdC9EZTXWjtZRQAgmvmbQwdmSbpj1HX8i24hywegTKRjPZikD8y9TKl+02AuLgQKKG+/R9m8v0u7HBsyQpOB6newjxcwzM6Z8kLn8qh6n"
+[STR]              "kBYUUcTg2eyNhX71KULLNL5mYGKG9EBpSV9d9/v/IaiLZ5xEy1kZTIn0c/t7ahSE0LEJrUD1/xd40ogTCN4dLeAfU8RzsIixR9Xh1/47xSnIuMedMZ/IMxll"
+[STR]              "0Okj8Vtod4rGW3viN198K5vLc7g/IGByYyC3qYA6OYXbtQ4pdfkKSfWRSvfVpK8kpEuSU0gPkkXHC99Du++anskgkG+CWGMMjQEm0vAhdaZBlgZBTU9ZpzAQ"
+[STR]              [TRUNCATED]
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x10000
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0000006040D1C458
+[RET] [0x7ff6baf26c47] [+0x6c47] in [pebbledash.exe]
+
+[CNT] [634]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpWriteData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                 : 0x0000006040DFD9C0
+[PAR] LPCVOID   lpBuffer                 : 0x0000006040EA17E0
+[STR]           -> "+gyP4pVyXN3Eaqf2X3pmUEccq0xIw6EMy2g7z0SUx0TF7N9hP0Pahbbcg8A7EaL6XPrqa6UkL6VpWX/QBwd/KveLHCcs0trgEliocyWKgZLNj9++wG4dhA6Z"
+[STR]              "HjO1mmrNkSXq7sDdvp0egFU830f5vAXo5x63te7EGHbdTIsrfesNT78s6+Qa6DgLDGiMdbiW7bxmLrI/Bv1QlL+xI4ZIY6UgHqYBYED9kQu0GcmR1Lv7/DzR"
+[STR]              "GTPKMflZQK+CrmweRzhyJeIZ9Y0MAYBjpJrio8Qnbk7QN3VWhmRbbX6mALUoPElniE3bijkmOUmSlmEyNM9il/SY3YbpYhiYL0C9rFcdwn/vW2g5cscp5SV3"
+[STR]              "mIqnNa9sZgTpu0x7o2gpVDKMJfWMADzN9c30tgxewKBrXcnkjXl5dKdF7K08oAjs6xdlOGJrtJOaIApwps4UkjsBUfW/8cyrU3aILnBM+mRySz+e+oPTVKUl"
+[STR]              "AaAAOmFf3+vzQamO6/pH2wmdJjHKXjpb7Jk15Q6FZScUMqYcBHZt2MNX20omzt1Cni0kzXpinkc6+HcKt9ZsZiYW8S3PQfBHovvgT1m/K1kq5t7xkBtkeWTj"
+[STR]              "QqsCuePSyJjDoKN92IVOSKzcTA9TYf/1115cgnmMOLSPVA8FNUG5ZaTfDAYgYkdYX3ydi0UAQ5bKZq0IsVdeTwuoVu7wRDFUIER2hxJLshfLwdwWEOv6NYYg"
+[STR]              "V+/P9cNaV3wwM7ei3z3xBVhKVbn7aXKHFAVIdCJrgy+4VfEVlJo5dKbcXWB3hpz2fIdYwWC8dIj6mXZSJaANwR8CRG31n9mDZRIFXJnPsajMKmIG1RtPL/Jq"
+[STR]              "LNpC1CvOe/qLwWOafEsBNCAg3iEa5Dq30UOu7eoVduISem0ff2aDmsR0kUL/uJxd24DBSxuevYKWr5jb/NVeZktAR6x1f5X4so1tg/C9ITWUV+FAS/bebgpf"
+[STR]              "4tlJHKk6lY0VfDlqlySe+VNGzoaBx8kWIyBpzU5lp1jo/nKZxBue1IUFfOINYPYapjx33krC2T/uGTBCKCdoKU6TBtrIAsQVIzFTIvI4MXhLx+SxTe3umYl2"
+[STR]              "HRXCtbdCdqzJaH3Dz6p/KilO/bywOrMrlba4fn1+nEvVt22srDNSYGUkfjntEffcl1+tLIBnSx9T6sdOx+sMWsjBwSvsnrSychIgeJZgNdtq0MY+gUXK9w0+"
+[STR]              "G2JdYZ7XDR0qkThg/5aqM9Dy3ya+eEzA8UhS50LB+hKJ/B6xjUraA5zSlPSBJteQa5vKLtUJYfdJ1nuXrwXtblGQSOQgCyQPwRzY99/CwQ+XjuJLOzHTQdxr"
+[STR]              "0sA8vuQVfjFVbjF/DrLBZ2gg/L5GxUZRPoZ+8Q5OpreUiTyRvn9oGdqQyp/B3G3bd4h5imvQTTrGI8v+5ceDz/qy3LuMSPWTj4I4IOpM5JOFGdeeMYXsBNqw"
+[STR]              "GiabI5mJDQVEGZG5MNvXJh8ZGzRnShiatqPpe7xPx0qV8JcLrlXZo7qkCay85Atz8026Fr1z4ZqUIuir99UUDci8LqC/b+vZmhPpf7qONF2dyE1vPMI1A4R7"
+[STR]              "u6JNRb3wg21NZKish1onU+oeTIhafBGea6/AB+tu1LXHAcgo2KryFCNW6Sii9Z4YZ6xkH6wRXEA4dbyjPqn8awuQeBWpRl5kkCUROng54fLhwTrVX9PdxbYH"
+[STR]              [TRUNCATED]
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0xc90e
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0000006040D1C458
+[RET] [0x7ff6baf26c47] [+0x6c47] in [pebbledash.exe]
+
+[CNT] [635]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReceiveResponse> in [winhttp.dll] 
+[PAR] HINTERNET hRequest   : 0x0000006040DFD9C0
+[PAR] LPVOID    lpReserved : 0x0
+[RET] [0x7ff6baf26daa] [+0x6daa] in [pebbledash.exe]
+
+[CNT] [636]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x1000
+[RET] [0x7ff6baf26e2d] [+0x6e2d] in [pebbledash.exe]
+
+[CNT] [637]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpQueryDataAvailable> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                   : 0x40dfd9c0
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x0000006040D1C668
+[RET] [0x7ff6baf26eec] [+0x6eec] in [pebbledash.exe]
+
+[CNT] [638]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x1
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [639]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReadData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest              : 0x40dfd9c0
+[PAR] LPVOID    lpBuffer              : 0x0000006040DFD3B0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x0
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x0000006040D1C66C
+[RET] [0x7ff6baf26fa4] [+0x6fa4] in [pebbledash.exe]
+
+[CNT] [640]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <HeapFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf421d4] [+0x221d4] in [pebbledash.exe]
+
+[CNT] [641]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf28c84] [+0x8c84] in [pebbledash.exe]
+
+[CNT] [642]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf28d24] [+0x8d24] in [pebbledash.exe]
+
+[CNT] [643]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf29144] [+0x9144] in [pebbledash.exe]
+
+[CNT] [644]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <HeapFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf421d4] [+0x221d4] in [pebbledash.exe]
+
+[CNT] [645]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1f8
+[RET] [0x7ff6baf2fb94] [+0xfb94] in [pebbledash.exe]
+
+[CNT] [646]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf34856] [+0x14856] in [pebbledash.exe]
+
+[CNT] [647]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [648]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpCloseHandle> in [winhttp.dll] 
+[PAR] HINTERNET hInternet : 0x0000006040DFD9C0
+[RET] [0x7ff6baf27378] [+0x7378] in [pebbledash.exe]
+
+[CNT] [649]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpCloseHandle> in [winhttp.dll] 
+[PAR] HINTERNET hInternet : 0x0000006040E05A60
+[RET] [0x7ff6baf27428] [+0x7428] in [pebbledash.exe]
+
+[CNT] [650]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpCloseHandle> in [winhttp.dll] 
+[PAR] HINTERNET hInternet : 0x0000006040DFD020
+[RET] [0x7ff6baf274c8] [+0x74c8] in [pebbledash.exe]
+
+[CNT] [651]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x30
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[ * ] [pid 0x280][tid 0xb44] c:\users\user\desktop\pebbledash\pebbledash.exe
+[EVT] [Max Sleep]
+[MSG] Delay Execution reduced from 30000 ms to 15000 ms 
+
+[CNT] [652]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x3e8 (1 sec)
+[RET] [0x7ff6baf34ff6] [+0x14ff6] in [pebbledash.exe]
+
+[CNT] [653]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2b6b5] [+0xb6b5] in [pebbledash.exe]
+
+[CNT] [654]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <SystemTimeToVariantTime> in [oleaut32.dll] 
+[RET] [0x7ff6baf2b759] [+0xb759] in [pebbledash.exe]
+
+[CNT] [655]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetLogicalDrives> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2b821] [+0xb821] in [pebbledash.exe]
+
+[CNT] [656]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WTSEnumerateSessionsW> in [wtsapi32.dll] 
+[PAR] HANDLE              hServer       : 0x0 (WTS_CURRENT_SERVER_HANDLE)
+[PAR] DWORD               Reserved      : 0x0
+[PAR] DWORD               Version       : 0x1
+[PAR] PWTS_SESSION_INFOW* ppSessionInfo : 0x0000006040D1E4C8
+[PAR] DWORD*              pCount        : 0x0000006040D1E4D0
+[RET] [0x7ff6baf2b8f6] [+0xb8f6] in [pebbledash.exe]
+
+[CNT] [657]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [658]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpCloseHandle> in [winhttp.dll] 
+[PAR] HINTERNET hInternet : 0x0000006040DFD9C0
+[RET] [0x7ff6baf27378] [+0x7378] in [pebbledash.exe]
+
+[CNT] [659]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpCloseHandle> in [winhttp.dll] 
+[PAR] HINTERNET hInternet : 0x0000006040E05A60
+[RET] [0x7ff6baf27428] [+0x7428] in [pebbledash.exe]
+
+[CNT] [660]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpCloseHandle> in [winhttp.dll] 
+[PAR] HINTERNET hInternet : 0x0000006040DFD020
+[RET] [0x7ff6baf274c8] [+0x74c8] in [pebbledash.exe]
+
+[CNT] [661]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <ObtainUserAgentString> in [urlmon.dll] 
+[PAR] DWORD  dwOption : 0x0
+[PAR] LPSTR  pszUAOut : 0x0000006040D1D3F0
+[PAR] DWORD* cbSize   : 0x0000006040D1CFC0
+[RET] [0x7ff6baf25a9e] [+0x5a9e] in [pebbledash.exe]
+
+[CNT] [662]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpOpen> in [winhttp.dll] 
+[PAR] LPCWSTR pwszUserAgent   : 0x0000006040D1D7F0
+[STR]         -> "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36"
+[PAR] DWORD   dwAccessType    : 0x1 (INTERNET_OPEN_TYPE_DIRECT)
+[PAR] LPCWSTR pwszProxyName   : 0x0 (null)
+[PAR] LPCWSTR pwszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0
+[RET] [0x7ff6baf25c06] [+0x5c06] in [pebbledash.exe]
+
+[CNT] [663]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <InternetCanonicalizeUrlW> in [wininet.dll] 
+[PAR] LPCWSTR lpszUrl          : 0x00007FF6BAF5CAC8
+[STR]         -> "http://www.addfriend.kr/board/userfiles/temp/index.html"
+[PAR] LPTSTR  lpszBuffer (out) : 0x0000006040D1C680
+[PAR] LPDWORD lpdwBufferLength : 0x0000006040D1C678
+[PAR] DWORD   dwFlags          : 0x2000000
+[RET] [0x7ff6baf255d4] [+0x55d4] in [pebbledash.exe]
+
+[CNT] [664]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <InternetCrackUrlW> in [wininet.dll] 
+[PAR] LPCWSTR          lpszUrl	     : 0x0000006040D1C680
+[STR]                  -> "http://www.addfriend.kr/board/userfiles/temp/index.html"
+[PAR] DWORD            dwUrlLength     : 0x0
+[PAR] DWORD            dwFlags         : 0x0
+[PAR] LPURL_COMPONENTS lpUrlComponents : 0x0000006040D1CF40
+[RET] [0x7ff6baf256be] [+0x56be] in [pebbledash.exe]
+
+[CNT] [665]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpConnect> in [winhttp.dll] 
+[PAR] HINTERNET     hSession       : 0x40dfd020
+[PAR] LPCWSTR       pswzServerName : 0x0000006040D1CFD0
+[STR]               -> "www.addfriend.kr"
+[PAR] INTERNET_PORT nServerPort    : 80
+[RET] [0x7ff6baf25d45] [+0x5d45] in [pebbledash.exe]
+
+[CNT] [666]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpOpenRequest> in [winhttp.dll] 
+[PAR] HINTERNET hConnect          : 0x40e31bf0
+[PAR] LPCWSTR   pwszVerb          : 0x0000006040D1CFB2
+[STR]           -> "POST"
+[PAR] LPCWSTR   pwszObjectName    : 0x0000006040D1D1E0
+[STR]           -> "/board/userfiles/temp/index.html"
+[PAR] LPCWSTR   pwszVersion       : 0x0 (null)
+[PAR] LPCWSTR   pwszReferrer      : 0x0 (null)
+[PAR] LPCWSTR   *ppwszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags           : 0x0 
+[RET] [0x7ff6baf25e41] [+0x5e41] in [pebbledash.exe]
+
+[CNT] [667]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpSetTimeouts> in [winhttp.dll] 
+[PAR] HINTERNET hConnect          : 0x40e37dd0
+[PAR] int       nResolveTimeout   : 0xea60
+[PAR] int       nConnectTimeout   : 0xea60
+[PAR] int       nSendTimeout      : 0xea60
+[PAR] int       nReceiveTimeout   : 0xea60
+[RET] [0x7ff6baf25fab] [+0x5fab] in [pebbledash.exe]
+
+[CNT] [668]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [669]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [670]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [671]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [672]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [673]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [674]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [675]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [676]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [677]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf41e9f] [+0x21e9f] in [pebbledash.exe]
+
+[CNT] [678]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <FlsGetValue> in [KERNELBASE.dll] 
+[PAR] DWORD dwFlsIndex : 0x4
+[RET] [0x7ff6baf4201b] [+0x2201b] in [pebbledash.exe]
+
+[CNT] [679]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1DDD0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1DD62
+[STR]         -> "Cache-Control: no-cache"
+[RET] [0x7ff6baf2614a] [+0x614a] in [pebbledash.exe]
+
+[CNT] [680]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040E37DD0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1DDD0
+[STR]         -> "Cache-Control: no-cache"
+[PAR] DWORD dwHeadersLength : 0x17
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf2621d] [+0x621d] in [pebbledash.exe]
+
+[CNT] [681]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1DDD0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1DD62
+[STR]         -> "Accept: */*"
+[RET] [0x7ff6baf2636a] [+0x636a] in [pebbledash.exe]
+
+[CNT] [682]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040E37DD0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1DDD0
+[STR]         -> "Accept: */*"
+[PAR] DWORD dwHeadersLength : 0xb
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf264c3] [+0x64c3] in [pebbledash.exe]
+
+[CNT] [683]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1DDD0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1DD60
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[RET] [0x7ff6baf266ca] [+0x66ca] in [pebbledash.exe]
+
+[CNT] [684]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040E37DD0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1DDD0
+[STR]         -> "Content-Type: application/x-www-form-urlencoded"
+[PAR] DWORD dwHeadersLength : 0xffffffff
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf26788] [+0x6788] in [pebbledash.exe]
+
+[CNT] [685]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <wsprintfW> in [USER32.dll] 
+[PAR] LPTSTR  lpOut : 0x0000006040D1DDD0
+[PAR] LPCTSTR lpFmt : 0x0000006040D1DD60
+[STR]         -> "Content-Length: %d"
+[RET] [0x7ff6baf268ed] [+0x68ed] in [pebbledash.exe]
+
+[CNT] [686]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpAddRequestHeaders> in [winhttp.dll] 
+[PAR] HINTERNET hRequest    : 0x0000006040E37DD0
+[PAR] LPCWSTR lpszHeaders   : 0x0000006040D1DDD0
+[STR]         -> "Content-Length: 41"
+[PAR] DWORD dwHeadersLength : 0xffffffff
+[PAR] DWORD dwModifiers     : 0xa0000000
+[RET] [0x7ff6baf26a38] [+0x6a38] in [pebbledash.exe]
+
+[CNT] [687]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpSendRequest> in [winhttp.dll] 
+[PAR] HINTERNET hRequest         : 0x0000006040E37DD0
+[PAR] LPCWSTR   pwszHeaders      : 0x0 (null)
+[PAR] DWORD     dwHeadersLength  : 0xffffffff
+[PAR] LPVOID    lpOptional       : 0x0 (null)
+[PAR] DWORD     dwOptionalLength : 0x0
+[PAR] DWORD     dwTotalLength    : 0x29
+[RET] [0x7ff6baf26b41] [+0x6b41] in [pebbledash.exe]
+
+[CNT] [688]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpWriteData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                 : 0x0000006040E37DD0
+[PAR] LPCVOID   lpBuffer                 : 0x0000006040D1E110
+[STR]           -> "sep=MltZfhPlOLa&uid=689b5bb9&sid=015266ff"
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x29
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0000006040D1DDC8
+[RET] [0x7ff6baf26c47] [+0x6c47] in [pebbledash.exe]
+
+[CNT] [689]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReceiveResponse> in [winhttp.dll] 
+[PAR] HINTERNET hRequest   : 0x0000006040E37DD0
+[PAR] LPVOID    lpReserved : 0x0
+[RET] [0x7ff6baf26daa] [+0x6daa] in [pebbledash.exe]
+
+[CNT] [690]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalAlloc> in [KERNEL32.DLL] 
+[PAR] UINT   uFlags : 0x40
+[PAR] SIZE_T uBytes : 0x1000
+[RET] [0x7ff6baf26e2d] [+0x6e2d] in [pebbledash.exe]
+
+[CNT] [691]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpQueryDataAvailable> in [winhttp.dll] 
+[PAR] HINTERNET hRequest                   : 0x40e37dd0
+[PAR] LPDWORD   lpdwNumberOfBytesAvailable : 0x0000006040D1DFD8
+[RET] [0x7ff6baf26eec] [+0x6eec] in [pebbledash.exe]
+
+[CNT] [692]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <RtlAllocateHeap> in [ntdll.dll] 
+[PAR] PVOID  HeapHandle : 0x0000006040DE0000
+[PAR] ULONG  Flags      : 0x0 
+[PAR] SIZE_T Size       : 0x1
+[RET] [0x7ff6baf4223c] [+0x2223c] in [pebbledash.exe]
+
+[CNT] [693]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpReadData> in [winhttp.dll] 
+[PAR] HINTERNET hRequest              : 0x40e37dd0
+[PAR] LPVOID    lpBuffer              : 0x0000006040DFD3B0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x0
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x0000006040D1DFDC
+[RET] [0x7ff6baf26fa4] [+0x6fa4] in [pebbledash.exe]
+
+[CNT] [694]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <HeapFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf421d4] [+0x221d4] in [pebbledash.exe]
+
+[CNT] [695]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2c458] [+0xc458] in [pebbledash.exe]
+
+[CNT] [696]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpCloseHandle> in [winhttp.dll] 
+[PAR] HINTERNET hInternet : 0x0000006040E37DD0
+[RET] [0x7ff6baf27378] [+0x7378] in [pebbledash.exe]
+
+[CNT] [697]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpCloseHandle> in [winhttp.dll] 
+[PAR] HINTERNET hInternet : 0x0000006040E31BF0
+[RET] [0x7ff6baf27428] [+0x7428] in [pebbledash.exe]
+
+[CNT] [698]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WinHttpCloseHandle> in [winhttp.dll] 
+[PAR] HINTERNET hInternet : 0x0000006040DFD020
+[RET] [0x7ff6baf274c8] [+0x74c8] in [pebbledash.exe]
+
+[CNT] [699]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf350c6] [+0x150c6] in [pebbledash.exe]
+
+Thread created by monitored process : Now monitoring [pid 0x280][tid 0x860]
+
+[CNT] [700]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <SystemTimeToVariantTime> in [oleaut32.dll] 
+[RET] [0x7ff6baf3516b] [+0x1516b] in [pebbledash.exe]
+
+[CNT] [701]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2b6b5] [+0xb6b5] in [pebbledash.exe]
+
+[CNT] [702]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <SystemTimeToVariantTime> in [oleaut32.dll] 
+[RET] [0x7ff6baf2b759] [+0xb759] in [pebbledash.exe]
+
+[CNT] [703]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetLogicalDrives> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2b821] [+0xb821] in [pebbledash.exe]
+
+[CNT] [704]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WTSEnumerateSessionsW> in [wtsapi32.dll] 
+[PAR] HANDLE              hServer       : 0x0 (WTS_CURRENT_SERVER_HANDLE)
+[PAR] DWORD               Reserved      : 0x0
+[PAR] DWORD               Version       : 0x1
+[PAR] PWTS_SESSION_INFOW* ppSessionInfo : 0x0000006040D1E4C8
+[PAR] DWORD*              pCount        : 0x0000006040D1E4D0
+[RET] [0x7ff6baf2b8f6] [+0xb8f6] in [pebbledash.exe]
+
+[CNT] [705]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetLogicalDrives> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2bb01] [+0xbb01] in [pebbledash.exe]
+
+[CNT] [706]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WTSEnumerateSessionsW> in [wtsapi32.dll] 
+[PAR] HANDLE              hServer       : 0x0 (WTS_CURRENT_SERVER_HANDLE)
+[PAR] DWORD               Reserved      : 0x0
+[PAR] DWORD               Version       : 0x1
+[PAR] PWTS_SESSION_INFOW* ppSessionInfo : 0x0000006040D1E4C8
+[PAR] DWORD*              pCount        : 0x0000006040D1E4D0
+[RET] [0x7ff6baf2bc17] [+0xbc17] in [pebbledash.exe]
+
+[CNT] [707]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x3e8 (1 sec)
+[RET] [0x7ff6baf2bde6] [+0xbde6] in [pebbledash.exe]
+
+[CNT] [708]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2be86] [+0xbe86] in [pebbledash.exe]
+
+[CNT] [709]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <SystemTimeToVariantTime> in [oleaut32.dll] 
+[RET] [0x7ff6baf2bf29] [+0xbf29] in [pebbledash.exe]
+
+[CNT] [710]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetLogicalDrives> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2bb01] [+0xbb01] in [pebbledash.exe]
+
+[CNT] [711]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <WTSEnumerateSessionsW> in [wtsapi32.dll] 
+[PAR] HANDLE              hServer       : 0x0 (WTS_CURRENT_SERVER_HANDLE)
+[PAR] DWORD               Reserved      : 0x0
+[PAR] DWORD               Version       : 0x1
+[PAR] PWTS_SESSION_INFOW* ppSessionInfo : 0x0000006040D1E4C8
+[PAR] DWORD*              pCount        : 0x0000006040D1E4D0
+[RET] [0x7ff6baf2bc17] [+0xbc17] in [pebbledash.exe]
+
+[CNT] [712]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x3e8 (1 sec)
+[RET] [0x7ff6baf2bde6] [+0xbde6] in [pebbledash.exe]
+
+[CNT] [713]
+[PTP] [0x280] [0x858] [c:\users\user\desktop\pebbledash\pebbledash.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[RET] [0x7ff6baf2be86] [+0xbe86] in [pebbledash.exe]
+
+
