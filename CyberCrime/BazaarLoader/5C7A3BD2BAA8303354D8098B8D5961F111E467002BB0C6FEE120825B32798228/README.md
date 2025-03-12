@@ -145,7 +145,7 @@ The sample relies on the ThreadPool worker thread feature to execute various sen
 MSDN : https://learn.microsoft.com/en-us/windows/win32/procthread/thread-pool-api  
 Some POC : https://github.com/mobdk/WinSpoof  
 
-Interestingly, the creation of a ThreadPool Worker thread do not seem to trigger any notification to the PsSetCreateThreadNotifyRoutine kernel callback mechanism...
+Interestingly, the creation of a ThreadPool Worker thread doesn't seem to trigger any notification to the PsSetCreateThreadNotifyRoutine kernel callback interface...
 
 --- 
 
