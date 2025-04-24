@@ -40,7 +40,7 @@ Given the deep kernel tempering operated by Reflexions, the guest OS *has* to be
 
 ## Performance  
 
-There is a moderate to strong impact on performances of the supervised code depending on the use case.  
+There is a moderate to strong impact on performance of the supervised code depending on the use case.  
 This section will be updated with some measurement before release  
 
 # This repository  
