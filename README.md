@@ -6,7 +6,7 @@
 Reflexions is a Windows PE runtime supervision tool (EXE/DLL).  
 It relies on an innovative approach to log the supervised code's behavior at the API level.  
 More than a sandbox, it is a tool that can be used for dynamic analysis (debugging) of a Windows process.  
-While not perfect, Reflexions is designed to defeat most of the 'usual' EDR evesion technics used by malicious codes as demonstrated with [BruteRatel](https://cedricg-mirror.github.io/2025/03/21/BruteRatelReflexionsAnalysis.html)  
+While not perfect, Reflexions is designed to defeat most of the 'usual' EDR evasion technics used by malicious codes as demonstrated with [BruteRatel](https://cedricg-mirror.github.io/2025/03/21/BruteRatelReflexionsAnalysis.html)  
 
 Reflexions also comes with several handy features like :  
 - Embedded function prototype from hundreds of Microsoft Win32 API 
