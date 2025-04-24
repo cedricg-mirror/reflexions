@@ -3,7 +3,8 @@
 
 ## What is Reflexions Sandbox ?  
 
-Reflexions is a Windows PE runtime supervision tool (EXE/DLL). It relies on an innovative approach to log the supervised code's behavior at the API level.  
+Reflexions is a Windows PE runtime supervision tool (EXE/DLL).  
+It relies on an innovative approach to log the supervised code's behavior at the API level.  
 More than a sandbox, it is a tool that can be used for dynamic analysis (debugging) of a Windows process.  
 While not perfect, Reflexions is designed to defeat most of the 'traditionnal' EDR evesion technics used by malicious codes as demonstrated with [BruteRatel](https://cedricg-mirror.github.io/2025/03/21/BruteRatelReflexionsAnalysis.html)  
 
