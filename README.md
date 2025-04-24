@@ -21,7 +21,7 @@ Reflexions also comes with several handy features like :
 
 ## When will it be released ?  
 
-So, not 'when it's done', as there will likely never be such a thing but when it will be 'stable' enough to allow an open beta, hopefully 'soon'.
+So, not 'when it's done', as there will likely never be such a thing but when it will be 'stable' enough to allow an open beta, hopefully 'soon'.  
 
 ## What are the requirements to make it run ?  
 
