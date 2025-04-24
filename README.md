@@ -9,6 +9,7 @@ More than a sandbox, it is a tool that can be used for dynamic analysis (debuggi
 While not perfect, Reflexions is designed to defeat most of the 'traditionnal' EDR evesion technics used by malicious codes as demonstrated with [BruteRatel](https://cedricg-mirror.github.io/2025/03/21/BruteRatelReflexionsAnalysis.html)  
 
 Reflexions also comes with several handy features like :  
+- Embedded function prototype from hundreds of Microsoft Win32 API 
 - Attempting to dump any file created by the supervised code  
 - Redirecting network communications to specified IP  
 - Undetectable breakpoints on user API  
