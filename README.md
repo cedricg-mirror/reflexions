@@ -1,6 +1,49 @@
-# Reflexions
+# Reflexions Sandbox
 
-This repository is meant to share knownledge on malicious code targeting the Windows OS, whether they are state sponsored or cybercrime related.
+
+## What is Reflexions Sandbox ?  
+
+Reflexions is a Windows PE runtime supervision tool (EXE/DLL). It relies on an innovative approach to log the supervised code's behavior at the API level.  
+More than a sandbox, it is a tool that can be used for dynamic analysis (debugging) of a Windows process.  
+While not perfect, Reflexions is designed to defeat most of the 'traditionnal' EDR evesion technics used by malicious codes as demonstrated with [BruteRatel](https://cedricg-mirror.github.io/2025/03/21/BruteRatelReflexionsAnalysis.html)  
+
+Reflexions also comes with several handy features like :  
+- Attempting to dump any file created by the supervised code  
+- Redirecting network communications to specified IP  
+- Undetectable breakpoints on user API  
+- Conditionnal breakpoints  
+- Following malicious threads in remote, legitimate, processes  
+- Automaticaly supervising malicious DLL dropped/loaded at runtime  
+- Limiting Sleeps to a specified value
+- ...  
+
+## When will it be released ?  
+
+So, not 'when it's done', as there will likely never be such a thing but when it will be 'stable' enough to allow an open beta, hopefully 'soon'.
+
+## What are the requirements to make it run ?  
+
+At this stage, Reflexions can only be used in the presence of a Kernel Debugger.  
+It requires a virtualized (VMWare / VirtualBox) Microsoft Windows Guest :  
+
+- Windows 7 x64 : 'should' be working but I do not plan to actively support this version of Windows
+- Windows 8.1 x64 
+- Windows 10 x64 : current testing version
+
+Windows 11 guests are currently not supported.  
+
+Given the deep kernel tempering operated by Reflexions, the guest OS *has* to be run in Debug mode (bcdedit /debug) to avoid the wrath of PatchGuard...  
+
+[VirtualKD](https://github.com/4d61726b/VirtualKD-Redux) is *strongly* recommended for any live debugging use of Reflexions  
+
+## Performance  
+
+There is a moderate to strong impact on performances of the supervised code depending on the use case.  
+This section will be updated with some measurement before release  
+
+# This repository  
+
+Until a first beta version of Reflexions is released, this repository is meant to share knownledge on malicious code targeting the Windows OS, whether they are state sponsored or cybercrime related.
 The focus of my approach beeing dynamic analysis, I will be providing here logs resulting from runtime supervision of malware belonging to various APT/CyberCrime groups.
 
 At this early stage, the logs provided have been designed to be human-readable and do not satisfy any known format that would make them suitable for a machine learning approach.
