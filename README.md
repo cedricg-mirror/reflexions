@@ -121,7 +121,7 @@ In this above example, the result (0x1200000) from the VirtualAllocEx with PAGE_
 [RET] 0x4640de in [go.exe]
 ```
 
-Whenever a pointer to a structure is passed as an argument to a function call, its relevant fields ([FLD]) will be dumped as demonstrated in the above example.  
+Whenever a pointer to a 'known' structure is passed as an argument to a function call, its relevant fields ([FLD]) will be dumped as demonstrated in the above example.  
 The 2nd parameter to the **bind** call is a pointer to a **sockaddr** structure, each log entry starting with the '**[FLD]**' header indicates the name, raw value and interpreted value of relevant structure fields.
 
 ## Comments :
