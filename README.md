@@ -48,7 +48,7 @@ This section will be updated with some measurement before release
 Until a first beta version of Reflexions is released, this repository is meant to share knownledge on malicious code targeting the Windows OS, whether they are state sponsored or cybercrime related.
 The focus of my approach beeing dynamic analysis, I will be providing here logs resulting from runtime supervision of malware belonging to various APT/CyberCrime groups.
 
-At this early stage, the logs provided have been designed to be human-readable and do not satisfy any known format that would make them suitable for a machine learning approach.
+At this early stage, the logs provided have been designed to be human-readable and do not satisfy any known format that would make them easily suitable for a machine learning approach.
 Log formating will be reworked in a future update of this project.
 
 I do not plan to discuss attribution, samples analysed here are all coming from public reports from various sources that usually already provide their own insights on that topic.
@@ -73,7 +73,7 @@ Analysed code behavior is logged, without surprise, in a chronological order.
 
 ```html
 <1>[CNT] [124]
-<2>[PTP] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+<2>[PTP] [pid 0xb28][tid 0xb24] [c:\users\user\desktop\solar_flare\go.exe]
 <3>[API] <GetProcAddress> in [KERNEL32.DLL] 
 <4>[PAR] HMODULE hModule    : 0x00007FFE14200000 ("KERNEL32.DLL")
 <4>[PAR] LPCSTR  lpProcName : 0x23fdfb ("LoadLibraryExW")
@@ -90,7 +90,7 @@ Analysed code behavior is logged, without surprise, in a chronological order.
 ```html
 1. Call
 
-[PTP] [pid 0x728][tid 0x72c] c:\users\user\desktop\apt10\apt10.exe
+[PTP] [pid 0x728][tid 0x72c] [c:\users\user\desktop\apt10\apt10.exe]
 [API] <VirtualAlloc> in [KERNEL32.DLL] 
 [PAR] LPVOID lpAddress    : 0x0
 [PAR] SIZE_T dwSize       : 0xe6e5
@@ -99,7 +99,7 @@ Analysed code behavior is logged, without surprise, in a chronological order.
 
 2. Result from the above call
 
-[ * ] [pid 0x728][tid 0x72c] c:\users\user\desktop\apt10\apt10.exe
+[ * ] [pid 0x728][tid 0x72c] [c:\users\user\desktop\apt10\apt10.exe]
 [API] <VirtualAlloc>
 [RES] LPVOID  0x1200000
 ```
@@ -110,7 +110,7 @@ In this above example, the result (0x1200000) from the VirtualAllocEx with PAGE_
 ## Structures :
 
 ```html
-[PTP] [pid 0xb28][tid 0xb24] c:\users\user\desktop\solar_flare\go.exe
+[PTP] [pid 0xb28][tid 0xb24] [c:\users\user\desktop\solar_flare\go.exe]
 [API] <bind> in [ws2_32.dll] 
 [PAR] SOCKET          s       : 0x118
 [PAR] struct sockaddr *name   : 0x000000C00009C46C
