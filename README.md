@@ -23,6 +23,8 @@ Reflexions also comes with several handy features like :
 
 ![Basic Mode GUI](Screenshots/simpleGUI.png?raw=true "Basic Mode GUI")
 
+![BreakPoint Interactive mode](Screenshots/Interactive_mode_windbg_output.gif)
+
 ## When will it be released ?  
 
 So, not 'when it's done', as there will likely never be such a thing but when it will be 'stable' enough to allow an open beta, hopefully 'soon'.  
