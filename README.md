@@ -23,6 +23,8 @@ Reflexions also comes with several handy features like :
 
 ![Basic Mode GUI](Screenshots/simpleGUI.png?raw=true "Basic Mode GUI")
 
+Example of a breakpoint set on NtCreateThreadEx in interactive mode (bruteratel sample) :  
+
 ![BreakPoint Interactive mode](Screenshots/interactive_mode_windbg_output.gif)
 
 ## When will it be released ?  
