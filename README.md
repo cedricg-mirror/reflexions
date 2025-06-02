@@ -42,7 +42,7 @@ Windows 11 guests will be supported in a later update after initial release.
 Given the deep kernel tempering operated by Reflexions, the guest OS *has* to be run in Debug mode (bcdedit /debug) to avoid the wrath of PatchGuard...  
 
 In non-interactive mode (without a kernel debugger) :
-- A modified version of kdcom.dll
+- A modified version of kdcom.dll  
 This modified version will be shipped with the installer but can also be compiled / signed manualy from my [repository](https://github.com/cedricg-mirror/KDCOM)  
 
 In interactive mode :  
