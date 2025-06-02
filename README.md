@@ -39,11 +39,27 @@ Windows 11 guests will be supported in a later update after initial release.
 
 Given the deep kernel tempering operated by Reflexions, the guest OS *has* to be run in Debug mode (bcdedit /debug) to avoid the wrath of PatchGuard...  
 
-[VirtualKD](https://github.com/4d61726b/VirtualKD-Redux) is *strongly* recommended for any live debugging (interactive) use of Reflexions  
+In interactive mode :  
+- [VirtualKD](https://github.com/4d61726b/VirtualKD-Redux) is *strongly* recommended for any live debugging (interactive) use of Reflexions
+- A kernel debugger like WinDbg connected to the virtualized guest  
 
 ## Performance  
 
-There is a moderate to strong impact on performance of the supervised code depending on the use case.  
+Reflexions' design enable generic supervision of user (ring3) code without hooks but at the cost of a kernel context switch for each API called, even for functions that would normaly not induce a syscall.  
+In its default configuration, Reflexions will attempt to log any API from any DLL called by the supervised code which can lead to heavy performance overhead.  
+
+Essentialy the overhead cost can be summerized this way :
+
+Cost of a supervised API call = 
+
+In non interactive mode :  
+cost(API call) + **cost(Kernel Context Switch) + cost(API parameters parsing) + cost(ZwWriteFile)**  
+
+In interactive mode :  
+cost(API call) + **cost(Kernel Context Switch) + cost(API parameters parsing) + cost(Thread Synchronization) + cost(DbgPrint)**  
+
+It is however possible to alter Reflexions' configuration to blacklist specific API or DLL, making them 'invisible' to Reflexions and removing any induced overhead  
+
 This section will be updated with some measurement before release  
 
 # This repository  
