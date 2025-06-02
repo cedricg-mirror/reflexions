@@ -23,7 +23,7 @@ Reflexions also comes with several handy features like :
 
 ![Basic Mode GUI](Screenshots/simpleGUI.png?raw=true "Basic Mode GUI")
 
-![BreakPoint Interactive mode](Screenshots/Interactive_mode_windbg_output.gif)
+![BreakPoint Interactive mode](Screenshots/interactive_mode_windbg_output.gif)
 
 ## When will it be released ?  
 
