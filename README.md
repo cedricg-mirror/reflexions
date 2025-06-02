@@ -1,4 +1,4 @@
-# Reflexions Sandbox
+# Reflexions Sandbox ![icon](Screenshots/rfx.png?raw=true)
 
 
 ## What is Reflexions Sandbox ?  
