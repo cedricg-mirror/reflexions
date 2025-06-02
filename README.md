@@ -27,6 +27,10 @@ Example of a breakpoint set on NtCreateThreadEx in interactive mode (bruteratel 
 
 ![BreakPoint Interactive mode](Screenshots/interactive_mode_windbg_output.gif)
 
+GUI in advanced mode, more options available through the configuration file :  
+
+![Expert Mode GUI](Screenshots/expert.png?raw=true "Expert Mode GUI")
+
 ## When will it be released ?  
 
 So, not 'when it's done', as there will likely never be such a thing but when it will be 'stable' enough to allow an open beta, hopefully 'soon'.  
