@@ -3,9 +3,11 @@
 
 ## What is Reflexions Sandbox ?  
 
-Reflexions is a Windows PE runtime supervision tool (EXE/DLL).  
-It relies on an innovative approach to log the supervised code's behavior at the API level.  
-More than a sandbox, it is a tool that can be used for dynamic analysis (debugging) of a Windows process.  
+Reflexions is a Windows PE runtime supervision tool (EXE/DLL) which relies on an innovative approach (without hooks) to log the supervised code's behavior at the API level.  
+It can be operated in two ways :  
+- In a common way, where supervised activity is logged to files  
+- In an interactive way, where supervised activity is output to a kernel debugger and allows break points to be set  
+
 While not perfect, Reflexions is designed to defeat most of the 'usual' EDR evasion technics used by malicious codes as demonstrated with [BruteRatel](https://cedricg-mirror.github.io/2025/03/21/BruteRatelReflexionsAnalysis.html)  
 
 Reflexions also comes with several handy features like :  
@@ -17,7 +19,9 @@ Reflexions also comes with several handy features like :
 - Following malicious threads in remote, legitimate, processes  
 - Automaticaly supervising malicious DLL dropped/loaded at runtime  
 - Limiting Sleeps to a specified value
-- ...  
+- ...
+
+![Basic Mode GUI](Screenshots/simpleGUI.png?raw=true "Basic Mode GUI")
 
 ## When will it be released ?  
 
@@ -25,18 +29,17 @@ So, not 'when it's done', as there will likely never be such a thing but when it
 
 ## What are the requirements to make it run ?  
 
-At this stage, Reflexions can only be used in the presence of a Kernel Debugger.  
 It requires a virtualized (VMWare / VirtualBox) Microsoft Windows Guest :  
 
-- Windows 7 x64 : 'should' be working but I do not plan to actively support this version of Windows
-- Windows 8.1 x64 
-- Windows 10 x64 : current testing version
+- Windows 7 x64 : 'should' be working but I do not plan to actively support this version of Windows  
+- Windows 8.1 x64  
+- Windows 10 x64 : current testing version  
 
-Windows 11 guests are currently not supported.  
+Windows 11 guests will be supported in a later update after initial release.  
 
 Given the deep kernel tempering operated by Reflexions, the guest OS *has* to be run in Debug mode (bcdedit /debug) to avoid the wrath of PatchGuard...  
 
-[VirtualKD](https://github.com/4d61726b/VirtualKD-Redux) is *strongly* recommended for any live debugging use of Reflexions  
+[VirtualKD](https://github.com/4d61726b/VirtualKD-Redux) is *strongly* recommended for any live debugging (interactive) use of Reflexions  
 
 ## Performance  
 
@@ -153,6 +156,6 @@ I sometimes add information **[INF]** to specific API call to spare some search 
 I'm also sharing a very basic syntax highlighting profile for the logs here :  
 https://github.com/cedricg-mirror/reflexions/tree/main/Logs_Syntax_Highlighting
 
-![Alt text](Screenshots/syntax.jpg?raw=true "Basic Highlighting")
+![Syntax highlighting](Screenshots/syntax.jpg?raw=true "Basic Highlighting")
 
 This profile is yet only compatible with the latest analysed samples due to various changes in the log format.
