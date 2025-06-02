@@ -21,15 +21,18 @@ Reflexions also comes with several handy features like :
 - Limiting Sleeps to a specified value
 - ...
 
+Simple GUI, all settings are read from a configuration file :  
+
 ![Basic Mode GUI](Screenshots/simpleGUI.png?raw=true "Basic Mode GUI")
+
+GUI in advanced mode, more options available through the configuration file :  
+
+![Expert Mode GUI](Screenshots/expert.png?raw=true "Expert Mode GUI")
 
 Example of a breakpoint set on NtCreateThreadEx in interactive mode (bruteratel sample) :  
 
 ![BreakPoint Interactive mode](Screenshots/interactive_mode_windbg_output.gif)
 
-GUI in advanced mode, more options available through the configuration file :  
-
-![Expert Mode GUI](Screenshots/expert.png?raw=true "Expert Mode GUI")
 
 ## When will it be released ?  
 
