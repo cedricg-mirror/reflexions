@@ -1,5 +1,18 @@
 # Installation procedure  
 
+Disclaimer :
+
+Reflexions Sandbox should be considered as a highly experimental tool which should *NOT* be installed outside a virtualized guest operating system nor on a critical production environment !  
+Because of the very deep tempering of both the windows kernel and userland structures, as well as still beeing in an early development stage, it should be expected that various side effects may occur such as :
+
+- Unable to boot the guest
+- Blue screen of death
+- System hang
+
+It is therefore highly advised to take snapshot of your guest operating system both *before* install and *after* the first successful boot.
+
+It is also advised to restore your analysis environment between each sample supervision.
+
 ## Non interactive mode  
 
 - Boot a Windows 7 x64 / 8.1 x64 / 10 x64 Guest
@@ -20,3 +33,5 @@
 - Reboot and press F8 on your kernel debug boot entry
 - Select Disable Driver Signature Enforcment
 - Take a snapshot :)
+
+![Installation with debugger](Screenshots/install_dbg.gif)
