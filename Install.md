@@ -13,6 +13,9 @@ It is therefore highly advised to take snapshot of your guest operating system b
 
 It is also advised to restore your analysis environment between each sample supervision.
 
+Note: Because Reflexions is still in active development, the GUI displayed in this guide is suceptible to change before or after release.
+
+
 ## Non interactive mode  
 
 - Boot a Windows 7 x64 / 8.1 x64 / 10 x64 Guest
