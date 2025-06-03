@@ -16,7 +16,7 @@ It is also advised to restore your analysis environment between each sample supe
 Note: Because Reflexions is still in active development, the GUI displayed in this guide is suceptible to change before or after release.
 
 
-## Non interactive mode  
+## Non interactive mode (without a kernel debugger)  
 
 - Boot a Windows 7 x64 / 8.1 x64 / 10 x64 Guest
 - Take a snapshot
