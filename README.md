@@ -33,6 +33,19 @@ Example of a breakpoint set on NtCreateThreadEx in interactive mode (bruteratel 
 
 ![BreakPoint Interactive mode](Screenshots/interactive_mode_windbg_output.gif)
 
+# Installation procedure  
+
+## Non interactive mode  
+
+- Boot a Windows 7 x64 / 8.1 x64 / 10 x64 Guest
+- Take a snapshot
+- Launch the installer
+- Reboot and press F8 on the Reflexions boot entry
+- Select Disable Driver Signature Enforcment
+- Take a snapshot :)
+
+![Installation No debugger](Screenshots/install_no_debugger.gif)
+
 
 ## When will it be released ?  
 
