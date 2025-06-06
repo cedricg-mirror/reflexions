@@ -59,6 +59,8 @@ The 2nd parameter to the **bind** call is a pointer to a **sockaddr** structure,
 
 ## Comments :
 
+Comments are indacted by the [INF] header :
+
 ```html
 [CNT] [324]
 [PTP] [0xff8] [0x7dc] [c:\windows\system32\rundll32.exe]
