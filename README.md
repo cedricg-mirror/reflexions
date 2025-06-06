@@ -1,12 +1,12 @@
 # Reflexions Sandbox 
 ![icon](Screenshots/rfx.png)
 
-## Summary  
+# Summary  
 
-[What is Reflexions Sandbox](#what-is-reflexions-sandbox-?)   
-[When will it be released ?](#when-will-it-be-released-?)
+1. [What is Reflexions Sandbox](#presentation)   
+2. [When will it be released ?](#installation)
 
-## What is Reflexions Sandbox ?
+## What is Reflexions Sandbox ? <a name="presentation"></a>
 
 Reflexions is a Windows PE runtime supervision tool (EXE/DLL) which relies on an innovative approach (without hooks) to log the supervised code's behavior at the API level.  
 It can be operated in two ways :  
@@ -38,7 +38,7 @@ Example of a breakpoint set on NtCreateThreadEx in interactive mode (bruteratel 
 
 ![BreakPoint Interactive mode](Screenshots/interactive_mode_windbg_output.gif)
 
-# Installation procedure  
+# Installation procedure  <a name="installation"></a>
 
 A simple installation procedure can be found [here](Install.md)  
 
