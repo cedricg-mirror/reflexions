@@ -3,10 +3,11 @@
 
 # Summary  
 
-1. [What is Reflexions Sandbox](#presentation)   
-2. [When will it be released ?](#release_date)
-3. [What are the system requirements ?](#installation)
-4. [Performance](#performance)
+1. [What is Reflexions Sandbox](#presentation)
+2. [Installation procedure](#installation)
+3. [When will it be released ?](#release_date)
+4. [What are the system requirements ?](#requirements)
+5. [Performance](#performance)
 
 ## What is Reflexions Sandbox ? <a name="presentation"></a>
 
