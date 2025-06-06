@@ -4,7 +4,9 @@
 # Summary  
 
 1. [What is Reflexions Sandbox](#presentation)   
-2. [When will it be released ?](#installation)
+2. [When will it be released ?](#release_date)
+3. [What are the system requirements ?](#installation)
+4. [Performance](#performance)
 
 ## What is Reflexions Sandbox ? <a name="presentation"></a>
 
@@ -43,11 +45,11 @@ Example of a breakpoint set on NtCreateThreadEx in interactive mode (bruteratel 
 A simple installation procedure can be found [here](Install.md)  
 
 
-## When will it be released ?
+## When will it be released ?  <a name="release_date"></a>
 
 So, not 'when it's done', as there will likely never be such a thing but when it will be 'stable' enough to allow an open beta, hopefully 'soon'.  
 
-## What are the requirements to make it run ?  
+## What are the system requirements ?  <a name="requirements"></a>
 
 It requires a virtualized (VMWare / VirtualBox) Microsoft Windows Guest :  
 
@@ -67,7 +69,7 @@ In interactive mode :
 - [VirtualKD](https://github.com/4d61726b/VirtualKD-Redux) is *strongly* recommended for any live debugging (interactive) use of Reflexions
 - A kernel debugger like WinDbg connected to the virtualized guest  
 
-## Performance  
+## Performance  <a name="performance"></a>
 
 Reflexions' design enable generic supervision of user (ring3) code without hooks but at the cost of a kernel context switch for each API called, even for functions that would normaly not induce a syscall.  
 In its default configuration, Reflexions will attempt to log any API from any DLL called by the supervised code which can lead to heavy performance overhead.  
