@@ -79,6 +79,8 @@ cost(API call) + **cost(Kernel Context Switch) + cost(API parameters parsing) + 
 
 It is however possible to alter Reflexions' configuration to blacklist specific API or DLL, making them 'invisible' to Reflexions and removing any induced overhead  
 
+At this point there are no optimization (like buffering) in the code, so hopefuly performances will increase a little bit later on.  
+
 This section will be updated with some measurement before release  
 
 # This repository  
