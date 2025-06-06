@@ -93,7 +93,7 @@ At this point there are no optimization (like buffering) in the code, so hopeful
 
 This section will be updated with some measurement before release  
 
-## Log Format
+## Log Format  <a name="log"></a>
 
 I initialy designed Reflexions as an assistance to dynamic analysis (debugging), adding functionnalities as I encountered issues with specific samples I was reversing  
 So the initial 'output' for Reflexions was my kernel debugger and this is why I chose a human readable 'log' format :
