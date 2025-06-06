@@ -8,6 +8,7 @@
 3. [When will it be released ?](#release_date)
 4. [What are the system requirements ?](#requirements)
 5. [Performance](#performance)
+6. [Log Format](#log)
 
 ## What is Reflexions Sandbox ? <a name="presentation"></a>
 
@@ -91,6 +92,26 @@ It is however possible to alter Reflexions' configuration to blacklist specific 
 At this point there are no optimization (like buffering) in the code, so hopefuly performances will increase a little bit later on.  
 
 This section will be updated with some measurement before release  
+
+## Log Format
+
+I initialy designed Reflexions as an assistance to dynamic analysis (debugging), adding functionnalities as I encountered issues with specific samples I was reversing  
+So the initial 'output' for Reflexions was my kernel debugger and this is why I chose a human readable 'log' format :
+
+```html
+[CNT] [124]
+[PTP] [pid 0x728][tid 0x72c] [c:\users\user\desktop\apt10\apt10.exe]
+[API] <VirtualAlloc> in [KERNEL32.DLL] 
+[PAR] LPVOID lpAddress    : 0x0
+[PAR] SIZE_T dwSize       : 0xe6e5
+[PAR] DWORD  flProtect    : 0x40 (PAGE_EXECUTE_READWRITE)
+[RET] 0x319086
+```
+
+At this point, the same format is used both for the Debugger and the log files  
+A more detailed presentation of this format is available [here](#LogFormat.md) and will be updated later on  
+
+Log formating will be reworked in a later release  
 
 # This repository  
 
