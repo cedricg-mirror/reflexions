@@ -2,7 +2,7 @@ SHA256 : ea16cb89129ab062843c84f6c6661750f18592b051549b265aaf834e100cd6fc
 sample source : https://bazaar.abuse.ch/sample/ea16cb89129ab062843c84f6c6661750f18592b051549b265aaf834e100cd6fc/  
 VT : https://www.virustotal.com/gui/file/ea16cb89129ab062843c84f6c6661750f18592b051549b265aaf834e100cd6fc  
 
-Reports:
+Reports:  
 https://cert.gov.ua/article/39518  
 https://www.splunk.com/en_us/blog/security/threat-update-industroyer2.html  
 
