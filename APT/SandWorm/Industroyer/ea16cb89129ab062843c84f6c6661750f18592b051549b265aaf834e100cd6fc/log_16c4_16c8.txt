@@ -1,0 +1,2506 @@
+[CNT] [1]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetCommandLineW> in [KERNEL32.DLL] 
+[RET] [0x9e5015] [+0x5015] in [industroyer.exe]
+
+[CNT] [2]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CommandLineToArgvW> in [SHELL32.dll] 
+[PAR] LPCWSTR lpCmdLine : 0xb31010
+[STR]         -> ""C:\Users\Reflexions\Desktop\industroyer.exe" "
+[PAR] int     *pNumArgs : 0x6ff838
+[RET] [0x9e501c] [+0x501c] in [industroyer.exe]
+
+[CNT] [3]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <RtlInitializeCriticalSection> in [ntdll.dll] 
+[PAR] PRTL_CRITICAL_SECTION CriticalSection : 0xb34270
+[RET] [0x9e2671] [+0x2671] in [industroyer.exe]
+
+[CNT] [4]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CommandLineToArgvW> in [SHELL32.dll] 
+[PAR] LPCWSTR lpCmdLine : 0x9e9190
+[STR]         -> "10.82.40.105 2404 3 0 1 1 PService_PPD.exe 1 "D:\OIK\DevCounter" 0 1 0 0 1 0 0 44 130202 1 0 1 1 1 160921 1 0 1 1 2 1609"
+[STR]            "23 1 0 1 1 3 160924 1 0 1 1 4 160925 1 0 1 1 5 160927 1 0 1 1 6 160928 1 0 1 1 7 190202 1 0 1 1 8 260202 1 0 1 1 9 26090"
+[STR]            "1 1 0 1 1 10 260902 1 0 1 1 11 260903 1 0 1 1 12 260904 1 0 1 1 13 260905 1 0 1 1 14 260906 1 0 1 1 15 260907 1 0 1 1 16"
+[STR]            " 260908 1 0 1 1 17 260909 1 0 1 1 18 260910 1 0 1 1 19 260911 1 0 1 1 20 260912 1 0 1 1 21 260914 1 0 1 1 22 260915 1 0 "
+[STR]            "1 1 23 260916 1 0 1 1 24 260918 1 0 1 1 25 260920 1 0 1 1 26 290202 1 0 1 1 27 338501 1 0 1 1 28 1401 0 0 0 1 29 1402 0 "
+[STR]            "0 0 1 30 1403 0 0 0 1 31 1404 0 0 0 1 32 1301 0 0 0 1 33 1302 0 0 0 1 34 1303 0 0 0 1 35 1304 0 0 0 1 36 1201 0 0 0 1 37"
+[STR]            " 1202 0 0 0 1 38 1203 0 0 0 1 39 1204 0 0 0 1 40 1101 0 0 0 1 41 1102 0 0 0 1 42 1103 0 0 0 1 43 1104 0 0 0 1 44 "
+[PAR] int     *pNumArgs : 0x6ff7dc
+[RET] [0x9e468c] [+0x468c] in [industroyer.exe]
+
+[CNT] [5]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <inet_addr> in [WS2_32.dll] 
+[PAR] PCHAR      cp : 0xb38290
+[STR]            -> "10.82.40.105"
+[RET] [0x9e3258] [+0x3258] in [industroyer.exe]
+
+[CNT] [6]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <InterlockedCompareExchange> in [KERNEL32.DLL] 
+[PAR] LONG* Destination : 0x9eb060
+[PAR] LONG  ExChange    : 0x1
+[PAR] LONG  Comperand   : 0x0
+[RET] [0x9e36d3] [+0x36d3] in [industroyer.exe]
+
+[CNT] [7]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <RtlInitializeCriticalSection> in [ntdll.dll] 
+[PAR] PRTL_CRITICAL_SECTION CriticalSection : 0x9eb040
+[RET] [0x9e37f2] [+0x37f2] in [industroyer.exe]
+
+[CNT] [8]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[PAR] LPSYSTEMTIME lpSystemTime : 0x6ff6c8
+[RET] [0x9e398a] [+0x398a] in [industroyer.exe]
+
+[CNT] [9]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb57248
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9170
+[STR]       -> "%02hu:%02hu:%02hu:%04hu"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb57248
+[STR]       -> "10:59:58:0465"
+[RES] int 13
+
+[CNT] [10]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [11]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb57248
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xd
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff678
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [12]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb57248
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9188
+[STR]       -> ">"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb57248
+[STR]       -> ">"
+[RES] int 1
+
+[CNT] [13]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [14]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb57248
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x1
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff6a8
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [15]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb57248
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9c68
+[STR]       -> " T%d %08x"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb57248
+[STR]       -> " T281 00006800"
+[RES] int 15
+
+[CNT] [16]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [17]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb57248
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xf
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff6c0
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [18]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateToolhelp32Snapshot> in [KERNEL32.DLL] 
+[PAR] DWORD dwFlags       : 0xf (TH32CS_SNAPHEAPLIST | TH32CS_SNAPPROCESS | TH32CS_SNAPTHREAD | TH32CS_SNAPMODULE)
+[PAR] DWORD th32ProcessID : 0x0
+[RET] [0x9e793d] [+0x793d] in [industroyer.exe]
+
+[CNT] [19]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32First> in [KERNEL32.DLL] 
+[RET] [0x9e795b] [+0x795b] in [industroyer.exe]
+
+[CNT] [20]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1bc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x6f
+[FLD]                  -> th32ParentProcessID = 0x0
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "System"
+[RES] BOOL 0x1
+
+[CNT] [21]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1bc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x5c
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x4
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "Registry"
+[RES] BOOL 0x1
+
+[CNT] [22]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1bc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x150
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x2
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "smss.exe"
+[RES] BOOL 0x1
+
+[CNT] [23]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1bc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1ac
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xa
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [24]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1bc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1f4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x1
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "wininit.exe"
+[RES] BOOL 0x1
+
+[CNT] [25]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1bc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x204
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xb
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [26]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1bc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x250
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x5
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "winlogon.exe"
+[RES] BOOL 0x1
+
+[CNT] [27]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1bc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x260
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x8
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "services.exe"
+[RES] BOOL 0x1
+
+[CNT] [28]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1bc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x280
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x7
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "lsass.exe"
+[RES] BOOL 0x1
+
+[CNT] [29]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1bc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x2e8
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x10
+[FLD]                  -> th32ParentProcessID = 0x260
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "svchost.exe"
+[RES] BOOL 0x1
+
+[CNT] [30]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1bc
+[RET] [0x9e7980] [+0x7980] in [industroyer.exe]
+
+[CNT] [31]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <OpenProcess> in [KERNEL32.DLL] 
+[PAR] DWORD dwDesiredAccess : 0x1 (PROCESS_TERMINATE)
+[PAR] BOOL  bInheritHandle  : 0x0
+[PAR] DWORD dwProcessId     : 0xae0 ("c:\users\reflexions\desktop\pservicecontrol.exe")
+[RET] [0x9e774d] [+0x774d] in [industroyer.exe]
+
+[CNT] [32]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <TerminateProcess> in [KERNEL32.DLL] 
+[PAR] HANDLE hProcess  : 0x1bc
+[PAR] UINT   uExitCode : 0x0
+[RET] [0x9e775c] [+0x775c] in [industroyer.exe]
+
+[CNT] [33]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateToolhelp32Snapshot> in [KERNEL32.DLL] 
+[PAR] DWORD dwFlags       : 0xf (TH32CS_SNAPHEAPLIST | TH32CS_SNAPPROCESS | TH32CS_SNAPTHREAD | TH32CS_SNAPMODULE)
+[PAR] DWORD th32ProcessID : 0x0
+[RET] [0x9e793d] [+0x793d] in [industroyer.exe]
+
+[CNT] [34]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32First> in [KERNEL32.DLL] 
+[RET] [0x9e795b] [+0x795b] in [industroyer.exe]
+
+[CNT] [35]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c0
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x6f
+[FLD]                  -> th32ParentProcessID = 0x0
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "System"
+[RES] BOOL 0x1
+
+[CNT] [36]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c0
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x5c
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x4
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "Registry"
+[RES] BOOL 0x1
+
+[CNT] [37]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c0
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x150
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x2
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "smss.exe"
+[RES] BOOL 0x1
+
+[CNT] [38]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c0
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1ac
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xa
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [39]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c0
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1f4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x1
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "wininit.exe"
+[RES] BOOL 0x1
+
+[CNT] [40]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c0
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x204
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xb
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [41]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c0
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x250
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x5
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "winlogon.exe"
+[RES] BOOL 0x1
+
+[CNT] [42]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c0
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x260
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x8
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "services.exe"
+[RES] BOOL 0x1
+
+[CNT] [43]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c0
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x280
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x7
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "lsass.exe"
+[RES] BOOL 0x1
+
+[CNT] [44]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c0
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x2e8
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x10
+[FLD]                  -> th32ParentProcessID = 0x260
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "svchost.exe"
+[RES] BOOL 0x1
+
+[CNT] [45]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1c0
+[RET] [0x9e79a7] [+0x79a7] in [industroyer.exe]
+
+[CNT] [46]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateToolhelp32Snapshot> in [KERNEL32.DLL] 
+[PAR] DWORD dwFlags       : 0xf (TH32CS_SNAPHEAPLIST | TH32CS_SNAPPROCESS | TH32CS_SNAPTHREAD | TH32CS_SNAPMODULE)
+[PAR] DWORD th32ProcessID : 0x0
+[RET] [0x9e793d] [+0x793d] in [industroyer.exe]
+
+[CNT] [47]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32First> in [KERNEL32.DLL] 
+[RET] [0x9e795b] [+0x795b] in [industroyer.exe]
+
+[CNT] [48]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c8
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x6f
+[FLD]                  -> th32ParentProcessID = 0x0
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "System"
+[RES] BOOL 0x1
+
+[CNT] [49]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c8
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x5c
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x4
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "Registry"
+[RES] BOOL 0x1
+
+[CNT] [50]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c8
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x150
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x2
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "smss.exe"
+[RES] BOOL 0x1
+
+[CNT] [51]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c8
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1ac
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xa
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [52]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c8
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1f4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x1
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "wininit.exe"
+[RES] BOOL 0x1
+
+[CNT] [53]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c8
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x204
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xb
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [54]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c8
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x250
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x5
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "winlogon.exe"
+[RES] BOOL 0x1
+
+[CNT] [55]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c8
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x260
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x8
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "services.exe"
+[RES] BOOL 0x1
+
+[CNT] [56]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c8
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x280
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x7
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "lsass.exe"
+[RES] BOOL 0x1
+
+[CNT] [57]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c8
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x2e8
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x10
+[FLD]                  -> th32ParentProcessID = 0x260
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "svchost.exe"
+[RES] BOOL 0x1
+
+[CNT] [58]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1c8
+[RET] [0x9e79a7] [+0x79a7] in [industroyer.exe]
+
+[CNT] [59]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <MoveFileA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpExistingFileName : 0xb32e00
+[STR]         -> "D:\OIK\DevCounter\PService_PPD.exe"
+[PAR] LPCTSTR lpNewFileName      : 0xb34580
+[STR]         -> "D:\OIK\DevCounter\PService_PPD.exe.MZ"
+[RET] [0x9e78c5] [+0x78c5] in [industroyer.exe]
+
+[CNT] [60]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetLastError> in [KERNEL32.DLL] 
+[RET] [0x9e78df] [+0x78df] in [industroyer.exe]
+
+[CNT] [61]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <InterlockedCompareExchange> in [KERNEL32.DLL] 
+[PAR] LONG* Destination : 0x9eb060
+[PAR] LONG  ExChange    : 0x1
+[PAR] LONG  Comperand   : 0x0
+[RET] [0x9e36d3] [+0x36d3] in [industroyer.exe]
+
+[CNT] [62]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xa (0 sec)
+[RET] [0x9e36fb] [+0x36fb] in [industroyer.exe]
+
+[CNT] [63]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[PAR] LPSYSTEMTIME lpSystemTime : 0x6ff6a0
+[RET] [0x9e398a] [+0x398a] in [industroyer.exe]
+
+[CNT] [64]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb57248
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9170
+[STR]       -> "%02hu:%02hu:%02hu:%04hu"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb57248
+[STR]       -> "10:59:59:0464"
+[RES] int 13
+
+[CNT] [65]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [66]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb57248
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xd
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff650
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [67]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb57248
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9188
+[STR]       -> ">"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb57248
+[STR]       -> ">"
+[RES] int 1
+
+[CNT] [68]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [69]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb57248
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x1
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff680
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [70]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb57248
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9f4c
+[STR]       -> " RNM %04x "
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb57248
+[STR]       -> " RNM 0015 "
+[RES] int 11
+
+[CNT] [71]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [72]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb57248
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xb
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff698
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [73]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateWaitableTimerW> in [KERNEL32.DLL] 
+[PAR] LPSECURITY_ATTRIBUTES lpTimerAttributes : 0x0
+[PAR] BOOL                  bManualReset      : 1
+[PAR] LPCWSTR               lpTimerName       : NULL
+[RET] [0x9e28fc] [+0x28fc] in [industroyer.exe]
+
+[CNT] [74]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <SetWaitableTimer> in [KERNEL32.DLL] 
+[PAR] HANDLE           hTimer                   : 0x1b4
+[PAR] LARGE_INTEGER*   lpDueTime                : 0x6ff6d0
+[PAR] LONG             lPeriod                  : 0x0
+[PAR] PTIMERAPCROUTINE pfnCompletionRoutine     : 0x0
+[PAR] LPVOID           lpArgToCompletionRoutine : 0x0
+[PAR] BOOL             fResume                  : 0
+[RET] [0x9e2943] [+0x2943] in [industroyer.exe]
+
+[CNT] [75]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x9e4620 
+[PAR] LPVOID                 lpParameter     : 0xb44498
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] [0x9e2b2d] [+0x2b2d] in [industroyer.exe]
+
+[CNT] [76]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x9e4fdd] [+0x4fdd] in [industroyer.exe]
+
+[CNT] [77]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CommandLineToArgvW> in [SHELL32.dll] 
+[PAR] LPCWSTR lpCmdLine : 0x9e9818
+[STR]         -> "192.168.122.2 2404 2 0 1 1 PService_PPD.exe 1 "D:\OIK\DevCounter" 0 1 0 0 1 0 0 8 1104 0 0 0 1 1 1105 0 0 0 1 2 1106 0 0"
+[STR]            " 0 1 3 1107 0 0 0 1 4 1108 0 0 0 1 5 1101 0 0 0 1 6 1102 0 0 0 1 7 1103 0 0 0 1 8 "
+[PAR] int     *pNumArgs : 0x6ff7dc
+[RET] [0x9e468c] [+0x468c] in [industroyer.exe]
+
+[CNT] [78]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <inet_addr> in [WS2_32.dll] 
+[PAR] PCHAR      cp : 0xb43c18
+[STR]            -> "192.168.122.2"
+[RET] [0x9e3258] [+0x3258] in [industroyer.exe]
+
+[CNT] [80]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <InterlockedCompareExchange> in [KERNEL32.DLL] 
+[PAR] LONG* Destination : 0x9eb060
+[PAR] LONG  ExChange    : 0x1
+[PAR] LONG  Comperand   : 0x0
+[RET] [0x9e36d3] [+0x36d3] in [industroyer.exe]
+
+[CNT] [81]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xa (0 sec)
+[RET] [0x9e36fb] [+0x36fb] in [industroyer.exe]
+
+[CNT] [93]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[PAR] LPSYSTEMTIME lpSystemTime : 0x6ff6c8
+[RET] [0x9e398a] [+0x398a] in [industroyer.exe]
+
+[CNT] [94]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb68668
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9170
+[STR]       -> "%02hu:%02hu:%02hu:%04hu"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb68668
+[STR]       -> "10:59:59:0660"
+[RES] int 13
+
+[CNT] [95]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [96]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb68668
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xd
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff678
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [99]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb68668
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9188
+[STR]       -> ">"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb68668
+[STR]       -> ">"
+[RES] int 1
+
+[CNT] [100]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [101]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb68668
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x1
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff6a8
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [102]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb68668
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9c68
+[STR]       -> " T%d %08x"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb68668
+[STR]       -> " T65 00006800"
+[RES] int 14
+
+[CNT] [103]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [104]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb68668
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xe
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff6c0
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [105]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateToolhelp32Snapshot> in [KERNEL32.DLL] 
+[PAR] DWORD dwFlags       : 0xf (TH32CS_SNAPHEAPLIST | TH32CS_SNAPPROCESS | TH32CS_SNAPTHREAD | TH32CS_SNAPMODULE)
+[PAR] DWORD th32ProcessID : 0x0
+[RET] [0x9e793d] [+0x793d] in [industroyer.exe]
+
+[CNT] [106]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32First> in [KERNEL32.DLL] 
+[RET] [0x9e795b] [+0x795b] in [industroyer.exe]
+
+[CNT] [107]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1cc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x6f
+[FLD]                  -> th32ParentProcessID = 0x0
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "System"
+[RES] BOOL 0x1
+
+[CNT] [108]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1cc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x5c
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x4
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "Registry"
+[RES] BOOL 0x1
+
+[CNT] [109]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1cc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x150
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x2
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "smss.exe"
+[RES] BOOL 0x1
+
+[CNT] [110]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1cc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1ac
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xa
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [111]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1cc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1f4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x1
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "wininit.exe"
+[RES] BOOL 0x1
+
+[CNT] [112]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1cc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x204
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xb
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [113]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1cc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x250
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x5
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "winlogon.exe"
+[RES] BOOL 0x1
+
+[CNT] [114]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1cc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x260
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x8
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "services.exe"
+[RES] BOOL 0x1
+
+[CNT] [115]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1cc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x280
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x7
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "lsass.exe"
+[RES] BOOL 0x1
+
+[CNT] [116]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1cc
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x2e8
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x10
+[FLD]                  -> th32ParentProcessID = 0x260
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "svchost.exe"
+[RES] BOOL 0x1
+
+[CNT] [117]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1cc
+[RET] [0x9e79a7] [+0x79a7] in [industroyer.exe]
+
+[CNT] [118]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateToolhelp32Snapshot> in [KERNEL32.DLL] 
+[PAR] DWORD dwFlags       : 0xf (TH32CS_SNAPHEAPLIST | TH32CS_SNAPPROCESS | TH32CS_SNAPTHREAD | TH32CS_SNAPMODULE)
+[PAR] DWORD th32ProcessID : 0x0
+[RET] [0x9e793d] [+0x793d] in [industroyer.exe]
+
+[CNT] [127]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32First> in [KERNEL32.DLL] 
+[RET] [0x9e795b] [+0x795b] in [industroyer.exe]
+
+[CNT] [130]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c4
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x6f
+[FLD]                  -> th32ParentProcessID = 0x0
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "System"
+[RES] BOOL 0x1
+
+[CNT] [132]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c4
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x5c
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x4
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "Registry"
+[RES] BOOL 0x1
+
+[CNT] [133]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c4
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x150
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x2
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "smss.exe"
+[RES] BOOL 0x1
+
+[CNT] [134]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c4
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1ac
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xa
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [135]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c4
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1f4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x1
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "wininit.exe"
+[RES] BOOL 0x1
+
+[CNT] [136]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c4
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x204
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xb
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [137]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c4
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x250
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x5
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "winlogon.exe"
+[RES] BOOL 0x1
+
+[CNT] [138]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c4
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x260
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x8
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "services.exe"
+[RES] BOOL 0x1
+
+[CNT] [139]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c4
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x280
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x7
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "lsass.exe"
+[RES] BOOL 0x1
+
+[CNT] [140]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x1c4
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x2e8
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x10
+[FLD]                  -> th32ParentProcessID = 0x260
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "svchost.exe"
+[RES] BOOL 0x1
+
+[CNT] [144]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1c4
+[RET] [0x9e79a7] [+0x79a7] in [industroyer.exe]
+
+[CNT] [145]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <MoveFileA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpExistingFileName : 0xb38820
+[STR]         -> "D:\OIK\DevCounter\PService_PPD.exe"
+[PAR] LPCTSTR lpNewFileName      : 0xb3a048
+[STR]         -> "D:\OIK\DevCounter\PService_PPD.exe.MZ"
+[RET] [0x9e78c5] [+0x78c5] in [industroyer.exe]
+
+[CNT] [146]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetLastError> in [KERNEL32.DLL] 
+[RET] [0x9e78df] [+0x78df] in [industroyer.exe]
+
+[CNT] [147]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <InterlockedCompareExchange> in [KERNEL32.DLL] 
+[PAR] LONG* Destination : 0x9eb060
+[PAR] LONG  ExChange    : 0x1
+[PAR] LONG  Comperand   : 0x0
+[RET] [0x9e36d3] [+0x36d3] in [industroyer.exe]
+
+[CNT] [148]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xa (0 sec)
+[RET] [0x9e36fb] [+0x36fb] in [industroyer.exe]
+
+[CNT] [149]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[PAR] LPSYSTEMTIME lpSystemTime : 0x6ff6a0
+[RET] [0x9e398a] [+0x398a] in [industroyer.exe]
+
+[CNT] [150]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb6e150
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9170
+[STR]       -> "%02hu:%02hu:%02hu:%04hu"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb6e150
+[STR]       -> "11:00:00:0483"
+[RES] int 13
+
+[CNT] [151]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [152]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb6e150
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xd
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff650
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [153]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb6e150
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9188
+[STR]       -> ">"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb6e150
+[STR]       -> ">"
+[RES] int 1
+
+[CNT] [154]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [155]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb6e150
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x1
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff680
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [156]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb6e150
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9f4c
+[STR]       -> " RNM %04x "
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb6e150
+[STR]       -> " RNM 0015 "
+[RES] int 11
+
+[CNT] [157]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [158]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb6e150
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xb
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff698
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [161]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateWaitableTimerW> in [KERNEL32.DLL] 
+[PAR] LPSECURITY_ATTRIBUTES lpTimerAttributes : 0x0
+[PAR] BOOL                  bManualReset      : 1
+[PAR] LPCWSTR               lpTimerName       : NULL
+[RET] [0x9e28fc] [+0x28fc] in [industroyer.exe]
+
+[CNT] [163]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <SetWaitableTimer> in [KERNEL32.DLL] 
+[PAR] HANDLE           hTimer                   : 0x1e8
+[PAR] LARGE_INTEGER*   lpDueTime                : 0x6ff6d0
+[PAR] LONG             lPeriod                  : 0x0
+[PAR] PTIMERAPCROUTINE pfnCompletionRoutine     : 0x0
+[PAR] LPVOID           lpArgToCompletionRoutine : 0x0
+[PAR] BOOL             fResume                  : 0
+[RET] [0x9e2943] [+0x2943] in [industroyer.exe]
+
+[CNT] [165]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x9e4620 
+[PAR] LPVOID                 lpParameter     : 0xb574e8
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] [0x9e2b2d] [+0x2b2d] in [industroyer.exe]
+
+[CNT] [166]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x9e4fdd] [+0x4fdd] in [industroyer.exe]
+
+[CNT] [168]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CommandLineToArgvW> in [SHELL32.dll] 
+[PAR] LPCWSTR lpCmdLine : 0x9e99b0
+[STR]         -> "192.168.121.2 2404 1 0 1 1 PService_PPD.exe 1 "D:\OIK\DevCounter" 0 1 0 0 1 0 0 16 1258 0 0 0 1 1 1259 0 0 0 1 2 1260 0 "
+[STR]            "0 0 1 3 1261 0 0 0 1 4 1262 0 0 0 1 5 1265 0 0 0 1 6 1252 0 0 0 1 7 1253 0 0 0 1 8 1254 0 0 0 1 9 1255 0 0 0 1 10 1256 0"
+[STR]            " 0 0 1 11 1257 0 0 0 1 12 1263 0 0 0 1 13 1264 0 0 0 1 14 1250 0 0 0 1 15 1251 0 0 0 1 16 "
+[PAR] int     *pNumArgs : 0x6ff7dc
+[RET] [0x9e468c] [+0x468c] in [industroyer.exe]
+
+[CNT] [170]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <inet_addr> in [WS2_32.dll] 
+[PAR] PCHAR      cp : 0xb43a20
+[STR]            -> "192.168.121.2"
+[RET] [0x9e3258] [+0x3258] in [industroyer.exe]
+
+[CNT] [172]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <InterlockedCompareExchange> in [KERNEL32.DLL] 
+[PAR] LONG* Destination : 0x9eb060
+[PAR] LONG  ExChange    : 0x1
+[PAR] LONG  Comperand   : 0x0
+[RET] [0x9e36d3] [+0x36d3] in [industroyer.exe]
+
+[CNT] [173]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xa (0 sec)
+[RET] [0x9e36fb] [+0x36fb] in [industroyer.exe]
+
+[CNT] [175]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[PAR] LPSYSTEMTIME lpSystemTime : 0x6ff6c8
+[RET] [0x9e398a] [+0x398a] in [industroyer.exe]
+
+[CNT] [176]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb80a30
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9170
+[STR]       -> "%02hu:%02hu:%02hu:%04hu"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb80a30
+[STR]       -> "11:00:00:0667"
+[RES] int 13
+
+[CNT] [177]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [178]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb80a30
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xd
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff678
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [179]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb80a30
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9188
+[STR]       -> ">"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb80a30
+[STR]       -> ">"
+[RES] int 1
+
+[CNT] [180]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [181]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb80a30
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x1
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff6a8
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [182]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb80a30
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9c68
+[STR]       -> " T%d %08x"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb80a30
+[STR]       -> " T113 00006800"
+[RES] int 15
+
+[CNT] [183]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [184]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb80a30
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xf
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff6c0
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [186]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateToolhelp32Snapshot> in [KERNEL32.DLL] 
+[PAR] DWORD dwFlags       : 0xf (TH32CS_SNAPHEAPLIST | TH32CS_SNAPPROCESS | TH32CS_SNAPTHREAD | TH32CS_SNAPMODULE)
+[PAR] DWORD th32ProcessID : 0x0
+[RET] [0x9e793d] [+0x793d] in [industroyer.exe]
+
+[CNT] [190]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32First> in [KERNEL32.DLL] 
+[RET] [0x9e795b] [+0x795b] in [industroyer.exe]
+
+[CNT] [191]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x6f
+[FLD]                  -> th32ParentProcessID = 0x0
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "System"
+[RES] BOOL 0x1
+
+[CNT] [192]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x5c
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x4
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "Registry"
+[RES] BOOL 0x1
+
+[CNT] [193]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x150
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x2
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "smss.exe"
+[RES] BOOL 0x1
+
+[CNT] [194]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1ac
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xa
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [195]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1f4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x1
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "wininit.exe"
+[RES] BOOL 0x1
+
+[CNT] [196]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x204
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xb
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [197]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x250
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x5
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "winlogon.exe"
+[RES] BOOL 0x1
+
+[CNT] [198]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x260
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x8
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "services.exe"
+[RES] BOOL 0x1
+
+[CNT] [199]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x280
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x7
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "lsass.exe"
+[RES] BOOL 0x1
+
+[CNT] [200]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x2e8
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x10
+[FLD]                  -> th32ParentProcessID = 0x260
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "svchost.exe"
+[RES] BOOL 0x1
+
+[CNT] [204]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x204
+[RET] [0x9e79a7] [+0x79a7] in [industroyer.exe]
+
+[CNT] [206]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateToolhelp32Snapshot> in [KERNEL32.DLL] 
+[PAR] DWORD dwFlags       : 0xf (TH32CS_SNAPHEAPLIST | TH32CS_SNAPPROCESS | TH32CS_SNAPTHREAD | TH32CS_SNAPMODULE)
+[PAR] DWORD th32ProcessID : 0x0
+[RET] [0x9e793d] [+0x793d] in [industroyer.exe]
+
+[CNT] [211]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32First> in [KERNEL32.DLL] 
+[RET] [0x9e795b] [+0x795b] in [industroyer.exe]
+
+[CNT] [212]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x6f
+[FLD]                  -> th32ParentProcessID = 0x0
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "System"
+[RES] BOOL 0x1
+
+[CNT] [213]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x5c
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x4
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "Registry"
+[RES] BOOL 0x1
+
+[CNT] [214]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x150
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x2
+[FLD]                  -> th32ParentProcessID = 0x4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "smss.exe"
+[RES] BOOL 0x1
+
+[CNT] [215]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1ac
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xa
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [216]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x1f4
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x1
+[FLD]                  -> th32ParentProcessID = 0x1a4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "wininit.exe"
+[RES] BOOL 0x1
+
+[CNT] [217]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x204
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0xb
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "csrss.exe"
+[RES] BOOL 0x1
+
+[CNT] [218]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x250
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x5
+[FLD]                  -> th32ParentProcessID = 0x1ec
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "winlogon.exe"
+[RES] BOOL 0x1
+
+[CNT] [219]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x260
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x8
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "services.exe"
+[RES] BOOL 0x1
+
+[CNT] [220]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x280
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x7
+[FLD]                  -> th32ParentProcessID = 0x1f4
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "lsass.exe"
+[RES] BOOL 0x1
+
+[CNT] [221]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Process32Next> in [KERNEL32.DLL] 
+[PAR] HANDLE            hSnapshot : 0x204
+[PAR] LPPROCESSENTRY32  lppe      : 0x6ff5ac
+[RET] [0x9e7999] [+0x7999] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <Process32Next>
+[PAR] LPPROCESSENTRY32 lppe : 0x6ff5ac
+[FLD]                  -> th32ProcessID       = 0x2e8
+[FLD]                  -> th32DefaultHeapID   = 0x0
+[FLD]                  -> th32ModuleID        = 0x0
+[FLD]                  -> cntThreads          = 0x10
+[FLD]                  -> th32ParentProcessID = 0x260
+[FLD]                  -> dwFlags             = 0x0
+[FLD]                  -> szExeFile           = 0x6ff5d0
+[STR]                  -> "svchost.exe"
+[RES] BOOL 0x1
+
+[CNT] [222]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x204
+[RET] [0x9e79a7] [+0x79a7] in [industroyer.exe]
+
+[CNT] [223]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <MoveFileA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpExistingFileName : 0xb38820
+[STR]         -> "D:\OIK\DevCounter\PService_PPD.exe"
+[PAR] LPCTSTR lpNewFileName      : 0xb3a048
+[STR]         -> "D:\OIK\DevCounter\PService_PPD.exe.MZ"
+[RET] [0x9e78c5] [+0x78c5] in [industroyer.exe]
+
+[CNT] [224]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetLastError> in [KERNEL32.DLL] 
+[RET] [0x9e78df] [+0x78df] in [industroyer.exe]
+
+[CNT] [225]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <InterlockedCompareExchange> in [KERNEL32.DLL] 
+[PAR] LONG* Destination : 0x9eb060
+[PAR] LONG  ExChange    : 0x1
+[PAR] LONG  Comperand   : 0x0
+[RET] [0x9e36d3] [+0x36d3] in [industroyer.exe]
+
+[CNT] [226]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xa (0 sec)
+[RET] [0x9e36fb] [+0x36fb] in [industroyer.exe]
+
+[CNT] [227]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[PAR] LPSYSTEMTIME lpSystemTime : 0x6ff6a0
+[RET] [0x9e398a] [+0x398a] in [industroyer.exe]
+
+[CNT] [228]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb80a30
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9170
+[STR]       -> "%02hu:%02hu:%02hu:%04hu"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb80a30
+[STR]       -> "11:00:01:0419"
+[RES] int 13
+
+[CNT] [229]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [230]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb80a30
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xd
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff650
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [231]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb80a30
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9188
+[STR]       -> ">"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb80a30
+[STR]       -> ">"
+[RES] int 1
+
+[CNT] [232]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [233]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb80a30
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x1
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff680
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [234]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb80a30
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9f4c
+[STR]       -> " RNM %04x "
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x16c8] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb80a30
+[STR]       -> " RNM 0015 "
+[RES] int 11
+
+[CNT] [235]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [236]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb80a30
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xb
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0x6ff698
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [237]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateWaitableTimerW> in [KERNEL32.DLL] 
+[PAR] LPSECURITY_ATTRIBUTES lpTimerAttributes : 0x0
+[PAR] BOOL                  bManualReset      : 1
+[PAR] LPCWSTR               lpTimerName       : NULL
+[RET] [0x9e28fc] [+0x28fc] in [industroyer.exe]
+
+[CNT] [240]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <SetWaitableTimer> in [KERNEL32.DLL] 
+[PAR] HANDLE           hTimer                   : 0x204
+[PAR] LARGE_INTEGER*   lpDueTime                : 0x6ff6d0
+[PAR] LONG             lPeriod                  : 0x0
+[PAR] PTIMERAPCROUTINE pfnCompletionRoutine     : 0x0
+[PAR] LPVOID           lpArgToCompletionRoutine : 0x0
+[PAR] BOOL             fResume                  : 0
+[RET] [0x9e2943] [+0x2943] in [industroyer.exe]
+
+[CNT] [241]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x9e4620 
+[PAR] LPVOID                 lpParameter     : 0xb6f5e8
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] [0x9e2b2d] [+0x2b2d] in [industroyer.exe]
+
+[CNT] [251]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x9e4fdd] [+0x4fdd] in [industroyer.exe]
+
+[CNT] [253]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x6
+[PAR] HANDLE* lpHandles      : 0xb34288
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xffffffff
+[RET] [0x9e29f0] [+0x29f0] in [industroyer.exe]
+
+[CNT] [310]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetExitCodeThread> in [KERNEL32.DLL] 
+[RET] [0x9e299e] [+0x299e] in [industroyer.exe]
+
+[CNT] [311]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1b8
+[RET] [0x9e2a3f] [+0x2a3f] in [industroyer.exe]
+
+[CNT] [312]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1b4
+[RET] [0x9e2a50] [+0x2a50] in [industroyer.exe]
+
+[CNT] [313]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x4
+[PAR] HANDLE* lpHandles      : 0xb34288
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xffffffff
+[RET] [0x9e29f0] [+0x29f0] in [industroyer.exe]
+
+[CNT] [328]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetExitCodeThread> in [KERNEL32.DLL] 
+[RET] [0x9e299e] [+0x299e] in [industroyer.exe]
+
+[CNT] [329]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1f4
+[RET] [0x9e2a3f] [+0x2a3f] in [industroyer.exe]
+
+[CNT] [330]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1e8
+[RET] [0x9e2a50] [+0x2a50] in [industroyer.exe]
+
+[CNT] [331]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0xb34288
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xffffffff
+[RET] [0x9e29f0] [+0x29f0] in [industroyer.exe]
+
+[CNT] [346]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetExitCodeThread> in [KERNEL32.DLL] 
+[RET] [0x9e299e] [+0x299e] in [industroyer.exe]
+
+[CNT] [347]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x1f8
+[RET] [0x9e2a3f] [+0x2a3f] in [industroyer.exe]
+
+[CNT] [348]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x204
+[RET] [0x9e2a50] [+0x2a50] in [industroyer.exe]
+
+[CNT] [349]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <RtlDeleteCriticalSection> in [ntdll.dll] 
+[RET] [0x9e2691] [+0x2691] in [industroyer.exe]
+
+[CNT] [350]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <LocalFree> in [KERNEL32.DLL] 
+[RET] [0x9e517d] [+0x517d] in [industroyer.exe]
+
+[CNT] [351]
+[PTP] [0x16c4] [0x16c8] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <ExitProcess> in [KERNEL32.DLL] 
+[PAR] UINT uExitCode : 0x0
+[RET] [0x9e5185] [+0x5185] in [industroyer.exe]
+

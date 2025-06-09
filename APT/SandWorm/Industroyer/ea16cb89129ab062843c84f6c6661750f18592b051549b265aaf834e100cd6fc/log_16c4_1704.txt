@@ -1,0 +1,425 @@
+[CNT] [79]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <InterlockedCompareExchange> in [KERNEL32.DLL] 
+[PAR] LONG* Destination : 0x9eb060
+[PAR] LONG  ExChange    : 0x1
+[PAR] LONG  Comperand   : 0x0
+[RET] [0x9e36d3] [+0x36d3] in [industroyer.exe]
+
+[CNT] [82]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xa (0 sec)
+[RET] [0x9e36fb] [+0x36fb] in [industroyer.exe]
+
+[CNT] [83]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[PAR] LPSYSTEMTIME lpSystemTime : 0xaefb00
+[RET] [0x9e398a] [+0x398a] in [industroyer.exe]
+
+[CNT] [84]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb68668
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9170
+[STR]       -> "%02hu:%02hu:%02hu:%04hu"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x1704] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb68668
+[STR]       -> "10:59:59:0639"
+[RES] int 13
+
+[CNT] [85]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [86]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb68668
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xd
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0xaefab0
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [87]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb68668
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9188
+[STR]       -> ">"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x1704] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb68668
+[STR]       -> ">"
+[RES] int 1
+
+[CNT] [88]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [89]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb68668
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x1
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0xaefae0
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [90]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb68668
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9cbc
+[STR]       -> " %s: %d: %d "
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x1704] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb68668
+[STR]       -> " 10.82.40.105: 2404: 3 "
+[RES] int 24
+
+[CNT] [91]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [92]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb68668
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x18
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0xaefaf8
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [97]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <InterlockedCompareExchange> in [KERNEL32.DLL] 
+[PAR] LONG* Destination : 0x9eb060
+[PAR] LONG  ExChange    : 0x1
+[PAR] LONG  Comperand   : 0x0
+[RET] [0x9e36d3] [+0x36d3] in [industroyer.exe]
+
+[CNT] [98]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xa (0 sec)
+[RET] [0x9e36fb] [+0x36fb] in [industroyer.exe]
+
+[CNT] [119]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[PAR] LPSYSTEMTIME lpSystemTime : 0xaef92c
+[RET] [0x9e398a] [+0x398a] in [industroyer.exe]
+
+[CNT] [120]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb68668
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9170
+[STR]       -> "%02hu:%02hu:%02hu:%04hu"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x1704] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb68668
+[STR]       -> "11:00:00:0059"
+[RES] int 13
+
+[CNT] [121]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [122]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb68668
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xd
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0xaef8dc
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [123]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb68668
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9188
+[STR]       -> ">"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x1704] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb68668
+[STR]       -> ">"
+[RES] int 1
+
+[CNT] [124]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [125]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb68668
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x1
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0xaef90c
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [126]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb68668
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9e30
+[STR]       -> " %s M%X SGCNT %d "
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x1704] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb68668
+[STR]       -> " 10.82.40.105 M68B0 SGCNT 44 "
+[RES] int 30
+
+[CNT] [128]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [129]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb68668
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x1e
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0xaef924
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [131]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WSAStartup> in [WS2_32.dll] 
+[PAR] WORD wVersionRequested : 0x202
+[RET] [0x9e5672] [+0x5672] in [industroyer.exe]
+
+[CNT] [141]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <htons> in [WS2_32.dll] 
+[PAR] u_short hostshort  : 2404 (0x964)
+[RET] [0x9e56b9] [+0x56b9] in [industroyer.exe]
+
+[CNT] [142]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <inet_addr> in [WS2_32.dll] 
+[PAR] PCHAR      cp : 0xb544b5
+[STR]            -> "10.82.40.105"
+[RET] [0x9e56c7] [+0x56c7] in [industroyer.exe]
+
+[CNT] [143]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <socket> in [WS2_32.dll] 
+[PAR] int address_family : 0x2 (AF_INET) (IPv4)
+[PAR] int type           : 0x1 (SOCK_STREAM)
+[PAR] int protocol       : 0x6 (IPPROTO_TCP)
+[RET] [0x9e5600] [+0x5600] in [industroyer.exe]
+
+[CNT] [159]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <ioctlsocket> in [WS2_32.dll] 
+[PAR] SOCKET s    : 0x1c0
+[PAR] LONG   cmd  : 0x8004667e (FIONBIO)
+[PAR] PULONG argp : 0xaef794
+[FLD]        -> *argp = 0x1 (enable non-blocking mode)
+[RET] [0x9e5427] [+0x5427] in [industroyer.exe]
+
+[CNT] [160]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x1c0
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x1005 (SO_SNDTIMEO)
+[PAR] char   *optval : 0xaef798
+[PAR] int    optlen  : 0x4
+[RET] [0x9e5454] [+0x5454] in [industroyer.exe]
+
+[CNT] [162]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <setsockopt> in [WS2_32.dll] 
+[PAR] SOCKET s       : 0x1c0
+[PAR] int    level   : 0xffff (SOL_SOCKET)
+[PAR] int    optname : 0x1006 (SO_RCVTIMEO)
+[PAR] char   *optval : 0xaef798
+[PAR] int    optlen  : 0x4
+[RET] [0x9e5484] [+0x5484] in [industroyer.exe]
+
+[CNT] [164]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <connect> in [WS2_32.dll] 
+[PAR] SOCKET          s       : 0x1c0
+[PAR] struct sockaddr *name   : 0xaef950
+[FLD]          -> sin_family   : 2 (IPv4)
+[FLD]          -> sin_port     : 25609 (Little endian : 2404)
+[FLD]          -> sin_addr     : 10.82.40.105
+[PAR] int             namelen : 0x10
+[RET] [0x9e54fb] [+0x54fb] in [industroyer.exe]
+
+[CNT] [167]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WSAGetLastError> in [WS2_32.dll] 
+[RET] [0x9e551b] [+0x551b] in [industroyer.exe]
+
+[CNT] [169]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <select> in [WS2_32.dll] 
+[PAR]  int          nfds      : 0x1
+[PAR]  fd_set FAR*  readfds   : 0x0
+[PAR]  fd_set FAR*  writefds  : 0xaef698
+[FLD]               -> socket_0 = 0x1c0
+[PAR]  fd_set FAR*  exceptfds : 0x0
+[PAR]  timeval FAR* timeout   : 0xaef674
+[RET] [0x9e54d2] [+0x54d2] in [industroyer.exe]
+
+[CNT] [296]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <__WSAFDIsSet> in [WS2_32.dll] 
+[PAR] SOCKET fd  : 0x1c0
+[PAR] fd_set set : 0xaef698
+[RET] [0x9e55c0] [+0x55c0] in [industroyer.exe]
+
+[CNT] [297]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <InterlockedCompareExchange> in [KERNEL32.DLL] 
+[PAR] LONG* Destination : 0x9eb060
+[PAR] LONG  ExChange    : 0x1
+[PAR] LONG  Comperand   : 0x0
+[RET] [0x9e36d3] [+0x36d3] in [industroyer.exe]
+
+[CNT] [298]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xa (0 sec)
+[RET] [0x9e36fb] [+0x36fb] in [industroyer.exe]
+
+[CNT] [299]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetSystemTime> in [KERNEL32.DLL] 
+[PAR] LPSYSTEMTIME lpSystemTime : 0xaef778
+[RET] [0x9e398a] [+0x398a] in [industroyer.exe]
+
+[CNT] [300]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb81100
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9170
+[STR]       -> "%02hu:%02hu:%02hu:%04hu"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x1704] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb81100
+[STR]       -> "11:00:24:0319"
+[RES] int 13
+
+[CNT] [301]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [302]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb81100
+[PAR] DWORD        nNumberOfBytesToWrite  : 0xd
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0xaef728
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [303]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb81100
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9188
+[STR]       -> ">"
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x1704] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb81100
+[STR]       -> ">"
+[RES] int 1
+
+[CNT] [304]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [305]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb81100
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x1
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0xaef758
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [306]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <wvnsprintfA> in [SHLWAPI.dll] 
+[PAR] PSTR  pszDest : 0xb81100
+[PAR] int   cchDest : 0x1000
+[PAR] PCSTR pszFmt  : 0x9e9ca4
+[STR]       -> " %s M%X "
+[RET] [0x9e38b8] [+0x38b8] in [industroyer.exe]
+
+[ * ] [pid 0x16c4][tid 0x1704] c:\users\reflexions\desktop\industroyer.exe
+[API] <wvnsprintfA>
+[PAR] PSTR  pszDest : 0xb81100
+[STR]       -> " 10.82.40.105 M6812 "
+[RES] int 21
+
+[CNT] [307]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <GetStdHandle> in [KERNEL32.DLL] 
+[RET] [0x9e393f] [+0x393f] in [industroyer.exe]
+
+[CNT] [308]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WriteFile> in [KERNEL32.DLL] 
+[PAR] HANDLE       hFile                  : 0x98
+[PAR] LPVOID       lpBuffer               : 0xb81100
+[PAR] DWORD        nNumberOfBytesToWrite  : 0x15
+[PAR] LPDWORD      lpNumberOfBytesWritten : 0xaef770
+[PAR] LPOVERLAPPED lpOverlapped           : 0x0
+[RET] [0x9e3946] [+0x3946] in [industroyer.exe]
+
+[CNT] [309]
+[PTP] [0x16c4] [0x1704] [c:\users\reflexions\desktop\industroyer.exe]
+[API] <WSACleanup> in [WS2_32.dll] 
+[RET] [0x9e73b4] [+0x73b4] in [industroyer.exe]
+
