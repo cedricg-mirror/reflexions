@@ -6,7 +6,7 @@ Reports:
 https://cert.gov.ua/article/39518  
 https://www.splunk.com/en_us/blog/security/threat-update-industroyer2.html  
 
-C2 : 
+C2 :  
 10.82.40.105:2404  
 192.168.122.2:2404  
 192.168.121.2:2404  
