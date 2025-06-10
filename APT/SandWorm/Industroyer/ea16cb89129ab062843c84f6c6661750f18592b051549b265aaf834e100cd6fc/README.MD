@@ -4,6 +4,7 @@ VT : https://www.virustotal.com/gui/file/ea16cb89129ab062843c84f6c6661750f18592b
 
 Reports:  
 https://cert.gov.ua/article/39518  
+https://www.netresec.com/?page=Blog&month=2022-04&post=Industroyer2-IEC-104-Analysis  
 https://www.splunk.com/en_us/blog/security/threat-update-industroyer2.html  
 
 C2 :  
