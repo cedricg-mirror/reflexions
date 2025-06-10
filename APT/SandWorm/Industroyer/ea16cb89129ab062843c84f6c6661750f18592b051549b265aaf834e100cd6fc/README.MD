@@ -7,7 +7,7 @@ https://cert.gov.ua/article/39518
 https://www.netresec.com/?page=Blog&month=2022-04&post=Industroyer2-IEC-104-Analysis  
 https://www.splunk.com/en_us/blog/security/threat-update-industroyer2.html  
 
-C2 :  
+Network :  
 10.82.40.105:2404  
 192.168.122.2:2404  
 192.168.121.2:2404  
