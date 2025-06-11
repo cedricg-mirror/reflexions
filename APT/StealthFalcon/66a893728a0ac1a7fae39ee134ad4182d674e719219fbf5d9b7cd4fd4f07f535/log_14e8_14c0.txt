@@ -1,0 +1,229 @@
+[CNT] [52]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <RegisterServiceCtrlHandlerA> in [ADVAPI32.dll] 
+[PAR] LPCTSTR           lpServiceName : 0x00007FF641346A60
+[STR]                   -> "UsrProfSCC"
+[PAR] PHANDLER_FUNCTION lpHandlerProc : 0x00007FF6413421C4
+[RET] [0x7ff64134216a] [+0x216a] in [falcon.exe]
+
+[CNT] [55]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <SetServiceStatus> in [ADVAPI32.dll] 
+[PAR] SERVICE_STATUS_HANDLE   hServiceStatus  : 0x000001F6495BB2B0
+[PAR] LPSERVICE_STATUS        lpServiceStatus : 0x00000019854FF7E0
+[FLD]                         -> DWORD dwServiceType             = 0x10 (SERVICE_WIN32_OWN_PROCESS)
+[FLD]                         -> DWORD dwCurrentState            = 0x2 (SERVICE_START_PENDING)
+[FLD]                         -> DWORD dwControlsAccepted        = 0x0
+[FLD]                         -> DWORD dwWin32ExitCode           = 0x0
+[FLD]                         -> DWORD dwServiceSpecificExitCode = 0x0
+[FLD]                         -> DWORD dwCheckPoint              = 0x2
+[FLD]                         -> DWORD dwWaitHint                = 0xbb8
+[RET] [0x7ff64134212f] [+0x212f] in [falcon.exe]
+
+[CNT] [56]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <Sleep> in [KERNEL32.DLL] 
+[PAR] DWORD dwMilliseconds : 0xbb8 (3 sec)
+[RET] [0x7ff641342191] [+0x2191] in [falcon.exe]
+
+[CNT] [63]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <SetServiceStatus> in [ADVAPI32.dll] 
+[PAR] SERVICE_STATUS_HANDLE   hServiceStatus  : 0x000001F6495BB2B0
+[PAR] LPSERVICE_STATUS        lpServiceStatus : 0x00000019854FF5D0
+[FLD]                         -> DWORD dwServiceType             = 0x10 (SERVICE_WIN32_OWN_PROCESS)
+[FLD]                         -> DWORD dwCurrentState            = 0x4 (SERVICE_RUNNING)
+[FLD]                         -> DWORD dwControlsAccepted        = 0x3
+[FLD]                         -> DWORD dwWin32ExitCode           = 0x0
+[FLD]                         -> DWORD dwServiceSpecificExitCode = 0x0
+[FLD]                         -> DWORD dwCheckPoint              = 0x0
+[FLD]                         -> DWORD dwWaitHint                = 0x0
+[RET] [0x7ff64134212f] [+0x212f] in [falcon.exe]
+
+[CNT] [64]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptAcquireContextW> in [ADVAPI32.dll] 
+[PAR] HCRYPTPROV *phProv      : 0x00000019854FF610
+[PAR] LPCWSTR    pszContainer : NULL
+[PAR] LPCWSTR    pszProvider  : NULL
+[PAR] DWORD      dwProvType   : 0x18 (PROV_RSA_AES)
+[PAR] DWORD      dwFlags      : 0xf0000000 (CRYPT_VERIFYCONTEXT)
+[RET] [0x7ff641341d24] [+0x1d24] in [falcon.exe]
+
+[CNT] [65]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptGenRandom> in [ADVAPI32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x000001F6495B4390
+[PAR] DWORD       dwLen    : 0x4
+[PAR] BYTE*       pbBuffer : 0x00000019854FF828
+[RET] [0x7ff641341d3a] [+0x1d3a] in [falcon.exe]
+
+[CNT] [66]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptReleaseContext> in [ADVAPI32.dll] 
+[PAR] HCRYPTPROV hProv   : 0x000001F6495B4390
+[PAR] DWORD      dwFlags : 0x0
+[RET] [0x7ff641341d4c] [+0x1d4c] in [falcon.exe]
+
+[CNT] [67]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptAcquireContextW> in [ADVAPI32.dll] 
+[PAR] HCRYPTPROV *phProv      : 0x00000019854FF530
+[PAR] LPCWSTR    pszContainer : NULL
+[PAR] LPCWSTR    pszProvider  : NULL
+[PAR] DWORD      dwProvType   : 0x18 (PROV_RSA_AES)
+[PAR] DWORD      dwFlags      : 0xf0000000 (CRYPT_VERIFYCONTEXT)
+[RET] [0x7ff641341bcf] [+0x1bcf] in [falcon.exe]
+
+[CNT] [68]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <memset> in [msvcrt.dll] 
+[PAR] void*  _Dst  : 0x00000019854FF538
+[PAR] int    _Val  : 0x0
+[PAR] size_t _Size : 0x2c
+[RET] [0x7ff641341be9] [+0x1be9] in [falcon.exe]
+
+[CNT] [69]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptImportKey> in [ADVAPI32.dll] 
+[PAR] HCRYPTPROV hProv     : 0x000001F6495B4390
+[PAR] BYTE*      pbData   : 0x00000019854FF538
+[FLD]            -> bType    = 0x8 (PLAINTEXTKEYBLOB)
+[FLD]            -> bVersion = 0x2
+[FLD]            -> reserved = 0x0
+[FLD]            -> aiKeyAlg = 0x6610 (CALG_AES_256)
+[FLD]            -> key_size = 0x20
+[FLD]            -> *key      = 0x00000019854FF544
+[FLD]            -> key      = { 5d ec b6 42 02 98 af f8 4a e6 a9 ef 57 1b 41 29 14 8d 09 bb 99 dd 08 d8 57 a7 2d 3f 6e d1 da fa }
+[PAR] DWORD      dwDataLen : 0x2c
+[PAR] HCRYPTKEY  hPubKey   : 0x0
+[PAR] DWORD      dwFlags   : 0x0 
+[PAR] HCRYPTKEY* phKey    : 0x00000019854FF528
+[RET] [0x7ff641341c32] [+0x1c32] in [falcon.exe]
+
+[CNT] [70]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptSetKeyParam> in [ADVAPI32.dll] 
+[PAR] HCRYPTKEY hKey    : 0x000001F6495B4890
+[PAR] DWORD     dwParam : 0x4 (KP_MODE)
+[PAR] BYTE      *pbData : 0x00000019854FF520
+[FLD]           -> pbData = 0x1 (CRYPT_MODE_CBC)
+[PAR] DWORD     dwFlags : 0x0 
+[RET] [0x7ff641341c56] [+0x1c56] in [falcon.exe]
+
+[CNT] [71]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptSetKeyParam> in [ADVAPI32.dll] 
+[PAR] HCRYPTKEY hKey    : 0x000001F6495B4890
+[PAR] DWORD     dwParam : 0x1 (KP_IV)
+[PAR] BYTE      *pbData : 0x00007FF641346460
+[PAR] DWORD     dwFlags : 0x0 
+[RET] [0x7ff641341c6d] [+0x1c6d] in [falcon.exe]
+
+[CNT] [72]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptDecrypt> in [ADVAPI32.dll] 
+[PAR] HCRYPTKEY   hKey        : 0x000001F6495B4890
+[PAR] HCRYPTHASH  hHash       : 0x0
+[PAR] BOOL        Final       : 0x1
+[PAR] DWORD       dwFlags     : 0x0 
+[PAR] BYTE        *pbData     : 0x00000019854FF5C0
+[PAR] DWORD       *pdwDataLen : 0x00000019854FF608
+[FLD]             -> pdwDataLen = 0x30
+[RET] [0x7ff641341cac] [+0x1cac] in [falcon.exe]
+
+[CNT] [73]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptDestroyKey> in [ADVAPI32.dll] 
+[PAR] HCRYPTKEY hKey : 0x000001F6495B4890
+[RET] [0x7ff641341cbd] [+0x1cbd] in [falcon.exe]
+
+[CNT] [74]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptReleaseContext> in [ADVAPI32.dll] 
+[PAR] HCRYPTPROV hProv   : 0x000001F6495B4390
+[PAR] DWORD      dwFlags : 0x0
+[RET] [0x7ff641341cc9] [+0x1cc9] in [falcon.exe]
+
+[CNT] [75]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <memset> in [msvcrt.dll] 
+[PAR] void*  _Dst  : 0x00000019854FF630
+[PAR] int    _Val  : 0x0
+[PAR] size_t _Size : 0x25
+[RET] [0x7ff6413419fb] [+0x19fb] in [falcon.exe]
+
+[CNT] [76]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptAcquireContextW> in [ADVAPI32.dll] 
+[PAR] HCRYPTPROV *phProv      : 0x00000019854FF5A0
+[PAR] LPCWSTR    pszContainer : NULL
+[PAR] LPCWSTR    pszProvider  : NULL
+[PAR] DWORD      dwProvType   : 0x18 (PROV_RSA_AES)
+[PAR] DWORD      dwFlags      : 0xf0000000 (CRYPT_VERIFYCONTEXT)
+[RET] [0x7ff641341d24] [+0x1d24] in [falcon.exe]
+
+[CNT] [77]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptGenRandom> in [ADVAPI32.dll] 
+[PAR] HCRYPTPROV  hProv    : 0x000001F6495B4390
+[PAR] DWORD       dwLen    : 0x8
+[PAR] BYTE*       pbBuffer : 0x00000019854FF5E0
+[RET] [0x7ff641341d3a] [+0x1d3a] in [falcon.exe]
+
+[CNT] [78]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CryptReleaseContext> in [ADVAPI32.dll] 
+[PAR] HCRYPTPROV hProv   : 0x000001F6495B4390
+[PAR] DWORD      dwFlags : 0x0
+[RET] [0x7ff641341d4c] [+0x1d4c] in [falcon.exe]
+
+[CNT] [79]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CreateEventA> in [KERNEL32.DLL] 
+[PAR] LPCTSTR lpName : 0x00000019854FF5E0
+[STR]         -> "EOAXYPXA"
+[RET] [0x7ff641342bff] [+0x2bff] in [falcon.exe]
+
+[CNT] [80]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <WaitForSingleObject> in [KERNEL32.DLL] 
+[PAR] HANDLE hHandle        : 0x128
+[PAR] DWORD  dwMilliseconds : 0x14be 
+[RET] [0x7ff641342c12] [+0x2c12] in [falcon.exe]
+
+[CNT] [86]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CloseHandle> in [KERNEL32.DLL] 
+[PAR] HANDLE hObject    : 0x128
+[RET] [0x7ff641342c1b] [+0x2c1b] in [falcon.exe]
+
+[CNT] [87]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <WSAStartup> in [WS2_32.dll] 
+[PAR] WORD wVersionRequested : 0x202
+[RET] [0x7ff641341a12] [+0x1a12] in [falcon.exe]
+
+[CNT] [88]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CreateEventW> in [KERNEL32.DLL] 
+[PAR] LPCWSTR lpName : NULL
+[RET] [0x7ff641341a2b] [+0x1a2b] in [falcon.exe]
+
+[CNT] [89]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <CreateThread> in [KERNEL32.DLL] 
+[PAR] LPTHREAD_START_ROUTINE lpStartAddress  : 0x00007FF641342CFC 
+[PAR] LPVOID                 lpParameter     : 0x0
+[PAR] DWORD                  dwCreationFlags : 0x0
+[RET] [0x7ff641341a5a] [+0x1a5a] in [falcon.exe]
+
+[CNT] [90]
+[PTP] [0x14e8] [0x14c0] [c:\users\reflexions\desktop\falcon.exe]
+[API] <WaitForMultipleObjects> in [KERNEL32.DLL] 
+[PAR] DWORD   nCount         : 0x2
+[PAR] HANDLE* lpHandles      : 0x00007FF641346530
+[PAR] BOOL    bWaitAll       : 0x0
+[PAR] DWORD   dwMilliseconds : 0xffffffff
+[RET] [0x7ff641341a90] [+0x1a90] in [falcon.exe]
+
