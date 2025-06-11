@@ -20,6 +20,7 @@ Note: Because Reflexions is still in active development, the GUI displayed in th
 
 - Boot a Windows 7 x64 / 8.1 x64 / 10 x64 Guest
 - Take a snapshot
+- [OPTIONAL] If you want to use your own version of kdcom.dll, replace the one in System32 before starting the installer
 - Launch the installer
 - Reboot and press F8 on the Reflexions boot entry
 - Select Disable Driver Signature Enforcment
