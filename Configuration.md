@@ -131,8 +131,10 @@ Conf:
 
 * Process Path :
 
+GUI:  
 ![Process Path](Screenshots/process_path.jpg?raw=true "Process Path")  
 
+Conf:  
 ```xml
 <TARGET_PROCESS path=""/>
 ```
