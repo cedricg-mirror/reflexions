@@ -92,7 +92,7 @@
 	</STOP_CONDITION>
 	
 	<ENABLE_HOOK_HEURISTIC isactive="0"/>
-	</rfx_config>
+</rfx_config>
 ```
  
 </details>
