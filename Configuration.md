@@ -1,8 +1,14 @@
 # Configuration File  
 
+Beeing a sandbox as much as a debugging assisting tool, Reflexions can be configured to collect or ignore specific events during analysis as well as alter the supervised code behavior.  
+The configuration is therefore meant to be malware specific, in most cases the analyst will run his sample a first time, analyze the logs and fine tune the configuration.  
+The configuration can then be reused for any analysis of a sample of the same malware family or be shared along an analyzed sample to enable other analyst to replicate the same result.  
+
+As it stands right now, Reflexions GUI only offers some of the features offered by the configuration file  
+
 <details>
   <summary>
-    	Configuration File Sample
+    	Empty configuration file sample
   </summary>
 	
 ```xml
@@ -96,3 +102,8 @@
 ```
  
 </details>
+
+## Target
+
+![Target](Screenshots/target.jpg?raw=true "Target")  
+
