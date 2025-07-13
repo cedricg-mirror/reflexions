@@ -149,7 +149,7 @@ or full path :
 ```xml
 <TARGET_PROCESS path="C:\ProgramData\svchost.exe"/>
 ```
-is required to avoid analysing a legitimate binary that could be started during the analysis.  
+is required to avoid analysing a legitimate binary that could be started during the analysis (in this case "C:\Windows\System32\svchost.exe").  
 
 * Dll Path :  
 
