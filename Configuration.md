@@ -158,11 +158,12 @@ is required to avoid analysing a legitimate binary that could be started during 
 * Dll Path :  
 
 If the target is a DLL, defines either the name, partial or full path to that DLL.  
-This field can be used independently from the process path.
-While the GUI only allows for a single target DLL to be specified , the configuration file allows any number of targeted DLL :  
+This field can be used independently from the process path.  
 
 GUI:
 ![Dll Path](Screenshots/dll_path.jpg?raw=true "DLL Path")  
+
+While the GUI only allows for a single target DLL to be specified , the configuration file allows any number of targeted DLL :  
 
 Conf:
 ```xml
