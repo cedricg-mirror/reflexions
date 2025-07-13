@@ -173,7 +173,12 @@ Conf:
 ```
 
 If the analyst isn't interested by monotoring the activity of the process loading the DLL (ie rundll32.exe) then process path can be left empty.  
-In that case, if "System Wide Monitoring" is selected, the DLL will be supervised in any process it'll be loaded into :
+In that case, if "System Wide Monitoring" is selected, the DLL will be supervised in any process it'll be loaded into :  
+
+GUI:  
+![System Wide Monitoring](Screenshots/dll_any_process.jpg?raw=true "System Wide Monitoring")  
+
+Conf:  
 
 ```xml
 <SUPERVISE_TARGET_DLL_ANY_PROCESS isactive="1"/>
