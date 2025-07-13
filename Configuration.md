@@ -145,7 +145,7 @@ Most of the time using the executable name is sufficient :
 ```xml
 <TARGET_PROCESS path="malware.exe"/>
 ```
-however if the sample requires to be lauched under a specific name mimicking a legitimate binary like "svchost.exe" then a partial :
+however if the sample requires to be lauched under a specific name mimicking a legitimate binary like "svchost.exe" then a partial :  
 ```xml
 <TARGET_PROCESS path="malware\svchost.exe"/>
 ```
@@ -160,12 +160,12 @@ is required to avoid analysing a legitimate binary that could be started during 
 If the target is a DLL, defines either the name, partial or full path to that DLL.  
 This field can be used independently from the process path.  
 
-GUI:
+GUI:  
 ![Dll Path](Screenshots/dll_path.jpg?raw=true "DLL Path")  
 
 While the GUI only allows for a single target DLL to be specified , the configuration file allows any number of targeted DLL :  
 
-Conf:
+Conf:  
 ```xml
 <DLL path="malware1.dll"/>
 <DLL path="malware\mfc42.dll"/>
