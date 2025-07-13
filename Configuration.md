@@ -129,7 +129,7 @@ Conf:
 </TARGET>
 ```
 
-
+Process Path :  
 
 ```xml
 <TARGET_PROCESS path=""/>
@@ -151,5 +151,23 @@ or full path :
 ```
 is required to avoid analysing a legitimate binary that could be started during the analysis.  
 
+Dll Path :  
+
+If the target is a DLL, defines either the name, partial or full path to that DLL.  
+This field can be used independently from the process path.
+While the GUI only allows for a single target DLL to be specified , the configuration file allows any number of targeted DLL :
+
+```xml
+<DLL path="malware1.dll"/>
+<DLL path="malware\mfc42.dll"/>
+...
+```
+
+If the analyst isn't interested by monotoring the activity of the process loading the DLL (ie rundll32.exe) then process path can be left empty.  
+In that case, if "System Wide Monitoring" is selected, the DLL will be supervised in any process it'll be loaded into :
+
+```xml
+<SUPERVISE_TARGET_DLL_ANY_PROCESS isactive="1"/>
+```
 
 
