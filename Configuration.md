@@ -129,7 +129,9 @@ Conf:
 </TARGET>
 ```
 
-* Process Path :  
+* Process Path :
+
+![Process Path](Screenshots/process_path.jpg?raw=true "Process Path")  
 
 ```xml
 <TARGET_PROCESS path=""/>
