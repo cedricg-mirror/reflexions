@@ -1,7 +1,9 @@
 # Configuration File  
 
 Beeing a sandbox as much as a debugging assisting tool, Reflexions can be configured to collect or ignore specific events during analysis as well as alter the supervised code behavior.  
+
 The configuration is therefore meant to be malware specific, in most cases the analyst will run his sample a first time, analyze the logs and fine tune the configuration.  
+
 The configuration can then be reused for any analysis of a sample of the same malware family or be shared along an analyzed sample to enable other analyst to replicate the same result.  
 
 As it stands right now, Reflexions GUI only offers some of the features offered by the configuration file  
@@ -106,4 +108,30 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 ## Target
 
 ![Target](Screenshots/target.jpg?raw=true "Target")  
+
+```xml
+<TARGET>
+	<TARGET_PROCESS path=""/> 
+		
+	<TARGET_DLL>
+		<DLL path=""/>
+		<DLL path=""/>
+		<SUPERVISE_TARGET_DLL_ANY_PROCESS isactive="0"/>
+		<AUTO_SUPERVISE_DROPPED_DLL isactive="0"/>
+	</TARGET_DLL>
+		
+	<DLL_MONITORING_LEVEL level="1"/>
+	<SUPERVISE_DLL_DEPENDENCY isactive="0"/>
+</TARGET>
+```
+
+This section defines the target of the analysis.
+
+```xml
+<TARGET_PROCESS path=""/>
+```
+
+If the target is an executable, defines either the name, partial or full path to that executable.  
+
+Most of the time using the executable name, as in "malware.exe" is sufficient, however if the sample requires to be lauched under a specific name mimicking a legitimate binary like "svchost.exe" then a partial ("malware\svchost.exe") or full path (C:\ProgramData\svchost.exe") is required to avoid analysing a legitimate binary that could be started during the analysis.  
 
