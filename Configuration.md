@@ -170,4 +170,12 @@ In that case, if "System Wide Monitoring" is selected, the DLL will be supervise
 <SUPERVISE_TARGET_DLL_ANY_PROCESS isactive="1"/>
 ```
 
+If the DLL name cannot be known before starting the analysis (DLL dropped with a random name for instance) it is possible to attempt an automatic detection :  
+
+```xml
+<AUTO_SUPERVISE_DROPPED_DLL isactive="1"/>
+```
+
+This features enables Reflexions to attempt to automatically detect and supervise any DLL that would be dropped and loaded during analysis.  
+
 
