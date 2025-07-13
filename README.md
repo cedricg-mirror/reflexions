@@ -8,7 +8,8 @@
 3. [When will it be released ?](#release_date)
 4. [What are the system requirements ?](#requirements)
 5. [Performance](#performance)
-6. [Log Format](#log)
+6. [Configuration](#Configuration)
+7. [Log Format](#log)
 
 ## What is Reflexions Sandbox ? <a name="presentation"></a>
 
@@ -92,6 +93,10 @@ It is however possible to alter Reflexions' configuration to blacklist specific 
 At this point there are no optimization (like buffering) in the code, so hopefuly performances will increase a little bit later on.  
 
 This section will be updated with some measurement before release  
+
+## Configuration  <a name="configuration"></a>
+
+A simple guide (work in progress) to Reflexions configuration though file or GUI is available [here](Configuration.md)  
 
 ## Log Format  <a name="log"></a>
 
