@@ -159,8 +159,12 @@ is required to avoid analysing a legitimate binary that could be started during 
 
 If the target is a DLL, defines either the name, partial or full path to that DLL.  
 This field can be used independently from the process path.
-While the GUI only allows for a single target DLL to be specified , the configuration file allows any number of targeted DLL :
+While the GUI only allows for a single target DLL to be specified , the configuration file allows any number of targeted DLL :  
 
+GUI:
+![Dll Path](Screenshots/dll_path.jpg?raw=true "DLL Path")  
+
+Conf:
 ```xml
 <DLL path="malware1.dll"/>
 <DLL path="malware\mfc42.dll"/>
