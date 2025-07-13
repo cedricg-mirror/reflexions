@@ -107,8 +107,12 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 
 ## Target
 
+This section defines the target of the analysis.
+
+GUI:  
 ![Target](Screenshots/target.jpg?raw=true "Target")  
 
+Conf:  
 ```xml
 <TARGET>
 	<TARGET_PROCESS path=""/> 
@@ -125,7 +129,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 </TARGET>
 ```
 
-This section defines the target of the analysis.
+
 
 ```xml
 <TARGET_PROCESS path=""/>
@@ -133,5 +137,19 @@ This section defines the target of the analysis.
 
 If the target is an executable, defines either the name, partial or full path to that executable.  
 
-Most of the time using the executable name, as in "malware.exe" is sufficient, however if the sample requires to be lauched under a specific name mimicking a legitimate binary like "svchost.exe" then a partial ("malware\svchost.exe") or full path (C:\ProgramData\svchost.exe") is required to avoid analysing a legitimate binary that could be started during the analysis.  
+Most of the time using the executable name is sufficient :  
+```xml
+<TARGET_PROCESS path="malware.exe"/>
+```
+however if the sample requires to be lauched under a specific name mimicking a legitimate binary like "svchost.exe" then a partial :
+```xml
+<TARGET_PROCESS path="malware\svchost.exe"/>
+```
+or full path :  
+```xml
+<TARGET_PROCESS path="C:\ProgramData\svchost.exe"/>
+```
+is required to avoid analysing a legitimate binary that could be started during the analysis.  
+
+
 
