@@ -186,6 +186,9 @@ Conf:
 
 If the DLL name cannot be known before starting the analysis (DLL dropped with a random name for instance) it is possible to attempt an automatic detection :  
 
+GUI:  
+![Auto supervise dropped DLL](Screenshots/auto_dll.jpg?raw=true "Auto supervise dropped DLL") 
+
 ```xml
 <AUTO_SUPERVISE_DROPPED_DLL isactive="1"/>
 ```
