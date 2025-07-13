@@ -129,7 +129,7 @@ Conf:
 </TARGET>
 ```
 
-Process Path :  
+* Process Path :  
 
 ```xml
 <TARGET_PROCESS path=""/>
@@ -151,7 +151,7 @@ or full path :
 ```
 is required to avoid analysing a legitimate binary that could be started during the analysis.  
 
-Dll Path :  
+* Dll Path :  
 
 If the target is a DLL, defines either the name, partial or full path to that DLL.  
 This field can be used independently from the process path.
