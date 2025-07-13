@@ -4,6 +4,7 @@
   <summary>
     	Configuration File Sample
   </summary>
+	
 ```xml
 <rfx_config>
 	<TARGET>
