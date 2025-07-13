@@ -131,6 +131,8 @@ Conf:
 
 * Process Path :
 
+If the target is an executable, defines either the name, partial or full path to that executable.  
+
 GUI:  
 ![Process Path](Screenshots/process_path.jpg?raw=true "Process Path")  
 
@@ -138,8 +140,6 @@ Conf:
 ```xml
 <TARGET_PROCESS path=""/>
 ```
-
-If the target is an executable, defines either the name, partial or full path to that executable.  
 
 Most of the time using the executable name is sufficient :  
 ```xml
