@@ -15,7 +15,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 	
 ```xml
 <rfx_config>
-	<TARGET>
+	[<TARGET>](#target)
 		<TARGET_PROCESS path=""/> 
 		
 		<TARGET_DLL>
