@@ -159,6 +159,8 @@ is required to avoid analysing a legitimate binary that could be started during 
 
 This section defines which call made by the suprvised code should be supervised.
 
+![Monitoring level](Screenshots/monitoring_level.jpg?raw=true "Monitoring level")  
+
 * **Dll Path :**  
 
 If the target is a DLL, defines either the name, partial or full path to that DLL.  
