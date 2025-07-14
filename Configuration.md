@@ -157,9 +157,31 @@ is required to avoid analysing a legitimate binary that could be started during 
 
 * **DLL monitoring level:**
 
-This section defines which call made by the suprvised code should be supervised.
+This settings defines which DLL should trigger a log whenever the supervised code calls one of it's function.  
+This setting applies whether a DLL is statically or dynamically linked by the supervised code.  
 
+GUI:  
 ![Monitoring level](Screenshots/monitoring_level.jpg?raw=true "Monitoring level")  
+
+Conf:  
+```xml
+<DLL_MONITORING_LEVEL level="1"/>
+<SUPERVISE_DLL_DEPENDENCY isactive="0"/>
+```
+
+Kernel32 / <DLL_MONITORING_LEVEL level="0"/> :
+Only calls to Kernel32.dll will trigger a log  
+
+System32 / <DLL_MONITORING_LEVEL level="1"/> :
+For most useful cases, selecting 'System32' should be enough, meaning, any call to any DLL located in System32 will trigger a log.  
+
+All / <DLL_MONITORING_LEVEL level="2"/> :  
+Any call to any DLL statically or Dynamically linked by the supervised code will trigger a log  
+
+Dependencies :  
+
+![dependencies](Screenshots/dependencies.jpg?raw=true "dependencies")  
+
 
 * **Dll Path :**  
 
