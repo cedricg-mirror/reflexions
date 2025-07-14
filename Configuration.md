@@ -173,7 +173,7 @@ Kernel32 / <DLL_MONITORING_LEVEL level="0"/> :
 Only calls to Kernel32.dll will trigger a log  
 
 System32 / <DLL_MONITORING_LEVEL level="1"/> :
-For most useful cases, selecting 'System32' should be enough, meaning, any call to any DLL located in System32 will trigger a log.  
+Any call to any DLL located in System32 will trigger a log, this is the default setting   
 
 All / <DLL_MONITORING_LEVEL level="2"/> :  
 Any call to any DLL statically or Dynamically linked by the supervised code will trigger a log  
