@@ -105,7 +105,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
  
 </details>
 
-## Target
+## Target <a name="target"></a>
 
 This section defines the target of the analysis.
 
@@ -228,7 +228,7 @@ GUI:
 This features enables Reflexions to attempt to automatically detect and supervise any DLL that would be dropped and loaded during analysis.  
 
 
-## Blacklist  
+## Blacklist  <a name="blacklist"></a>
 
 This section is for now only available through the configuration file :  
 
