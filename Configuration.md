@@ -180,6 +180,10 @@ Any call to any DLL statically or Dynamically linked by the supervised code will
 
 Dependencies :  
 
+By default, Reflexions will only monitore DLL which have been either statically linked or *explicitly* loaded at runtime by the supervised code.  
+This implies that if DLL1 is loaded at runtime and DLL1 imports DLL2, Reflexions, as an optimization,  will ignore any activity towards DLL2.  
+
+It is possible to override this default behavior by also monotoring DLL loaded as a dependency of a dynamically loaded DLL :  
 ![dependencies](Screenshots/dependencies.jpg?raw=true "dependencies")  
 
 
