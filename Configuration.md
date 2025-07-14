@@ -10,7 +10,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 
 <details>
   <summary>
-    	Empty configuration file sample
+	Empty configuration file sample (click to expand)
   </summary>
 	
 ```xml
@@ -129,7 +129,7 @@ Conf:
 </TARGET>
 ```
 
-* Process Path :
+* **Process Path :**
 
 If the target is an executable, defines either the name, partial or full path to that executable.  
 
@@ -155,7 +155,11 @@ or full path :
 ```
 is required to avoid analysing a legitimate binary that could be started during the analysis (in this case "C:\Windows\System32\svchost.exe").  
 
-* Dll Path :  
+* **DLL monitoring level:**
+
+This section defines which call made by the suprvised code should be supervised.
+
+* **Dll Path :**  
 
 If the target is a DLL, defines either the name, partial or full path to that DLL.  
 This field can be used independently from the process path.  
@@ -195,4 +199,25 @@ GUI:
 
 This features enables Reflexions to attempt to automatically detect and supervise any DLL that would be dropped and loaded during analysis.  
 
+
+## Blacklist  
+
+This section is for now only available through the configuration file :  
+
+```xml
+<BLACKLIST>
+	<IGNORED_DLLS>
+		<DLL name=""/>
+		<DLL name=""/>
+	</IGNORED_DLLS>
+	
+	<IGNORED_API>
+	</IGNORED_API>
+	
+	<IGNORED_PROCESSES>
+		<PROCESS path=""/>
+		<PROCESS path=""/>
+	</IGNORED_PROCESSES>
+</BLACKLIST>
+```
 
