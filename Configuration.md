@@ -15,7 +15,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 	
 ```xml
 <rfx_config>
-	[<TARGET>](#target)
+	<TARGET>
 		<TARGET_PROCESS path=""/> 
 		
 		<TARGET_DLL>
@@ -102,6 +102,10 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 	<ENABLE_HOOK_HEURISTIC isactive="0"/>
 </rfx_config>
 ```
+
+1. [TARGET](#target)
+2. [BLACKLIST](#blacklist)
+
  
 </details>
 
