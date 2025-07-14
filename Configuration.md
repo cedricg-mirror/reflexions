@@ -102,12 +102,10 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 	<ENABLE_HOOK_HEURISTIC isactive="0"/>
 </rfx_config>
 ```
+</details>
 
 1. [TARGET](#target)
 2. [BLACKLIST](#blacklist)
-
- 
-</details>
 
 ## Target <a name="target"></a>
 
