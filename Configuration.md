@@ -307,7 +307,7 @@ Conf:
 
 * Log upon shellcode detection :
 
-Reflexions will start logging when the first API function is called from outside a legitimate module or through a ROP Gadget.  
+Reflexions will start logging upon the first API function called from outside a legitimate module or through a ROP Gadget.  
 
 * Break on first API :
 
