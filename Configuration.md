@@ -251,3 +251,40 @@ This section is for now only available through the configuration file :
 </BLACKLIST>
 ```
 
+As the name suggest, it allows the analyst to prevent Reflexions from supervising any specified DLL, API function or process during the analysis.  
+For instance, if the target of the analysis is a process displaying a GUI, one could prevent any call to GDI32.DLL to be recorded :  
+
+```xml
+<IGNORED_DLLS>
+	<DLL name="GDI32.DLL"/>
+</IGNORED_DLLS>
+```
+
+Another option would of course be filtering the logs *after* the analysis, however it is important to understand that any supervised call induce an important performance overhead.  
+This is especially true while using Reflexions in connection with a kernel debugger where every uncesseray supervised call will slow down the execution flow by a significant amount.  
+
+For instance, let's imagine a code that would call 'memcmp' a million time in a row.  
+If this call is supervised while connected to a debugger, then 'memcmp' would have to be dispayed (DbgPrint) a million time before the code could reach a part of interrest to the analyst.  
+One way to solve that issue would be to blacklist calls to memcmp altogether :  
+
+```xml
+<IGNORED_API>
+	<memcmp>
+</IGNORED_API>
+```
+
+Note : this part of the configuration file is *NOT* xml compliant for now.  
+Another way would be to use the anti-flood setting (see further down).  
+
+If Reflexions is configured to automatically supervised any child process from the initial target (see further down), then it may be of interest to prevent Reflexions to record specific processes activity.  
+For instance, if malware.exe is spawing a cmd.exe process a some point, it is unlikely that the analyst would be interested in recording all the activity from cmd.exe :  
+
+```xml
+<IGNORED_PROCESSES>
+	<PROCESS path="C:\Windows\system32\cmd.exe"/>
+</IGNORED_PROCESSES>
+```
+
+In other words, blacklisting DLL, API or processes isn't just about generating 'cleaner' logs, but also about limiting Reflexions overhead during analysis and also about limiting any potential side effect from the deep tempering of any supervised induced by Reflexions.  
+
+
