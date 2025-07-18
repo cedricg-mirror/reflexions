@@ -1,6 +1,6 @@
 # Configuration File  
 
-Beeing a sandbox as much as a debugging assisting tool, Reflexions can be configured to collect or ignore specific events during analysis as well as alter the supervised code behavior.  
+Beeing a sandbox as much as a debugging assisting tool, Reflexions can be configured to collect or ignore specific events during analysis as well as alter the supervised code's behavior.  
 
 The configuration is therefore meant to be malware specific, in most cases the analyst will run his sample a first time, analyze the logs and fine tune the configuration.  
 
