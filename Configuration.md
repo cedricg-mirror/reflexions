@@ -277,7 +277,7 @@ Note : this part of the configuration file is *NOT* xml compliant for now.
 Another way would be to use the anti-flood setting (see further down).  
 
 If Reflexions is configured to automatically supervised any child process from the initial target (see further down), then it may be of interest to prevent Reflexions to record specific processes activity.  
-For instance, if malware.exe is spawing a cmd.exe process a some point, it is unlikely that the analyst would be interested in recording all the activity from cmd.exe :  
+For instance, if malware.exe is spawing a cmd.exe process a some point, it is unlikely that the analyst would be interested in recording all the activity from cmd.exe (since the command line paramater would be self-explaining) :  
 
 ```xml
 <IGNORED_PROCESSES>
