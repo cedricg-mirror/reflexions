@@ -288,7 +288,7 @@ For instance, if malware.exe is spawing a cmd.exe process a some point, it is un
 
 In other words, blacklisting DLL, API or processes isn't just about generating 'cleaner' logs, but also about limiting Reflexions overhead during analysis and also about limiting any potential side effect from the deep tempering induced by Reflexions of any supervised process.  
 
-## Shellcode <a name="shellcod"></a>
+## Shellcode <a name="shellcode"></a>
 
 Those settings aims at detecting code that would be executed either outside a legitimate module (meaning from allocated memory) or through Return Oriented Programming.  
 I designed those features at a time where exploit documents were prevalent, it may not be as useful nowadays  
