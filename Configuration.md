@@ -106,6 +106,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 
 1. [TARGET](#target)
 2. [BLACKLIST](#blacklist)
+3. [SHELLCODE](#shellcode)
 
 ## Target <a name="target"></a>
 
@@ -287,4 +288,13 @@ For instance, if malware.exe is spawing a cmd.exe process a some point, it is un
 
 In other words, blacklisting DLL, API or processes isn't just about generating 'cleaner' logs, but also about limiting Reflexions overhead during analysis and also about limiting any potential side effect from the deep tempering induced by Reflexions of any supervised process.  
 
+## Shellcode <a name="shellcod"></a>
+
+```xml
+<SHELLCODE>
+	<SUPERVISE_FROM_SHELLCODE_DETECTION isactive="0"/>
+	<BREAK_UPON_SHELLCODE_DETECTION isactive="0"/>
+	<IGNORE_DECOY_PROCESS isactive="0"/>
+</SHELLCODE>
+```
 
