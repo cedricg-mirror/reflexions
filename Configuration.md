@@ -305,3 +305,17 @@ Conf:
 </SHELLCODE>
 ```
 
+* Log upon shellcode detection :
+
+Reflexions will start logging when the first API function is called from outside a legitimate module or through a ROP Gadget.  
+
+* Break on first API :
+
+If Reflexions is connected to a kernel debugger, a breakpoint will automatically be triggered on the first function called by the 'shellcode'  
+
+* Ignore Decoy :
+This setting is very specific to exploit documents, if set Reflexions will only supervise the first instance of the target process (winword.exe for instance).
+A second instance (like the one initiated to dispay a decoy decoment) would not trigger any log
+
+
+
