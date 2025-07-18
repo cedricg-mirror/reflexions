@@ -285,6 +285,6 @@ For instance, if malware.exe is spawing a cmd.exe process a some point, it is un
 </IGNORED_PROCESSES>
 ```
 
-In other words, blacklisting DLL, API or processes isn't just about generating 'cleaner' logs, but also about limiting Reflexions overhead during analysis and also about limiting any potential side effect from the deep tempering of any supervised induced by Reflexions.  
+In other words, blacklisting DLL, API or processes isn't just about generating 'cleaner' logs, but also about limiting Reflexions overhead during analysis and also about limiting any potential side effect from the deep tempering induced by Reflexions of any supervised process.  
 
 
