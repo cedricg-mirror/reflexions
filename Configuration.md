@@ -290,6 +290,10 @@ In other words, blacklisting DLL, API or processes isn't just about generating '
 
 ## Shellcode <a name="shellcod"></a>
 
+GUI:  
+![Shellcode](Screenshots/shellcode.jpg?raw=true "shellcode")  
+
+Conf:  
 ```xml
 <SHELLCODE>
 	<SUPERVISE_FROM_SHELLCODE_DETECTION isactive="0"/>
