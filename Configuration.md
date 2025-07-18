@@ -290,7 +290,7 @@ In other words, blacklisting DLL, API or processes isn't just about generating '
 
 ## Shellcode <a name="shellcod"></a>
 
-Those settings aim at detecting code that would be executed either outside a legitimate module (meaning from allocated memory) or through Return Oriented Programming.  
+Those settings aims at detecting code that would be executed either outside a legitimate module (meaning from allocated memory) or through Return Oriented Programming.  
 I designed those features at a time where exploit documents were prevalent, it may not be as useful nowadays  
 
 GUI:  
