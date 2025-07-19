@@ -107,6 +107,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 1. [TARGET](#target)
 2. [BLACKLIST](#blacklist)
 3. [SHELLCODE](#shellcode)
+4. [BREAKPOINTS](#breakpoints)
 
 ## Target <a name="target"></a>
 
@@ -318,5 +319,25 @@ If Reflexions is connected to a kernel debugger, a breakpoint will automatically
 This setting is very specific to exploit documents, if set Reflexions will only supervise the first instance of the target process (winword.exe for instance).
 A second instance (like the one initiated to dispay a decoy decoment) would not trigger any log
 
+## Breakpoints <a name="breakpoints"></a>
+
+GUI:  
+![Breakpoints](Screenshots/breakpoints.jpg?raw=true "breakpoints")  
+
+Conf:  
+```xml
+<BREAKPOINTS>
+	<KERNEL_BP isactive="0">
+		<BP function="" min_counter="1" max_counter="0" is_oneshot="0" msg="" isactive="0"/>
+		<BP function="" min_counter="1" max_counter="0" is_oneshot="0" msg="" isactive="0"/>
+	</KERNEL_BP>
+	<IGNORE_USER_CC_BREAKPOINTS isactive="0">
+		<IGNORE_FROM_EXE isactive="0"/>
+		<IGNORE_FROM_DLL isactive="0"/>
+		<IGNORE_FROM_MEMORY isactive="0"/>
+		<IGNORE_FOR_ALL_PROCESSES isactive="0"/>
+	</IGNORE_USER_CC_BREAKPOINTS>
+</BREAKPOINTS>
+```
 
 
