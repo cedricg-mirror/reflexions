@@ -344,7 +344,7 @@ Conf:
 
 * Kernel BreakPoint :
 
-Reflexions allows for a kernel breakpoint to be triggered whenever a specified function is called by the supervised code.
+Reflexions allows for a kernel breakpoint to be triggered whenever a specified function is called by the supervised code.  
 The GUI only allows, for now, for a single function to trigger a breakpoint :
 
 ![Kernel Breakpoint](Screenshots/kernelbp.jpg?raw=true "kernel breakpoint")  
