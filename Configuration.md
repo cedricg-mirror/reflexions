@@ -319,7 +319,9 @@ If Reflexions is connected to a kernel debugger, a breakpoint will automatically
 This setting is very specific to exploit documents, if set Reflexions will only supervise the first instance of the target process (winword.exe for instance).
 A second instance (like the one initiated to dispay a decoy decoment) would not trigger any log
 
-## Breakpoints <a name="breakpoints"></a>
+## Breakpoints <a name="breakpoints"></a>  
+
+This section allows the analyst to set undectable kernel breakpoints and/or prevent user software breakpoint to be forwarded to the debugger.  
 
 GUI:  
 ![Breakpoints](Screenshots/breakpoints.jpg?raw=true "breakpoints")  
@@ -339,5 +341,13 @@ Conf:
 	</IGNORE_USER_CC_BREAKPOINTS>
 </BREAKPOINTS>
 ```
+
+* Kernel BreakPoint :
+
+Reflexions allows for triggering a kernel breakpoint whenever a specified function is called by the supervised code.
+The GUI only allows, for now, for a single function to trigger a breakpoint :
+
+![Kernel Breakpoint](Screenshots/kernelbp.jpg?raw=true "kernel breakpoint")  
+
 
 
