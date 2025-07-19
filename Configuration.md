@@ -344,14 +344,17 @@ Conf:
 
 * Kernel BreakPoint :
 
-Reflexions allows for triggering a kernel breakpoint whenever a specified function is called by the supervised code.
+Reflexions allows for a kernel breakpoint to be triggered whenever a specified function is called by the supervised code.
 The GUI only allows, for now, for a single function to trigger a breakpoint :
 
 ![Kernel Breakpoint](Screenshots/kernelbp.jpg?raw=true "kernel breakpoint")  
 
 By default, a breakpoint will be triggered each time the specified function is called by the supervised code.  
 To allow for a breakpoint to be triggered only the first time the specified function is called, one can use the 'One shot' option :  
+
 ![One Shot Breakpoint](Screenshots/oneshot.jpg?raw=true "one shot kernel breakpoint")  
+
+The configuration file allows for any number of breakpoints to be set as well as defining specific conditions which have to be met for the breakpoint to be triggered :  
 
 
 
