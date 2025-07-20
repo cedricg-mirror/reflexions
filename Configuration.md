@@ -356,5 +356,22 @@ To allow for a breakpoint to be triggered only the first time the specified func
 
 The configuration file allows for any number of breakpoints to be set as well as defining specific conditions which have to be met for the breakpoint to be triggered :  
 
+```xml
+<BP function="" min_counter="1" max_counter="0" is_oneshot="0" msg="" isactive="0"/>
+```
+
+The min_counter and max_counter options refer to the global counter of function called by the supervised call.  
+It is possible to trigger a breakpoint after and/or before a specified number of function called, for instance :  
+
+```xml
+<BP function="NtCreateThreadEx" min_counter="150" max_counter="500" is_oneshot="0" msg="" isactive="0"/>
+```
+
+A breakpoint will be triggered for any call to NtCreateThreadEx occuring after the 150th supervised function call and before the 500th function call.  
+This type of condition can be used after having run the sample at least a first time to get an idea of its execution flow.  
+In a later release, it should be possible to set breakpoint based on the value of the parameters of the targeted function.  
+
+The msg option simply offers the possible to display a custom message to the kernel debugger when the breakpoint is triggered.  
+It could be for instance instructions on how to manually proceed to obtain a specific result in the state the supervised code is when the breakpoint is triggered.  
 
 
