@@ -374,4 +374,9 @@ In a later release, it should be possible to set breakpoint based on the value o
 The msg option simply offers the possibility to display a custom message to the kernel debugger when the breakpoint is triggered.  
 It could be for instance instructions on how to manually proceed to obtain a specific result in the state the supervised code is when the breakpoint is triggered.  
 
+* Ignoring software breakpoint (int 3, 0xcc)
+
+GUI:  
+![Ignoring user sofware breakpoint](Screenshots/ignorecc.jpg?raw=true "Ignore 0xcc") 
+
 
