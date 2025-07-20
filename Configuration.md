@@ -379,4 +379,13 @@ It could be for instance instructions on how to manually proceed to obtain a spe
 GUI:  
 ![Ignoring user sofware breakpoint](Screenshots/ignorecc.jpg?raw=true "Ignore 0xcc") 
 
+Conf:  
 
+```xml
+<IGNORE_USER_CC_BREAKPOINTS isactive="0">
+	<IGNORE_FROM_EXE isactive="0"/>
+	<IGNORE_FROM_DLL isactive="0"/>
+	<IGNORE_FROM_MEMORY isactive="0"/>
+	<IGNORE_FOR_ALL_PROCESSES isactive="0"/>
+</IGNORE_USER_CC_BREAKPOINTS>
+```
