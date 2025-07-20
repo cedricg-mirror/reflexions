@@ -371,7 +371,7 @@ A breakpoint will be triggered for any call to NtCreateThreadEx occuring after t
 This type of condition can be used after having run the sample at least a first time to get an idea of its execution flow.  
 In a later release, it should be possible to set breakpoint based on the value of the parameters of the targeted function.  
 
-The msg option simply offers the possible to display a custom message to the kernel debugger when the breakpoint is triggered.  
+The msg option simply offers the possibility to display a custom message to the kernel debugger when the breakpoint is triggered.  
 It could be for instance instructions on how to manually proceed to obtain a specific result in the state the supervised code is when the breakpoint is triggered.  
 
 
