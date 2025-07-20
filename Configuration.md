@@ -376,6 +376,9 @@ It could be for instance instructions on how to manually proceed to obtain a spe
 
 * Ignoring software breakpoint (int 3, 0xcc)
 
+This is a small feature which allows to prevent user software breakpoints to be forwarded to the kernel debugger when they are located in specific parts of the memory of a supervised process.  
+I designed this feature for a sample that was using 0xCC as an anti-debug gimmick  
+
 GUI:  
 ![Ignoring user sofware breakpoint](Screenshots/ignorecc.jpg?raw=true "Ignore 0xcc") 
 
@@ -389,3 +392,5 @@ Conf:
 	<IGNORE_FOR_ALL_PROCESSES isactive="0"/>
 </IGNORE_USER_CC_BREAKPOINTS>
 ```
+
+
