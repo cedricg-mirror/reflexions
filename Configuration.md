@@ -108,6 +108,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 2. [BLACKLIST](#blacklist)
 3. [SHELLCODE](#shellcode)
 4. [BREAKPOINTS](#breakpoints)
+5. [REMOTE EXECUTION](#remote_execution)
 
 ## Target <a name="target"></a>
 
@@ -394,3 +395,14 @@ Conf:
 ```
 
 
+## Remote Execution <a name="remote_execution"></a>  
+
+GUI:  
+![Remote Execution](Screenshots/remote_exec.jpg?raw=true "Remote Execution") 
+
+Conf:  
+<REMOTE_EXECUTION>
+	<SUPERVISE_REMOTE_THREADS isactive="0"/>
+	<MONITOR_CHILD_PROCESS isactive="0"/>
+	<CLONE_OPEN_PROCESS isactive="0"/>
+</REMOTE_EXECUTION>
