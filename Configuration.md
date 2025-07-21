@@ -408,7 +408,7 @@ Software breakpoint located within a supervised process dll image won't be forwa
 </IGNORE_USER_CC_BREAKPOINTS>
 ```
 
-Software breakpoint located outside a supervised process loaded image won't be forwarded to the kernel debugger :  
+Software breakpoint located outside a supervised process loaded image (in allocated memory) won't be forwarded to the kernel debugger :  
 ```xml
 <IGNORE_USER_CC_BREAKPOINTS isactive="1">
 	<IGNORE_FROM_MEMORY isactive="1"/>
