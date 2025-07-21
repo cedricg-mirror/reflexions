@@ -417,6 +417,8 @@ Software breakpoint located outside a supervised process loaded image (in alloca
 
 ## Remote Execution <a name="remote_execution"></a>  
 
+This section allows Reflexions to follow the execution flow of a supervised process to remote processes (either through process creation or thread injection)  
+
 GUI:  
 ![Remote Execution](Screenshots/remote_exec.jpg?raw=true "Remote Execution") 
 
