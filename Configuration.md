@@ -401,8 +401,10 @@ GUI:
 ![Remote Execution](Screenshots/remote_exec.jpg?raw=true "Remote Execution") 
 
 Conf:  
+```xml
 <REMOTE_EXECUTION>
 	<SUPERVISE_REMOTE_THREADS isactive="0"/>
 	<MONITOR_CHILD_PROCESS isactive="0"/>
 	<CLONE_OPEN_PROCESS isactive="0"/>
 </REMOTE_EXECUTION>
+```
