@@ -396,21 +396,21 @@ Conf:
 
 Software breakpoint located within a supervised process executable image won't be forwarded to the kernel debugger :  
 ```xml
-<IGNORE_USER_CC_BREAKPOINTS isactive="0">
+<IGNORE_USER_CC_BREAKPOINTS isactive="1">
 	<IGNORE_FROM_EXE isactive="1"/>
 </IGNORE_USER_CC_BREAKPOINTS>
 ```
 
 Software breakpoint located within a supervised process dll image won't be forwarded to the kernel debugger :  
 ```xml
-<IGNORE_USER_CC_BREAKPOINTS isactive="0">
+<IGNORE_USER_CC_BREAKPOINTS isactive="1">
 	<IGNORE_FROM_DLL isactive="1"/>
 </IGNORE_USER_CC_BREAKPOINTS>
 ```
 
 Software breakpoint located outside a supervised process loaded image won't be forwarded to the kernel debugger :  
 ```xml
-<IGNORE_USER_CC_BREAKPOINTS isactive="0">
+<IGNORE_USER_CC_BREAKPOINTS isactive="1">
 	<IGNORE_FROM_MEMORY isactive="1"/>
 </IGNORE_USER_CC_BREAKPOINTS>
 ```
