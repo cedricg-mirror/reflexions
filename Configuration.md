@@ -256,7 +256,7 @@ This section is for now only available through the configuration file :
 
 As the name suggest, it allows the analyst to prevent Reflexions from supervising any specified DLL, API function or process during the analysis.  
 
-* Ignored Dlls  
+* Ignored Dlls :  
 For instance, if the target of the analysis is a process displaying a GUI, one could prevent any call to GDI32.DLL to be recorded :  
 
 ```xml
@@ -268,7 +268,7 @@ For instance, if the target of the analysis is a process displaying a GUI, one c
 Another option would of course be filtering the logs *after* the analysis, however it is important to understand that any supervised call induce an important performance overhead.  
 This is especially true while using Reflexions in connection with a kernel debugger where every uncesseray supervised call will slow down the execution flow by a significant amount.  
 
-* Ignored API  
+* Ignored API :  
 For instance, let's imagine a code that would call 'memcmp' a million time in a row.  
 If this call is supervised while connected to a debugger, then 'memcmp' would have to be dispayed (DbgPrint) a million time before the code could reach a part of interrest to the analyst.  
 One way to solve that issue would be to blacklist calls to memcmp altogether :  
@@ -282,7 +282,7 @@ One way to solve that issue would be to blacklist calls to memcmp altogether :
 Note : this part of the configuration file is *NOT* xml compliant for now.  
 Another way would be to use the anti-flood setting (see further down).  
 
-* Ignored Processes  <a name="ignored_processes"></a>
+* Ignored Processes : <a name="ignored_processes"></a>  
 If Reflexions is configured to automatically supervise any child process from the initial target (see further down), then it may be of interest to prevent Reflexions to record specific processes activity.  
 For instance, if malware.exe is spawing a cmd.exe process a some point, it is unlikely that the analyst would be interested in recording all the activity from cmd.exe (since the command line parameter would be self-explaining) :  
 
