@@ -441,3 +441,7 @@ In that case, only the activity of the remote threads will be supervised (legiti
 
 * Monitor Child Processes :  
 Any process created by a supervised code will automatically be supervised except the ones defined in [Ignored Processes](#ignored_processes)  
+
+* Clone on Open Process :
+Set-up the remote process address space as soon as a ZwOpenProcess is called.
+This option should only be activated if remote threads do not generated the expected logs (no or little logs)  
