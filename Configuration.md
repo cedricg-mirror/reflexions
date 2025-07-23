@@ -435,9 +435,9 @@ Conf:
 </REMOTE_EXECUTION>
 ```
 
-* Monitor Remote Threads
+* Monitor Remote Threads :  
 Allows Reflexions to follow and supervise the activity of thread injected in a remote process by a supervised code.
 In that case, only the activity of the remote threads will be supervised (legitimate threads from the remote process won't generate any logs)
 
-* Monitor Child Processes
+* Monitor Child Processes :  
 Any process created by a supervised code will automatically be supervised except the ones defined in [Ignored Processes](#ignored_processes)  
