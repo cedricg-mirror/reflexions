@@ -449,8 +449,8 @@ This option should only be activated if remote threads do not generated the expe
 
 ## Network <a name="network"></a>
 
-These options allow Reflexions to alter network requests made by the supervised code.
-The main use case beeing redirecting some or all network connections to local IP in order to build and test a C2 or provide valid answer in order to trigger additionnal behavior from the supervised code.  
+These options allow Reflexions to alter network requests made by the supervised code.  
+The main use case beeing redirecting some or all remote network connections to local IP in order to build and test a C2 or provide valid answer in order to trigger additionnal behavior from the supervised code.  
 
 GUI:  
 ![Network](Screenshots/network.jpg?raw=true "Network") 
