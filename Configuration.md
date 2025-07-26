@@ -471,3 +471,21 @@ Conf:
 </NETWORK>
 ```
 
+* Add domains to Hosts
+
+If this option is active all DNS resolution requested by the supervised code will be resolved to the provided IP.  
+As Reflexions will alter the 'hosts' file dynamically, it is up to the analyst to revert the snapshot after an analysis or clean the hosts file manually, otherwise DNS redirection of the requested domains will remain permanent.  
+It is also important to understand that this feature requires Reflexions to 'see' the network api call made by the supervised code in order to alter them.  
+For instance, if some Network DLL are blacklisted, no redirection will be done.  
+
+```xml
+<SPOOF_ALL_DOMAINS spoofed_ip="192.168.30.5" isactive="1"/>
+```
+
+* Disable SSL
+
+For the time beeing, this option only affects call made through the WinHTTP API.  
+
+```xml
+<DISABLE_SSL isactive="1"/>
+```
