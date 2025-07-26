@@ -109,6 +109,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 3. [SHELLCODE](#shellcode)
 4. [BREAKPOINTS](#breakpoints)
 5. [REMOTE EXECUTION](#remote_execution)
+6. [NETWORK](#network)
 
 ## Target <a name="target"></a>
 
@@ -445,3 +446,28 @@ Any process created by a supervised code will automatically be supervised except
 * Clone on Open Process :
 Set-up the remote process address space as soon as a ZwOpenProcess is called.
 This option should only be activated if remote threads do not generated the expected logs (no or little logs)  
+
+## Network <a name="network"></a>
+
+These options allow Reflexions to alter network requests made by the supervised code.
+The main use case beeing redirecting some or all network connections to local IP in order to build and test a C2 or provide valid answer in order to trigger additionnal behavior from the supervised code.  
+
+GUI:  
+![Network](Screenshots/network.jpg?raw=true "Network") 
+
+Conf:  
+```xml
+<NETWORK>
+	<SPOOF_ALL_DOMAINS spoofed_ip="" isactive="0"/>
+	<DISABLE_SSL isactive="0"/>
+	<SPOOF_DOMAINS>
+		<DOMAIN name="" spoofed_ip=""/>
+		<DOMAIN name="" spoofed_ip="" />
+	</SPOOF_DOMAINS>
+	<SPOOF_IP>
+		<IP legit_ip="" spoofed_ip=""/>
+		<IP legit_ip="" spoofed_ip=""/>
+	</SPOOF_IP>
+</NETWORK>
+```
+
