@@ -529,10 +529,13 @@ GUI:
 ![Output](Screenshots/output.jpg?raw=true "Output") 
 
 Conf :  
+```xml
 <OUTPUT>
 	<DUMP_CREATED_FILES dir_path="" isactive="0"/>
 	<LOG_EVENTS_TO_FILE dir_path="" isactive="0"/>
 	<OUTPUT_TO_DEBUGGER isactive="0"/>
 	<FLOOD_FILTER max_count="0"/>
 </OUTPUT>
+```
+
 
