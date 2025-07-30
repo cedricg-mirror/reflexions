@@ -509,3 +509,14 @@ Just like SPOOF_ALL_DOMAINS, this option modifies the Windows hosts file which i
 	<DOMAIN name="malicious-domain.top" spoofed_ip="192.168.30.42"/>
 </SPOOF_DOMAINS>
 ```
+
+* Spoof IP :
+
+Attempts to redirect raw socket or direct remote IP connection to specified spoofed IP  
+
+```xml
+<SPOOF_IP>
+	<IP legit_ip="111.112.113.114" spoofed_ip="192.168.30.18"/>
+	<IP legit_ip="41.42.43.44" spoofed_ip="192.168.30.42"/>
+</SPOOF_IP>
+```
