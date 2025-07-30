@@ -523,7 +523,7 @@ Attempts to redirect raw socket or direct remote IP connection to specified spoo
 </SPOOF_IP>
 ```
 
-## Ouput <a name="output"></a>  
+## Output <a name="output"></a>  
 
 
 GUI:  
