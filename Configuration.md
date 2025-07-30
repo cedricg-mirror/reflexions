@@ -112,6 +112,7 @@ As it stands right now, Reflexions GUI only offers a subset of the features offe
 6. [NETWORK](#network)
 7. [OUTPUT](#output)
 8. [MISC](#misc)
+9. [STOP CONDITION](#stopcondition)
 
 ## Target <a name="target"></a>
 
@@ -551,3 +552,18 @@ Conf:
 <PATCH_PEB_LDR isactive="0"/>
 <HIDE_VM isactive="0"/>
 ```
+
+## Stop Condition <a name="stopcondition"></a>  
+
+Reflexions monitoring can be stopped either manually from the GUI or automatically when specific conditions defined in the configuration file are met 
+
+Conf:  
+```xml
+<STOP_CONDITION>
+	<API_COUNT max_count="0"/>
+	<LOG_SIZE limit_MB="0"/>
+	<ELAPSED_TIME limit_s="0"/>
+</STOP_CONDITION>
+```
+
+
