@@ -110,6 +110,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 4. [BREAKPOINTS](#breakpoints)
 5. [REMOTE EXECUTION](#remote_execution)
 6. [NETWORK](#network)
+7. [OUPUT](#output)
 
 ## Target <a name="target"></a>
 
@@ -520,3 +521,18 @@ Attempts to redirect raw socket or direct remote IP connection to specified spoo
 	<IP legit_ip="41.42.43.44" spoofed_ip="192.168.30.42"/>
 </SPOOF_IP>
 ```
+
+## Ouput <a name="output"></a>  
+
+
+GUI:  
+![Output](Screenshots/output.jpg?raw=true "Output") 
+
+Conf :  
+<OUTPUT>
+	<DUMP_CREATED_FILES dir_path="" isactive="0"/>
+	<LOG_EVENTS_TO_FILE dir_path="" isactive="0"/>
+	<OUTPUT_TO_DEBUGGER isactive="0"/>
+	<FLOOD_FILTER max_count="0"/>
+</OUTPUT>
+
