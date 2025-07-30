@@ -111,6 +111,7 @@ As it stands right now, Reflexions GUI only offers a subset of the features offe
 5. [REMOTE EXECUTION](#remote_execution)
 6. [NETWORK](#network)
 7. [OUTPUT](#output)
+8. [MISC](#misc)
 
 ## Target <a name="target"></a>
 
@@ -528,7 +529,7 @@ Attempts to redirect raw socket or direct remote IP connection to specified spoo
 GUI:  
 ![Output](Screenshots/output.jpg?raw=true "Output") 
 
-Conf :  
+Conf:  
 ```xml
 <OUTPUT>
 	<DUMP_CREATED_FILES dir_path="" isactive="0"/>
@@ -538,4 +539,15 @@ Conf :
 </OUTPUT>
 ```
 
+## Misc <a name="misc"></a>
 
+GUI:  
+![Misc](Screenshots/misc.jpg?raw=true "Misc")  
+
+Conf:  
+
+```xml
+<MAX_SLEEP delay_in_ms="0"/>
+<PATCH_PEB_LDR isactive="0"/>
+<HIDE_VM isactive="0"/>
+```
