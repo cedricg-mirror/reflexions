@@ -110,7 +110,7 @@ As it stands right now, Reflexions GUI only offers some of the features offered 
 4. [BREAKPOINTS](#breakpoints)
 5. [REMOTE EXECUTION](#remote_execution)
 6. [NETWORK](#network)
-7. [OUPUT](#output)
+7. [OUTPUT](#output)
 
 ## Target <a name="target"></a>
 
