@@ -484,7 +484,12 @@ For instance, if some Network DLL are blacklisted, no redirection will be done.
 
 * Disable SSL
 
-For the time beeing, this option only affects call made through the WinHTTP API.  
+For the time beeing, this option only affects call made through the WinHttp API.  
+If activated, Reflexions will switched flags of the HttpOpenRequest API on the fly to :  
+- Remove INTERNET_FLAG_SECURE if present  
+- Add INTERNET_FLAG_IGNORE_CERT_CN_INVALID  
+- Add INTERNET_FLAG_IGNORE_CERT_DATE_INVALID  
+- Add INTERNET_FLAG_IGNORE_REDIRECT_TO_HTTP  
 
 ```xml
 <DISABLE_SSL isactive="1"/>
