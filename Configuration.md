@@ -499,7 +499,7 @@ Following options are only available through the configuration file :
 
 * Spoof Domains :
 
-This option can be used instead of or in addition to SPOOF_ALL_DOMAINS  
+This option can be used instead of, or in addition to, SPOOF_ALL_DOMAINS  
 It allows the analyst to redirect any number of specified domains to specified IP  
 Just like SPOOF_ALL_DOMAINS, this option modifies the Windows hosts file which isn't 'clean' after each run of Reflexions  
 
