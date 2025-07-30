@@ -494,3 +494,18 @@ If activated, Reflexions will switched flags of the HttpOpenRequest API on the f
 ```xml
 <DISABLE_SSL isactive="1"/>
 ```
+
+Following options are only available through the configuration file :  
+
+* Spoof Domains :
+
+This option can be used instead of or in addition to SPOOF_ALL_DOMAINS  
+It allows the analyst to redirect any number of specified domains to specified IP  
+Just like SPOOF_ALL_DOMAINS, this option modifies the Windows hosts file which isn't 'clean' after each run of Reflexions  
+
+```xml
+<SPOOF_DOMAINS>
+	<DOMAIN name="checkip.dyndns.com" spoofed_ip="192.168.30.15"/>
+	<DOMAIN name="malicious-domain.top" spoofed_ip="192.168.30.42"/>
+</SPOOF_DOMAINS>
+```
