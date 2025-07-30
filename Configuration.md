@@ -553,6 +553,25 @@ Conf:
 <HIDE_VM isactive="0"/>
 ```
 
+* Sleep Limit:
+
+Defines the maximum duration, in milliseconds, a supervised thread is allowed to delay its execution  
+```xml
+<MAX_SLEEP delay_in_ms="2500"/>
+```
+
+* Patch PEB LDR:  
+
+This setting is useful for malicious code retrieving NTDLL base address from the PEB "Ldr" field.  
+This technique is used for instance by the bruteratel malware.  
+This option should only be used if the analyst is already aware athat the supervised sample relies on this approach or suspects it might be the case based on a lack of captured behavior by Reflexions  
+Activating the option will mess up the !peb command when debugging
+
+* Hide VM:
+
+Unimplemented right now  
+
+
 ## Stop Condition <a name="stopcondition"></a>  
 
 Reflexions monitoring can be stopped either manually from the GUI or automatically when specific conditions defined in the configuration file are met 
