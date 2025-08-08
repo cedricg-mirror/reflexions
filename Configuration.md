@@ -348,6 +348,12 @@ Conf:
 		<IGNORE_FROM_MEMORY isactive="0"/>
 		<IGNORE_FOR_ALL_PROCESSES isactive="0"/>
 	</IGNORE_USER_CC_BREAKPOINTS>
+	<IGNORE_USER_SINGLESTEP_BREAKPOINTS isactive="0">
+		<IGNORE_FROM_EXE isactive="0"/>
+		<IGNORE_FROM_DLL isactive="0"/>
+		<IGNORE_FROM_MEMORY isactive="0"/>
+		<IGNORE_FOR_ALL_PROCESSES isactive="0"/>
+	</IGNORE_USER_SINGLESTEP_BREAKPOINTS>
 </BREAKPOINTS>
 ```
 
@@ -422,6 +428,12 @@ Software breakpoint located outside a supervised process loaded image (in alloca
 	<IGNORE_FROM_MEMORY isactive="1"/>
 </IGNORE_USER_CC_BREAKPOINTS>
 ```
+
+* Ignoring single step breakpoint
+
+Only available through the configuration file for now.  
+The logic is the same as for ignoring sofware breakpoints  
+
 
 ## Remote Execution <a name="remote_execution"></a>  
 
