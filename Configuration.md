@@ -586,7 +586,8 @@ Unimplemented right now
 
 ## Stop Condition <a name="stopcondition"></a>  
 
-Reflexions monitoring can be stopped either manually from the GUI or automatically when specific conditions defined in the configuration file are met 
+Reflexions monitoring can be stopped either manually from the GUI or automatically when specific conditions defined in the configuration file are met  
+As a reminder, stoping supervision will *not* kill any supervised process or thread  
 
 Conf:  
 ```xml
@@ -597,4 +598,15 @@ Conf:
 </STOP_CONDITION>
 ```
 
+* API_COUNT  
 
+Reflexions will stop any log or kernel output after the specified amount of supervised function call has been reached  
+
+* LOG_SIZE
+
+unimplemented  
+
+* ELAPSED_TIME
+
+Reflexions will stop any log or kernel output after the specified duration (in seconds)  
+For now, the timer is started as soon as the configuration is sent to the driver (so before the supervised code is launched)  
