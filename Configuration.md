@@ -416,13 +416,13 @@ the value to be compared with the specified parameter
 
 - comparison :  
 following operator are currently supported :  
- - eq (==)  
- - ne (!=)  
- - gt (>)  
- - lt (<)  
- - gte (>=)  
- - lte (<=)  
- - and (&)  
+  - eq (==)
+  - ne (!=)
+  - gt (>)
+  - lt (<)
+  - gte (>=)
+  - lte (<=)
+  - and (&)  
 For strings comparison, only "eq" and "ne" are currently supported  
 
 * Ignoring software breakpoint (int 3, 0xcc)
