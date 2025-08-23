@@ -339,8 +339,8 @@ Conf:
 ```xml
 <BREAKPOINTS>
 	<KERNEL_BP isactive="0">
-		<BP function="" min_counter="1" max_counter="0" is_oneshot="0" msg="" isactive="0"/>
-		<BP function="" min_counter="1" max_counter="0" is_oneshot="0" msg="" isactive="0"/>
+		<BP function="" min_counter="1" max_counter="0" param_id="0" param_type="" param_value="" comparison="" is_oneshot="0" msg="" isactive="0"/>
+		<BP function="" min_counter="1" max_counter="0" param_id="0" param_type="" param_value="" comparison="" is_oneshot="0" msg="" isactive="0"/>
 	</KERNEL_BP>
 	<IGNORE_USER_CC_BREAKPOINTS isactive="0">
 		<IGNORE_FROM_EXE isactive="0"/>
@@ -372,11 +372,13 @@ To allow for a breakpoint to be triggered only the first time the specified func
 The configuration file allows for any number of breakpoints to be set as well as defining specific conditions which have to be met for the breakpoint to be triggered :  
 
 ```xml
-<BP function="" min_counter="1" max_counter="0" is_oneshot="0" msg="" isactive="0"/>
+<BP function="" min_counter="1" max_counter="0" param_id="0" param_type="" param_value="" comparison="" is_oneshot="0" msg="" isactive="0"/>
 ```
 
+* Conditionnal BreakPoint on api counter  
+
 The min_counter and max_counter options refer to the global counter of function called by the supervised call.  
-It is possible to trigger a breakpoint after and/or before a specified number of function called, for instance :  
+It is possible to trigger a breakpoint after and/or before a specified number of supervised function called, for instance :  
 
 ```xml
 <BP function="NtCreateThreadEx" min_counter="150" max_counter="500" is_oneshot="0" msg="" isactive="0"/>
@@ -388,6 +390,40 @@ In a later release, it should be possible to set breakpoint based on the value o
 
 The msg option simply offers the possibility to display a custom message to the kernel debugger when the breakpoint is triggered.  
 It could be for instance instructions on how to manually proceed to obtain a specific result in the state the supervised code is when the breakpoint is triggered.  
+
+* Conditionnal BreakPoint on parameter value  
+
+It is also possible to trigger a breakpoint on a specific API function only when a condition on one of its parameters is met, for instance :  
+
+```xml
+<BP function="NtProtectVirtualMemory" param_id="4" param_type="ULONG" param_value="64" comparison="eq" is_oneshot="0" msg="" isactive="0"/>
+```
+
+will trigger a break point on NtProtectVirtualMemory only if it's forth parameter (NewProtection) is equal to 64 (0x40 == PAGE_EXECUTE_READWRITE)  
+
+- param_id :  
+Parameter index starting with "1" for the first parameter  
+
+- param_type :  
+Type of the parameter specified by param_id, for now supported types are only the following :
+  - ULONG
+  - PCHAR
+  - PWCHAR
+More types will be added in the future
+
+- param_value :  
+the value to be compared with the specified parameter  
+
+- comparison :
+following operator are currently supported :
+ - eq (==)
+ - ne (!=)
+ - gt (>)
+ - lt (<)
+ - gte (>=)
+ - lte (<=)
+ - and (&)
+For strings comparison, only "eq" and "ne" are currently supported  
 
 * Ignoring software breakpoint (int 3, 0xcc)
 
