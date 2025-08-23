@@ -422,7 +422,8 @@ following operator are currently supported :
   - lt (<)
   - gte (>=)
   - lte (<=)
-  - and (&)  
+  - and (&)
+
 For strings comparison, only "eq" and "ne" are currently supported  
 
 * Ignoring software breakpoint (int 3, 0xcc)
