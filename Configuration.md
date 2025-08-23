@@ -408,7 +408,8 @@ Parameter index starting with "1" for the first parameter
 Type of the parameter specified by param_id, for now supported types are only the following :
   - ULONG
   - PCHAR
-  - PWCHAR  
+  - PWCHAR
+
 More types will be added in the future  
 
 - param_value :  
