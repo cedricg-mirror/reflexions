@@ -408,21 +408,21 @@ Parameter index starting with "1" for the first parameter
 Type of the parameter specified by param_id, for now supported types are only the following :
   - ULONG
   - PCHAR
-  - PWCHAR
-More types will be added in the future
+  - PWCHAR  
+More types will be added in the future  
 
 - param_value :  
 the value to be compared with the specified parameter  
 
-- comparison :
-following operator are currently supported :
- - eq (==)
- - ne (!=)
- - gt (>)
- - lt (<)
- - gte (>=)
- - lte (<=)
- - and (&)
+- comparison :  
+following operator are currently supported :  
+ - eq (==)  
+ - ne (!=)  
+ - gt (>)  
+ - lt (<)  
+ - gte (>=)  
+ - lte (<=)  
+ - and (&)  
 For strings comparison, only "eq" and "ne" are currently supported  
 
 * Ignoring software breakpoint (int 3, 0xcc)
