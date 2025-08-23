@@ -330,7 +330,7 @@ A second instance (like the one initiated to dispay a decoy decoment) would not 
 
 ## Breakpoints <a name="breakpoints"></a>  
 
-This section allows the analyst to set undectable kernel breakpoints and/or prevent user software breakpoint to be forwarded to the debugger.  
+This section allows the analyst to set undectable kernel breakpoints and/or prevent user software breakpoint or single step exception to be forwarded to the debugger.  
 
 GUI:  
 ![Breakpoints](Screenshots/breakpoints.jpg?raw=true "breakpoints")  
