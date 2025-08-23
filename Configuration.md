@@ -385,8 +385,7 @@ It is possible to trigger a breakpoint after and/or before a specified number of
 ```
 
 A breakpoint will be triggered for any call to NtCreateThreadEx occuring after the 150th supervised function call and before the 500th function call.  
-This type of condition can be used after having run the sample at least a first time to get an idea of its execution flow.  
-In a later release, it should be possible to set breakpoint based on the value of the parameters of the targeted function.  
+This type of condition can be used after having run the sample at least a first time to get an idea of its execution flow.   
 
 The msg option simply offers the possibility to display a custom message to the kernel debugger when the breakpoint is triggered.  
 It could be for instance instructions on how to manually proceed to obtain a specific result in the state the supervised code is when the breakpoint is triggered.  
