@@ -396,7 +396,7 @@ It could be for instance instructions on how to manually proceed to obtain a spe
 It is also possible to trigger a breakpoint on a specific API function only when a condition on one of its parameters is met, for instance :  
 
 ```xml
-<BP function="NtProtectVirtualMemory" param_id="4" param_type="ULONG" param_value="64" comparison="eq" is_oneshot="0" msg="" isactive="0"/>
+<BP function="NtProtectVirtualMemory" param_id="4" param_type="ULONG" param_value="64" comparison="eq"/>
 ```
 
 will trigger a break point on NtProtectVirtualMemory only if it's forth parameter (NewProtection) is equal to 64 (0x40 == PAGE_EXECUTE_READWRITE)  
