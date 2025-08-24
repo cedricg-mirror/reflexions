@@ -51,7 +51,7 @@ A simple installation procedure can be found [here](Install.md)
   
 ## When will it be released ?  <a name="release_date"></a>
 
-So, not 'when it's done', as there will likely never be such a thing but when it will be 'stable' enough to allow an open beta, hopefully 'soon'.  
+Aiming for a first release in septembre 2025  
 
 ## What are the system requirements ?  <a name="requirements"></a>
 
