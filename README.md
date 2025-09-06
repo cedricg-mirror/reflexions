@@ -123,6 +123,7 @@ Log formating will be reworked in a later release
 
 Without any specific order or ETA, future features include :  
 - Windows 11 Guest support
+- Better WoW64 process support
 - GUI rework
 - Proper log format, possibly json
 - Enabling user break point to be set (so, without a kernel debugger)
@@ -130,6 +131,7 @@ Without any specific order or ETA, future features include :
 - Driver hardening
 - SSL Clear-text dumping
 - Proper Log Viewer
+- Possibly .NET support
 - Your suggestion ?   
 
 # This repository  
