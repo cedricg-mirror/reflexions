@@ -10,6 +10,7 @@
 5. [Performance](#performance)
 6. [Configuration](#Configuration)
 7. [Log Format](#log)
+8. [Roadmap](#roadmap)
 
 ## What is Reflexions Sandbox ? <a name="presentation"></a>
 
@@ -117,6 +118,19 @@ At this point, the same format is used both for the Debugger and the log files
 A more detailed presentation of this format is available [here](#LogFormat.md) and will be updated later on  
 
 Log formating will be reworked in a later release  
+
+## Roadmap  <a name="roadmap"></a>  
+
+Without any specific order or ETA, future features include :  
+- Windows 11 Guest support
+- GUI rework
+- Proper log format, possibly json
+- Enabling user break point to be set (so, without a kernel debugger)
+- Anti VM-Detection
+- Driver hardening
+- SSL Clear-text dumping
+- Proper Log Viewer
+- Your suggestion ?   
 
 # This repository  
 
