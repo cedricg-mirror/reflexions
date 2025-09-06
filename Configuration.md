@@ -424,7 +424,10 @@ following operator are currently supported :
   - lte (<=)
   - and (&)
 
-For strings comparison, only "eq" and "ne" are currently supported  
+For strings comparison, only the following operators are currently supported :  
+  - eq (!strcmp, !wcscmp)
+  - ne (strcmp, wcscmp)
+  - ct for 'contains' (strstr, wcsstr)  
 
 * Ignoring software breakpoint (int 3, 0xcc)
 
